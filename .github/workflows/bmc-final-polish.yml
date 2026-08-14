@@ -1,0 +1,133 @@
+name: Finalize Beautiful Men's Club polish
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bmc-final-polish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bmc-final-polish
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Normalize global navigation and metadata
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path('.')
+          pages = sorted(root.glob('*.html'))
+          labels = [
+              ('index.html#edit','The Edit','index.html'),
+              ('style.html','Style','style.html'),
+              ('grooming.html','Grooming','grooming.html'),
+              ('fitness.html','Fitness','fitness.html'),
+              ('life.html','Life','life.html'),
+              ('library.html','Library','library.html'),
+              ('standards.html','Standards','standards.html'),
+              ('join.html','Join','join.html'),
+          ]
+          footer = '<div class="footer-links" aria-label="Footer navigation"><a href="style.html">Style</a><a href="grooming.html">Grooming</a><a href="fitness.html">Fitness</a><a href="life.html">Life</a><a href="library.html">Library</a><a href="standards.html">Standards</a></div>'
+
+          for page in pages:
+              text = page.read_text(encoding='utf-8')
+              text = text.replace('Five rooms.<br>One better life.', 'Six rooms.<br>One better life.')
+              if page.name != '404.html':
+                  links=[]
+                  for href,label,target in labels:
+                      active = page.name == target
+                      cls = 'nav-cta' if target == 'join.html' else ''
+                      if active:
+                          cls = (cls + ' active').strip()
+                      attrs = f' class="{cls}"' if cls else ''
+                      current = ' aria-current="page"' if active else ''
+                      links.append(f'<a href="{href}"{attrs}{current}>{label}</a>')
+                  nav = '<nav id="site-nav" aria-label="Primary navigation">' + ''.join(links) + '</nav>'
+                  text = re.sub(r'<nav id="site-nav" aria-label="Primary navigation">.*?</nav>', nav, text, flags=re.S)
+                  text = re.sub(r'<div class="footer-links" aria-label="Footer navigation">.*?</div>', footer, text, flags=re.S)
+                  if '<meta name="author"' not in text:
+                      text = text.replace('<meta name="theme-color"', '<meta name="author" content="Beautiful Men\'s Club Editorial">\n  <meta name="theme-color"', 1)
+              page.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Run full static-site integrity audit
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from urllib.parse import urlsplit
+          import re, sys
+
+          expected = {'index.html','style.html','grooming.html','fitness.html','life.html','standards.html','library.html','join.html','about.html','privacy.html','404.html','styles.css','script.js','sitemap.xml','robots.txt','site.webmanifest','CNAME'}
+          missing = sorted(x for x in expected if not Path(x).exists())
+          errors = [f'missing file: {x}' for x in missing]
+
+          class Parser(HTMLParser):
+              def __init__(self): super().__init__(); self.links=[]; self.ids=[]; self.controls=[]
+              def handle_starttag(self, tag, attrs):
+                  d=dict(attrs)
+                  if d.get('id'): self.ids.append(d['id'])
+                  if tag=='a' and d.get('href'): self.links.append(d['href'])
+                  if tag in {'button','input','select','textarea'}: self.controls.append((tag,d))
+
+          pages=sorted(Path('.').glob('*.html'))
+          page_text={p.name:p.read_text(encoding='utf-8') for p in pages}
+          page_ids={}
+          for p in pages:
+              parser=Parser(); parser.feed(page_text[p.name]); page_ids[p.name]=set(parser.ids)
+              dup=sorted({x for x in parser.ids if parser.ids.count(x)>1})
+              if dup: errors.append(f'{p.name}: duplicate ids {dup}')
+              if '<main' not in page_text[p.name] or '<h1' not in page_text[p.name]: errors.append(f'{p.name}: missing main or h1')
+              if p.name!='404.html':
+                  for token in ('<meta name="description"','<link rel="canonical"','id="site-nav"'):
+                      if token not in page_text[p.name]: errors.append(f'{p.name}: missing {token}')
+              for href in parser.links:
+                  if href.startswith(('#','mailto:','tel:','http://','https://','javascript:')): continue
+                  split=urlsplit(href); target=split.path or p.name
+                  if target.startswith('/'): target=target.lstrip('/') or 'index.html'
+                  if target not in page_text and not Path(target).exists():
+                      errors.append(f'{p.name}: broken link {href}'); continue
+                  if split.fragment and target in page_ids and split.fragment not in page_ids[target]:
+                      errors.append(f'{p.name}: missing anchor {href}')
+
+          if page_text.get('library.html','').count('data-guide ') != 27: errors.append('library.html: expected 27 guide cards')
+          if 'Five rooms.' in page_text.get('index.html',''): errors.append('index.html: stale five-room copy')
+          if len(Path('styles.css').read_text(encoding='utf-8')) < 20000: errors.append('styles.css unexpectedly small')
+          if len(Path('script.js').read_text(encoding='utf-8')) < 7000: errors.append('script.js unexpectedly small')
+          if 'overflow-x:clip' not in Path('styles.css').read_text(encoding='utf-8'): errors.append('mobile overflow protection missing')
+          if errors:
+              print('\n'.join(errors)); sys.exit(1)
+          print(f'PASS: {len(pages)} HTML pages, 27 library guides, all local links and anchors valid')
+          PY
+          node --check script.js
+
+      - name: Commit final audited publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/bmc-final-polish.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No final changes were required."
+            exit 0
+          fi
+          git commit -m "Finish Beautiful Men's Club full-site polish"
+          git push origin HEAD:main
