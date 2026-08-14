@@ -1,110 +1,149 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="home-page">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Beautiful Men's Club — Look Sharp. Live Well.</title>
-  <meta name="description" content="Beautiful Men's Club is a modern men's lifestyle club for better style, grooming, fitness, confidence, gear and everyday living.">
+  <meta name="description" content="A modern men's lifestyle publication for better style, grooming, fitness, confidence, home, gear and everyday living.">
   <meta name="theme-color" content="#0b0b0d">
-  <meta property="og:title" content="Beautiful Men's Club">
-  <meta property="og:description" content="Look sharp. Live well. Become impossible to ignore.">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="Beautiful Men's Club — Look Sharp. Live Well.">
+  <meta property="og:description" content="A modern men's lifestyle publication for better style, grooming, fitness, confidence, home, gear and everyday living.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://beautifulmensclub.com/">
+  <meta property="og:site_name" content="Beautiful Men's Club">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://beautifulmensclub.com/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="grain"></div>
+</head><body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Beautiful Men's Club home"><span>B</span> BEAUTIFUL MEN'S CLUB</a>
-    <button class="menu" aria-label="Open menu" aria-expanded="false">MENU</button>
-    <nav>
-      <a href="#manifesto">Manifesto</a>
-      <a href="#edit">The Edit</a>
-      <a href="#rules">Club Rules</a>
-      <a class="nav-cta" href="#join">Join the Club</a>
+    <a class="brand" href="index.html" aria-label="Beautiful Men's Club home"><span>B</span><b>BEAUTIFUL MEN'S CLUB</b></a>
+    <button class="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">MENU</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="index.html#edit">The Edit</a><a href="style.html">Style</a><a href="grooming.html">Grooming</a><a href="fitness.html">Fitness</a><a href="life.html">Life</a><a href="standards.html">Standards</a>
+      <a class="nav-cta" href="index.html#join">Join the Club</a>
     </nav>
-  </header>
-
-  <main id="top">
+  </header>  <main id="main">
     <section class="hero">
       <div class="hero-copy reveal">
         <p class="eyebrow">EST. 2026 · FOR MEN WITH STANDARDS</p>
         <h1>Being handsome<br>is the <em>easy</em> part.</h1>
         <p class="lede">Style. Grooming. Health. Confidence. Taste. A better life is built on the details—and this is where we get them right.</p>
         <div class="hero-actions">
-          <a class="button gold" href="#edit">Enter the Club</a>
-          <a class="text-link" href="#manifesto">Read the manifesto →</a>
+          <a class="button gold" href="#start">Enter the Club</a>
+          <a class="text-link" href="standards.html">Read the manifesto <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-proof" aria-label="What the club covers">
+          <span>Useful advice</span><span>Sharp opinions</span><span>Zero fluff</span>
         </div>
       </div>
       <div class="hero-art reveal">
-        <div class="portrait">
-          <div class="monogram">BMC</div>
-          <p>THE MODERN<br>GENTLEMAN'S<br>FIELD GUIDE</p>
-          <span>ISSUE № 001</span>
-        </div>
-        <div class="stamp">LOOK SHARP<br>LIVE WELL</div>
+        <div class="editorial-cover" aria-hidden="true">
+  <div class="cover-top"><span>BMC</span><span>ISSUE № 001</span></div>
+  <div class="cover-ring"></div>
+  <div class="cover-type">LOOK<br>SHARP.<br>LIVE WELL.</div>
+  <div class="cover-bottom">THE MODERN GENTLEMAN’S FIELD GUIDE</div>
+</div>
+        <div class="stamp">BETTER TASTE<br>STARTS HERE</div>
       </div>
     </section>
 
     <section class="ticker" aria-label="Club topics"><div>STYLE · GROOMING · FITNESS · CONFIDENCE · TRAVEL · GEAR · MONEY · HOME · STYLE · GROOMING · FITNESS · CONFIDENCE · TRAVEL · GEAR · MONEY · HOME ·</div></section>
 
-    <section class="manifesto section" id="manifesto">
-      <div class="section-tag">01 / MANIFESTO</div>
-      <div class="manifesto-copy reveal">
-        <h2>Beauty isn't vanity.<br><em>It's standards.</em></h2>
-        <p>Beautiful Men's Club is for men who believe looking good and living well are connected. The shirt fits. The haircut is intentional. The house smells good. The shoes are clean. The handshake is firm. The dinner reservation is made.</p>
-        <p>We are not here to turn you into somebody else. We are here to make sure the best version of you actually shows up.</p>
+    <section class="start section" id="start">
+      <div class="section-head split-head">
+        <div><p class="section-tag">01 / START HERE</p><h2>Four rooms.<br>One better life.</h2></div>
+        <p class="section-intro">No algorithms. No endless feed. Pick the part of life that needs attention and leave with something useful.</p>
       </div>
-      <aside class="quote-card reveal">“The goal isn't perfection. The goal is to look like you give a damn.”</aside>
+      <div class="department-grid">
+        <a class="department-card reveal" href="style.html"><span class="dept-number">01</span><div><p>THE WARDROBE</p><h3>Style</h3><span>Fit, color, shoes, tailoring and the clothes worth owning.</span></div><b>Enter →</b></a>
+        <a class="department-card reveal" href="grooming.html"><span class="dept-number">02</span><div><p>THE MIRROR</p><h3>Grooming</h3><span>Hair, skin, scent and the five-minute habits people notice.</span></div><b>Enter →</b></a>
+        <a class="department-card reveal" href="fitness.html"><span class="dept-number">03</span><div><p>THE ENGINE ROOM</p><h3>Fitness</h3><span>Strength, posture, energy and training for a real schedule.</span></div><b>Enter →</b></a>
+        <a class="department-card reveal" href="life.html"><span class="dept-number">04</span><div><p>THE REST OF IT</p><h3>Life</h3><span>Confidence, home, money, hospitality, travel and good judgment.</span></div><b>Enter →</b></a>
+      </div>
     </section>
 
     <section class="edit section" id="edit">
       <div class="section-head">
-        <div class="section-tag">02 / THE EDIT</div>
+        <p class="section-tag">02 / THE EDIT</p>
         <h2>Upgrade the details.</h2>
-        <p>Useful advice. Zero fluff.</p>
+        <p>Five practical places to begin this week.</p>
       </div>
       <div class="cards">
         <article class="card feature reveal">
           <div class="card-number">01</div>
-          <div class="card-body"><span>STYLE</span><h3>The 12-piece wardrobe that makes getting dressed stupidly easy.</h3><p>Build a sharp closet without owning 70 shirts you never wear.</p><a href="#join">Read the guide →</a></div>
+          <div class="card-body"><span>STYLE</span><h3>The 12-piece wardrobe that makes getting dressed stupidly easy.</h3><p>Build a sharp, flexible closet without owning seventy shirts you never wear.</p><a href="style.html#twelve-piece-wardrobe">Read the guide →</a></div>
         </article>
         <article class="card reveal">
           <div class="card-number">02</div>
-          <div class="card-body"><span>GROOMING</span><h3>Smell expensive without smelling like a department store.</h3><p>A simple fragrance strategy for work, weekends and date night.</p><a href="#join">Read the guide →</a></div>
+          <div class="card-body"><span>GROOMING</span><h3>Smell expensive without smelling like a department store.</h3><p>A simple fragrance strategy for work, weekends and date night.</p><a href="grooming.html#fragrance">Read the guide →</a></div>
         </article>
         <article class="card reveal">
           <div class="card-number">03</div>
-          <div class="card-body"><span>HOME</span><h3>Your bathroom should not look like a gas station.</h3><p>Ten small upgrades that make a grown man's place feel finished.</p><a href="#join">Read the guide →</a></div>
+          <div class="card-body"><span>HOME</span><h3>Your bathroom should not look like a gas station.</h3><p>Ten small upgrades that make a grown man's place feel finished.</p><a href="life.html#bathroom">Read the guide →</a></div>
         </article>
         <article class="card reveal">
           <div class="card-number">04</div>
-          <div class="card-body"><span>CONFIDENCE</span><h3>Stop trying to look confident. Build a life that makes you confident.</h3><p>The habits underneath presence, composure and self-respect.</p><a href="#join">Read the guide →</a></div>
+          <div class="card-body"><span>CONFIDENCE</span><h3>Stop trying to look confident. Build a life that makes you confident.</h3><p>The habits underneath presence, composure and self-respect.</p><a href="life.html#confidence">Read the guide →</a></div>
         </article>
         <article class="card reveal">
           <div class="card-number">05</div>
-          <div class="card-body"><span>FITNESS</span><h3>The 45-minute body: what matters when you have a real schedule.</h3><p>Training for strength, posture and clothes that fit better.</p><a href="#join">Read the guide →</a></div>
+          <div class="card-body"><span>FITNESS</span><h3>The 45-minute body: what matters when you have a real schedule.</h3><p>Training for strength, posture and clothes that fit better.</p><a href="fitness.html#forty-five">Read the guide →</a></div>
         </article>
       </div>
     </section>
 
-    <section class="rules section" id="rules">
-      <div class="section-tag">03 / CLUB RULES</div>
+    <section class="weekly-standard section">
+      <div class="section-tag">03 / THE WEEKLY STANDARD</div>
+      <div class="standard-layout">
+        <div class="standard-lead reveal"><p class="kicker">A FIVE-MINUTE AUDIT</p><h2>Before Monday happens to you.</h2><p>Iron the shirt. Fill the tank. Book the table. Put the workout on the calendar. Confidence is mostly preparation nobody saw.</p><a class="button outline" href="standards.html#sunday-reset">Open the Sunday Reset</a></div>
+        <div class="standard-list reveal">
+          <div><span>01</span><b>Wardrobe</b><p>Choose three dependable outfits.</p></div>
+          <div><span>02</span><b>Body</b><p>Schedule three strength sessions.</p></div>
+          <div><span>03</span><b>Home</b><p>Reset one room completely.</p></div>
+          <div><span>04</span><b>People</b><p>Make one plan before Friday.</p></div>
+          <div><span>05</span><b>Promise</b><p>Finish the thing you keep moving.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto section">
+      <div class="section-tag">04 / MANIFESTO</div>
+      <div class="manifesto-copy reveal">
+        <h2>Beauty isn't vanity.<br><em>It's standards.</em></h2>
+        <p>Beautiful Men's Club is for men who believe looking good and living well are connected. The shirt fits. The haircut is intentional. The house smells good. The shoes are clean. The handshake is firm. The dinner reservation is made.</p>
+        <p>We are not here to turn you into somebody else. We are here to make sure the best version of you actually shows up.</p>
+        <a class="text-link" href="standards.html">The full Beautiful Man standard →</a>
+      </div>
+      <aside class="quote-card reveal">“The goal isn't perfection. The goal is to look like you give a damn.”</aside>
+    </section>
+
+    <section class="notes section">
+      <div class="section-head split-head"><div><p class="section-tag">05 / FIELD NOTES</p><h2>Small moves.<br>Visible results.</h2></div><p class="section-intro">The stuff that sounds minor until every minor thing is handled.</p></div>
+      <div class="note-grid">
+        <article class="note reveal"><span>2 MINUTES</span><h3>Steam the collar.</h3><p>A good shirt with a collapsed collar still looks tired. Steam it, shape it and let it cool before putting it on.</p></article>
+        <article class="note reveal"><span>5 MINUTES</span><h3>Clear the bathroom counter.</h3><p>Keep daily products on one tray. Everything else belongs in a drawer. You just made the whole room feel better.</p></article>
+        <article class="note reveal"><span>10 MINUTES</span><h3>Walk before the call.</h3><p>Movement fixes posture, breathing and energy faster than another cup of coffee. Take the call standing if you can.</p></article>
+      </div>
+    </section>
+
+    <section class="rules-preview section">
+      <div class="section-tag">06 / CLUB RULES</div>
       <div class="rules-grid">
-        <h2>Seven rules.<br>No secret handshake.</h2>
+        <div><h2>Seven rules.<br>No secret handshake.</h2><p class="section-intro">A useful code for men who are done confusing expensive with impressive.</p><a class="button outline" href="standards.html#rules">Read all seven rules</a></div>
         <ol>
           <li><span>01</span>Fit beats price.</li>
           <li><span>02</span>Clean shoes. Clean car. Clean bathroom.</li>
           <li><span>03</span>Buy fewer things. Buy better things.</li>
           <li><span>04</span>Strength is always in style.</li>
-          <li><span>05</span>Be on time. Keep your word.</li>
-          <li><span>06</span>Know how to order dinner.</li>
-          <li><span>07</span>Never apologize for having standards.</li>
         </ol>
       </div>
     </section>
@@ -113,18 +152,29 @@
       <div class="join-inner reveal">
         <p class="eyebrow">FOUNDING MEMBER LIST</p>
         <h2>Get in before it gets crowded.</h2>
-        <p>Beautiful Men's Club is being built into a full men's lifestyle publication, guide library and member community. Founding readers get first access.</p>
-        <a class="button gold" href="mailto:hello@beautifulmensclub.com?subject=Founding%20Member">Become a Founding Reader</a>
+        <p>Beautiful Men's Club is becoming a full men's lifestyle publication, guide library and member community. Founding readers get the first issue and early access.</p>
+        <a class="button gold" href="mailto:hello@beautifulmensclub.com?subject=Beautiful%20Men%27s%20Club%20Founding%20Reader&body=Add%20me%20to%20the%20founding%20reader%20list.">Become a Founding Reader</a>
         <small>No spam. No nonsense. Just better taste.</small>
       </div>
     </section>
   </main>
-
-  <footer>
-    <a class="brand" href="#top"><span>B</span> BEAUTIFUL MEN'S CLUB</a>
-    <p>Look sharp. Live well.</p>
-    <p>© <span id="year"></span> Beautiful Men's Club.</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span>B</span><b>BEAUTIFUL MEN'S CLUB</b></a>
+        <p>Look sharp. Live well. Keep your word.</p>
+      </div>
+      <div class="footer-links" aria-label="Footer navigation">
+        <a href="style.html">Style</a>
+        <a href="grooming.html">Grooming</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="life.html">Life</a>
+        <a href="standards.html">Standards</a>
+      </div>
+      <div class="footer-meta">
+        <a href="mailto:hello@beautifulmensclub.com">hello@beautifulmensclub.com</a>
+        <p>© <span id="year"></span> Beautiful Men's Club.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
