@@ -23,7 +23,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           marker = 'Cloudflare Web Analytics'
-          beacon = "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='\"{\\\"token\\\": \\\"ebb9c435ac06430c9e3f3e6e03e7178b\\\"}\"'></script><!-- End Cloudflare Web Analytics -->"
+          beacon = '''<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ebb9c435ac06430c9e3f3e6e03e7178b"}'></script><!-- End Cloudflare Web Analytics -->'''
           for path in Path('.').rglob('*.html'):
               html = path.read_text(encoding='utf-8')
               if marker in html:
