@@ -66,6 +66,9 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - name: Deploy to GitHub Pages
+      - name: Let GitHub's branch publisher finish first
+        if: github.event_name == 'push'
+        run: sleep 75
+      - name: Deploy generated site to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
