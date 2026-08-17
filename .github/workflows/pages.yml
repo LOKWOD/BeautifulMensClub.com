@@ -27,7 +27,9 @@ jobs:
           node-version: 20
 
       - name: Generate expanded Beautiful Men's Club library
-        run: node scripts/generate-expansion.mjs
+        run: |
+          node scripts/generate-expansion.mjs
+          node scripts/generate-expansion-two.mjs
 
       - name: Normalize and verify Cloudflare Web Analytics
         run: |
@@ -42,39 +44,21 @@ jobs:
               f"data-cf-beacon='{{\"token\": \"{token}\"}}'></script>"
               "<!-- End Cloudflare Web Analytics -->"
           )
-
-          comment_block = re.compile(
-              r"<!--\s*Cloudflare Web Analytics\s*-->.*?"
-              r"<!--\s*End Cloudflare Web Analytics\s*-->",
-              re.IGNORECASE | re.DOTALL,
-          )
-          standalone_beacon = re.compile(
-              r"<script\b[^>]*static\.cloudflareinsights\.com/beacon\.min\.js[^>]*>\s*</script>",
-              re.IGNORECASE | re.DOTALL,
-          )
-
+          comment_block = re.compile(r"<!--\s*Cloudflare Web Analytics\s*-->.*?<!--\s*End Cloudflare Web Analytics\s*-->", re.IGNORECASE | re.DOTALL)
+          standalone_beacon = re.compile(r"<script\b[^>]*static\.cloudflareinsights\.com/beacon\.min\.js[^>]*>\s*</script>", re.IGNORECASE | re.DOTALL)
           html_files = sorted(Path('.').rglob('*.html'))
           if not html_files:
               raise SystemExit('No HTML files found to publish')
-
           for path in html_files:
               html = path.read_text(encoding='utf-8')
               html = comment_block.sub('', html)
               html = standalone_beacon.sub('', html)
-
               if '</body>' not in html:
                   raise SystemExit(f'Missing </body> in {path}')
-
               html = html.replace('</body>', f'\n  {beacon}\n</body>', 1)
               path.write_text(html, encoding='utf-8')
-
-              if html.count(token) != 1:
-                  raise SystemExit(f'Analytics token count is not exactly one in {path}')
-              if html.count('static.cloudflareinsights.com/beacon.min.js') != 1:
-                  raise SystemExit(f'Analytics beacon count is not exactly one in {path}')
-
-              print(f'Analytics verified: {path}')
-
+              if html.count(token) != 1 or html.count('static.cloudflareinsights.com/beacon.min.js') != 1:
+                  raise SystemExit(f'Analytics verification failed for {path}')
           print(f'Cloudflare Web Analytics verified on {len(html_files)} HTML page(s).')
           PY
 
