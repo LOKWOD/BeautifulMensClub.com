@@ -62,6 +62,8 @@ jobs:
           print(f'Cloudflare Web Analytics verified on {len(html_files)} HTML page(s).')
           PY
 
+      - name: Inject website visitor light beacon
+        run: node scripts/inject-visitor-beacon.mjs . beautiful-mens-club
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
