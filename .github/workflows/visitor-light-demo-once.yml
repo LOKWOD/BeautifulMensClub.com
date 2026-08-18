@@ -1,0 +1,24 @@
+name: One-time BMC visitor light demo
+
+on:
+  push:
+    paths:
+      - .github/workflows/visitor-light-demo-once.yml
+
+permissions:
+  contents: read
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send BeautifulMensClub visitor event
+        shell: bash
+        run: |
+          set -euo pipefail
+          WORKER='https://lokwod-visitor-beacon.syracuseappraiser.workers.dev'
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+          curl --fail-with-body --silent --show-error --location --max-time 30 --user-agent "$UA" --output /dev/null 'https://beautifulmensclub.com/'
+          status="$(curl --silent --show-error --max-time 30 --output /tmp/visitor-response --write-out '%{http_code}' --request POST "$WORKER/v1/hit" --user-agent "$UA" --header 'Origin: https://beautifulmensclub.com' --header 'Content-Type: text/plain;charset=UTF-8' --data-raw '{"site":"beautiful-mens-club","path":"/","title":"Beautiful Mens Club"}')"
+          test "$status" = '204' || { echo "Unexpected HTTP $status"; cat /tmp/visitor-response; exit 1; }
+          echo 'BeautifulMensClub visitor event sent.'
