@@ -31,6 +31,9 @@ jobs:
           node scripts/generate-expansion.mjs
           node scripts/generate-expansion-two.mjs
 
+      - name: Add contextual Amazon commerce
+        run: node scripts/inject-affiliate-commerce.mjs .
+
       - name: Normalize and verify Cloudflare Web Analytics
         run: |
           python - <<'PY'
