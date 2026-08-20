@@ -36,6 +36,31 @@ const catalog = {
     ["watch box organizer men", "Watch and essentials organizer", "Give everyday carry a fixed landing place instead of losing it around the house."],
     ["travel cable organizer electronics", "Cable organizer", "Keep chargers and adapters together so travel friction does not begin at the outlet."],
   ],
+  skin: [
+    ["gentle facial cleanser men fragrance free", "Gentle facial cleanser", "A basic cleanser should leave skin clean without turning the routine into a chemistry set."],
+    ["mens face moisturizer spf 30", "Daily moisturizer with SPF", "One dependable morning step is easier to repeat than a crowded shelf."],
+    ["fragrance free face moisturizer men", "Simple nighttime moisturizer", "Choose a formula your skin tolerates well enough to use consistently."],
+  ],
+  fragrance: [
+    ["mens cologne discovery sample set", "Fragrance discovery set", "Wear one sample at a time and judge the dry-down before buying a full bottle."],
+    ["refillable travel perfume atomizer", "Travel atomizer", "Carry a small amount without dragging the full bottle through every trip."],
+    ["unscented deodorant men", "Unscented deodorant", "Keeps the base routine from fighting with the fragrance you chose."],
+  ],
+  shoes: [
+    ["cedar shoe trees men", "Cedar shoe trees", "They help footwear dry, hold shape and make a smaller shoe rotation last longer."],
+    ["shoe care kit leather men", "Leather shoe-care kit", "A brush, neutral conditioner and appropriate polish cover most basic maintenance."],
+    ["long handle shoe horn men", "Long shoe horn", "Protects heel counters and makes maintained shoes easier to put on."],
+  ],
+  mobility: [
+    ["resistance bands set mobility stretching", "Mobility bands", "A few useful resistance levels cover warmups and controlled range work."],
+    ["high density foam roller", "Foam roller", "Choose a manageable density and use it as a tool, not a punishment."],
+    ["exercise mat thick nonslip", "Non-slip training mat", "Enough grip and space for floor work beats elaborate branding."],
+  ],
+  sleep: [
+    ["contoured sleep mask blackout", "Blackout sleep mask", "A comfortable light seal is more useful than decorative padding."],
+    ["white noise machine bedroom", "White-noise machine", "Consistent sound can make a noisy room easier to manage."],
+    ["sunrise alarm clock dimmable", "Sunrise alarm clock", "Compare light controls and a fully dimmable display before buying."],
+  ],
 };
 
 function escapeHtml(value) {
@@ -47,9 +72,15 @@ function amazonUrl(query) {
 }
 
 function chooseCatalog(path, text) {
-  const haystack = `${path} ${text}`.toLowerCase();
-  if (/groom|shav|beard|skin|hair|fragrance|razor/.test(haystack)) return catalog.grooming.slice(0, 3);
-  if (/fitness|workout|strength|training|gym|posture|conditioning/.test(haystack)) return catalog.fitness.slice(0, 3);
+  const title = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(text)?.[1] || "";
+  const haystack = `${path} ${title}`.toLowerCase();
+  if (/shoe|loafer|boot|sneaker/.test(haystack)) return catalog.shoes;
+  if (/skin|face routine|sunscreen/.test(haystack)) return catalog.skin;
+  if (/fragrance|smell|scent|cologne/.test(haystack)) return catalog.fragrance;
+  if (/mobility|flexibility/.test(haystack)) return catalog.mobility;
+  if (/sleep|recovery/.test(haystack)) return catalog.sleep;
+  if (/groom|shav|beard|skin|hair|fragrance|razor|smell|scent|cologne/.test(haystack)) return catalog.grooming.slice(0, 3);
+  if (/fitness|workout|strength|training|gym|posture|conditioning|mobility|recovery|sleep/.test(haystack)) return catalog.fitness.slice(0, 3);
   if (/style|wardrobe|shirt|trouser|suit|shoe|jacket|clothing|tailor/.test(haystack)) return catalog.style.slice(0, 3);
   return catalog.life.slice(0, 3);
 }
