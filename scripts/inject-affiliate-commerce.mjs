@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  steamer: [
+    ["handheld garment steamer removable tank", "Handheld garment steamers", "Compare filled weight, tank access, steam controls, storage and the exact model manual."],
+    ["dual voltage travel garment steamer", "Travel garment steamers", "Verify dual voltage on the exact model; a plug adapter alone does not convert voltage."],
+    ["standing garment steamer clothes", "Standing garment steamers", "Compare base stability, hose reach, tank handling, parts support and the space it occupies."],
+  ],
   style: [
     ["mens wooden suit hangers wide shoulder", "Wooden hangers", "Use fewer, sturdier hangers that support jackets and keep shirts from collapsing."],
     ["garment steamer travel handheld", "Handheld garment steamer", "A fast answer for wrinkles when the ironing board is not coming out."],
@@ -87,6 +92,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "garment-steamer-buying-guide.html") return catalog.steamer;
+  if (normalized === "dandruff-vs-dry-scalp-guide.html" || normalized === "home-emergency-document-file.html") return null;
   if (normalized === "style.html") return catalog.style;
   if (normalized === "grooming.html") return catalog.grooming;
   if (normalized === "fitness.html") return catalog.fitness;

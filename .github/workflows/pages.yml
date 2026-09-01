@@ -30,6 +30,7 @@ jobs:
         run: |
           node scripts/generate-expansion.mjs
           node scripts/generate-expansion-two.mjs
+          node scripts/generate-daily-pages.mjs
 
       - name: Add contextual Amazon commerce
         run: node scripts/inject-affiliate-commerce.mjs .
@@ -67,6 +68,8 @@ jobs:
 
       - name: Inject website visitor light beacon
         run: node scripts/inject-visitor-beacon.mjs . beautiful-mens-club
+      - name: Audit generated publication
+        run: node scripts/audit-site.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

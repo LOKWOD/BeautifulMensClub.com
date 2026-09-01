@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-01",
+  "site": "https://beautifulmensclub.com",
+  "pages": [
+    {
+      "slug": "garment-steamer-buying-guide.html",
+      "title": "The Garment Steamer Buying Guide: Handheld, Travel or Standing?",
+      "category": "STYLE",
+      "searchIntent": "Choose the right garment-steamer format before buying"
+    },
+    {
+      "slug": "dandruff-vs-dry-scalp-guide.html",
+      "title": "Dandruff or Dry Scalp? A Practical Way to Choose Your Next Step",
+      "category": "GROOMING",
+      "searchIntent": "Understand scalp flakes and use OTC care safely"
+    },
+    {
+      "slug": "home-emergency-document-file.html",
+      "title": "Build a Home Emergency Document File Before You Need It",
+      "category": "LIFE",
+      "searchIntent": "Organize critical household records for an emergency"
+    }
+  ]
+}

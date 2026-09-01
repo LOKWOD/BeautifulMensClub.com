@@ -157,7 +157,7 @@ for (const page of pages) {
   writeFileSync(full, render(page));
 }
 
-const libraryBlock = `<section class="section" id="new-guides"><div class="section-head"><p class="section-tag">THE NEW FIELD MANUALS</p><h2>Six guides worth saving.</h2><p>Specific systems for clothes, grooming, strength and presence—written to be used, not admired once and forgotten.</p></div><div class="library-grid">${pages.map((page) => `<a class="library-card" href="${page.slug}"><span>${esc(page.category)}</span><h3>${esc(page.title)}</h3><p>${esc(page.description)}</p><b>Read guide →</b></a>`).join("")}</div></section>`;
+const libraryBlock = `<section class="section" id="new-guides"><div class="section-head"><p class="section-tag">THE NEW FIELD MANUALS</p><h2>Six guides worth saving.</h2><p>Specific systems for clothes, grooming, strength and presence—written to be used, not admired once and forgotten.</p></div><div class="library-grid">${pages.map((page) => `<a class="library-card" href="${page.slug}" data-guide data-category="${esc(page.category.toLowerCase())}" data-title="${esc(page.title)}" data-keywords="${esc(page.description)}"><span>${esc(page.category)}</span><h3>${esc(page.title)}</h3><p>${esc(page.description)}</p><b>Read guide →</b></a>`).join("")}</div></section>`;
 upsert("library.html", "BMC EXPANSION", libraryBlock);
 
 const sitemapPath = join(root, "sitemap.xml");
