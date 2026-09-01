@@ -60,7 +60,7 @@ document.documentElement.classList.add('js');
   if (announcementTarget && !document.querySelector('.announcement') && path !== '404.html') {
     const bar = document.createElement('div');
     bar.className = 'announcement';
-    bar.innerHTML = 'The field library is open — <a href="library.html">browse 27 practical guides</a>';
+    bar.innerHTML = 'The field library is open — <a href="library.html">browse 46 practical guides</a>';
     announcementTarget.parentNode.insertBefore(bar, announcementTarget);
   }
 
