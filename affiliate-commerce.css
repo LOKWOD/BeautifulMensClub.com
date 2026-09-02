@@ -10,3 +10,4 @@
 .commerce-card p{margin:0 0 20px;color:var(--muted);font-size:.9rem}
 .commerce-card b{margin-top:auto;color:var(--accent);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase}
 @media(max-width:860px){.commerce-grid{grid-template-columns:1fr}.commerce-card{min-height:auto}}
+@media print{.commerce-card{background:#fff!important;color:#111!important}.commerce-card p{color:#333!important}}

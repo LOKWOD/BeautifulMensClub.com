@@ -1,24 +1,30 @@
 {
-  "generatedAt": "2026-09-01",
+  "generatedAt": "2026-09-02",
   "site": "https://beautifulmensclub.com",
   "pages": [
     {
-      "slug": "garment-steamer-buying-guide.html",
-      "title": "The Garment Steamer Buying Guide: Handheld, Travel or Standing?",
+      "slug": "adjustable-dumbbells-buying-guide.html",
+      "title": "Adjustable Dumbbells Buying Guide: Dial, Plate or Selectorized?",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Compare adjustable dumbbell systems before buying",
+      "affiliateLinksExpected": 3
+    },
+    {
+      "slug": "mens-raincoat-buying-guide.html",
+      "title": "The Men’s Raincoat Buying Guide: Trench, Mac or Technical Shell?",
       "category": "STYLE",
-      "searchIntent": "Choose the right garment-steamer format before buying"
+      "department": "style.html",
+      "searchIntent": "Choose a men's raincoat for weather and wardrobe",
+      "affiliateLinksExpected": 3
     },
     {
-      "slug": "dandruff-vs-dry-scalp-guide.html",
-      "title": "Dandruff or Dry Scalp? A Practical Way to Choose Your Next Step",
-      "category": "GROOMING",
-      "searchIntent": "Understand scalp flakes and use OTC care safely"
-    },
-    {
-      "slug": "home-emergency-document-file.html",
-      "title": "Build a Home Emergency Document File Before You Need It",
+      "slug": "dinner-party-timing-plan.html",
+      "title": "The Dinner Party Timing Plan: Serve It Hot and Stay at the Table",
       "category": "LIFE",
-      "searchIntent": "Organize critical household records for an emergency"
+      "department": "life.html",
+      "searchIntent": "Plan dinner party timing from prep to leftovers",
+      "affiliateLinksExpected": 0
     }
   ]
 }

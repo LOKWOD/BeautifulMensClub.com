@@ -82,8 +82,18 @@ for (const page of batch.pages) {
   if ((main.match(/class="daily-sources"/g) || []).length !== 1) fail(`Source panel missing in ${page.slug}.`);
   if (!library.includes(`href="${page.slug}"`) || !home.includes(`href="${page.slug}"`)) fail(`Discovery surface missing ${page.slug}.`);
   if (!sitemap.includes(`<loc>${canonical}</loc>`) || !sitemap.includes(`<lastmod>${batch.generatedAt}</lastmod>`)) fail(`Sitemap entry missing or stale for ${page.slug}.`);
-  const department = page.category === "STYLE" ? "style.html" : page.category === "GROOMING" ? "grooming.html" : "life.html";
+  const department = page.department;
+  if (!["style.html", "grooming.html", "fitness.html", "life.html"].includes(department)) fail(`Invalid department in manifest for ${page.slug}: ${department}.`);
   if (!readFileSync(join(root, department), "utf8").includes(`href="${page.slug}"`)) fail(`Department surface ${department} is missing ${page.slug}.`);
+
+  const commercialLinks = [...html.matchAll(/<a\b[^>]*data-commercial-link=["']true["'][^>]*>/gi)];
+  const expectedCommercialLinks = Number(page.affiliateLinksExpected || 0);
+  if (commercialLinks.length !== expectedCommercialLinks) fail(`Expected ${expectedCommercialLinks} commerce links in ${page.slug}; found ${commercialLinks.length}.`);
+  for (const link of commercialLinks) {
+    for (const token of ["sponsored", "nofollow", "noopener", "noreferrer"]) if (!new RegExp(`rel=["'][^"']*\\b${token}\\b`, "i").test(link[0])) fail(`Commerce link in ${page.slug} is missing rel=${token}.`);
+    if (!link[0].includes("tag=beautifulmensclub-20")) fail(`Commerce link in ${page.slug} is missing the approved affiliate tag.`);
+  }
+  if (expectedCommercialLinks > 0 && !html.includes("As an Amazon Associate I earn from qualifying purchases")) fail(`Affiliate disclosure missing from ${page.slug}.`);
 }
 
 const revenuePath = join(root, "garment-steamer-buying-guide.html");

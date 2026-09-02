@@ -8,6 +8,16 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  adjustableDumbbells: [
+    ["dial adjustable dumbbells pair home gym", "Dial adjustable dumbbells", "Compare the full load sequence, dimensions, cradle access, current manual and recall status for the exact model."],
+    ["selector pin block adjustable dumbbells pair", "Selectorized block dumbbells", "Confirm handle geometry, model-specific expansion compatibility, selector engagement and manufacturer handling rules."],
+    ["plate loaded adjustable dumbbell handles collars", "Plate-loaded dumbbell handles", "Verify plate-hole diameter, sleeve length, collar system and clearance for your planned movements."],
+  ],
+  raincoat: [
+    ["mens waterproof trench coat rain", "Men’s waterproof trench coats", "Verify the exact garment’s weather claim, seam construction, layer fit, length and care label."],
+    ["mens waterproof mac raincoat", "Men’s waterproof macs", "Look for a clean silhouette with documented protection, secure closures and room for real weekday layers."],
+    ["mens waterproof technical shell jacket", "Men’s technical rain shells", "Compare intended use, hood control, ventilation, seam construction, dimensions and model-specific care."],
+  ],
   steamer: [
     ["handheld garment steamer removable tank", "Handheld garment steamers", "Compare filled weight, tank access, steam controls, storage and the exact model manual."],
     ["dual voltage travel garment steamer", "Travel garment steamers", "Verify dual voltage on the exact model; a plug adapter alone does not convert voltage."],
@@ -92,6 +102,9 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "adjustable-dumbbells-buying-guide.html") return catalog.adjustableDumbbells;
+  if (normalized === "mens-raincoat-buying-guide.html") return catalog.raincoat;
+  if (normalized === "dinner-party-timing-plan.html") return null;
   if (normalized === "garment-steamer-buying-guide.html") return catalog.steamer;
   if (normalized === "dandruff-vs-dry-scalp-guide.html" || normalized === "home-emergency-document-file.html") return null;
   if (normalized === "style.html") return catalog.style;
