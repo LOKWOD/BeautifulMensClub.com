@@ -71,6 +71,7 @@ const libraryCount = (library.match(/<a\b[^>]*\bdata-guide\b/g) || []).length;
 const countWords = libraryCount === 49 ? "forty-nine" : String(libraryCount);
 library = library
   .replace(/\d+ PRACTICAL GUIDES/g, `${libraryCount} PRACTICAL GUIDES`)
+  .replace(/Search \d+ practical men's guides/gi, `Search ${libraryCount} practical men's guides`)
   .replace(/Search (?:\d+|[a-z-]+) practical guides/gi, `Search ${libraryCount} practical guides`)
   .replace(/(?:Twenty-seven|Forty-six|Forty-nine|\d+) useful guides/gi, `${countWords[0].toUpperCase()}${countWords.slice(1)} useful guides`)
   .replace(/>\d+ guides</g, `>${libraryCount} guides<`)
@@ -80,6 +81,10 @@ writeFileSync(join(root, "library.html"), library);
 let home = readFileSync(join(root, "index.html"), "utf8");
 home = home.replace(/Search (?:twenty-seven|forty-six|forty-nine|\d+) practical guides/gi, `Search ${countWords} practical guides`);
 writeFileSync(join(root, "index.html"), home);
+
+let sharedScript = readFileSync(join(root, "script.js"), "utf8");
+sharedScript = sharedScript.replace(/browse \d+ practical guides/gi, `browse ${libraryCount} practical guides`);
+writeFileSync(join(root, "script.js"), sharedScript);
 
 const sitemapPath = join(root, "sitemap.xml");
 let sitemap = readFileSync(sitemapPath, "utf8");
