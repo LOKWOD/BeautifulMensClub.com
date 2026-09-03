@@ -1,5 +1,6 @@
 export const dailyBatch = {
   date: "2026-09-03",
+  assetVersion: "2026-09-03-2",
   displayDate: "September 3, 2026",
   libraryId: "september-3-field-manuals",
   libraryTag: "SEPTEMBER 3 FIELD MANUALS",

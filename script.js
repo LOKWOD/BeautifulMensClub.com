@@ -136,7 +136,7 @@ document.documentElement.classList.add('js');
   if (library) {
     const input = document.querySelector('[data-library-search]');
     const buttons = [...document.querySelectorAll('[data-library-filter]')];
-    const cards = [...library.querySelectorAll('[data-guide]')];
+    const cards = [...document.querySelectorAll('[data-guide]')];
     const count = document.querySelector('[data-library-count]');
     const empty = document.querySelector('[data-library-empty]');
     let category = 'all';
