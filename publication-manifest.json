@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-02",
+  "generatedAt": "2026-09-03",
   "site": "https://beautifulmensclub.com",
   "pages": [
     {
-      "slug": "adjustable-dumbbells-buying-guide.html",
-      "title": "Adjustable Dumbbells Buying Guide: Dial, Plate or Selectorized?",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "searchIntent": "Compare adjustable dumbbell systems before buying",
+      "slug": "electric-shaver-buying-guide.html",
+      "title": "Electric Shaver Buying Guide: Foil, Rotary or Trimmer?",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Compare electric shaver formats before buying",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-raincoat-buying-guide.html",
-      "title": "The Men’s Raincoat Buying Guide: Trench, Mac or Technical Shell?",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose a men's raincoat for weather and wardrobe",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "dinner-party-timing-plan.html",
-      "title": "The Dinner Party Timing Plan: Serve It Hot and Stay at the Table",
+      "slug": "two-account-bill-system.html",
+      "title": "The Two-Account Bill System: Separate Obligations From Everyday Spending",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Plan dinner party timing from prep to leftovers",
+      "searchIntent": "Set up a separate bills account with safe automation",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "mens-dress-shoe-fit-guide.html",
+      "title": "Men’s Dress Shoe Fit Guide: Width, Heel Hold and the Break-In Myth",
+      "category": "STYLE",
+      "department": "style.html",
+      "searchIntent": "Judge men's dress shoe size and fit before buying",
       "affiliateLinksExpected": 0
     }
   ]

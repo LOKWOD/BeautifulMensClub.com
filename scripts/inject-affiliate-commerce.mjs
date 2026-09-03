@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  electricShavers: [
+    ["mens foil electric shaver", "Foil electric shavers", "Compare head width, pivot control, dry-or-wet permissions, cleaning method and replacement-foil support for the exact model."],
+    ["mens rotary electric shaver", "Rotary electric shavers", "Compare head movement, grip, washable-parts instructions, travel lock and model-specific replacement-head availability."],
+    ["mens beard trimmer adjustable guards", "Adjustable beard trimmers", "Choose a trimmer when controlled stubble or beard length matters more than a close shave; verify the usable guard range and cleaning instructions."],
+  ],
   adjustableDumbbells: [
     ["dial adjustable dumbbells pair home gym", "Dial adjustable dumbbells", "Compare the full load sequence, dimensions, cradle access, current manual and recall status for the exact model."],
     ["selector pin block adjustable dumbbells pair", "Selectorized block dumbbells", "Confirm handle geometry, model-specific expansion compatibility, selector engagement and manufacturer handling rules."],
@@ -102,6 +107,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "electric-shaver-buying-guide.html") return catalog.electricShavers;
+  if (normalized === "two-account-bill-system.html" || normalized === "mens-dress-shoe-fit-guide.html") return null;
   if (normalized === "adjustable-dumbbells-buying-guide.html") return catalog.adjustableDumbbells;
   if (normalized === "mens-raincoat-buying-guide.html") return catalog.raincoat;
   if (normalized === "dinner-party-timing-plan.html") return null;
