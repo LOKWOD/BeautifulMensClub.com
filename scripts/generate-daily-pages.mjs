@@ -40,7 +40,7 @@ function render(page) {
 <script type="application/ld+json">${JSON.stringify(schema)}</script><script type="application/ld+json">${JSON.stringify(faqSchema)}</script></head>
 <body data-section="${esc(page.category.toLowerCase())}"><a class="skip-link" href="#main">Skip to content</a><div class="grain" aria-hidden="true"></div><div class="reading-progress" aria-hidden="true"><span></span></div><header class="site-header"><a class="brand" href="index.html" aria-label="Beautiful Men's Club home"><span>B</span><b>BEAUTIFUL MEN'S CLUB</b></a><button class="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">MENU</button><nav id="site-nav" aria-label="Primary navigation"><a href="index.html#edit">The Edit</a><a href="style.html">Style</a><a href="grooming.html">Grooming</a><a href="fitness.html">Fitness</a><a href="life.html">Life</a><a href="library.html">Library</a><a href="standards.html">Standards</a><a href="join.html" class="nav-cta">Join</a></nav></header>
 <main id="main"><article class="daily-guide"><p class="kicker">${esc(page.category)} · BMC FIELD MANUAL</p><h1>${esc(page.title)}</h1><p class="dek">${esc(page.dek)}</p><p class="daily-meta"><strong>Published ${displayDate}.</strong> ${esc(page.notice || "Independent editorial guidance.")}</p><section class="daily-takeaways"><h2>The useful answer</h2><ul>${takeaways}</ul></section>${sections}<section class="daily-faq"><h2>Frequently asked questions</h2>${faq}</section><section class="daily-related"><h2>Keep going</h2><div class="daily-related-grid">${related}</div></section><section class="daily-sources"><h2>Sources and further reading</h2><p>Claims checked against these official or professional sources on ${displayDate}.</p><ul>${sources}</ul></section><div class="daily-actions"><a class="button ghost" href="${esc(page.department)}">Browse ${esc(page.category.toLowerCase())}</a><a class="button ghost" href="library.html">Back to the library</a></div></article></main>
-<footer class="site-footer"><div class="footer-brand"><a class="brand" href="index.html"><span>B</span><b>BEAUTIFUL MEN'S CLUB</b></a><p>Look sharp. Live well. Keep your word.</p></div><div class="footer-links"><a href="style.html">Style</a><a href="grooming.html">Grooming</a><a href="fitness.html">Fitness</a><a href="life.html">Life</a><a href="library.html">Library</a></div><div class="footer-meta"><a href="mailto:hello@beautifulmensclub.com">hello@beautifulmensclub.com</a><p>© <span id="year"></span> Beautiful Men's Club.</p></div></footer><script src="script.js"></script></body></html>`;
+<footer class="site-footer"><div class="footer-brand"><a class="brand" href="index.html"><span>B</span><b>BEAUTIFUL MEN'S CLUB</b></a><p>Look sharp. Live well. Keep your word.</p></div><div class="footer-links"><a href="style.html">Style</a><a href="grooming.html">Grooming</a><a href="fitness.html">Fitness</a><a href="life.html">Life</a><a href="library.html">Library</a></div><div class="footer-meta"><a href="mailto:hello@beautifulmensclub.com">hello@beautifulmensclub.com</a><p>© <span id="year"></span> Beautiful Men's Club.</p></div></footer><script src="script.js?v=${dailyBatch.date}"></script></body></html>`;
 }
 
 function upsert(path, marker, block) {
@@ -85,6 +85,12 @@ writeFileSync(join(root, "index.html"), home);
 let sharedScript = readFileSync(join(root, "script.js"), "utf8");
 sharedScript = sharedScript.replace(/browse \d+ practical guides/gi, `browse ${libraryCount} practical guides`);
 writeFileSync(join(root, "script.js"), sharedScript);
+
+for (const path of ["index.html", "library.html", ...new Set(dailyBatch.pages.map((page) => page.department))]) {
+  const full = join(root, path);
+  const html = readFileSync(full, "utf8").replace(/script\.js(?:\?v=[^"']*)?/g, `script.js?v=${dailyBatch.date}`);
+  writeFileSync(full, html);
+}
 
 const sitemapPath = join(root, "sitemap.xml");
 let sitemap = readFileSync(sitemapPath, "utf8");
