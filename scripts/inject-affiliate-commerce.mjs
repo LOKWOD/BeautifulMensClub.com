@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  walkingPads: [
+    ["under desk walking pad treadmill", "Under-desk walking pads", "Compare usable belt dimensions, user limit, intended speed range, controls, electrical requirements and the exact model manual."],
+    ["folding walking pad treadmill handrail", "Folding walking pads with handrails", "Verify deployed footprint, rail locking, safety key, walking-versus-running modes and manufacturer-approved storage orientation."],
+    ["treadmill equipment mat walking pad", "Walking-pad equipment mats", "Match the mat to the machine footprint and floor type; a mat may protect a surface but cannot guarantee quiet operation."],
+  ],
   electricShavers: [
     ["mens foil electric shaver", "Foil electric shavers", "Compare head width, pivot control, dry-or-wet permissions, cleaning method and replacement-foil support for the exact model."],
     ["mens rotary electric shaver", "Rotary electric shavers", "Compare head movement, grip, washable-parts instructions, travel lock and model-specific replacement-head availability."],
@@ -107,6 +112,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "walking-pad-buying-guide.html") return catalog.walkingPads;
+  if (normalized === "home-fire-extinguisher-guide.html" || normalized === "how-to-order-wine-at-a-restaurant.html") return null;
   if (normalized === "electric-shaver-buying-guide.html") return catalog.electricShavers;
   if (normalized === "two-account-bill-system.html" || normalized === "mens-dress-shoe-fit-guide.html") return null;
   if (normalized === "adjustable-dumbbells-buying-guide.html") return catalog.adjustableDumbbells;

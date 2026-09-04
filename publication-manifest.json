@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-03",
+  "generatedAt": "2026-09-04",
   "site": "https://beautifulmensclub.com",
   "pages": [
     {
-      "slug": "electric-shaver-buying-guide.html",
-      "title": "Electric Shaver Buying Guide: Foil, Rotary or Trimmer?",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Compare electric shaver formats before buying",
+      "slug": "walking-pad-buying-guide.html",
+      "title": "Walking Pad Buying Guide: Deck, Desk, Noise and Safety",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Choose a walking pad for a standing desk or small home",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "two-account-bill-system.html",
-      "title": "The Two-Account Bill System: Separate Obligations From Everyday Spending",
+      "slug": "home-fire-extinguisher-guide.html",
+      "title": "Home Fire Extinguisher Guide: Class, Placement and the Exit-First Rule",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Set up a separate bills account with safe automation",
+      "searchIntent": "Choose and place home fire extinguishers safely",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-dress-shoe-fit-guide.html",
-      "title": "Men’s Dress Shoe Fit Guide: Width, Heel Hold and the Break-In Myth",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Judge men's dress shoe size and fit before buying",
+      "slug": "how-to-order-wine-at-a-restaurant.html",
+      "title": "How to Order Wine at a Restaurant Without Bluffing",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Order restaurant wine by budget, taste and food pairing",
       "affiliateLinksExpected": 0
     }
   ]

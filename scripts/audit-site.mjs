@@ -109,7 +109,7 @@ if (existsSync(revenuePath)) {
     if (!revenue.includes("As an Amazon Associate I earn from qualifying purchases")) fail("Affiliate disclosure missing from revenue page.");
   }
 }
-for (const slug of ["dandruff-vs-dry-scalp-guide.html", "home-emergency-document-file.html", "two-account-bill-system.html", "mens-dress-shoe-fit-guide.html"]) {
+for (const slug of ["dandruff-vs-dry-scalp-guide.html", "home-emergency-document-file.html", "two-account-bill-system.html", "mens-dress-shoe-fit-guide.html", "home-fire-extinguisher-guide.html", "how-to-order-wine-at-a-restaurant.html"]) {
   const html = readFileSync(join(root, slug), "utf8");
   if (/data-commercial-link=["']true/i.test(html)) fail(`Non-commercial daily page contains affiliate links: ${slug}.`);
 }

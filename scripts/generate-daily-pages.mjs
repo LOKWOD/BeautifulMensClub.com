@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { dailyBatch } from "./daily-pages-2026-09-03.mjs";
+import { dailyBatch } from "./daily-pages-2026-09-04.mjs";
 
 const root = process.cwd();
 const siteUrl = "https://beautifulmensclub.com";
