@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { dailyBatch } from "./daily-pages-2026-09-04.mjs";
+import { dailyBatch } from "./daily-pages-2026-09-05.mjs";
 
 const root = process.cwd();
 const siteUrl = "https://beautifulmensclub.com";
@@ -104,5 +104,5 @@ const entries = dailyBatch.pages.map((page) => `<url><loc>${siteUrl}/${page.slug
 sitemap = sitemap.replace("</urlset>", `${entries}</urlset>`);
 writeFileSync(sitemapPath, sitemap);
 
-writeFileSync(join(root, "publication-manifest.json"), `${JSON.stringify({ generatedAt: dailyBatch.date, site: siteUrl, pages: dailyBatch.pages.map(({ slug, title, category, department, searchIntent, affiliateLinksExpected }) => ({ slug, title, category, department, searchIntent, affiliateLinksExpected })) }, null, 2)}\n`);
+writeFileSync(join(root, "publication-manifest.json"), `${JSON.stringify({ generatedAt: dailyBatch.date, site: siteUrl, imageQa: dailyBatch.imageQa, pages: dailyBatch.pages.map(({ slug, title, category, department, searchIntent, affiliateLinksExpected }) => ({ slug, title, category, department, searchIntent, affiliateLinksExpected })) }, null, 2)}\n`);
 console.log(`Generated ${dailyBatch.pages.length} daily Beautiful Men's Club guides and refreshed discovery surfaces.`);

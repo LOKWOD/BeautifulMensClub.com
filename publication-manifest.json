@@ -1,29 +1,34 @@
 {
-  "generatedAt": "2026-09-04",
+  "generatedAt": "2026-09-05",
   "site": "https://beautifulmensclub.com",
+  "imageQa": {
+    "editorialImages": 0,
+    "affiliateProductImages": 0,
+    "note": "Intentional image-free layouts; no new or changed editorial or product imagery."
+  },
   "pages": [
     {
-      "slug": "walking-pad-buying-guide.html",
-      "title": "Walking Pad Buying Guide: Deck, Desk, Noise and Safety",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "searchIntent": "Choose a walking pad for a standing desk or small home",
+      "slug": "mens-sweater-buying-guide.html",
+      "title": "Men’s Sweater Buying Guide: Merino, Lambswool, Cashmere or Cotton?",
+      "category": "STYLE",
+      "department": "style.html",
+      "searchIntent": "Choose a men's sweater by fiber, fit, construction and care",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-fire-extinguisher-guide.html",
-      "title": "Home Fire Extinguisher Guide: Class, Placement and the Exit-First Rule",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Choose and place home fire extinguishers safely",
+      "slug": "mens-dry-hands-care-guide.html",
+      "title": "Dry Hands for Men: A Practical Care and Prevention Guide",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Care for dry cracked hands without compromising hygiene",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-order-wine-at-a-restaurant.html",
-      "title": "How to Order Wine at a Restaurant Without Bluffing",
+      "slug": "overnight-guest-room-checklist.html",
+      "title": "The Overnight Guest Room Checklist: Bed, Bath, Arrival and Privacy",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Order restaurant wine by budget, taste and food pairing",
+      "searchIntent": "Prepare a comfortable safe overnight guest room",
       "affiliateLinksExpected": 0
     }
   ]

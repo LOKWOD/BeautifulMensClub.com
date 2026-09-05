@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  sweaters: [
+    ["mens merino wool crewneck sweater", "Men's merino-wool sweaters", "Verify the exact fiber percentages, garment measurements, knit weight, sewn-in care instructions and return terms."],
+    ["mens lambswool crewneck sweater", "Men's lambswool sweaters", "Compare fiber labels, texture, layer fit, rib recovery, care demands and the seller's exact-item photographs."],
+    ["mens cotton crewneck sweater", "Men's cotton sweaters", "Check the fiber label, garment measurements, knit density, laundering instructions and expected use in your climate."],
+  ],
   walkingPads: [
     ["under desk walking pad treadmill", "Under-desk walking pads", "Compare usable belt dimensions, user limit, intended speed range, controls, electrical requirements and the exact model manual."],
     ["folding walking pad treadmill handrail", "Folding walking pads with handrails", "Verify deployed footprint, rail locking, safety key, walking-versus-running modes and manufacturer-approved storage orientation."],
@@ -112,6 +117,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-sweater-buying-guide.html") return catalog.sweaters;
+  if (normalized === "mens-dry-hands-care-guide.html" || normalized === "overnight-guest-room-checklist.html") return null;
   if (normalized === "walking-pad-buying-guide.html") return catalog.walkingPads;
   if (normalized === "home-fire-extinguisher-guide.html" || normalized === "how-to-order-wine-at-a-restaurant.html") return null;
   if (normalized === "electric-shaver-buying-guide.html") return catalog.electricShavers;
