@@ -22,11 +22,11 @@ function match(html, pattern) { return pattern.exec(html)?.[1]?.trim() || ""; }
 function text(html) { return html.replace(/<script\b[\s\S]*?<\/script>/gi, " ").replace(/<style\b[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&[a-z#0-9]+;/gi, " ").replace(/\s+/g, " ").trim(); }
 
 if (!Array.isArray(batch.pages) || batch.pages.length !== 3) fail(`Publication manifest must contain exactly 3 pages; found ${batch.pages?.length ?? 0}.`);
-if (batch.generatedAt !== "2026-09-05") fail(`Publication manifest date must be 2026-09-05; found ${batch.generatedAt}.`);
-if (batch.imageQa?.editorialImages !== 0 || batch.imageQa?.affiliateProductImages !== 0) fail("September 5 image QA must record 0 editorial and 0 affiliate/product images for the intentional image-free batch.");
+if (batch.generatedAt !== "2026-09-07") fail(`Publication manifest date must be 2026-09-07; found ${batch.generatedAt}.`);
+if (batch.imageQa?.editorialImages !== 0 || batch.imageQa?.affiliateProductImages !== 0) fail("September 7 image QA must record 0 editorial and 0 affiliate/product images for the intentional image-free batch.");
 const batchSlugs = new Set(batch.pages.map((page) => page.slug));
 if (batchSlugs.size !== 3) fail("Publication manifest contains duplicate slugs.");
-for (const expected of ["mens-sweater-buying-guide.html", "mens-dry-hands-care-guide.html", "overnight-guest-room-checklist.html"]) if (!batchSlugs.has(expected)) fail(`September 5 manifest is missing ${expected}.`);
+for (const expected of ["mens-overcoat-buying-guide.html", "day-hike-planning-guide.html", "home-power-outage-plan.html"]) if (!batchSlugs.has(expected)) fail(`September 7 manifest is missing ${expected}.`);
 
 const htmlFiles = filesUnder(root);
 const titles = new Map();
@@ -114,7 +114,7 @@ if (existsSync(revenuePath)) {
     if (!revenue.includes("As an Amazon Associate I earn from qualifying purchases")) fail("Affiliate disclosure missing from revenue page.");
   }
 }
-for (const slug of ["dandruff-vs-dry-scalp-guide.html", "home-emergency-document-file.html", "two-account-bill-system.html", "mens-dress-shoe-fit-guide.html", "home-fire-extinguisher-guide.html", "how-to-order-wine-at-a-restaurant.html", "mens-dry-hands-care-guide.html", "overnight-guest-room-checklist.html"]) {
+for (const slug of ["dandruff-vs-dry-scalp-guide.html", "home-emergency-document-file.html", "two-account-bill-system.html", "mens-dress-shoe-fit-guide.html", "home-fire-extinguisher-guide.html", "how-to-order-wine-at-a-restaurant.html", "mens-dry-hands-care-guide.html", "overnight-guest-room-checklist.html", "day-hike-planning-guide.html", "home-power-outage-plan.html"]) {
   const html = readFileSync(join(root, slug), "utf8");
   if (/data-commercial-link=["']true/i.test(html)) fail(`Non-commercial daily page contains affiliate links: ${slug}.`);
 }

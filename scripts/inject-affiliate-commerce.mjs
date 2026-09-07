@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  overcoats: [
+    ["mens wool overcoat knee length", "Men's knee-length wool overcoats", "Verify fiber percentages, garment measurements over your real layers, construction, care instructions and return terms."],
+    ["mens single breasted wool overcoat", "Men's single-breasted overcoats", "Compare closed-front fit, coat length, lining, pocket construction and the exact weather claims for each garment."],
+    ["mens double breasted wool overcoat", "Men's double-breasted overcoats", "Check chest overlap, button position, seated comfort, layer room and alteration limits before buying."],
+  ],
   sweaters: [
     ["mens merino wool crewneck sweater", "Men's merino-wool sweaters", "Verify the exact fiber percentages, garment measurements, knit weight, sewn-in care instructions and return terms."],
     ["mens lambswool crewneck sweater", "Men's lambswool sweaters", "Compare fiber labels, texture, layer fit, rib recovery, care demands and the seller's exact-item photographs."],
@@ -117,6 +122,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-overcoat-buying-guide.html") return catalog.overcoats;
+  if (normalized === "day-hike-planning-guide.html" || normalized === "home-power-outage-plan.html") return null;
   if (normalized === "mens-sweater-buying-guide.html") return catalog.sweaters;
   if (normalized === "mens-dry-hands-care-guide.html" || normalized === "overnight-guest-room-checklist.html") return null;
   if (normalized === "walking-pad-buying-guide.html") return catalog.walkingPads;

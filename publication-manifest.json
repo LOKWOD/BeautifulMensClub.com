@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05",
+  "generatedAt": "2026-09-07",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-sweater-buying-guide.html",
-      "title": "Men’s Sweater Buying Guide: Merino, Lambswool, Cashmere or Cotton?",
+      "slug": "mens-overcoat-buying-guide.html",
+      "title": "Men’s Overcoat Buying Guide: Length, Wool, Fit and Weather",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Choose a men's sweater by fiber, fit, construction and care",
+      "searchIntent": "Choose a men's overcoat by length, fiber, fit and climate",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-dry-hands-care-guide.html",
-      "title": "Dry Hands for Men: A Practical Care and Prevention Guide",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Care for dry cracked hands without compromising hygiene",
+      "slug": "day-hike-planning-guide.html",
+      "title": "The Day-Hike Planning Guide: Route, Weather, Water and Turnaround",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Plan a safe day hike with route, weather, gear and turnaround rules",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "overnight-guest-room-checklist.html",
-      "title": "The Overnight Guest Room Checklist: Bed, Bath, Arrival and Privacy",
+      "slug": "home-power-outage-plan.html",
+      "title": "The Home Power-Outage Plan: Food, Phones, Heat and Carbon Monoxide",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Prepare a comfortable safe overnight guest room",
+      "searchIntent": "Prepare a safe practical home plan for a power outage",
       "affiliateLinksExpected": 0
     }
   ]
