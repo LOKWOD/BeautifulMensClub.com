@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  electricToothbrushes: [
+    ["electric toothbrush soft bristles pressure sensor timer", "Electric toothbrushes with pressure feedback", "Compare soft-bristled head options, the pressure signal, timer behavior, charging setup, exact-model instructions and return terms."],
+    ["electric toothbrush replacement heads soft bristle", "Soft replacement brush heads", "Verify the exact handle-and-head compatibility chart, seller, bristle type, pack count and recurring cost before ordering."],
+    ["ventilated electric toothbrush travel case", "Ventilated toothbrush travel cases", "Match the case to the exact handle and head, and let the brush dry before enclosing it for travel."],
+  ],
   overcoats: [
     ["mens wool overcoat knee length", "Men's knee-length wool overcoats", "Verify fiber percentages, garment measurements over your real layers, construction, care instructions and return terms."],
     ["mens single breasted wool overcoat", "Men's single-breasted overcoats", "Compare closed-front fit, coat length, lining, pocket construction and the exact weather claims for each garment."],
@@ -122,6 +127,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "electric-toothbrush-buying-guide.html") return catalog.electricToothbrushes;
+  if (normalized === "strength-training-warm-up-guide.html" || normalized === "weeknight-kitchen-closing-shift.html") return null;
   if (normalized === "mens-overcoat-buying-guide.html") return catalog.overcoats;
   if (normalized === "day-hike-planning-guide.html" || normalized === "home-power-outage-plan.html") return null;
   if (normalized === "mens-sweater-buying-guide.html") return catalog.sweaters;

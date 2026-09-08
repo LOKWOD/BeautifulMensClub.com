@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07",
+  "generatedAt": "2026-09-08",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-overcoat-buying-guide.html",
-      "title": "Men’s Overcoat Buying Guide: Length, Wool, Fit and Weather",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose a men's overcoat by length, fiber, fit and climate",
+      "slug": "electric-toothbrush-buying-guide.html",
+      "title": "Electric Toothbrush Buying Guide: Motion, Sensors, Heads and Cost",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose an electric toothbrush by brushing motion, pressure feedback, replacement heads and total cost",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "day-hike-planning-guide.html",
-      "title": "The Day-Hike Planning Guide: Route, Weather, Water and Turnaround",
+      "slug": "strength-training-warm-up-guide.html",
+      "title": "Strength Training Warm-Up: Raise, Rehearse, Ramp Up",
       "category": "FITNESS",
       "department": "fitness.html",
-      "searchIntent": "Plan a safe day hike with route, weather, gear and turnaround rules",
+      "searchIntent": "Build a short strength-training warm-up with general movement, exercise rehearsal and gradual loading",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "home-power-outage-plan.html",
-      "title": "The Home Power-Outage Plan: Food, Phones, Heat and Carbon Monoxide",
+      "slug": "weeknight-kitchen-closing-shift.html",
+      "title": "The Weeknight Kitchen Closing Shift: A 20-Minute Reset",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Prepare a safe practical home plan for a power outage",
+      "searchIntent": "Close and reset a kitchen after dinner in twenty focused minutes",
       "affiliateLinksExpected": 0
     }
   ]
