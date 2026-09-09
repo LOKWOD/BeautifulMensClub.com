@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  belts: [
+    ["mens leather dress belt", "Men's leather dress belts", "Verify the exact strap width, maker's sizing method, material disclosure, buckle construction and return terms."],
+    ["mens casual leather belt", "Men's casual leather belts", "Compare loop fit, strap composition, edge treatment, hole spacing, hardware attachment and current seller details."],
+    ["mens braided belt", "Men's braided belts", "Check the weave material, stretch, usable adjustment points, buckle width and compatibility with the trousers you actually wear."],
+  ],
   electricToothbrushes: [
     ["electric toothbrush soft bristles pressure sensor timer", "Electric toothbrushes with pressure feedback", "Compare soft-bristled head options, the pressure signal, timer behavior, charging setup, exact-model instructions and return terms."],
     ["electric toothbrush replacement heads soft bristle", "Soft replacement brush heads", "Verify the exact handle-and-head compatibility chart, seller, bristle type, pack count and recurring cost before ordering."],
@@ -127,6 +132,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-belt-buying-guide.html") return catalog.belts;
+  if (normalized === "deodorant-vs-antiperspirant-for-men.html" || normalized === "hotel-room-arrival-check.html") return null;
   if (normalized === "electric-toothbrush-buying-guide.html") return catalog.electricToothbrushes;
   if (normalized === "strength-training-warm-up-guide.html" || normalized === "weeknight-kitchen-closing-shift.html") return null;
   if (normalized === "mens-overcoat-buying-guide.html") return catalog.overcoats;

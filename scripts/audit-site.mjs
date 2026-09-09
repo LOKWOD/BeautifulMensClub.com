@@ -3,6 +3,8 @@ import { dirname, join, relative, resolve } from "node:path";
 
 const root = process.cwd();
 const siteUrl = "https://beautifulmensclub.com";
+const analyticsToken = "ebb9c435ac06430c9e3f3e6e03e7178b";
+const visitorBeacon = "https://lokwod-visitor-beacon.syracuseappraiser.workers.dev/beacon.js";
 const failures = [];
 const batch = JSON.parse(readFileSync(join(root, "publication-manifest.json"), "utf8"));
 
@@ -20,13 +22,14 @@ function filesUnder(directory) {
 }
 function match(html, pattern) { return pattern.exec(html)?.[1]?.trim() || ""; }
 function text(html) { return html.replace(/<script\b[\s\S]*?<\/script>/gi, " ").replace(/<style\b[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&[a-z#0-9]+;/gi, " ").replace(/\s+/g, " ").trim(); }
+function count(html, needle) { return html.split(needle).length - 1; }
 
 if (!Array.isArray(batch.pages) || batch.pages.length !== 3) fail(`Publication manifest must contain exactly 3 pages; found ${batch.pages?.length ?? 0}.`);
-if (batch.generatedAt !== "2026-09-08") fail(`Publication manifest date must be 2026-09-08; found ${batch.generatedAt}.`);
-if (batch.imageQa?.editorialImages !== 0 || batch.imageQa?.affiliateProductImages !== 0) fail("September 8 image QA must record 0 editorial and 0 affiliate/product images for the intentional image-free batch.");
+if (batch.generatedAt !== "2026-09-09") fail(`Publication manifest date must be 2026-09-09; found ${batch.generatedAt}.`);
+if (batch.imageQa?.editorialImages !== 0 || batch.imageQa?.affiliateProductImages !== 0) fail("September 9 image QA must record 0 editorial and 0 affiliate/product images for the intentional image-free batch.");
 const batchSlugs = new Set(batch.pages.map((page) => page.slug));
 if (batchSlugs.size !== 3) fail("Publication manifest contains duplicate slugs.");
-for (const expected of ["electric-toothbrush-buying-guide.html", "strength-training-warm-up-guide.html", "weeknight-kitchen-closing-shift.html"]) if (!batchSlugs.has(expected)) fail(`September 8 manifest is missing ${expected}.`);
+for (const expected of ["mens-belt-buying-guide.html", "deodorant-vs-antiperspirant-for-men.html", "hotel-room-arrival-check.html"]) if (!batchSlugs.has(expected)) fail(`September 9 manifest is missing ${expected}.`);
 
 const htmlFiles = filesUnder(root);
 const titles = new Map();
@@ -34,6 +37,8 @@ const canonicals = new Map();
 for (const path of htmlFiles) {
   const rel = relative(root, path).replaceAll("\\", "/");
   const html = readFileSync(path, "utf8");
+  if (count(html, analyticsToken) !== 1 || count(html, "static.cloudflareinsights.com/beacon.min.js") !== 1) fail(`Cloudflare analytics missing or duplicated in ${rel}.`);
+  if (count(html, visitorBeacon) !== 1 || count(html, 'data-site="beautiful-mens-club"') !== 1) fail(`Visitor beacon missing or duplicated in ${rel}.`);
   const title = match(html, /<title[^>]*>([\s\S]*?)<\/title>/i);
   const canonical = match(html, /<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/i) || match(html, /<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["'][^>]*>/i);
   if (title) {
@@ -114,7 +119,7 @@ if (existsSync(revenuePath)) {
     if (!revenue.includes("As an Amazon Associate I earn from qualifying purchases")) fail("Affiliate disclosure missing from revenue page.");
   }
 }
-for (const slug of ["dandruff-vs-dry-scalp-guide.html", "home-emergency-document-file.html", "two-account-bill-system.html", "mens-dress-shoe-fit-guide.html", "home-fire-extinguisher-guide.html", "how-to-order-wine-at-a-restaurant.html", "mens-dry-hands-care-guide.html", "overnight-guest-room-checklist.html", "day-hike-planning-guide.html", "home-power-outage-plan.html", "strength-training-warm-up-guide.html", "weeknight-kitchen-closing-shift.html"]) {
+for (const slug of ["dandruff-vs-dry-scalp-guide.html", "home-emergency-document-file.html", "two-account-bill-system.html", "mens-dress-shoe-fit-guide.html", "home-fire-extinguisher-guide.html", "how-to-order-wine-at-a-restaurant.html", "mens-dry-hands-care-guide.html", "overnight-guest-room-checklist.html", "day-hike-planning-guide.html", "home-power-outage-plan.html", "strength-training-warm-up-guide.html", "weeknight-kitchen-closing-shift.html", "deodorant-vs-antiperspirant-for-men.html", "hotel-room-arrival-check.html"]) {
   const html = readFileSync(join(root, slug), "utf8");
   if (/data-commercial-link=["']true/i.test(html)) fail(`Non-commercial daily page contains affiliate links: ${slug}.`);
 }

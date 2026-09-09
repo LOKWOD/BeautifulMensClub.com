@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08",
+  "generatedAt": "2026-09-09",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "electric-toothbrush-buying-guide.html",
-      "title": "Electric Toothbrush Buying Guide: Motion, Sensors, Heads and Cost",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose an electric toothbrush by brushing motion, pressure feedback, replacement heads and total cost",
+      "slug": "mens-belt-buying-guide.html",
+      "title": "Men’s Belt Buying Guide: Width, Leather, Buckle and Fit",
+      "category": "STYLE",
+      "department": "style.html",
+      "searchIntent": "Choose a men's belt by width, material, buckle, construction and measured fit",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "strength-training-warm-up-guide.html",
-      "title": "Strength Training Warm-Up: Raise, Rehearse, Ramp Up",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "searchIntent": "Build a short strength-training warm-up with general movement, exercise rehearsal and gradual loading",
+      "slug": "deodorant-vs-antiperspirant-for-men.html",
+      "title": "Deodorant vs Antiperspirant for Men: Sweat, Odor and Irritation",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose deodorant or antiperspirant by sweat control, odor control, skin tolerance and label directions",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "weeknight-kitchen-closing-shift.html",
-      "title": "The Weeknight Kitchen Closing Shift: A 20-Minute Reset",
+      "slug": "hotel-room-arrival-check.html",
+      "title": "The Hotel Room Arrival Check: Safety, Bedbugs, Sleep and Checkout",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Close and reset a kitchen after dinner in twenty focused minutes",
+      "searchIntent": "Check a hotel room for reservation errors, fire exits, bed bug signs, security, sleep comfort and charges",
       "affiliateLinksExpected": 0
     }
   ]
