@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  jeans: [
+    ["mens straight fit jeans", "Men's straight-fit jeans", "Compare rise, seat, thigh, knee, hem opening, fiber percentages, care instructions and exact-garment measurements."],
+    ["mens athletic fit jeans", "Men's athletic-fit jeans", "Look for documented room through the seat and thigh, then verify the actual taper, rise, stretch content and return terms."],
+    ["mens relaxed fit jeans", "Men's relaxed-fit jeans", "Check where the extra ease is placed, how the leg falls over your footwear and whether the finished dimensions match a pair you own."],
+  ],
   belts: [
     ["mens leather dress belt", "Men's leather dress belts", "Verify the exact strap width, maker's sizing method, material disclosure, buckle construction and return terms."],
     ["mens casual leather belt", "Men's casual leather belts", "Compare loop fit, strap composition, edge treatment, hole spacing, hardware attachment and current seller details."],
@@ -132,6 +137,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-jeans-fit-buying-guide.html") return catalog.jeans;
+  if (normalized === "emergency-fund-system.html" || normalized === "office-chair-setup-guide.html") return null;
   if (normalized === "mens-belt-buying-guide.html") return catalog.belts;
   if (normalized === "deodorant-vs-antiperspirant-for-men.html" || normalized === "hotel-room-arrival-check.html") return null;
   if (normalized === "electric-toothbrush-buying-guide.html") return catalog.electricToothbrushes;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09",
+  "generatedAt": "2026-09-10",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-belt-buying-guide.html",
-      "title": "Men’s Belt Buying Guide: Width, Leather, Buckle and Fit",
+      "slug": "mens-jeans-fit-buying-guide.html",
+      "title": "Men’s Jeans Fit Guide: Rise, Seat, Thigh, Leg and Hem",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Choose a men's belt by width, material, buckle, construction and measured fit",
+      "searchIntent": "Choose men's jeans by measured rise, seat, thigh, leg shape, hem, fabric and real try-on fit",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "deodorant-vs-antiperspirant-for-men.html",
-      "title": "Deodorant vs Antiperspirant for Men: Sweat, Odor and Irritation",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose deodorant or antiperspirant by sweat control, odor control, skin tolerance and label directions",
+      "slug": "emergency-fund-system.html",
+      "title": "The Emergency Fund System: Build the Buffer Before You Need It",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Build an emergency fund from actual essential costs, cash-flow timing, account access and clear use rules",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "hotel-room-arrival-check.html",
-      "title": "The Hotel Room Arrival Check: Safety, Bedbugs, Sleep and Checkout",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Check a hotel room for reservation errors, fire exits, bed bug signs, security, sleep comfort and charges",
+      "slug": "office-chair-setup-guide.html",
+      "title": "Office Chair Setup Guide: Seat, Back, Arms, Desk and Movement",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Set up an office chair by seat height, depth, back support, arms, desk, screen, input devices and movement",
       "affiliateLinksExpected": 0
     }
   ]
