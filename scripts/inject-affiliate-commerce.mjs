@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  underwear: [
+    ["mens cotton boxer briefs", "Men's cotton boxer briefs", "Compare rise, inseam, pouch and seam layout, exact fiber percentages, waistband construction, care instructions and return restrictions."],
+    ["mens cotton briefs", "Men's cotton briefs", "Check the rise, seat coverage, leg opening, fly design, fiber label, care requirements and exact seller terms."],
+    ["mens woven boxers", "Men's woven boxers", "Compare rise, seat volume, side seams, fly construction, fabric label and the room available beneath your intended trousers."],
+  ],
   jeans: [
     ["mens straight fit jeans", "Men's straight-fit jeans", "Compare rise, seat, thigh, knee, hem opening, fiber percentages, care instructions and exact-garment measurements."],
     ["mens athletic fit jeans", "Men's athletic-fit jeans", "Look for documented room through the seat and thigh, then verify the actual taper, rise, stretch content and return terms."],
@@ -137,6 +142,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-underwear-buying-guide.html") return catalog.underwear;
+  if (normalized === "mens-foot-care-routine.html" || normalized === "how-to-give-a-toast.html") return null;
   if (normalized === "mens-jeans-fit-buying-guide.html") return catalog.jeans;
   if (normalized === "emergency-fund-system.html" || normalized === "office-chair-setup-guide.html") return null;
   if (normalized === "mens-belt-buying-guide.html") return catalog.belts;

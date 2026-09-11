@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10",
+  "generatedAt": "2026-09-11",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-jeans-fit-buying-guide.html",
-      "title": "Men’s Jeans Fit Guide: Rise, Seat, Thigh, Leg and Hem",
+      "slug": "mens-underwear-buying-guide.html",
+      "title": "Men’s Underwear Buying Guide: Briefs, Boxer Briefs, Trunks and Boxers",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Choose men's jeans by measured rise, seat, thigh, leg shape, hem, fabric and real try-on fit",
+      "searchIntent": "Choose men's underwear by format, rise, leg length, support, fiber label, seams, care and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "emergency-fund-system.html",
-      "title": "The Emergency Fund System: Build the Buffer Before You Need It",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Build an emergency fund from actual essential costs, cash-flow timing, account access and clear use rules",
+      "slug": "mens-foot-care-routine.html",
+      "title": "Men’s Foot Care Guide: Wash, Dry, Trim and Know the Warning Signs",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Build a daily men's foot-care routine for washing, drying, nail trimming, shoes, moisture and warning signs",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "office-chair-setup-guide.html",
-      "title": "Office Chair Setup Guide: Seat, Back, Arms, Desk and Movement",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "searchIntent": "Set up an office chair by seat height, depth, back support, arms, desk, screen, input devices and movement",
+      "slug": "how-to-give-a-toast.html",
+      "title": "How to Give a Toast Without Hijacking the Room",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Write and deliver a short wedding, dinner, retirement or celebration toast with structure, timing and good judgment",
       "affiliateLinksExpected": 0
     }
   ]
