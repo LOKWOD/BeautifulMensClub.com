@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  hairDryers: [
+    ["hair dryer adjustable heat speed cool shot concentrator", "Hair dryers with separate heat and speed controls", "Compare the electrical label, integral protective plug, airflow and heat controls, included concentrator, intake access, exact manual and return terms."],
+    ["compact hair dryer diffuser concentrator attachments", "Compact dryers with useful attachments", "Verify the exact-model diffuser and concentrator fit, weight, storage dimensions, voltage, cord, protective device and cleaning instructions."],
+    ["dual voltage travel hair dryer folding", "Dual-voltage travel hair dryers", "Confirm the voltage range on the exact electrical label and manual; a plug adapter alone does not convert voltage or make bathroom use safe."],
+  ],
   underwear: [
     ["mens cotton boxer briefs", "Men's cotton boxer briefs", "Compare rise, inseam, pouch and seam layout, exact fiber percentages, waistband construction, care instructions and return restrictions."],
     ["mens cotton briefs", "Men's cotton briefs", "Check the rise, seat coverage, leg opening, fly design, fiber label, care requirements and exact seller terms."],
@@ -142,6 +147,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-hair-dryer-buying-guide.html") return catalog.hairDryers;
+  if (normalized === "home-inventory-insurance-system.html" || normalized === "indoor-rowing-machine-setup-technique-guide.html") return null;
   if (normalized === "mens-underwear-buying-guide.html") return catalog.underwear;
   if (normalized === "mens-foot-care-routine.html" || normalized === "how-to-give-a-toast.html") return null;
   if (normalized === "mens-jeans-fit-buying-guide.html") return catalog.jeans;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11",
+  "generatedAt": "2026-09-12",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-underwear-buying-guide.html",
-      "title": "Men’s Underwear Buying Guide: Briefs, Boxer Briefs, Trunks and Boxers",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose men's underwear by format, rise, leg length, support, fiber label, seams, care and return terms",
+      "slug": "mens-hair-dryer-buying-guide.html",
+      "title": "Men’s Hair Dryer Buying Guide: Airflow, Heat, Attachments and Safety",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose a men's hair dryer by hair length, airflow, heat controls, attachments, electrical safety, travel compatibility and upkeep",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-foot-care-routine.html",
-      "title": "Men’s Foot Care Guide: Wash, Dry, Trim and Know the Warning Signs",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Build a daily men's foot-care routine for washing, drying, nail trimming, shoes, moisture and warning signs",
+      "slug": "home-inventory-insurance-system.html",
+      "title": "The Home Inventory System: Photograph It Before You Need to Prove It",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Create and maintain a room-by-room home inventory with photographs, receipts, serial numbers, secure backups and insurance review",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-give-a-toast.html",
-      "title": "How to Give a Toast Without Hijacking the Room",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Write and deliver a short wedding, dinner, retirement or celebration toast with structure, timing and good judgment",
+      "slug": "indoor-rowing-machine-setup-technique-guide.html",
+      "title": "Indoor Rowing Setup Guide: Footplates, Damper, Stroke and Stop Rules",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Set up an indoor rowing machine for foot position, monitor, damper, stroke sequence, beginner pacing, maintenance and safety",
       "affiliateLinksExpected": 0
     }
   ]
