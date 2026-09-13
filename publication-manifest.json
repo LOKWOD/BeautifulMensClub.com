@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12",
+  "generatedAt": "2026-09-13",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-hair-dryer-buying-guide.html",
-      "title": "Men’s Hair Dryer Buying Guide: Airflow, Heat, Attachments and Safety",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose a men's hair dryer by hair length, airflow, heat controls, attachments, electrical safety, travel compatibility and upkeep",
+      "slug": "mens-dress-shirt-buying-guide.html",
+      "title": "Men’s Dress Shirt Buying Guide: Collar, Shoulder, Sleeve and Fabric",
+      "category": "STYLE",
+      "department": "style.html",
+      "searchIntent": "Choose a men's dress shirt by collar, shoulder, chest, sleeve, length, fabric, construction, care and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-inventory-insurance-system.html",
-      "title": "The Home Inventory System: Photograph It Before You Need to Prove It",
+      "slug": "credit-freeze-guide.html",
+      "title": "The Credit Freeze Guide: Protect All Three Credit Files",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Create and maintain a room-by-room home inventory with photographs, receipts, serial numbers, secure backups and insurance review",
+      "searchIntent": "Freeze Equifax, Experian and TransUnion credit files, store confirmation records, manage temporary lifts and respond to identity theft",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "indoor-rowing-machine-setup-technique-guide.html",
-      "title": "Indoor Rowing Setup Guide: Footplates, Damper, Stroke and Stop Rules",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "searchIntent": "Set up an indoor rowing machine for foot position, monitor, damper, stroke sequence, beginner pacing, maintenance and safety",
+      "slug": "how-to-introduce-people.html",
+      "title": "How to Introduce People Without Making It Awkward",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Introduce two people at work, dinner or an event using correct names, useful context, respectful pronunciation and a clean exit",
       "affiliateLinksExpected": 0
     }
   ]

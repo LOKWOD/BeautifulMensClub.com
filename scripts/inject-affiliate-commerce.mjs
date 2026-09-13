@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  dressShirts: [
+    ["mens white dress shirt long sleeve", "Men's white dress shirts", "Compare the exact garment measurements, collar structure, opacity, fiber percentages, care instructions, seller and return terms."],
+    ["mens oxford cloth button down shirt", "Men's Oxford-cloth button-down shirts", "Check collar roll, fabric weight, garment measurements, intended tuck length, sewn-in care label and current seller details."],
+    ["mens non iron dress shirt", "Men's easy-care dress shirts", "Verify what the maker means by non-iron, then compare fiber content, finish disclosure, fit, care directions and return restrictions."],
+  ],
   hairDryers: [
     ["hair dryer adjustable heat speed cool shot concentrator", "Hair dryers with separate heat and speed controls", "Compare the electrical label, integral protective plug, airflow and heat controls, included concentrator, intake access, exact manual and return terms."],
     ["compact hair dryer diffuser concentrator attachments", "Compact dryers with useful attachments", "Verify the exact-model diffuser and concentrator fit, weight, storage dimensions, voltage, cord, protective device and cleaning instructions."],
@@ -147,6 +152,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-dress-shirt-buying-guide.html") return catalog.dressShirts;
+  if (normalized === "credit-freeze-guide.html" || normalized === "how-to-introduce-people.html") return null;
   if (normalized === "mens-hair-dryer-buying-guide.html") return catalog.hairDryers;
   if (normalized === "home-inventory-insurance-system.html" || normalized === "indoor-rowing-machine-setup-technique-guide.html") return null;
   if (normalized === "mens-underwear-buying-guide.html") return catalog.underwear;
