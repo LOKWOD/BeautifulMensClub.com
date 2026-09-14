@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  nailCare: [
+    ["stainless steel fingernail clipper sharp curved", "Fingernail clippers", "Compare jaw size, edge alignment, lever grip, protective storage, cleaning directions, exact seller and return terms."],
+    ["washable glass nail file fingernails case", "Washable fingernail files", "Check usable size, surface condition, edge finish, cleaning instructions and whether the protective case actually fits."],
+    ["soft bristle nail brush hand cleaning", "Soft nail brushes", "Choose a controllable brush that can dry fully; use it for ordinary surface cleaning rather than digging beneath painful or lifted nails."],
+  ],
   dressShirts: [
     ["mens white dress shirt long sleeve", "Men's white dress shirts", "Compare the exact garment measurements, collar structure, opacity, fiber percentages, care instructions, seller and return terms."],
     ["mens oxford cloth button down shirt", "Men's Oxford-cloth button-down shirts", "Check collar roll, fabric weight, garment measurements, intended tuck length, sewn-in care label and current seller details."],
@@ -152,6 +157,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-fingernail-care-guide.html") return catalog.nailCare;
+  if (normalized === "home-blood-pressure-monitor-guide.html" || normalized === "carbon-monoxide-alarm-plan.html") return null;
   if (normalized === "mens-dress-shirt-buying-guide.html") return catalog.dressShirts;
   if (normalized === "credit-freeze-guide.html" || normalized === "how-to-introduce-people.html") return null;
   if (normalized === "mens-hair-dryer-buying-guide.html") return catalog.hairDryers;

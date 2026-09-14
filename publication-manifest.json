@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13",
+  "generatedAt": "2026-09-14",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-dress-shirt-buying-guide.html",
-      "title": "Men’s Dress Shirt Buying Guide: Collar, Shoulder, Sleeve and Fabric",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose a men's dress shirt by collar, shoulder, chest, sleeve, length, fabric, construction, care and return terms",
+      "slug": "mens-fingernail-care-guide.html",
+      "title": "Men’s Fingernail Care Guide: Clippers, Files, Cuticles and Clean Tools",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose a simple men's fingernail kit and use clippers, files, brushes and moisturizer without damaging nails or cuticles",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "credit-freeze-guide.html",
-      "title": "The Credit Freeze Guide: Protect All Three Credit Files",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Freeze Equifax, Experian and TransUnion credit files, store confirmation records, manage temporary lifts and respond to identity theft",
+      "slug": "home-blood-pressure-monitor-guide.html",
+      "title": "Home Blood Pressure Monitor Guide: Validation, Cuff Fit and Better Readings",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Choose a validated upper-arm home blood pressure monitor, fit the cuff correctly and take readings your health care team can use",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-introduce-people.html",
-      "title": "How to Introduce People Without Making It Awkward",
+      "slug": "carbon-monoxide-alarm-plan.html",
+      "title": "The Carbon Monoxide Alarm Plan: Placement, Testing and Exit Rules",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Introduce two people at work, dinner or an event using correct names, useful context, respectful pronunciation and a clean exit",
+      "searchIntent": "Plan carbon monoxide alarm placement, testing, replacement and household response using current CPSC guidance",
       "affiliateLinksExpected": 0
     }
   ]
