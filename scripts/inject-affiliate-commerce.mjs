@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  chinos: [
+    ["mens straight fit chino pants", "Men's straight-fit chinos", "Compare the exact waist, rise, seat, thigh, knee, hem, inseam, fiber percentages, care label, seller and return terms."],
+    ["mens athletic fit chino pants", "Men's athletic-fit chinos", "Verify where the extra room is placed, then compare the actual taper, rise, stretch content, care directions and finished measurements."],
+    ["mens tapered chino pants", "Men's tapered chinos", "Check the upper-block measurements before judging the taper, and match the hem opening to the shoes and dress level you intend to wear."],
+  ],
   nailCare: [
     ["stainless steel fingernail clipper sharp curved", "Fingernail clippers", "Compare jaw size, edge alignment, lever grip, protective storage, cleaning directions, exact seller and return terms."],
     ["washable glass nail file fingernails case", "Washable fingernail files", "Check usable size, surface condition, edge finish, cleaning instructions and whether the protective case actually fits."],
@@ -157,6 +162,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-chino-buying-guide.html") return catalog.chinos;
+  if (normalized === "resistance-band-buying-safety-guide.html" || normalized === "home-wifi-security-checklist.html") return null;
   if (normalized === "mens-fingernail-care-guide.html") return catalog.nailCare;
   if (normalized === "home-blood-pressure-monitor-guide.html" || normalized === "carbon-monoxide-alarm-plan.html") return null;
   if (normalized === "mens-dress-shirt-buying-guide.html") return catalog.dressShirts;

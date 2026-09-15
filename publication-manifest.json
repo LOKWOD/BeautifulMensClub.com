@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-09-14",
+  "generatedAt": "2026-09-15",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts; no new or changed editorial or product imagery."
+    "note": "Intentional image-free layouts; no new or changed editorial, affiliate, or product imagery."
   },
   "pages": [
     {
-      "slug": "mens-fingernail-care-guide.html",
-      "title": "Men’s Fingernail Care Guide: Clippers, Files, Cuticles and Clean Tools",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose a simple men's fingernail kit and use clippers, files, brushes and moisturizer without damaging nails or cuticles",
+      "slug": "mens-chino-buying-guide.html",
+      "title": "Men’s Chino Buying Guide: Rise, Seat, Thigh, Break and Fabric",
+      "category": "STYLE",
+      "department": "style.html",
+      "searchIntent": "Buy men's chinos by rise, waist, seat, thigh, taper, hem, fabric, care label, alterations and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-blood-pressure-monitor-guide.html",
-      "title": "Home Blood Pressure Monitor Guide: Validation, Cuff Fit and Better Readings",
+      "slug": "resistance-band-buying-safety-guide.html",
+      "title": "Resistance Band Buying Guide: Types, Anchors, Progression and Safety",
       "category": "FITNESS",
       "department": "fitness.html",
-      "searchIntent": "Choose a validated upper-arm home blood pressure monitor, fit the cuff correctly and take readings your health care team can use",
+      "searchIntent": "Choose resistance bands by format, range, anchor system, exercise plan, inspection routine, progression and recall status",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "carbon-monoxide-alarm-plan.html",
-      "title": "The Carbon Monoxide Alarm Plan: Placement, Testing and Exit Rules",
+      "slug": "home-wifi-security-checklist.html",
+      "title": "Home Wi-Fi Security Checklist: Router, Passwords, Updates and Guest Networks",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Plan carbon monoxide alarm placement, testing, replacement and household response using current CPSC guidance",
+      "searchIntent": "Secure a home Wi-Fi router with current encryption, unique admin credentials, firmware updates, guest networks and a documented recovery plan",
       "affiliateLinksExpected": 0
     }
   ]
