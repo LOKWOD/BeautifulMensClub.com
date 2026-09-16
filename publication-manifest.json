@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-16",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-chino-buying-guide.html",
-      "title": "Men’s Chino Buying Guide: Rise, Seat, Thigh, Break and Fabric",
+      "slug": "mens-winter-boot-buying-guide.html",
+      "title": "Men’s Winter Boot Buying Guide: Fit, Warmth, Waterproofing and Traction",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Buy men's chinos by rise, waist, seat, thigh, taper, hem, fabric, care label, alterations and return terms",
+      "searchIntent": "Buy men's winter boots by fit, insulation, water resistance, outsole, height, use case, care and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "resistance-band-buying-safety-guide.html",
-      "title": "Resistance Band Buying Guide: Types, Anchors, Progression and Safety",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "searchIntent": "Choose resistance bands by format, range, anchor system, exercise plan, inspection routine, progression and recall status",
+      "slug": "home-fire-escape-plan.html",
+      "title": "The Home Fire Escape Plan: Rooms, Routes, Drills and Meeting Place",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Create and practice a home fire escape plan with two exits, smoke alarms, household roles, accessibility needs and an outside meeting place",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "home-wifi-security-checklist.html",
-      "title": "Home Wi-Fi Security Checklist: Router, Passwords, Updates and Guest Networks",
+      "slug": "good-houseguest-checklist.html",
+      "title": "The Good Houseguest Checklist: Arrival, Bathroom, Sleep and Departure",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Secure a home Wi-Fi router with current encryption, unique admin credentials, firmware updates, guest networks and a documented recovery plan",
+      "searchIntent": "Be a good overnight houseguest by confirming plans, packing essentials, respecting routines, helping appropriately and leaving cleanly",
       "affiliateLinksExpected": 0
     }
   ]

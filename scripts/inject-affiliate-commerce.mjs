@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  winterBoots: [
+    ["mens waterproof leather winter boots", "Men's waterproof leather winter boots", "Verify exact-model fit, membrane or seam construction, insulation placement, outsole claims, care directions, seller and return terms."],
+    ["mens insulated snow boots", "Men's insulated snow boots", "Compare sock-and-footbed fit, shaft height, liner design, weight, drying instructions and the limits of any temperature claim."],
+    ["mens waterproof winter hiking boots", "Men's waterproof winter hiking boots", "Check last shape, heel control, usable tread, water-resistance disclosure, intended terrain, current seller and return window."],
+  ],
   chinos: [
     ["mens straight fit chino pants", "Men's straight-fit chinos", "Compare the exact waist, rise, seat, thigh, knee, hem, inseam, fiber percentages, care label, seller and return terms."],
     ["mens athletic fit chino pants", "Men's athletic-fit chinos", "Verify where the extra room is placed, then compare the actual taper, rise, stretch content, care directions and finished measurements."],
@@ -162,6 +167,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-winter-boot-buying-guide.html") return catalog.winterBoots;
+  if (normalized === "home-fire-escape-plan.html" || normalized === "good-houseguest-checklist.html") return null;
   if (normalized === "mens-chino-buying-guide.html") return catalog.chinos;
   if (normalized === "resistance-band-buying-safety-guide.html" || normalized === "home-wifi-security-checklist.html") return null;
   if (normalized === "mens-fingernail-care-guide.html") return catalog.nailCare;
