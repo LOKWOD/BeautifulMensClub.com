@@ -1,6 +1,31 @@
-import { readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
-import { dailyBatch } from "./daily-pages-2026-09-16.mjs";
+import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+const scriptDir = dirname(fileURLToPath(import.meta.url));
+const parts = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/New_York",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+}).formatToParts(new Date());
+const today = [
+  parts.find((part) => part.type === "year").value,
+  parts.find((part) => part.type === "month").value,
+  parts.find((part) => part.type === "day").value,
+].join("-");
+const requestedDate = process.env.BMC_DAILY_DATE || today;
+const batchFiles = readdirSync(scriptDir)
+  .filter((name) => /^daily-pages-\d{4}-\d{2}-\d{2}\.mjs$/.test(name))
+  .sort();
+const exactBatch = `daily-pages-${requestedDate}.mjs`;
+const eligible = batchFiles.filter((name) => name <= exactBatch);
+const batchFile = batchFiles.includes(exactBatch) ? exactBatch : eligible.at(-1);
+if (!batchFile) throw new Error(`No Beautiful Men's Club daily batch is available for ${requestedDate}.`);
+const { dailyBatch } = await import(`./${batchFile}`);
+if (!dailyBatch?.date || batchFile !== `daily-pages-${dailyBatch.date}.mjs`) {
+  throw new Error(`Daily batch filename/date mismatch: ${batchFile} vs ${dailyBatch?.date || "missing date"}.`);
+}
+console.log(`Using Beautiful Men's Club daily batch ${batchFile} for requested date ${requestedDate}.`);
 
 const root = process.cwd();
 const siteUrl = "https://beautifulmensclub.com";
