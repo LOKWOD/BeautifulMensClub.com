@@ -8,6 +8,16 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  layering: [
+    ["mens merino wool base layer long sleeve", "Merino-wool base layers", "Compare exact fiber percentages, garment measurements, care instructions and the weight that fits your actual activity level."],
+    ["mens lightweight fleece jacket midlayer", "Lightweight fleece midlayers", "Choose enough warmth for the job without crowding the shoulders and sleeves of the outer layer."],
+    ["mens waterproof breathable rain shell jacket", "Waterproof rain shells", "Verify the exact model's weather claim, seam construction, hood controls, layer room, care instructions and return terms."],
+  ],
+  safetyRazor: [
+    ["double edge safety razor men closed comb", "Double-edge safety razors", "Compare head geometry, blade alignment, handle grip, loading instructions, materials and replacement-blade compatibility."],
+    ["double edge razor blade sampler pack", "Double-edge blade samplers", "Use a small sampler to compare compatible blades without committing to a bulk pack before you know what suits the razor and your skin."],
+    ["sensitive skin shaving cream fragrance free", "Shaving creams for a lubricated shave", "Choose a formula your skin tolerates and use enough water and lubrication to reduce needless scraping and repeated passes."],
+  ],
   winterBoots: [
     ["mens waterproof leather winter boots", "Men's waterproof leather winter boots", "Verify exact-model fit, membrane or seam construction, insulation placement, outsole claims, care directions, seller and return terms."],
     ["mens insulated snow boots", "Men's insulated snow boots", "Compare sock-and-footbed fit, shaft height, liner design, weight, drying instructions and the limits of any temperature claim."],
@@ -167,6 +177,9 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-fall-layering-guide.html") return catalog.layering;
+  if (normalized === "safety-razor-buying-guide.html") return catalog.safetyRazor;
+  if (normalized === "home-emergency-kit-rotation-checklist.html") return null;
   if (normalized === "mens-winter-boot-buying-guide.html") return catalog.winterBoots;
   if (normalized === "home-fire-escape-plan.html" || normalized === "good-houseguest-checklist.html") return null;
   if (normalized === "mens-chino-buying-guide.html") return catalog.chinos;
