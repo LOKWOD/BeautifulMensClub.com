@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16",
+  "generatedAt": "2026-09-18",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-winter-boot-buying-guide.html",
-      "title": "Men’s Winter Boot Buying Guide: Fit, Warmth, Waterproofing and Traction",
+      "slug": "mens-fall-layering-guide.html",
+      "title": "Men’s Fall Layering Guide: Base, Mid and Outer Layers Without Bulk",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Buy men's winter boots by fit, insulation, water resistance, outsole, height, use case, care and return terms",
+      "searchIntent": "Build a men's fall layering system with base layers, midlayers and weather shells without unnecessary bulk",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-fire-escape-plan.html",
-      "title": "The Home Fire Escape Plan: Rooms, Routes, Drills and Meeting Place",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Create and practice a home fire escape plan with two exits, smoke alarms, household roles, accessibility needs and an outside meeting place",
-      "affiliateLinksExpected": 0
+      "slug": "safety-razor-buying-guide.html",
+      "title": "Safety Razor Buying Guide: Handle, Head, Blades and a Better Shave Setup",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose a double-edge safety razor by handle, head geometry, blade compatibility, grip, maintenance and shaving routine",
+      "affiliateLinksExpected": 3
     },
     {
-      "slug": "good-houseguest-checklist.html",
-      "title": "The Good Houseguest Checklist: Arrival, Bathroom, Sleep and Departure",
+      "slug": "home-emergency-kit-rotation-checklist.html",
+      "title": "Home Emergency Kit Rotation Checklist: Water, Food, Power and Documents",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Be a good overnight houseguest by confirming plans, packing essentials, respecting routines, helping appropriately and leaving cleanly",
+      "searchIntent": "Build and maintain a home emergency kit with water, food, light, communication, medications, documents and a rotation schedule",
       "affiliateLinksExpected": 0
     }
   ]

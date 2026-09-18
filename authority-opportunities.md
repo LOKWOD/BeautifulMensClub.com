@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-18 — Home emergency kit rotation checklist
+
+- **FEMA Ready Campaign contact and public education team** — https://www.ready.gov/contact-us — Asset match: the checklist turns Ready.gov supply categories into a repeatable quarterly and twice-yearly household rotation audit. Honest angle: offer it as an independent implementation example that prominently credits and links to the federal checklists; invite factual corrections, without implying endorsement. Contact route: the official Ready.gov contact page. No outreach sent.
+- **Community Emergency Response Team programs** — https://community.fema.gov/PreparednessCommunity/s/welcome-to-cert — Asset match: local CERT educators may find the water, food, power, documents and household-needs audit useful as a free follow-through resource after preparedness training. Honest angle: share only with a relevant local program and ask whether the checklist is accurate and useful enough for participants. Contact route: the official FEMA CERT program directory and the local program's published coordinator. No outreach sent.
+- **State and local emergency-management public-information teams** — https://www.ready.gov/community-preparedness-toolkit — Asset match: the guide gives residents a concrete maintenance system after they build a supply kit, including accessibility, medication and pet prompts. Honest angle: invite a local agency to review or cite the checklist only if it complements that agency's own hazard-specific guidance. Contact route: the agency's published preparedness or public-information contact. No outreach sent.
+
 ## 2026-09-16 — Home fire escape plan
 
 - **U.S. Fire Administration outreach materials** — https://www.usfa.fema.gov/prevention/outreach/ — Asset match: the room-by-room fire escape plan translates USFA guidance into a household worksheet and drill audit. Honest angle: share as an independent implementation example that links readers back to USFA source material. Contact route: USFA website contact and outreach channels. No outreach sent.
