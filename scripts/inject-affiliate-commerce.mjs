@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  dressSocks: [
+    ["mens over the calf dress socks", "Over-the-calf dress socks", "Compare the maker's size chart, height, full fiber percentages, toe construction, care label and exact seller terms."],
+    ["mens crew socks lightweight", "Lightweight everyday crew socks", "Match thickness to the shoe volume, then check heel placement, cuff comfort, seam construction, laundering and return restrictions."],
+    ["mens wool boot socks lightweight", "Lightweight wool-blend boot socks", "Verify the exact fiber blend, cushion zones, height, shoe fit, care directions and the conditions the manufacturer actually claims."],
+  ],
   layering: [
     ["mens merino wool base layer long sleeve", "Merino-wool base layers", "Compare exact fiber percentages, garment measurements, care instructions and the weight that fits your actual activity level."],
     ["mens lightweight fleece jacket midlayer", "Lightweight fleece midlayers", "Choose enough warmth for the job without crowding the shoulders and sleeves of the outer layer."],
@@ -177,6 +182,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-socks-buying-guide.html") return catalog.dressSocks;
+  if (normalized === "home-radon-test-guide.html" || normalized === "funeral-wake-etiquette-guide.html") return null;
   if (normalized === "mens-fall-layering-guide.html") return catalog.layering;
   if (normalized === "safety-razor-buying-guide.html") return catalog.safetyRazor;
   if (normalized === "home-emergency-kit-rotation-checklist.html") return null;

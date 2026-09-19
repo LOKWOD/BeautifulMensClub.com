@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-19 — Home radon test record and decision guide
+
+- **EPA Indoor Environments Division radon program** — https://www.epa.gov/radon/forms/contact-us-about-radon — Asset match: the guide keeps device identity, placement, closed-house conditions, weather, laboratory result and follow-up in one auditable consumer record while linking directly to EPA protocols. Honest angle: offer it as an independent implementation aid and invite factual corrections; never imply EPA endorsement. Contact route: EPA's official radon contact form. No outreach sent.
+- **State radon program coordinators** — https://www.epa.gov/radon/find-information-about-local-radon-zones-and-state-contact-information — Asset match: state programs that distribute kits or maintain credential lists may find the room-selection and result-record worksheet useful for residents. Honest angle: ask one relevant state coordinator whether the checklist accurately reinforces that state's current instructions and is suitable to cite. Contact route: EPA's official state and tribal radon contact directory. No outreach sent.
+- **National Radon Program Services at Kansas State University** — https://sosradon.org/contact — Asset match: the guide sends readers to approved instructions, laboratories and qualified follow-up rather than ranking unverified consumer monitors. Honest angle: invite review of the neutral test-record framework as a companion to the program's kit and hotline resources. Contact route: the program's published contact page. No outreach sent.
+
 ## 2026-09-18 — Home emergency kit rotation checklist
 
 - **FEMA Ready Campaign contact and public education team** — https://www.ready.gov/contact-us — Asset match: the checklist turns Ready.gov supply categories into a repeatable quarterly and twice-yearly household rotation audit. Honest angle: offer it as an independent implementation example that prominently credits and links to the federal checklists; invite factual corrections, without implying endorsement. Contact route: the official Ready.gov contact page. No outreach sent.

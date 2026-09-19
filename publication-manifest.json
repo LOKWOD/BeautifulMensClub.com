@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18",
+  "generatedAt": "2026-09-19",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-fall-layering-guide.html",
-      "title": "Men’s Fall Layering Guide: Base, Mid and Outer Layers Without Bulk",
+      "slug": "mens-socks-buying-guide.html",
+      "title": "Men’s Socks Buying Guide: Height, Fit, Cushion, Fibers and Shoes",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Build a men's fall layering system with base layers, midlayers and weather shells without unnecessary bulk",
+      "searchIntent": "Choose men's socks by shoe, occasion, height, fit, cushion, fiber label, construction and care",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "safety-razor-buying-guide.html",
-      "title": "Safety Razor Buying Guide: Handle, Head, Blades and a Better Shave Setup",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose a double-edge safety razor by handle, head geometry, blade compatibility, grip, maintenance and shaving routine",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "home-emergency-kit-rotation-checklist.html",
-      "title": "Home Emergency Kit Rotation Checklist: Water, Food, Power and Documents",
+      "slug": "home-radon-test-guide.html",
+      "title": "Home Radon Test Guide: Device, Placement, Timing and Next Steps",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Build and maintain a home emergency kit with water, food, light, communication, medications, documents and a rotation schedule",
+      "searchIntent": "Test a home for radon with correct device placement, timing, records, result interpretation and qualified follow-up",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "funeral-wake-etiquette-guide.html",
+      "title": "Funeral and Wake Etiquette: What to Wear, Say, Bring and Do",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Attend a funeral, memorial service or wake with appropriate clothes, words, timing, gifts, phone behavior and follow-up",
       "affiliateLinksExpected": 0
     }
   ]
