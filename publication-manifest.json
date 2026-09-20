@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19",
+  "generatedAt": "2026-09-20",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-socks-buying-guide.html",
-      "title": "Men’s Socks Buying Guide: Height, Fit, Cushion, Fibers and Shoes",
+      "slug": "mens-wallet-buying-guide.html",
+      "title": "Men’s Wallet Buying Guide: Carry, Layout, Materials and RFID Claims",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Choose men's socks by shoe, occasion, height, fit, cushion, fiber label, construction and care",
+      "searchIntent": "Choose a men's wallet by carry position, card and cash layout, filled dimensions, materials, construction, RFID claims and returns",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-radon-test-guide.html",
-      "title": "Home Radon Test Guide: Device, Placement, Timing and Next Steps",
+      "slug": "home-water-shutoff-leak-plan.html",
+      "title": "The Home Water Shutoff Plan: Main Valve, Fixtures, Meter and Leak Response",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Test a home for radon with correct device placement, timing, records, result interpretation and qualified follow-up",
+      "searchIntent": "Find and document a home's water main and fixture shutoffs, read the meter, prepare for leaks and record the response",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "funeral-wake-etiquette-guide.html",
-      "title": "Funeral and Wake Etiquette: What to Wear, Say, Bring and Do",
+      "slug": "how-to-apologize-and-repair.html",
+      "title": "How to Apologize Without Making It About You",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Attend a funeral, memorial service or wake with appropriate clothes, words, timing, gifts, phone behavior and follow-up",
+      "searchIntent": "Give a clear apology that names the action and impact, accepts responsibility, offers repair and respects the other person's response",
       "affiliateLinksExpected": 0
     }
   ]

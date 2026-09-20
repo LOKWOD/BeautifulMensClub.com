@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-20 — Home water shutoff map and leak-response record
+
+- **EPA WaterSense outreach and partner team** — https://www.epa.gov/watersense/forms/contact-us-about-watersense — Asset match: the guide turns WaterSense meter and leak-detection guidance into a maintained household shutoff map, no-use test record and incident log. Honest angle: offer it as an independent implementation aid that links to EPA sources and invite factual corrections; never imply EPA endorsement. Contact route: the official WaterSense contact form. No outreach sent.
+- **Local water-utility conservation and public-information teams** — https://www.epa.gov/watersense/watersense-partners — Asset match: utilities teaching leak detection can pair their jurisdiction-specific valve and meter rules with the guide's neutral documentation template. Honest angle: ask one relevant utility whether the worksheet accurately reinforces its customer guidance and is useful enough to cite. Contact route: WaterSense partner listings and the selected utility's published public-information contact. No outreach sent.
+- **Insurance Institute for Business & Home Safety** — https://ibhs.org/contact/ — Asset match: the guide gives homeowners a safe, documented sequence for locating controls, recording a leak and updating the plan after damage. Honest angle: invite review of the operational checklist as a free consumer companion to IBHS water-damage prevention research, without requesting endorsement. Contact route: the organization's published contact page. No outreach sent.
+
 ## 2026-09-19 — Home radon test record and decision guide
 
 - **EPA Indoor Environments Division radon program** — https://www.epa.gov/radon/forms/contact-us-about-radon — Asset match: the guide keeps device identity, placement, closed-house conditions, weather, laboratory result and follow-up in one auditable consumer record while linking directly to EPA protocols. Honest angle: offer it as an independent implementation aid and invite factual corrections; never imply EPA endorsement. Contact route: EPA's official radon contact form. No outreach sent.
