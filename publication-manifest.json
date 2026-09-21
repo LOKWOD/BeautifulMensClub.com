@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20",
+  "generatedAt": "2026-09-21",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-wallet-buying-guide.html",
-      "title": "Men’s Wallet Buying Guide: Carry, Layout, Materials and RFID Claims",
+      "slug": "mens-umbrella-buying-guide.html",
+      "title": "Men’s Umbrella Buying Guide: Canopy, Frame, Handle and Carry",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Choose a men's wallet by carry position, card and cash layout, filled dimensions, materials, construction, RFID claims and returns",
+      "searchIntent": "Choose a men's umbrella by route, closed length, canopy coverage, frame, opening mechanism, handle, repairability and returns",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-water-shutoff-leak-plan.html",
-      "title": "The Home Water Shutoff Plan: Main Valve, Fixtures, Meter and Leak Response",
+      "slug": "hearing-protection-earplugs-earmuffs-guide.html",
+      "title": "Hearing Protection Guide: NRR, Earplugs, Earmuffs and Fit",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Find and document a home's water main and fixture shutoffs, read the meter, prepare for leaks and record the response",
+      "searchIntent": "Choose and document hearing protection by measured noise, NRR label, fit, compatibility, communication needs and replacement",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-apologize-and-repair.html",
-      "title": "How to Apologize Without Making It About You",
+      "slug": "how-to-decline-an-invitation.html",
+      "title": "How to Decline an Invitation Clearly and Kindly",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Give a clear apology that names the action and impact, accepts responsibility, offers repair and respects the other person's response",
+      "searchIntent": "Decline a social, wedding, work or recurring invitation promptly, clearly and kindly without invented excuses or accidental maybe language",
       "affiliateLinksExpected": 0
     }
   ]

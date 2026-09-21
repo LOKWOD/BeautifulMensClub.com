@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-21 — Hearing-protection selection and fit record
+
+- **NIOSH Hearing Loss Prevention Program** — https://www.cdc.gov/niosh/noise/contact/index.html — Asset match: the guide turns NIOSH selection, compatibility, overprotection and fit-testing guidance into a neutral one-page task and device record. Honest angle: offer it as an independent implementation aid that links prominently to NIOSH and invite factual corrections; never imply CDC or NIOSH endorsement. Contact route: the official program contact page. No outreach sent.
+- **National Hearing Conservation Association** — https://www.hearingconservation.org/contact — Asset match: the worksheet prompts exact-model labeling, Personal Attenuation Rating status, other-PPE compatibility and review triggers rather than recommending unverified products. Honest angle: ask whether the consumer-facing record accurately reinforces professional hearing-conservation practice and is useful enough to cite. Contact route: the association's published contact page. No outreach sent.
+- **Dangerous Decibels public-education program** — https://dangerousdecibels.org/contact/ — Asset match: the guide gives households and educators a practical follow-through tool for translating noise awareness into source control, fit checks and referral. Honest angle: invite review as a free adult implementation companion, without seeking endorsement or a traded link. Contact route: the program's published contact page. No outreach sent.
+
 ## 2026-09-20 — Home water shutoff map and leak-response record
 
 - **EPA WaterSense outreach and partner team** — https://www.epa.gov/watersense/forms/contact-us-about-watersense — Asset match: the guide turns WaterSense meter and leak-detection guidance into a maintained household shutoff map, no-use test record and incident log. Honest angle: offer it as an independent implementation aid that links to EPA sources and invite factual corrections; never imply EPA endorsement. Contact route: the official WaterSense contact form. No outreach sent.
