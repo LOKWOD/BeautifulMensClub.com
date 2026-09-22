@@ -170,7 +170,7 @@ export const dailyBatch = {
       related: [
         ["The Two-Account Bill System", "two-account-bill-system.html"],
         ["Build a Home Emergency Document File", "home-emergency-document-file.html"],
-        ["The Home Power-Outage Plan", "home-power-outage-plan.html"]
+        ["How to Ask for a Raise", "how-to-ask-for-a-raise.html"]
       ],
       sources: [
         ["Consumer Financial Protection Bureau — Building an Emergency Fund", "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/", "Federal consumer guidance on defining, sizing, building, automating and using emergency savings."],

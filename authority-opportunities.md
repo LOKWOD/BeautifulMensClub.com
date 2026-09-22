@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-22 — Home ladder task, selection and pre-climb record
+
+- **NIOSH Division of Safety Research / ladder-safety team** — https://www.cdc.gov/niosh/contact/index.html — Asset match: the guide translates NIOSH ladder-selection, angle, inspection and use resources into a neutral household task sheet while clearly distinguishing workplace requirements. Honest angle: offer it as an independent implementation aid that links to NIOSH and invite factual corrections; never imply CDC or NIOSH endorsement. Contact route: the official NIOSH question and program-contact page. No outreach sent.
+- **National Ladder Safety Month / American Ladder Institute** — https://www.laddersafetymonth.com/safety-resources/ — Asset match: the pre-climb stop card reinforces the campaign's right-ladder, inspection, top-cap and climbing themes without recommending a brand. Honest angle: ask whether the free household worksheet accurately complements the campaign's education resources and is useful enough to cite. Contact route: the campaign's published Contact Us link from its safety-resources page. No outreach sent.
+- **U.S. Consumer Product Safety Commission consumer education team** — https://www.cpsc.gov/About-CPSC/Contact-Information — Asset match: the exact-model record and recall gate show readers how to act on CPSC notices without overgeneralizing one recalled product to an entire category. Honest angle: invite factual review of the recall-check workflow as an independent consumer companion; do not seek endorsement. Contact route: CPSC's official contact form and consumer-information page. No outreach sent.
+
 ## 2026-09-21 — Hearing-protection selection and fit record
 
 - **NIOSH Hearing Loss Prevention Program** — https://www.cdc.gov/niosh/noise/contact/index.html — Asset match: the guide turns NIOSH selection, compatibility, overprotection and fit-testing guidance into a neutral one-page task and device record. Honest angle: offer it as an independent implementation aid that links prominently to NIOSH and invite factual corrections; never imply CDC or NIOSH endorsement. Contact route: the official program contact page. No outreach sent.

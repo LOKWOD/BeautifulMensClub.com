@@ -75,7 +75,7 @@ export const dailyBatch = {
         ["Do I need an RFID-blocking wallet?", "Treat shielding as an optional, exact-model feature. Ask what was tested and remember that it can interfere with credentials you want to tap; account controls and alerts remain essential."],
         ["How many cards should a wallet hold?", "Only the daily and genuinely useful backup cards, plus a small margin. Overfilling adds bulk and strains slots; spare capacity tends to become permanent clutter."]
       ],
-      related: [["Men’s Belt Buying Guide", "mens-belt-buying-guide.html"], ["The Credit Freeze Guide", "credit-freeze-guide.html"], ["Home Emergency Document File", "home-emergency-document-file.html"]],
+      related: [["Men’s Belt Buying Guide", "mens-belt-buying-guide.html"], ["The Credit Freeze Guide", "credit-freeze-guide.html"], ["Men’s Watch Buying Guide", "mens-watch-buying-guide.html"]],
       sources: [
         ["eCFR — 16 CFR Part 24: Leather Guides", "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-24", "Current federal guidance covering deceptive claims about leather, simulated leather, backing, composition and durability for products including wallets and card cases."],
         ["NIST SP 800-98 — Guidelines for Securing RFID Systems", "https://csrc.nist.gov/pubs/sp/800/98/final", "Technical background showing that RFID spans different applications, standards and system components; it does not validate any wallet's marketing claim."],

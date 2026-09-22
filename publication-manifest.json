@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21",
+  "generatedAt": "2026-09-22",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-umbrella-buying-guide.html",
-      "title": "Men’s Umbrella Buying Guide: Canopy, Frame, Handle and Carry",
+      "slug": "mens-watch-buying-guide.html",
+      "title": "Men’s Watch Buying Guide: Fit, Movement, Water Resistance and Service",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Choose a men's umbrella by route, closed length, canopy coverage, frame, opening mechanism, handle, repairability and returns",
+      "searchIntent": "Choose a men's watch by wrist fit, lug-to-lug length, thickness, movement, water-resistance instructions, strap compatibility, warranty and service",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "hearing-protection-earplugs-earmuffs-guide.html",
-      "title": "Hearing Protection Guide: NRR, Earplugs, Earmuffs and Fit",
+      "slug": "how-to-ask-for-a-raise.html",
+      "title": "How to Ask for a Raise: Evidence, Timing, Number and Follow-Up",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Choose and document hearing protection by measured noise, NRR label, fit, compatibility, communication needs and replacement",
+      "searchIntent": "Prepare and make a salary raise request using role evidence, reliable market context, a specific number, a meeting script and documented follow-up",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-decline-an-invitation.html",
-      "title": "How to Decline an Invitation Clearly and Kindly",
+      "slug": "home-ladder-buying-safety-guide.html",
+      "title": "Home Ladder Guide: Type, Height, Duty Rating, Setup and Inspection",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Decline a social, wedding, work or recurring invitation promptly, clearly and kindly without invented excuses or accidental maybe language",
+      "searchIntent": "Choose and use a household ladder by task, ladder type, reach, duty rating, surface, electrical hazards, inspection and recall status",
       "affiliateLinksExpected": 0
     }
   ]

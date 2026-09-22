@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  watches: [
+    ["mens quartz watch", "Men's quartz watches", "Compare case width, lug-to-lug length, thickness, strap range, exact movement instructions, warranty and seller terms."],
+    ["mens solar watch", "Men's solar-powered watches", "Verify the exact charging guidance, case dimensions, water-resistance instructions, service support and authorized seller."],
+    ["mens automatic watch", "Men's mechanical watches", "Compare fit, caliber, stated accuracy range, power reserve, service route, water-resistance instructions and return terms."],
+  ],
   umbrellas: [
     ["compact travel umbrella automatic", "Compact commuter umbrellas", "Compare closed length, weight, opening sequence, handle control and exact wind-test evidence."],
     ["mens stick umbrella automatic", "Full-length walking umbrellas", "Compare canopy measurement, shaft length, grip, tips, frame joints and repair support."],
@@ -192,6 +197,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-watch-buying-guide.html") return catalog.watches;
+  if (normalized === "home-ladder-buying-safety-guide.html" || normalized === "how-to-ask-for-a-raise.html") return null;
   if (normalized === "mens-umbrella-buying-guide.html") return catalog.umbrellas;
   if (normalized === "hearing-protection-earplugs-earmuffs-guide.html" || normalized === "how-to-decline-an-invitation.html") return null;
   if (normalized === "mens-wallet-buying-guide.html") return catalog.wallets;

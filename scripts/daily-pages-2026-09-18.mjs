@@ -187,7 +187,7 @@ export const dailyBatch = {
         ["Should I buy a premade emergency kit?", "A premade kit can be a starting container, but inspect every item and customize it. Household medications, food needs, documents, chargers, pet supplies and local hazards cannot be assumed."],
         ["Where should I store emergency supplies?", "Use an accessible, dry location household members know. Consider dividing critical supplies so one blocked room or damaged area does not make everything unreachable."]
       ],
-      related: [["The Home Power-Outage Plan", "home-power-outage-plan.html"], ["The Home Emergency Document File", "home-emergency-document-file.html"], ["The Home Fire Escape Plan", "home-fire-escape-plan.html"]],
+      related: [["The Home Power-Outage Plan", "home-power-outage-plan.html"], ["Home Ladder Buying & Safety Guide", "home-ladder-buying-safety-guide.html"], ["The Home Fire Escape Plan", "home-fire-escape-plan.html"]],
       sources: [
         ["Ready.gov — Basic Emergency Supply Kit Checklist", "https://www.ready.gov/sites/default/files/documents/files/checklist3.pdf", "FEMA Ready Campaign checklist covering water, food, radio, lighting, first aid, sanitation, tools and local maps."],
         ["Ready.gov — Emergency Supply Kit Checklist", "https://www.ready.gov/sites/default/files/2024-05/ready_supply-kit-checklist.pdf", "Current Ready.gov checklist emphasizing several days of supplies, chargers, NOAA-capable radio and household customization."],
