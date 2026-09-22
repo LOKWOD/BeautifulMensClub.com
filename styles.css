@@ -22,3 +22,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.js .reveal{opacity:1;transform:none}.ticker div{animation:none}}
 @media print{.grain,.reading-progress,.site-header,.announcement,.subnav,.back-to-top,.join,.site-footer,.hero-art,.page-cover{display:none!important}body{background:#fff;color:#111}.section,.hero,.page-hero{padding:30px 0;max-width:100%}p,li{color:#333!important}a{color:#111!important;text-decoration:underline}.two-col{gap:35px}.card,.inventory-grid>div,.editorial-block{background:#fff!important}}
 @media print{.skip-link{display:none!important}}
+
+.club-masthead{max-width:var(--max);margin:0 auto;padding:34px 30px 0;display:flex;justify-content:center}.club-masthead img{display:block;width:min(100%,1100px);height:auto;object-fit:contain}.club-masthead+.hero{min-height:620px;padding-top:35px}@media(max-width:700px){.club-masthead{padding:25px 16px 0}.club-masthead img{width:100%}.club-masthead+.hero{padding-top:22px}}
