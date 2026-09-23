@@ -57,3 +57,15 @@
 
 /* Keep only the bronze wordmark on the homepage. */
 .club-logo-art{aspect-ratio:4.15/1}
+
+/* Editorial hero: the wordmark belongs with the opening story, not in a separate billboard. */
+.home-page .hero{min-height:680px;padding-top:48px;padding-bottom:70px;gap:58px;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr)}
+.home-page .hero h1{font-size:clamp(3.5rem,5.3vw,6rem);margin-top:17px;margin-bottom:22px}
+.home-page .hero .lede{font-size:1.07rem}
+.home-page .hero .hero-actions{margin-top:29px}
+.home-page .hero .hero-proof{margin-top:34px}
+.home-page .club-masthead{display:block;width:min(100%,610px);padding:0;margin:0 0 24px;text-decoration:none}
+.home-page .club-logo-art{display:block;width:100%;aspect-ratio:2172/650;overflow:hidden}
+.home-page .club-logo-art img{display:block;width:100%;height:auto;margin-top:-17px;filter:brightness(1.2) contrast(1.04)}
+@media(max-width:900px){.home-page .hero{grid-template-columns:1fr;min-height:auto;gap:52px;padding-top:34px}.home-page .club-masthead{width:min(100%,600px);margin-bottom:20px}.home-page .hero h1{font-size:clamp(3.2rem,9vw,5.3rem)}}
+@media(max-width:560px){.home-page .hero{padding-top:26px}.home-page .club-logo-art img{margin-top:-8px}.home-page .hero h1{font-size:clamp(3rem,12vw,4.4rem)}}
