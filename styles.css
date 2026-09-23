@@ -36,3 +36,10 @@
 .brand span{flex:none;width:58px;height:54px;border:0;border-radius:0;box-shadow:none;background-image:url('bmc-logo.png');background-repeat:no-repeat;background-size:220px auto;background-position:center -4px;font-size:0;overflow:hidden}
 .brand b{font-family:var(--serif);font-size:1.06rem;font-weight:600;letter-spacing:.025em;color:#dfc48d;text-transform:none}
 @media(max-width:560px){.brand span{width:43px;height:40px;background-size:165px auto;background-position:center -3px}.brand b{font-size:.82rem;line-height:1.05;max-width:150px}.home-page .site-header .brand span{display:block}}
+
+/* Interior pages use only the BMC monogram; crop before the name line. */
+.site-header .brand b,.site-footer .brand b{display:none}
+.site-header .brand span,.site-footer .brand span{width:58px;height:43px;background-position:center -2px}
+@media(max-width:560px){.site-header .brand span,.site-footer .brand span{width:43px;height:32px;background-size:165px auto;background-position:center -2px}.home-page .site-header .brand b{display:none}}
+.site-header .brand span,.site-footer .brand span{width:58px;height:42px;background-size:200px auto;background-position:center 0}
+@media(max-width:560px){.site-header .brand span,.site-footer .brand span{width:43px;height:32px;background-size:150px auto;background-position:center 0}}
