@@ -43,3 +43,6 @@
 @media(max-width:560px){.site-header .brand span,.site-footer .brand span{width:43px;height:32px;background-size:165px auto;background-position:center -2px}.home-page .site-header .brand b{display:none}}
 .site-header .brand span,.site-footer .brand span{width:58px;height:42px;background-size:200px auto;background-position:center 0}
 @media(max-width:560px){.site-header .brand span,.site-footer .brand span{width:43px;height:32px;background-size:150px auto;background-position:center 0}}
+/* Give the monogram more presence while preserving the clean crop. */
+.site-header .brand span,.site-footer .brand span{width:76px;height:54px;background-size:260px auto;background-position:center 0}
+@media(max-width:560px){.site-header .brand span,.site-footer .brand span{width:58px;height:42px;background-size:200px auto;background-position:center 0}}
