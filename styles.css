@@ -27,3 +27,6 @@
 
 /* Homepage logo replaces the compact header wordmark. */
 .home-page .site-header .brand{display:none}.home-page .site-header nav{margin-inline:auto}.club-masthead{padding:18px 30px 0;text-decoration:none}.club-masthead img{width:min(100%,900px);filter:brightness(1.55) contrast(1.12)}.club-masthead+.hero{min-height:600px;padding-top:18px}@media(max-width:700px){.club-masthead{padding:22px 18px 0}.club-masthead img{width:100%}.club-masthead+.hero{padding-top:20px}.home-page .site-header .brand{display:flex}.home-page .site-header .brand span{display:none}.home-page .site-header .brand b{font-size:.68rem;letter-spacing:.09em}.home-page .site-header nav{margin-inline:0}}
+
+/* The source artwork has a very dark microtype line. Render it as readable page text. */
+.club-masthead{flex-direction:column;align-items:center}.club-logo-art{display:block;width:min(100%,900px);aspect-ratio:1965/570;overflow:hidden}.club-logo-art img{display:block;width:100%;height:auto;max-width:none}.club-tagline{display:block;margin-top:5px;color:#d6bc84;font-size:clamp(.72rem,1.05vw,.95rem);font-weight:700;letter-spacing:.16em;line-height:1.6;text-align:center}.club-tagline i{font-style:normal;color:#b88b39;margin:0 .5em}@media(max-width:700px){.club-tagline{font-size:.74rem;letter-spacing:.12em;max-width:33rem;padding:0 4px}.club-tagline i{margin:0 .3em}}
