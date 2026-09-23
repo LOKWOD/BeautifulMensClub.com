@@ -48,7 +48,7 @@
 @media(max-width:560px){.site-header .brand span,.site-footer .brand span{width:58px;height:42px;background-size:200px auto;background-position:center 0}}
 
 /* Crownless final artwork. */
-.brand span{background-image:url('bmc-logo-nocrown.png')}
+.brand span{background-image:url('bmc-logo-bronze.png')}
 .club-logo-art img{margin-top:-24px}
 .site-header .brand span,.site-footer .brand span{height:46px;background-position:center -10px}
 @media(max-width:560px){.site-header .brand span,.site-footer .brand span{height:36px;background-position:center -7px}.club-logo-art img{margin-top:-10px}}
