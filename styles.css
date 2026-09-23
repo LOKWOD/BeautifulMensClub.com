@@ -69,3 +69,16 @@
 .home-page .club-logo-art img{display:block;width:100%;height:auto;margin-top:-17px;filter:brightness(1.2) contrast(1.04)}
 @media(max-width:900px){.home-page .hero{grid-template-columns:1fr;min-height:auto;gap:52px;padding-top:34px}.home-page .club-masthead{width:min(100%,600px);margin-bottom:20px}.home-page .hero h1{font-size:clamp(3.2rem,9vw,5.3rem)}}
 @media(max-width:560px){.home-page .hero{padding-top:26px}.home-page .club-logo-art img{margin-top:-8px}.home-page .hero h1{font-size:clamp(3rem,12vw,4.4rem)}}
+
+/* Refined opening: a single editorial focal point. */
+.home-page .hero{display:flex;justify-content:center;align-items:center;text-align:center;min-height:690px;max-width:1100px;padding:62px 30px 92px;gap:0}
+.home-page .hero-copy{width:100%;max-width:900px;margin:auto}
+.home-page .club-masthead{width:min(100%,620px);margin:0 auto 20px}
+.home-page .club-logo-art img{filter:brightness(1.8) contrast(1.04)}
+.home-page .hero h1{font-size:clamp(4rem,6.6vw,6.9rem);line-height:.94;max-width:900px;margin:20px auto 22px}
+.home-page .hero .lede{max-width:650px;margin:0 auto;font-size:1.1rem}
+.home-page .hero .hero-actions,.home-page .hero .hero-proof{justify-content:center}
+.home-page .hero .hero-actions{margin-top:30px}
+.home-page .hero .hero-proof{margin-top:38px}
+@media(max-width:700px){.home-page .hero{min-height:auto;padding:46px 22px 75px}.home-page .club-masthead{width:min(100%,560px);margin-bottom:16px}.home-page .hero h1{font-size:clamp(3.4rem,11vw,5.4rem)}.home-page .hero .hero-actions{align-items:center}}
+@media(max-width:560px){.home-page .hero{padding-top:38px}.home-page .hero h1{font-size:clamp(3rem,12vw,4.6rem)}.home-page .hero .hero-actions{align-items:stretch}.home-page .hero .hero-proof{justify-content:center}}
