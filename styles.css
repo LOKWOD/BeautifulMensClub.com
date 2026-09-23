@@ -30,3 +30,9 @@
 
 /* The source artwork has a very dark microtype line. Render it as readable page text. */
 .club-masthead{flex-direction:column;align-items:center}.club-logo-art{display:block;width:min(100%,900px);aspect-ratio:1965/570;overflow:hidden}.club-logo-art img{display:block;width:100%;height:auto;max-width:none}.club-tagline{display:block;margin-top:5px;color:#d6bc84;font-size:clamp(.72rem,1.05vw,.95rem);font-weight:700;letter-spacing:.16em;line-height:1.6;text-align:center}.club-tagline i{font-style:normal;color:#b88b39;margin:0 .5em}@media(max-width:700px){.club-tagline{font-size:.74rem;letter-spacing:.12em;max-width:33rem;padding:0 4px}.club-tagline i{margin:0 .3em}}
+
+/* Compact mark from the new artwork across interior headers and footers. */
+.brand{gap:11px;letter-spacing:.07em}
+.brand span{flex:none;width:58px;height:54px;border:0;border-radius:0;box-shadow:none;background-image:url('bmc-logo.png');background-repeat:no-repeat;background-size:220px auto;background-position:center -4px;font-size:0;overflow:hidden}
+.brand b{font-family:var(--serif);font-size:1.06rem;font-weight:600;letter-spacing:.025em;color:#dfc48d;text-transform:none}
+@media(max-width:560px){.brand span{width:43px;height:40px;background-size:165px auto;background-position:center -3px}.brand b{font-size:.82rem;line-height:1.05;max-width:150px}.home-page .site-header .brand span{display:block}}
