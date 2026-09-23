@@ -54,3 +54,6 @@
 @media(max-width:560px){.site-header .brand span,.site-footer .brand span{height:36px;background-position:center -7px}.club-logo-art img{margin-top:-10px}}
 .site-header .brand span,.site-footer .brand span{height:43px}
 @media(max-width:560px){.site-header .brand span,.site-footer .brand span{height:33px}}
+
+/* Keep only the bronze wordmark on the homepage. */
+.club-logo-art{aspect-ratio:4.15/1}
