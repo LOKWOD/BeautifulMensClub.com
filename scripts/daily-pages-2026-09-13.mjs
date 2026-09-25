@@ -170,7 +170,7 @@ export const dailyBatch = {
       related: [
         ["The Emergency Fund System", "emergency-fund-system.html"],
         ["The Home Emergency Document File", "home-emergency-document-file.html"],
-        ["The Two-Account Bill System", "two-account-bill-system.html"]
+        ["The Consumer Complaint Playbook", "consumer-complaint-resolution-playbook.html"]
       ],
       sources: [
         ["Federal Trade Commission — Credit Freezes and Fraud Alerts", "https://consumer.ftc.gov/articles/credit-freezes-and-fraud-alerts", "Current federal consumer guidance on cost, duration, three-bureau placement, alerts and freezes for minors."],

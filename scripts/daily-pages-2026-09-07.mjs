@@ -166,7 +166,7 @@ export const dailyBatch = {
       ],
       related: [
         ["Mobility After 40", "mobility-after-40.html"],
-        ["The Men’s Carry-On Packing System", "carry-on-packing-for-men.html"],
+        ["Workout Hydration and Heat Plan", "workout-hydration-heat-plan.html"],
         ["The Men’s Sleep and Recovery System", "sleep-and-recovery-system.html"]
       ],
       sources: [

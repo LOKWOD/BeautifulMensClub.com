@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22",
+  "generatedAt": "2026-09-25",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-watch-buying-guide.html",
-      "title": "Men’s Watch Buying Guide: Fit, Movement, Water Resistance and Service",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose a men's watch by wrist fit, lug-to-lug length, thickness, movement, water-resistance instructions, strap compatibility, warranty and service",
+      "slug": "mens-hair-clipper-buying-guide.html",
+      "title": "Men’s Hair Clipper Buying Guide: Blades, Guards, Power and Care",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose men's hair clippers by haircut job, blade system, guard sizes, taper lever, power, hand fit, maintenance, warranty and parts support",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "how-to-ask-for-a-raise.html",
-      "title": "How to Ask for a Raise: Evidence, Timing, Number and Follow-Up",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Prepare and make a salary raise request using role evidence, reliable market context, a specific number, a meeting script and documented follow-up",
+      "slug": "workout-hydration-heat-plan.html",
+      "title": "Workout Hydration and Heat Plan: Fluids, Conditions, Breaks and Warning Signs",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Plan exercise hydration and heat precautions using conditions, exertion, access to fluids, rest, acclimatization, symptoms and an emergency stop rule",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "home-ladder-buying-safety-guide.html",
-      "title": "Home Ladder Guide: Type, Height, Duty Rating, Setup and Inspection",
+      "slug": "consumer-complaint-resolution-playbook.html",
+      "title": "The Consumer Complaint Playbook: Evidence, Ask, Escalation and Deadlines",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Choose and use a household ladder by task, ladder type, reach, duty rating, surface, electrical hazards, inspection and recall status",
+      "searchIntent": "Resolve a product or service complaint by preserving evidence, choosing a remedy, contacting the business, escalating appropriately and protecting dispute deadlines",
       "affiliateLinksExpected": 0
     }
   ]

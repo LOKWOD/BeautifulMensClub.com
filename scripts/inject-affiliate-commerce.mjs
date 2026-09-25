@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  hairClippers: [
+    ["mens hair clippers adjustable taper lever guards", "Hair clippers with a documented guard system", "Compare the exact blade range, taper control, guard measurements, hand fit, cleaning instructions, replacement parts, warranty and seller terms."],
+    ["cordless hair clippers mens haircut kit", "Cordless hair-clipper kits", "Verify runtime, charge behavior, included guard sizes, charger label, blade maintenance, battery-service route and the exact model manual."],
+    ["corded hair clippers mens haircut", "Corded hair clippers", "Compare blade and guard compatibility, cord length and strain relief, grip, lubrication instructions, replacement support and return terms."],
+  ],
   watches: [
     ["mens quartz watch", "Men's quartz watches", "Compare case width, lug-to-lug length, thickness, strap range, exact movement instructions, warranty and seller terms."],
     ["mens solar watch", "Men's solar-powered watches", "Verify the exact charging guidance, case dimensions, water-resistance instructions, service support and authorized seller."],
@@ -197,6 +202,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-hair-clipper-buying-guide.html") return catalog.hairClippers;
+  if (normalized === "workout-hydration-heat-plan.html" || normalized === "consumer-complaint-resolution-playbook.html") return null;
   if (normalized === "mens-watch-buying-guide.html") return catalog.watches;
   if (normalized === "home-ladder-buying-safety-guide.html" || normalized === "how-to-ask-for-a-raise.html") return null;
   if (normalized === "mens-umbrella-buying-guide.html") return catalog.umbrellas;

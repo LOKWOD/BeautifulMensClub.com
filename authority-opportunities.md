@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-25 — Workout heat and hydration field record
+
+- **NIOSH Heat Stress program** — https://www.cdc.gov/niosh/heat-stress/about/index.html — Asset match: the field record turns current NIOSH risk factors, prevention hierarchy and emergency signs into a neutral pre-workout gate and timed check system without presenting workplace guidance as a personal prescription. Honest angle: offer it as an independent implementation aid that links prominently to NIOSH and invite factual corrections; never imply CDC or NIOSH endorsement. Contact route: the program and NIOSH contact links on the official Heat Stress pages. No outreach sent.
+- **Korey Stringer Institute at the University of Connecticut** — https://koreystringer.institute.uconn.edu/contact-us/ — Asset match: the guide gives recreational athletes a conservative, source-linked record for environmental conditions, acclimatization, symptoms, emergency action and post-session review. Honest angle: ask whether the free worksheet accurately reinforces exertional-heat-illness education and is useful enough to cite; do not request endorsement or a traded link. Contact route: the institute's published contact page. No outreach sent.
+- **National Athletic Trainers’ Association public education team** — https://www.nata.org/contact — Asset match: the field record helps athletes and families separate hydration logistics from the larger heat-illness plan and includes an explicit emergency line. Honest angle: invite a factual review as a consumer implementation companion to professional heat-safety resources, with no claim of clinical validation. Contact route: the association's official contact page. No outreach sent.
+
 ## 2026-09-22 — Home ladder task, selection and pre-climb record
 
 - **NIOSH Division of Safety Research / ladder-safety team** — https://www.cdc.gov/niosh/contact/index.html — Asset match: the guide translates NIOSH ladder-selection, angle, inspection and use resources into a neutral household task sheet while clearly distinguishing workplace requirements. Honest angle: offer it as an independent implementation aid that links to NIOSH and invite factual corrections; never imply CDC or NIOSH endorsement. Contact route: the official NIOSH question and program-contact page. No outreach sent.

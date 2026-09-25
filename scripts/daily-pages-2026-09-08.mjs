@@ -153,7 +153,7 @@ export const dailyBatch = {
         ["Can a warm-up prevent injury?", "A warm-up can prepare movement and reveal readiness, but it cannot guarantee injury prevention. Technique, load selection, progression, equipment and individual health all matter."]
       ],
       related: [
-        ["The 3-Day Strength Plan", "fitness.html#plan"],
+        ["Workout Hydration and Heat Plan", "workout-hydration-heat-plan.html"],
         ["Mobility After 40", "mobility-after-40.html"],
         ["Adjustable Dumbbells Buying Guide", "adjustable-dumbbells-buying-guide.html"]
       ],

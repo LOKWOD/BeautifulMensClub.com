@@ -95,7 +95,7 @@ export const dailyBatch = {
       ],
       related: [
         ["The Complete Beard Grooming System", "beard-grooming-system.html"],
-        ["A Simple Men’s Skincare Routine", "mens-skincare-routine.html"],
+        ["Men’s Hair Clipper Buying Guide", "mens-hair-clipper-buying-guide.html"],
         ["How to Choose and Maintain a Men’s Haircut", "mens-haircut-guide.html"]
       ],
       sources: [
