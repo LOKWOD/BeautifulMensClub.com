@@ -284,6 +284,7 @@ export const dailyBatch = {
         ["What belongs on a guest Wi-Fi network?", "Visitors are the clear first use. Some supported routers can also separate suitable connected devices, but verify actual isolation and compatibility before moving safety, medical or home-control equipment."]
       ],
       related: [
+        ["Digital Account Recovery Plan", "digital-account-recovery-plan.html"],
         ["The Credit Freeze Guide", "credit-freeze-guide.html"],
         ["The Home Inventory System", "home-inventory-insurance-system.html"],
         ["Build a Home Emergency Document File", "home-emergency-document-file.html"]

@@ -68,6 +68,7 @@ function render(page) {
 <main id="main"><article class="daily-guide"><p class="kicker">${esc(page.category)} · BMC FIELD MANUAL</p><h1>${esc(page.title)}</h1><p class="dek">${esc(page.dek)}</p><p class="daily-meta"><strong>Published ${displayDate}.</strong> ${esc(page.notice || "Independent editorial guidance.")}</p><section class="daily-takeaways"><h2>The useful answer</h2><ul>${takeaways}</ul></section>${sections}<section class="daily-faq"><h2>Frequently asked questions</h2>${faq}</section><section class="daily-related"><h2>Keep going</h2><div class="daily-related-grid">${related}</div></section><section class="daily-sources"><h2>Sources and further reading</h2><p>Claims checked against these official or professional sources on ${displayDate}.</p><ul>${sources}</ul></section><div class="daily-actions"><a class="button ghost" href="${esc(page.department)}">Browse ${esc(page.category.toLowerCase())}</a><a class="button ghost" href="library.html">Back to the library</a></div></article></main>
 <footer class="site-footer"><div class="footer-brand"><a class="brand" href="index.html"><span>B</span><b>BEAUTIFUL MEN'S CLUB</b></a><p>Look sharp. Live well. Keep your word.</p></div><div class="footer-links"><a href="style.html">Style</a><a href="grooming.html">Grooming</a><a href="fitness.html">Fitness</a><a href="life.html">Life</a><a href="library.html">Library</a></div><div class="footer-meta"><a href="mailto:hello@beautifulmensclub.com">hello@beautifulmensclub.com</a><p>© <span id="year"></span> Beautiful Men's Club.</p></div></footer><script src="script.js?v=${assetVersion}"></script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ebb9c435ac06430c9e3f3e6e03e7178b"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- LOKWOD Website Visitor Beacon --><script defer src="https://lokwod-visitor-beacon.syracuseappraiser.workers.dev/beacon.js" data-site="beautiful-mens-club"></script><!-- End LOKWOD Website Visitor Beacon -->
 </body></html>`;
 }
 
@@ -82,7 +83,21 @@ function upsert(path, marker, block) {
   writeFileSync(full, html);
 }
 
+function upsertReciprocalLink({ source, href, title }) {
+  const full = join(root, source);
+  let html = readFileSync(full, "utf8");
+  const marker = `data-bmc-reciprocal="${esc(href)}"`;
+  const existing = new RegExp(`<a\\s+${marker.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&")}[^>]*>[\\s\\S]*?<\\/a>`, "g");
+  html = html.replace(existing, "");
+  const card = `<a ${marker} href="${esc(href)}"><span>RELATED GUIDE</span><b>${esc(title)}</b></a>`;
+  const target = '<div class="daily-related-grid">';
+  if (!html.includes(target)) throw new Error(`Missing related-guide surface in ${source}`);
+  html = html.replace(target, `${target}${card}`);
+  writeFileSync(full, html);
+}
+
 for (const page of dailyBatch.pages) writeFileSync(join(root, page.slug), render(page));
+for (const link of dailyBatch.reciprocalLinks || []) upsertReciprocalLink(link);
 
 const cards = dailyBatch.pages.map((page) => `<a class="library-card" href="${page.slug}" data-guide data-category="${page.category.toLowerCase()}" data-title="${esc(page.title)}" data-keywords="${esc(page.searchIntent)}"><small>${page.category} · NEW FIELD MANUAL</small><h2>${esc(page.title)}</h2><p>${esc(page.description)}</p><b>Read the guide →</b></a>`).join("");
 upsert("library.html", `BMC DAILY ${dailyBatch.date}`, `<section class="section" id="${esc(dailyBatch.libraryId)}"><div class="section-head"><p class="section-tag">${esc(dailyBatch.libraryTag)}</p><h2>${esc(dailyBatch.libraryTitle)}</h2><p>${esc(dailyBatch.libraryIntro)}</p></div><div class="guide-library">${cards}</div></section>`);

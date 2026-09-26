@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  eyeglasses: [
+    ["hard eyeglass case protective", "Protective hard eyeglass cases", "Match the interior dimensions and closure to the exact frame; a case should protect the lenses without squeezing the bridge or temples."],
+    ["microfiber eyeglass lens cleaning cloth", "Microfiber lens-cleaning cloths", "Choose washable cloths intended for optical lenses, keep them free of grit and follow the lens maker's cleaning directions."],
+    ["eyeglass repair kit precision screws nose pads", "Basic eyeglass repair kits", "Use only compatible screws or pads for minor maker-approved service; alignment, cracked frames and loose lenses belong with a qualified optician."],
+  ],
   hairClippers: [
     ["mens hair clippers adjustable taper lever guards", "Hair clippers with a documented guard system", "Compare the exact blade range, taper control, guard measurements, hand fit, cleaning instructions, replacement parts, warranty and seller terms."],
     ["cordless hair clippers mens haircut kit", "Cordless hair-clipper kits", "Verify runtime, charge behavior, included guard sizes, charger label, blade maintenance, battery-service route and the exact model manual."],
@@ -202,6 +207,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-eyeglasses-buying-guide.html") return catalog.eyeglasses;
+  if (normalized === "home-smoke-alarm-plan.html" || normalized === "digital-account-recovery-plan.html") return null;
   if (normalized === "mens-hair-clipper-buying-guide.html") return catalog.hairClippers;
   if (normalized === "workout-hydration-heat-plan.html" || normalized === "consumer-complaint-resolution-playbook.html") return null;
   if (normalized === "mens-watch-buying-guide.html") return catalog.watches;

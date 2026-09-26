@@ -137,7 +137,7 @@ export const dailyBatch = {
         ["How often should a home fire drill be practiced?", "NFPA materials recommend at least twice a year, including daytime and nighttime practice. Repeat after layout, household or mobility changes and whenever a drill exposes a problem."],
         ["Should someone go back inside for a pet?", "No. Get out and stay out. Tell firefighters about any missing person or pet and let trained responders decide what is safe."]
       ],
-      related: [["Home Fire Extinguisher Guide", "home-fire-extinguisher-guide.html"], ["The Carbon Monoxide Alarm Plan", "carbon-monoxide-alarm-plan.html"], ["The Home Power-Outage Plan", "home-power-outage-plan.html"]],
+      related: [["Home Smoke Alarm Plan", "home-smoke-alarm-plan.html"], ["Home Fire Extinguisher Guide", "home-fire-extinguisher-guide.html"], ["The Carbon Monoxide Alarm Plan", "carbon-monoxide-alarm-plan.html"], ["The Home Power-Outage Plan", "home-power-outage-plan.html"]],
       sources: [
         ["U.S. Fire Administration — Home Fire Escape Plans", "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/", "Federal guidance on mapping exits, practicing drills, meeting places and high-rise escape."],
         ["National Fire Protection Association — How to Make a Home Fire Escape Plan", "https://www.nfpa.org/education-and-research/home-fire-safety/escape-planning", "NFPA planning guidance on two exits, smoke alarms, accessible routes and household practice."],
