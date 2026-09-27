@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26",
+  "generatedAt": "2026-09-27",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-eyeglasses-buying-guide.html",
-      "title": "Men’s Eyeglasses Buying Guide: Prescription, Frame Fit, Lenses and Returns",
+      "slug": "mens-work-bag-buying-guide.html",
+      "title": "Men’s Work Bag Buying Guide: Laptop Fit, Carry, Materials and Organization",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Choose men's prescription eyeglasses by current prescription, pupillary distance, frame measurements, bridge and temple fit, lens options, adjustment access and return terms",
+      "searchIntent": "Choose a men's briefcase, tote, messenger or work backpack by exact laptop fit, commute, carry comfort, materials, organization, repairability and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-smoke-alarm-plan.html",
-      "title": "Home Smoke Alarm Plan: Placement, Interconnection, Testing and Replacement",
+      "slug": "home-first-aid-kit-inventory-plan.html",
+      "title": "Home First-Aid Kit Inventory Plan: Supplies, Expiration, Training and Restock",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Create a room-by-room home smoke alarm map with placement, interconnection, accessible alerts, monthly tests, replacement dates and an escape-plan link",
+      "searchIntent": "Build and maintain a home first-aid kit with a written inventory, intact packaging, expiration checks, household-specific supplies, emergency contacts, training and safe medicine disposal",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "digital-account-recovery-plan.html",
-      "title": "Digital Account Recovery Plan: Password Manager, MFA, Passkeys and Backup Codes",
+      "slug": "how-to-split-a-restaurant-bill.html",
+      "title": "How to Split a Restaurant Bill Fairly: Tax, Tip, Shared Plates and Payment Apps",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Create a secure personal account recovery plan for primary email, password manager, multifactor authentication, passkeys, security keys, backup codes, device loss and trusted emergency access",
+      "searchIntent": "Split a restaurant bill fairly by separate checks, itemized shares, tax, tip, shared plates, drinks, uneven budgets and verified payment-app transfers",
       "affiliateLinksExpected": 0
     }
   ]

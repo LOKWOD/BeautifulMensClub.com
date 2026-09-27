@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  workBags: [
+    ["mens laptop briefcase work bag", "Men’s laptop briefcases", "Compare documented internal laptop-sleeve dimensions, loaded carry comfort, handle and strap attachment, closures, materials, care and return terms."],
+    ["mens work backpack laptop professional", "Professional work backpacks", "Match the exact laptop and commute, then verify strap range, back structure, device protection, weather limits, hardware and warranty support."],
+    ["mens messenger bag laptop work", "Men’s messenger work bags", "Check usable device dimensions, shoulder-strap geometry, closure control, access, lining, stress-point reinforcement and the seller’s exact return policy."],
+  ],
   eyeglasses: [
     ["hard eyeglass case protective", "Protective hard eyeglass cases", "Match the interior dimensions and closure to the exact frame; a case should protect the lenses without squeezing the bridge or temples."],
     ["microfiber eyeglass lens cleaning cloth", "Microfiber lens-cleaning cloths", "Choose washable cloths intended for optical lenses, keep them free of grit and follow the lens maker's cleaning directions."],
@@ -207,6 +212,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-work-bag-buying-guide.html") return catalog.workBags;
+  if (normalized === "home-first-aid-kit-inventory-plan.html" || normalized === "how-to-split-a-restaurant-bill.html") return null;
   if (normalized === "mens-eyeglasses-buying-guide.html") return catalog.eyeglasses;
   if (normalized === "home-smoke-alarm-plan.html" || normalized === "digital-account-recovery-plan.html") return null;
   if (normalized === "mens-hair-clipper-buying-guide.html") return catalog.hairClippers;

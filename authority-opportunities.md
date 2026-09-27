@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-27 — First-aid inventory and household emergency handoff
+
+- **American Red Cross Training Services and preparedness education** — https://www.redcross.org/take-a-class/contact-us — Asset match: the maintained home first-aid inventory turns the Red Cross supply list into a recurring seal, quantity, expiration, training and restock record without representing a checklist as medical training. Honest angle: offer it as an independent implementation aid that links prominently to Red Cross education and invite factual corrections; never imply Red Cross endorsement or certification. Contact route: the organization’s official Training Services contact page. No outreach sent.
+- **HRSA Poison Help public-education program** — https://www.poisonhelp.org/order-materials/ — Asset match: the kit lid’s emergency gate and household record put the national Poison Help number beside supplies while clearly preserving the 911 triggers. Honest angle: ask whether the free worksheet accurately reinforces the program’s current public materials and is useful enough for educators to cite; do not request endorsement or a traded link. Contact route: the official state and service-area materials route. No outreach sent.
+
+
 ## 2026-09-26 — Smoke-alarm and digital-recovery field records
 
 - **U.S. Fire Administration Fire Is Everyone’s Fight / community-risk-reduction educators** — https://www.usfa.fema.gov/FireIsEveryonesFight — Asset match: the room-by-room alarm map turns USFA placement, monthly testing, replacement, accessible-alert and escape-plan guidance into a maintained household record. Honest angle: offer it as an independent implementation aid that links prominently to USFA and invite factual corrections; never imply FEMA or USFA endorsement. Contact route: the official Fire Is Everyone’s Fight and community-risk-reduction program pages. No outreach sent.
