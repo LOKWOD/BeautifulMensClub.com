@@ -1,5 +1,12 @@
 # Authority opportunities
 
+## 2026-09-28 — Sunscreen label and post-workout decision records
+
+- **FDA Division of Drug Information consumer education** — https://www.fda.gov/drugs/resources-you-drugs/drug-information-consumers — Asset match: the sunscreen buying record turns regulated SPF, broad-spectrum, water-resistance, Drug Facts and expiration information into a neutral exact-item checklist. Honest angle: offer it as an independent consumer implementation aid that links prominently to FDA guidance and invite factual corrections; never imply FDA endorsement. Contact route: the official Division of Drug Information consumer page and contact channels. No outreach sent.
+- **NIOSH Rhabdomyolysis program** — https://www.cdc.gov/niosh/rhabdo/about/index.html — Asset match: the post-workout record puts the CDC/NIOSH warning signs and immediate-care line beside a training-load and function log without presenting the worksheet as diagnosis or clearance. Honest angle: invite a factual review as an independent recreational-use companion to current federal materials; never imply CDC or NIOSH endorsement. Contact route: the official NIOSH contact path linked from the program pages. No outreach sent.
+- **American College of Sports Medicine public-information team** — https://www.acsm.org/contact-us — Asset match: the conservative return-to-training record helps recreational athletes document load, symptoms, function and one-variable-at-a-time adjustments while escalating persistent or severe problems. Honest angle: ask whether the free record accurately complements public education and is useful enough to cite; disclose that it contains no product promotion. Contact route: the organization’s published contact page. No outreach sent.
+
+
 ## 2026-09-27 — First-aid inventory and household emergency handoff
 
 - **American Red Cross Training Services and preparedness education** — https://www.redcross.org/take-a-class/contact-us — Asset match: the maintained home first-aid inventory turns the Red Cross supply list into a recurring seal, quantity, expiration, training and restock record without representing a checklist as medical training. Honest angle: offer it as an independent implementation aid that links prominently to Red Cross education and invite factual corrections; never imply Red Cross endorsement or certification. Contact route: the organization’s official Training Services contact page. No outreach sent.

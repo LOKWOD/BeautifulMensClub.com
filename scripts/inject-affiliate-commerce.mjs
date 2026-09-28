@@ -166,6 +166,11 @@ const catalog = {
     ["mens face moisturizer spf 30", "Daily moisturizer with SPF", "One dependable morning step is easier to repeat than a crowded shelf."],
     ["fragrance free face moisturizer men", "Simple nighttime moisturizer", "Choose a formula your skin tolerates well enough to use consistently."],
   ],
+  sunscreen: [
+    ["broad spectrum sunscreen spf 30 face fragrance free", "Broad-spectrum face sunscreens", "Compare the exact Drug Facts label, SPF, broad-spectrum status, active ingredients, directions, expiration, seller and return terms."],
+    ["broad spectrum water resistant sunscreen spf 30 body", "Water-resistant body sunscreens", "Verify the exact 40- or 80-minute water-resistance statement, application directions, package size, warnings and seller."],
+    ["broad spectrum sunscreen stick spf 30", "Broad-spectrum sunscreen sticks", "Check SPF, broad-spectrum and water-resistance labeling; a convenient format still requires complete, even application as directed."],
+  ],
   fragrance: [
     ["mens cologne discovery sample set", "Fragrance discovery set", "Wear one sample at a time and judge the dry-down before buying a full bottle."],
     ["refillable travel perfume atomizer", "Travel atomizer", "Carry a small amount without dragging the full bottle through every trip."],
@@ -212,6 +217,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-sunscreen-buying-guide.html") return catalog.sunscreen;
+  if (normalized === "post-workout-soreness-recovery-guide.html" || normalized === "how-to-host-a-game-night.html") return null;
   if (normalized === "mens-work-bag-buying-guide.html") return catalog.workBags;
   if (normalized === "home-first-aid-kit-inventory-plan.html" || normalized === "how-to-split-a-restaurant-bill.html") return null;
   if (normalized === "mens-eyeglasses-buying-guide.html") return catalog.eyeglasses;

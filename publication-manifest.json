@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27",
+  "generatedAt": "2026-09-28",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-work-bag-buying-guide.html",
-      "title": "Men’s Work Bag Buying Guide: Laptop Fit, Carry, Materials and Organization",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose a men's briefcase, tote, messenger or work backpack by exact laptop fit, commute, carry comfort, materials, organization, repairability and return terms",
+      "slug": "mens-sunscreen-buying-guide.html",
+      "title": "Men’s Sunscreen Buying Guide: SPF, Broad Spectrum, Water Resistance and Use",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose sunscreen by FDA-regulated SPF, broad-spectrum and water-resistance labeling, skin feel, format, intended use, directions and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-first-aid-kit-inventory-plan.html",
-      "title": "Home First-Aid Kit Inventory Plan: Supplies, Expiration, Training and Restock",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Build and maintain a home first-aid kit with a written inventory, intact packaging, expiration checks, household-specific supplies, emergency contacts, training and safe medicine disposal",
+      "slug": "post-workout-soreness-recovery-guide.html",
+      "title": "Post-Workout Soreness and Recovery Guide: Record, Adjust and Know the Warning Signs",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Distinguish expected post-workout soreness from urgent warning signs, record training load and symptoms, adjust the next session and know when to seek qualified care",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-split-a-restaurant-bill.html",
-      "title": "How to Split a Restaurant Bill Fairly: Tax, Tip, Shared Plates and Payment Apps",
+      "slug": "how-to-host-a-game-night.html",
+      "title": "How to Host a Game Night: Guests, Games, Food, Timing and a Clean Finish",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Split a restaurant bill fairly by separate checks, itemized shares, tax, tip, shared plates, drinks, uneven budgets and verified payment-app transfers",
+      "searchIntent": "Plan an inclusive adult game night with a clear invitation, compatible games, simple teaching, food and allergy checks, timing, house rules and cleanup",
       "affiliateLinksExpected": 0
     }
   ]
