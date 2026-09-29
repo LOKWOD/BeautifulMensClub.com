@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28",
+  "generatedAt": "2026-09-29",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-sunscreen-buying-guide.html",
-      "title": "Men’s Sunscreen Buying Guide: SPF, Broad Spectrum, Water Resistance and Use",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose sunscreen by FDA-regulated SPF, broad-spectrum and water-resistance labeling, skin feel, format, intended use, directions and return terms",
+      "slug": "mens-gloves-buying-guide.html",
+      "title": "Men’s Gloves Buying Guide: Fit, Warmth, Weather Protection and Touchscreen Use",
+      "category": "STYLE",
+      "department": "style.html",
+      "searchIntent": "Choose men’s gloves by measured fit, activity, insulation, shell material, weather claim, dexterity, cuff, touchscreen design, care and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "post-workout-soreness-recovery-guide.html",
-      "title": "Post-Workout Soreness and Recovery Guide: Record, Adjust and Know the Warning Signs",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "searchIntent": "Distinguish expected post-workout soreness from urgent warning signs, record training load and symptoms, adjust the next session and know when to seek qualified care",
+      "slug": "home-flood-cleanup-first-48-hours.html",
+      "title": "Home Flood Cleanup: A Safe First-48-Hours Plan",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Plan the first 48 hours after household flooding with reentry, electricity, gas, documentation, insurance, contaminated water, drying, mold, food, well and contractor decision gates",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-host-a-game-night.html",
-      "title": "How to Host a Game Night: Guests, Games, Food, Timing and a Clean Finish",
+      "slug": "how-to-resign-professionally.html",
+      "title": "How to Resign Professionally: Notice, Handoff, Exit and Records",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Plan an inclusive adult game night with a clear invitation, compatible games, simple teaching, food and allergy checks, timing, house rules and cleanup",
+      "searchIntent": "Resign from a job with a decision check, concise conversation and letter, realistic notice, documented handoff, device and access return, benefits questions and a clean final record",
       "affiliateLinksExpected": 0
     }
   ]

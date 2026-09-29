@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-29 — Flood reentry and first-48-hours handoff
+
+- **EPA Flooded Homes public-information team** — https://www.epa.gov/flooded-homes — Asset match: the first-48-hours record converts EPA hazard, reentry, drying, material and professional-help guidance into a neutral room-by-room incident handoff. Honest angle: offer it as an independent implementation aid that links prominently to EPA and invite factual corrections; never imply EPA endorsement. Contact route: the official Contact Us route on the Flooded Homes hub. No outreach sent.
+- **FEMA Ready Campaign** — https://www.ready.gov/contact-us — Asset match: the safety gate, documentation record and handoff give households an operational follow-through companion to FEMA flood preparation and recovery guidance. Honest angle: ask whether the source-linked worksheet accurately reinforces current federal education and is useful enough to cite; do not request endorsement or a traded link. Contact route: Ready.gov’s official contact page. No outreach sent.
+- **State and local emergency-management or public-health educators** — https://www.ready.gov/community-preparedness-toolkit — Asset match: local agencies can pair jurisdiction-specific reentry, waste, well, septic and assistance rules with the national checklist’s clearly labeled escalation points. Honest angle: approach only a relevant agency with an invitation to review accuracy and adapt the local links; no mass outreach. Contact route: the selected agency’s published preparedness or public-information contact. No outreach sent.
+
 ## 2026-09-28 — Sunscreen label and post-workout decision records
 
 - **FDA Division of Drug Information consumer education** — https://www.fda.gov/drugs/resources-you-drugs/drug-information-consumers — Asset match: the sunscreen buying record turns regulated SPF, broad-spectrum, water-resistance, Drug Facts and expiration information into a neutral exact-item checklist. Honest angle: offer it as an independent consumer implementation aid that links prominently to FDA guidance and invite factual corrections; never imply FDA endorsement. Contact route: the official Division of Drug Information consumer page and contact channels. No outreach sent.

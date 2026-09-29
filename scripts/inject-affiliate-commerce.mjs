@@ -58,6 +58,11 @@ const catalog = {
     ["mens insulated snow boots", "Men's insulated snow boots", "Compare sock-and-footbed fit, shaft height, liner design, weight, drying instructions and the limits of any temperature claim."],
     ["mens waterproof winter hiking boots", "Men's waterproof winter hiking boots", "Check last shape, heel control, usable tread, water-resistance disclosure, intended terrain, current seller and return window."],
   ],
+  gloves: [
+    ["mens leather gloves touchscreen insulated", "Men’s leather commuter gloves", "Check the maker’s hand measurements, lining and shell disclosure, cuff dimensions, exact weather claim, touchscreen construction, care instructions and return terms."],
+    ["mens waterproof insulated gloves touchscreen", "Weather-protective insulated gloves", "Compare complete-glove weather claims, insulation and bulk, grip, cuff closure, touchscreen fit, exact use limits and current seller terms."],
+    ["mens wool gloves touchscreen", "Men’s wool and wool-blend gloves", "Verify fiber percentages, lining, hand measurements, fingertip construction, care label, device compatibility and the seller’s return policy."],
+  ],
   chinos: [
     ["mens straight fit chino pants", "Men's straight-fit chinos", "Compare the exact waist, rise, seat, thigh, knee, hem, inseam, fiber percentages, care label, seller and return terms."],
     ["mens athletic fit chino pants", "Men's athletic-fit chinos", "Verify where the extra room is placed, then compare the actual taper, rise, stretch content, care directions and finished measurements."],
@@ -217,6 +222,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-gloves-buying-guide.html") return catalog.gloves;
+  if (normalized === "home-flood-cleanup-first-48-hours.html" || normalized === "how-to-resign-professionally.html") return null;
   if (normalized === "mens-sunscreen-buying-guide.html") return catalog.sunscreen;
   if (normalized === "post-workout-soreness-recovery-guide.html" || normalized === "how-to-host-a-game-night.html") return null;
   if (normalized === "mens-work-bag-buying-guide.html") return catalog.workBags;
