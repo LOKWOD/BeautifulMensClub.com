@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29",
+  "generatedAt": "2026-09-30",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-gloves-buying-guide.html",
-      "title": "Men’s Gloves Buying Guide: Fit, Warmth, Weather Protection and Touchscreen Use",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose men’s gloves by measured fit, activity, insulation, shell material, weather claim, dexterity, cuff, touchscreen design, care and return terms",
+      "slug": "mens-fragrance-buying-guide.html",
+      "title": "Men’s Fragrance Buying Guide: Concentration, Skin Fit, Authenticity and Storage",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose a men's fragrance by use case, concentration label, skin sampling, ingredient information, seller authenticity, projection, storage and returns",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-flood-cleanup-first-48-hours.html",
-      "title": "Home Flood Cleanup: A Safe First-48-Hours Plan",
+      "slug": "portable-generator-safety-plan.html",
+      "title": "Portable Generator Safety Plan: Placement, Fuel, Cords and Carbon Monoxide",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Plan the first 48 hours after household flooding with reentry, electricity, gas, documentation, insurance, contaminated water, drying, mold, food, well and contractor decision gates",
+      "searchIntent": "Build a portable generator safety plan for outdoor placement, carbon monoxide alarms, electrical connection, loads, cords, fuel, recalls, operation and emergency response",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-resign-professionally.html",
-      "title": "How to Resign Professionally: Notice, Handoff, Exit and Records",
+      "slug": "how-to-write-a-thank-you-note.html",
+      "title": "How to Write a Thank-You Note: Gifts, Hosts, Work and Follow-Through",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Resign from a job with a decision check, concise conversation and letter, realistic notice, documented handoff, device and access return, benefits questions and a clean final record",
+      "searchIntent": "Write a specific thank-you note for a gift, dinner, overnight stay, interview, referral, favor or late acknowledgment with the right medium and follow-through",
       "affiliateLinksExpected": 0
     }
   ]

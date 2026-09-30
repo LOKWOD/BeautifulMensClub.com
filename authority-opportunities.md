@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-09-30 — Portable-generator placement and operating record
+
+- **U.S. Consumer Product Safety Commission carbon-monoxide education team** — https://www.cpsc.gov/About-CPSC/Contact-Information — Asset match: the generator record turns CPSC outdoor-placement, exhaust, refueling, recall and electrical warnings into a measured site map and start/run/shutdown handoff. Honest angle: offer it as an independent implementation aid that prominently links to CPSC and invite factual corrections; never imply agency endorsement. Contact route: CPSC’s official contact and consumer-information channels. No outreach sent.
+- **CDC Carbon Monoxide Poisoning program** — https://www.cdc.gov/carbon-monoxide/about/index.html — Asset match: the emergency gate puts current symptom, fresh-air, 911, alarm and 20-foot outdoor-placement guidance in one household operating record. Honest angle: ask whether the free checklist accurately reinforces current federal public-health education and is useful enough to cite; do not request endorsement or a traded link. Contact route: the program’s official CDC information and contact links. No outreach sent.
+- **State and local emergency-management or fire-department preparedness educators** — https://www.ready.gov/community-preparedness-toolkit — Asset match: local educators can pair jurisdiction-specific fuel, noise, fire and electrical rules with the national checklist’s non-negotiable carbon-monoxide and backfeed gates. Honest angle: approach only a relevant local program with an invitation to review accuracy or adapt local links; no mass outreach. Contact route: the selected agency’s published preparedness or community-risk-reduction contact. No outreach sent.
+
 ## 2026-09-29 — Flood reentry and first-48-hours handoff
 
 - **EPA Flooded Homes public-information team** — https://www.epa.gov/flooded-homes — Asset match: the first-48-hours record converts EPA hazard, reentry, drying, material and professional-help guidance into a neutral room-by-room incident handoff. Honest angle: offer it as an independent implementation aid that links prominently to EPA and invite factual corrections; never imply EPA endorsement. Contact route: the official Contact Us route on the Flooded Homes hub. No outreach sent.

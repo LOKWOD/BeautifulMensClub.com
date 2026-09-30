@@ -222,6 +222,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-fragrance-buying-guide.html") return catalog.fragrance;
+  if (normalized === "portable-generator-safety-plan.html" || normalized === "how-to-write-a-thank-you-note.html") return null;
   if (normalized === "mens-gloves-buying-guide.html") return catalog.gloves;
   if (normalized === "home-flood-cleanup-first-48-hours.html" || normalized === "how-to-resign-professionally.html") return null;
   if (normalized === "mens-sunscreen-buying-guide.html") return catalog.sunscreen;
