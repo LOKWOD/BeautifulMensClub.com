@@ -132,7 +132,7 @@ export const dailyBatch = {
       sources: [
         ["U.S. Food and Drug Administration — Fragrances in Cosmetics", "https://www.fda.gov/cosmetics/cosmetic-ingredients/fragrances-cosmetics", "Federal overview of fragrance labeling, trade-secret treatment and sensitivity concerns."],
         ["U.S. Food and Drug Administration — Allergens in Cosmetics", "https://www.fda.gov/cosmetics/cosmetic-ingredients/allergens-cosmetics", "Current federal consumer information on cosmetic allergens and limits of marketing terms."],
-        ["Federal Trade Commission — Online Shopping", "https://consumer.ftc.gov/online-shopping", "Consumer guidance on researching sellers, total cost, delivery and return policies."]
+        ["Federal Trade Commission — Online Shopping", "https://consumer.ftc.gov/articles/online-shopping", "Consumer guidance on researching sellers, total cost, delivery and return policies."]
       ]
     },
     {
