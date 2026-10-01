@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30",
+  "generatedAt": "2026-10-01",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-fragrance-buying-guide.html",
-      "title": "Men’s Fragrance Buying Guide: Concentration, Skin Fit, Authenticity and Storage",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose a men's fragrance by use case, concentration label, skin sampling, ingredient information, seller authenticity, projection, storage and returns",
+      "slug": "mens-tie-buying-guide.html",
+      "title": "Men’s Tie Buying Guide: Width, Length, Fabric, Construction and Care",
+      "category": "STYLE",
+      "department": "style.html",
+      "searchIntent": "Choose a men's necktie by occasion, jacket lapel, body scale, finished length, fabric, construction, knot, shirt collar, care, seller and returns",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "portable-generator-safety-plan.html",
-      "title": "Portable Generator Safety Plan: Placement, Fuel, Cords and Carbon Monoxide",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Build a portable generator safety plan for outdoor placement, carbon monoxide alarms, electrical connection, loads, cords, fuel, recalls, operation and emergency response",
+      "slug": "strength-training-rest-period-guide.html",
+      "title": "Strength-Training Rest Periods: Set the Clock for Strength, Muscle and Technique",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "searchIntent": "Choose rest periods between strength-training sets by exercise, load, goal, training age, breathing, technique, equipment and session log",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-write-a-thank-you-note.html",
-      "title": "How to Write a Thank-You Note: Gifts, Hosts, Work and Follow-Through",
+      "slug": "debt-collection-contact-checklist.html",
+      "title": "Debt Collection Contact Checklist: Verify, Record, Dispute and Pay Safely",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Write a specific thank-you note for a gift, dinner, overnight stay, interview, referral, favor or late acknowledgment with the right medium and follow-through",
+      "searchIntent": "Respond to a debt collector by verifying identity, reading the validation notice, recording contacts, disputing errors, protecting personal information and paying through documented channels",
       "affiliateLinksExpected": 0
     }
   ]

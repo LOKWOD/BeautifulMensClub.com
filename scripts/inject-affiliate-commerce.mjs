@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  ties: [
+    ["mens silk necktie solid", "Solid silk neckties", "Compare maximum width, total length, exact fiber disclosure, weave, construction, color accuracy, maker care guidance, seller and return terms."],
+    ["mens grenadine silk tie", "Textured grenadine-style ties", "Verify the exact weave and fiber content rather than relying on the style name, then check dimensions, snag risk, construction and returns."],
+    ["mens wool knit tie", "Textured wool and knit ties", "Match the fiber, texture, width, end shape and knot bulk to the season, collar, lapels and care routine you actually use."],
+  ],
   workBags: [
     ["mens laptop briefcase work bag", "Men’s laptop briefcases", "Compare documented internal laptop-sleeve dimensions, loaded carry comfort, handle and strap attachment, closures, materials, care and return terms."],
     ["mens work backpack laptop professional", "Professional work backpacks", "Match the exact laptop and commute, then verify strap range, back structure, device protection, weather limits, hardware and warranty support."],
@@ -222,6 +227,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-tie-buying-guide.html") return catalog.ties;
+  if (normalized === "strength-training-rest-period-guide.html" || normalized === "debt-collection-contact-checklist.html") return null;
   if (normalized === "mens-fragrance-buying-guide.html") return catalog.fragrance;
   if (normalized === "portable-generator-safety-plan.html" || normalized === "how-to-write-a-thank-you-note.html") return null;
   if (normalized === "mens-gloves-buying-guide.html") return catalog.gloves;
