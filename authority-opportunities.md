@@ -1,5 +1,9 @@
 # Authority opportunities
 
+## 2026-10-02 — Household power-strip and extension-cord audit
+
+- **Electrical Safety Foundation International consumer-education team** — https://www.esfi.org/contact-us/ — Asset match: the room-by-room audit turns temporary-use, load, placement, damage, listing-label and permanent-wiring guidance into a neutral household record, with explicit stop-and-escalate gates for heat, arcing, damaged receptacles and recurring breaker trips. Honest angle: offer it as an independent implementation aid that links prominently to current CPSC and ESFI resources and invite factual corrections; never imply ESFI endorsement. Contact route: ESFI’s official inquiry form and published communications contact. No outreach sent.
+
 ## 2026-10-01 — Debt-collection validation and contact record
 
 - **Consumer Financial Protection Bureau consumer-education team** — https://www.consumerfinance.gov/about-us/contact-us/ — Asset match: the checklist converts the CFPB validation notice, dispute-period, recordkeeping and complaint guidance into a neutral account-and-contact record with explicit court-deadline and legal-help gates. Honest angle: offer it as an independent implementation aid that links prominently to current CFPB sources and invite factual corrections; never imply Bureau endorsement. Contact route: the CFPB’s official contact page. No outreach sent.

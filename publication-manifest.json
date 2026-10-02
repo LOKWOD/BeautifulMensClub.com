@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01",
+  "generatedAt": "2026-10-02",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-tie-buying-guide.html",
-      "title": "Men’s Tie Buying Guide: Width, Length, Fabric, Construction and Care",
+      "slug": "mens-casual-jacket-buying-guide.html",
+      "title": "Men’s Casual Jacket Buying Guide: Field, Bomber, Harrington or Chore?",
       "category": "STYLE",
       "department": "style.html",
-      "searchIntent": "Choose a men's necktie by occasion, jacket lapel, body scale, finished length, fabric, construction, knot, shirt collar, care, seller and returns",
+      "searchIntent": "Choose a men's casual jacket by use, silhouette, layer room, length, fabric, weather limits, construction, care, seller and returns",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "strength-training-rest-period-guide.html",
-      "title": "Strength-Training Rest Periods: Set the Clock for Strength, Muscle and Technique",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "searchIntent": "Choose rest periods between strength-training sets by exercise, load, goal, training age, breathing, technique, equipment and session log",
+      "slug": "power-strip-extension-cord-safety-guide.html",
+      "title": "Power Strip and Extension Cord Safety Guide: Load, Placement and Replacement",
+      "category": "LIFE",
+      "department": "life.html",
+      "searchIntent": "Audit home power strips, surge protectors and extension cords by purpose, electrical rating, appliance load, placement, condition, recall status and permanent-wiring needs",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "debt-collection-contact-checklist.html",
-      "title": "Debt Collection Contact Checklist: Verify, Record, Dispute and Pay Safely",
+      "slug": "how-to-give-constructive-feedback.html",
+      "title": "How to Give Constructive Feedback Without Making It Personal",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Respond to a debt collector by verifying identity, reading the validation notice, recording contacts, disputing errors, protecting personal information and paying through documented channels",
+      "searchIntent": "Prepare and deliver useful workplace feedback using specific situations, observable behavior, impact, questions, requests, listening, documentation and follow-up",
       "affiliateLinksExpected": 0
     }
   ]

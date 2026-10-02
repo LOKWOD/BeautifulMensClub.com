@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  casualJackets: [
+    ["mens field jacket casual", "Men’s field jackets", "Compare finished measurements, layer room, pocket layout, shell and lining materials, weather limits, exact care guidance, seller and return terms."],
+    ["mens harrington jacket", "Men’s Harrington-style jackets", "Check collar and hem construction, garment measurements, lining, closure quality, intended conditions, care instructions and the exact seller."],
+    ["mens chore jacket", "Men’s chore jackets", "Compare shoulder and chest movement, straight-hem length, pocket depth, complete fiber disclosure, seam construction, cleaning and returns."],
+  ],
   ties: [
     ["mens silk necktie solid", "Solid silk neckties", "Compare maximum width, total length, exact fiber disclosure, weave, construction, color accuracy, maker care guidance, seller and return terms."],
     ["mens grenadine silk tie", "Textured grenadine-style ties", "Verify the exact weave and fiber content rather than relying on the style name, then check dimensions, snag risk, construction and returns."],
@@ -227,6 +232,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-casual-jacket-buying-guide.html") return catalog.casualJackets;
+  if (normalized === "power-strip-extension-cord-safety-guide.html" || normalized === "how-to-give-constructive-feedback.html") return null;
   if (normalized === "mens-tie-buying-guide.html") return catalog.ties;
   if (normalized === "strength-training-rest-period-guide.html" || normalized === "debt-collection-contact-checklist.html") return null;
   if (normalized === "mens-fragrance-buying-guide.html") return catalog.fragrance;
