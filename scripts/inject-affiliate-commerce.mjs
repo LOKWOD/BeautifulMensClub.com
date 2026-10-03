@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  bodyGroomers: [
+    ["mens body groomer adjustable guards wet dry", "Body groomers with adjustable guards", "Verify the exact permitted body zones, guard range, wet-or-dry instructions, cleaning method, replacement heads, warranty and seller terms."],
+    ["mens body trimmer sensitive areas guards", "Body trimmers with zone-specific guards", "Check that the exact model and attachment expressly authorize the planned area, then compare guard retention, handling, cleaning and parts support."],
+    ["mens body groomer replacement blade available", "Body groomers with replaceable cutting heads", "Confirm the exact replacement-head identifier and current support before buying; a similar-looking foil or cutter is not proof of compatibility."],
+  ],
   casualJackets: [
     ["mens field jacket casual", "Men’s field jackets", "Compare finished measurements, layer room, pocket layout, shell and lining materials, weather limits, exact care guidance, seller and return terms."],
     ["mens harrington jacket", "Men’s Harrington-style jackets", "Check collar and hem construction, garment measurements, lining, closure quality, intended conditions, care instructions and the exact seller."],
@@ -232,6 +237,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-body-groomer-buying-guide.html") return catalog.bodyGroomers;
+  if (normalized === "refrigerator-freezer-food-safety-plan.html" || normalized === "coffee-brewing-ratio-guide.html") return null;
   if (normalized === "mens-casual-jacket-buying-guide.html") return catalog.casualJackets;
   if (normalized === "power-strip-extension-cord-safety-guide.html" || normalized === "how-to-give-constructive-feedback.html") return null;
   if (normalized === "mens-tie-buying-guide.html") return catalog.ties;

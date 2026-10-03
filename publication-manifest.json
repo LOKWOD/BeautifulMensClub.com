@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02",
+  "generatedAt": "2026-10-03",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-casual-jacket-buying-guide.html",
-      "title": "Men’s Casual Jacket Buying Guide: Field, Bomber, Harrington or Chore?",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose a men's casual jacket by use, silhouette, layer room, length, fabric, weather limits, construction, care, seller and returns",
+      "slug": "mens-body-groomer-buying-guide.html",
+      "title": "Men’s Body Groomer Buying Guide: Guards, Skin Zones, Wet/Dry and Care",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose a men's body groomer by intended skin zones, guard system, wet or dry use, cleaning, power, replacement parts, seller and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "power-strip-extension-cord-safety-guide.html",
-      "title": "Power Strip and Extension Cord Safety Guide: Load, Placement and Replacement",
+      "slug": "refrigerator-freezer-food-safety-plan.html",
+      "title": "Refrigerator and Freezer Food Safety Plan: Temperature, Outages and Records",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Audit home power strips, surge protectors and extension cords by purpose, electrical rating, appliance load, placement, condition, recall status and permanent-wiring needs",
+      "searchIntent": "Create a refrigerator and freezer food safety record for appliance temperatures, storage zones, power outages, discard decisions, cleaning and escalation",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "how-to-give-constructive-feedback.html",
-      "title": "How to Give Constructive Feedback Without Making It Personal",
+      "slug": "coffee-brewing-ratio-guide.html",
+      "title": "Coffee Brewing Ratio Guide: Weigh, Grind, Time and Adjust",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Prepare and deliver useful workplace feedback using specific situations, observable behavior, impact, questions, requests, listening, documentation and follow-up",
+      "searchIntent": "Build a repeatable home coffee recipe using dose, water, ratio, grind, temperature, contact time, yield, tasting notes and one-variable adjustments",
       "affiliateLinksExpected": 0
     }
   ]
