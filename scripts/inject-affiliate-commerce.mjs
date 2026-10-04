@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  scarves: [
+    ["mens wool scarf winter", "Men’s wool and wool-blend scarves", "Compare finished dimensions, exact fiber percentages, weave, edge construction, sewn-in care instructions, seller and return terms."],
+    ["mens cashmere scarf", "Men’s cashmere and specialty-wool scarves", "Verify the exact specialty-fiber percentage, country of origin, dimensions, construction, care requirements and seller rather than trusting a luxury-style product title."],
+    ["mens cotton scarf lightweight", "Lightweight cotton and cotton-blend scarves", "Check the complete fiber label, length, width, weave density, intended season, colorfastness instructions, care label and return window."],
+  ],
   bodyGroomers: [
     ["mens body groomer adjustable guards wet dry", "Body groomers with adjustable guards", "Verify the exact permitted body zones, guard range, wet-or-dry instructions, cleaning method, replacement heads, warranty and seller terms."],
     ["mens body trimmer sensitive areas guards", "Body trimmers with zone-specific guards", "Check that the exact model and attachment expressly authorize the planned area, then compare guard retention, handling, cleaning and parts support."],
@@ -237,6 +242,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-scarf-buying-guide.html") return catalog.scarves;
+  if (normalized === "clothes-dryer-vent-safety-plan.html" || normalized === "hospital-visit-etiquette-guide.html") return null;
   if (normalized === "mens-body-groomer-buying-guide.html") return catalog.bodyGroomers;
   if (normalized === "refrigerator-freezer-food-safety-plan.html" || normalized === "coffee-brewing-ratio-guide.html") return null;
   if (normalized === "mens-casual-jacket-buying-guide.html") return catalog.casualJackets;

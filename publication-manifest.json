@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03",
+  "generatedAt": "2026-10-04",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-body-groomer-buying-guide.html",
-      "title": "Men’s Body Groomer Buying Guide: Guards, Skin Zones, Wet/Dry and Care",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose a men's body groomer by intended skin zones, guard system, wet or dry use, cleaning, power, replacement parts, seller and return terms",
+      "slug": "mens-scarf-buying-guide.html",
+      "title": "Men’s Scarf Buying Guide: Warmth, Length, Fibers, Weave and Care",
+      "category": "STYLE",
+      "department": "style.html",
+      "searchIntent": "Choose a men's scarf by climate, outerwear, dimensions, fiber label, construction, skin feel, care requirements, seller and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "refrigerator-freezer-food-safety-plan.html",
-      "title": "Refrigerator and Freezer Food Safety Plan: Temperature, Outages and Records",
+      "slug": "clothes-dryer-vent-safety-plan.html",
+      "title": "Clothes Dryer Vent Safety Plan: Duct, Lint, Airflow and Fire Prevention",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Create a refrigerator and freezer food safety record for appliance temperatures, storage zones, power outages, discard decisions, cleaning and escalation",
+      "searchIntent": "Create a clothes dryer safety and maintenance record covering installation, power or gas, lint filter, transition duct, exhaust path, outdoor termination, warning signs and service",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "coffee-brewing-ratio-guide.html",
-      "title": "Coffee Brewing Ratio Guide: Weigh, Grind, Time and Adjust",
+      "slug": "hospital-visit-etiquette-guide.html",
+      "title": "Hospital Visit Etiquette: Permission, Timing, Privacy and Useful Support",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Build a repeatable home coffee recipe using dose, water, ratio, grind, temperature, contact time, yield, tasting notes and one-variable adjustments",
+      "searchIntent": "Visit a hospitalized friend or relative respectfully by confirming permission and policy, choosing timing and duration, protecting privacy, preventing infection and offering useful follow-up",
       "affiliateLinksExpected": 0
     }
   ]
