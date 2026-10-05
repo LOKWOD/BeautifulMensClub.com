@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  noseEarTrimmers: [
+    ["mens nose ear hair trimmer washable head", "Nose and ear trimmers with guarded washable heads", "Verify the exact permitted zones, cutter housing, rinse limits, drying steps, power source, replacement-head support, warranty and seller terms."],
+    ["mens nose trimmer eyebrow attachment guards", "Detail trimmers with documented eyebrow guards", "Confirm that the exact model includes the shown brow combs and states their usable lengths, permitted areas, cleaning method and replacement identifiers."],
+    ["mens nose ear trimmer replaceable head travel lock", "Travel-ready nose and ear trimmers", "Check the protective cap, travel lock, battery chemistry, current travel rules, replacement-head availability, exact manual and return policy."],
+  ],
   scarves: [
     ["mens wool scarf winter", "Men’s wool and wool-blend scarves", "Compare finished dimensions, exact fiber percentages, weave, edge construction, sewn-in care instructions, seller and return terms."],
     ["mens cashmere scarf", "Men’s cashmere and specialty-wool scarves", "Verify the exact specialty-fiber percentage, country of origin, dimensions, construction, care requirements and seller rather than trusting a luxury-style product title."],
@@ -242,6 +247,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-nose-ear-hair-trimmer-buying-guide.html") return catalog.noseEarTrimmers;
+  if (normalized === "home-dehumidifier-buying-moisture-plan.html" || normalized === "contractor-estimate-comparison-checklist.html") return null;
   if (normalized === "mens-scarf-buying-guide.html") return catalog.scarves;
   if (normalized === "clothes-dryer-vent-safety-plan.html" || normalized === "hospital-visit-etiquette-guide.html") return null;
   if (normalized === "mens-body-groomer-buying-guide.html") return catalog.bodyGroomers;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04",
+  "generatedAt": "2026-10-05",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,27 @@
   },
   "pages": [
     {
-      "slug": "mens-scarf-buying-guide.html",
-      "title": "Men’s Scarf Buying Guide: Warmth, Length, Fibers, Weave and Care",
-      "category": "STYLE",
-      "department": "style.html",
-      "searchIntent": "Choose a men's scarf by climate, outerwear, dimensions, fiber label, construction, skin feel, care requirements, seller and return terms",
+      "slug": "mens-nose-ear-hair-trimmer-buying-guide.html",
+      "title": "Men’s Nose and Ear Hair Trimmer Buying Guide: Heads, Reach, Power and Care",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "searchIntent": "Choose a men's nose and ear hair trimmer by permitted use, cutter design, reach, visibility, grip, power, cleaning, parts support and travel needs",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "clothes-dryer-vent-safety-plan.html",
-      "title": "Clothes Dryer Vent Safety Plan: Duct, Lint, Airflow and Fire Prevention",
+      "slug": "home-dehumidifier-buying-moisture-plan.html",
+      "title": "Home Dehumidifier Buying Guide and Moisture Plan: Size, Drainage, Energy and Safety",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Create a clothes dryer safety and maintenance record covering installation, power or gas, lint filter, transition duct, exhaust path, outdoor termination, warning signs and service",
+      "searchIntent": "Choose and operate a home dehumidifier using measured humidity, room conditions, capacity, drainage, energy efficiency, recall checks and a moisture-source record",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "hospital-visit-etiquette-guide.html",
-      "title": "Hospital Visit Etiquette: Permission, Timing, Privacy and Useful Support",
+      "slug": "contractor-estimate-comparison-checklist.html",
+      "title": "Contractor Estimate Comparison Checklist: Scope, Allowances, Schedule and Payment",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Visit a hospitalized friend or relative respectfully by confirming permission and policy, choosing timing and duration, protecting privacy, preventing infection and offering useful follow-up",
+      "searchIntent": "Compare home-improvement contractor estimates by normalizing scope, materials, allowances, exclusions, permits, schedule, change orders, payment terms and closeout records",
       "affiliateLinksExpected": 0
     }
   ]

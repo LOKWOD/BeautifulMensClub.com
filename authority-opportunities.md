@@ -1,5 +1,11 @@
 # Authority opportunities
 
+## 2026-10-05 — Room-by-room humidity and dehumidifier decision record
+
+- **EPA Indoor Environments Division / mold and moisture education** — https://www.epa.gov/mold/forms/contact-us-about-mold — Asset match: the room profile and operating log turns EPA moisture-source, humidity and escalation guidance into a neutral household record without presenting a dehumidifier as leak repair or mold remediation. Honest angle: offer it as an independent implementation aid, invite factual corrections and never imply EPA endorsement. Contact route: EPA’s official mold contact form. No outreach sent.
+- **ENERGY STAR consumer-products team** — https://www.energystar.gov/about/contact-us — Asset match: the sizing worksheet connects measured area and starting conditions to current capacity, efficiency, drainage and whole-home decision guidance while linking directly to ENERGY STAR product criteria. Honest angle: ask whether the noncommercial checklist accurately helps consumers apply current dehumidifier guidance; do not request endorsement or a traded link. Contact route: ENERGY STAR’s published contact page. No outreach sent.
+- **Cornell Cooperative Extension indoor-environment or housing educators** — https://cce.cornell.edu/localoffices — Asset match: local educators can pair climate, basement, flood-recovery and building-specific guidance with the national room-by-room moisture record. Honest angle: approach only a relevant local office with an invitation to review or localize the free asset; no mass outreach. Contact route: Cornell’s official local-office directory and the selected office’s published program contact. No outreach sent.
+
 ## 2026-10-04 — Clothes-dryer exhaust-path safety record
 
 - **U.S. Fire Administration fire-prevention and public-education team** — https://www.usfa.fema.gov/about/contact/ — Asset match: the dryer record turns USFA lint-filter, professional-service, rear-area, damaged-transition and outdoor-vent guidance into a neutral whole-path inspection and maintenance handoff with direct links to current federal material. Honest angle: offer it as an independent implementation aid, invite factual corrections and never imply USFA or FEMA endorsement. Contact route: USFA’s official contact page and fire-prevention program channels. No outreach sent.
