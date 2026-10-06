@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-06",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,27 +8,30 @@
   },
   "pages": [
     {
-      "slug": "mens-nose-ear-hair-trimmer-buying-guide.html",
-      "title": "Men’s Nose and Ear Hair Trimmer Buying Guide: Heads, Reach, Power and Care",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "searchIntent": "Choose a men's nose and ear hair trimmer by permitted use, cutter design, reach, visibility, grip, power, cleaning, parts support and travel needs",
+      "slug": "mens-slipper-buying-guide.html",
+      "title": "Men’s Slipper Buying Guide: Fit, Soles, Linings and Indoor Safety",
+      "category": "STYLE",
+      "department": "style.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose men's slippers by indoor route, heel retention, toe room, sock and orthotic fit, sole construction, upper and lining claims, care, seller and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-dehumidifier-buying-moisture-plan.html",
-      "title": "Home Dehumidifier Buying Guide and Moisture Plan: Size, Drainage, Energy and Safety",
-      "category": "LIFE",
-      "department": "life.html",
-      "searchIntent": "Choose and operate a home dehumidifier using measured humidity, room conditions, capacity, drainage, energy efficiency, recall checks and a moisture-source record",
+      "slug": "cardio-intensity-talk-test-guide.html",
+      "title": "Cardio Intensity Guide: Talk Test, Effort and Recovery",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Authority-expansion",
+      "searchIntent": "Use the talk test, relative effort and recovery notes to choose and progress moderate or vigorous cardio intensity without relying on false precision",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "contractor-estimate-comparison-checklist.html",
-      "title": "Contractor Estimate Comparison Checklist: Scope, Allowances, Schedule and Payment",
+      "slug": "roadside-emergency-kit-breakdown-plan.html",
+      "title": "Roadside Emergency Kit and Breakdown Plan: Vehicle, Visibility and Seasonal Checks",
       "category": "LIFE",
       "department": "life.html",
-      "searchIntent": "Compare home-improvement contractor estimates by normalizing scope, materials, allowances, exclusions, permits, schedule, change orders, payment terms and closeout records",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Build a vehicle-specific roadside emergency kit and breakdown plan with communication, visibility, weather, occupant, recall and seasonal maintenance checks",
       "affiliateLinksExpected": 0
     }
   ]

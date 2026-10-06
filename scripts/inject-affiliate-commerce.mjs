@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  slippers: [
+    ["mens closed back slippers rubber sole", "Closed-back men’s slippers", "Compare the exact size chart, heel retention, interior measurements, upper and lining disclosure, sole construction, care instructions, intended surfaces, seller and return terms."],
+    ["mens backless house slippers indoor", "Backless men’s house slippers", "Match quick entry to the actual floor and route, then verify toe room, instep fit, sole flex, upper and lining materials, cleaning method and return restrictions."],
+    ["mens indoor outdoor slippers", "Indoor-outdoor men’s slippers", "Confirm the exact model permits the planned outdoor use, then check tread, edge coverage, water limits, cleaning, sock-and-insert fit, seller and return window."],
+  ],
   noseEarTrimmers: [
     ["mens nose ear hair trimmer washable head", "Nose and ear trimmers with guarded washable heads", "Verify the exact permitted zones, cutter housing, rinse limits, drying steps, power source, replacement-head support, warranty and seller terms."],
     ["mens nose trimmer eyebrow attachment guards", "Detail trimmers with documented eyebrow guards", "Confirm that the exact model includes the shown brow combs and states their usable lengths, permitted areas, cleaning method and replacement identifiers."],
@@ -247,6 +252,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-slipper-buying-guide.html") return catalog.slippers;
+  if (normalized === "cardio-intensity-talk-test-guide.html" || normalized === "roadside-emergency-kit-breakdown-plan.html") return null;
   if (normalized === "mens-nose-ear-hair-trimmer-buying-guide.html") return catalog.noseEarTrimmers;
   if (normalized === "home-dehumidifier-buying-moisture-plan.html" || normalized === "contractor-estimate-comparison-checklist.html") return null;
   if (normalized === "mens-scarf-buying-guide.html") return catalog.scarves;

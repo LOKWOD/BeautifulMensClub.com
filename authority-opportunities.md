@@ -1,5 +1,9 @@
 # Authority opportunities
 
+## 2026-10-06 — Cardio intensity talk-test and recovery record
+
+- **HHS Move Your Way / Office of Disease Prevention and Health Promotion** — https://odphp.health.gov/contact-us — Asset match: the two-week record turns current federal activity guidelines and the CDC talk test into a neutral, printable session-and-recovery workflow while sending readers to primary guidance. Honest angle: offer the page as an independent implementation aid, invite factual corrections and ask whether the record could help adults put Move Your Way guidance into practice; never imply HHS endorsement. Contact route: the office’s official contact page. No outreach sent.
+
 ## 2026-10-05 — Room-by-room humidity and dehumidifier decision record
 
 - **EPA Indoor Environments Division / mold and moisture education** — https://www.epa.gov/mold/forms/contact-us-about-mold — Asset match: the room profile and operating log turns EPA moisture-source, humidity and escalation guidance into a neutral household record without presenting a dehumidifier as leak repair or mold remediation. Honest angle: offer it as an independent implementation aid, invite factual corrections and never imply EPA endorsement. Contact route: EPA’s official mold contact form. No outreach sent.
