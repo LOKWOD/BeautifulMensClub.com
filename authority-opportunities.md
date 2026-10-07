@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-07 — Household medicine inventory, storage and disposal record
+
+- **HRSA Poison Help / Up and Away public-education program** — https://poisonhelp.hrsa.gov/about-us — Asset match: the source-linked cabinet record turns current storage, label, access, exposure-response and Poison Help instructions into a neutral quarterly household handoff while preserving explicit pharmacist and emergency gates. Honest angle: offer the page as an independent implementation aid, invite factual corrections and ask whether the record could complement Up and Away education; never imply HRSA or Poison Help endorsement. Contact route: the program’s official About Us and public-information route. No outreach sent.
+- **U.S. Food and Drug Administration Division of Drug Information** — https://www.fda.gov/drugs/resources-you-drugs/drug-information-consumers — Asset match: the disposal decision tree converts the current take-back-first, Flush List and household-trash guidance into a product-level record without giving disposal advice beyond FDA’s own hierarchy. Honest angle: invite a factual review as a free consumer implementation aid that links directly to FDA; do not request endorsement or a traded link. Contact route: the Division’s official consumer-information page and published contact channels. No outreach sent.
+
 ## 2026-10-06 — Cardio intensity talk-test and recovery record
 
 - **HHS Move Your Way / Office of Disease Prevention and Health Promotion** — https://odphp.health.gov/contact-us — Asset match: the two-week record turns current federal activity guidelines and the CDC talk test into a neutral, printable session-and-recovery workflow while sending readers to primary guidance. Honest angle: offer the page as an independent implementation aid, invite factual corrections and ask whether the record could help adults put Move Your Way guidance into practice; never imply HHS endorsement. Contact route: the office’s official contact page. No outreach sent.

@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  polos: [
+    ["mens pique polo shirt", "Men’s piqué polo shirts", "Compare finished garment measurements, exact fiber percentages, knit weight, collar and placket construction, care label, seller and return terms."],
+    ["mens cotton jersey polo shirt", "Men’s jersey polo shirts", "Check shoulder, chest, sleeve, hem and length measurements, full fiber disclosure, opacity, recovery, sewn-in care and the exact selected variation."],
+    ["mens long sleeve polo shirt", "Men’s long-sleeve polo shirts", "Match sleeve and cuff dimensions to the intended layer, then verify the knit, collar behavior, garment length, care instructions, seller and returns."],
+  ],
   slippers: [
     ["mens closed back slippers rubber sole", "Closed-back men’s slippers", "Compare the exact size chart, heel retention, interior measurements, upper and lining disclosure, sole construction, care instructions, intended surfaces, seller and return terms."],
     ["mens backless house slippers indoor", "Backless men’s house slippers", "Match quick entry to the actual floor and route, then verify toe room, instep fit, sole flex, upper and lining materials, cleaning method and return restrictions."],
@@ -252,6 +257,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-polo-shirt-buying-guide.html") return catalog.polos;
+  if (normalized === "medicine-cabinet-inventory-storage-disposal-plan.html" || normalized === "calendar-invite-etiquette-guide.html") return null;
   if (normalized === "mens-slipper-buying-guide.html") return catalog.slippers;
   if (normalized === "cardio-intensity-talk-test-guide.html" || normalized === "roadside-emergency-kit-breakdown-plan.html") return null;
   if (normalized === "mens-nose-ear-hair-trimmer-buying-guide.html") return catalog.noseEarTrimmers;

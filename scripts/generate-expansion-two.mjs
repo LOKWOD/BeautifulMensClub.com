@@ -5,6 +5,7 @@ import { pagesB } from "./expansion-two-pages-b.mjs";
 
 const root = process.cwd();
 const siteUrl = "https://beautifulmensclub.com";
+const cloudflareAnalytics = `\n\n\n  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ebb9c435ac06430c9e3f3e6e03e7178b"}'></script><!-- End Cloudflare Web Analytics -->`;
 const pages = [...pagesA, ...pagesB];
 const esc = (value) => String(value).replace(/[&<>\"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[char]));
 
@@ -29,7 +30,7 @@ function upsert(path, marker, block) {
   writeFileSync(full, html);
 }
 
-for (const page of pages) writeFileSync(join(root, page.slug), render(page));
+for (const page of pages) writeFileSync(join(root, page.slug), render(page).replace("</body>", `${cloudflareAnalytics}</body>`));
 const cards = pages.map((page) => `<a class="library-card" href="${page.slug}" data-guide data-category="${esc(page.category.toLowerCase())}" data-title="${esc(page.title)}" data-keywords="${esc(page.description)}"><span>${esc(page.category)}</span><h3>${esc(page.title)}</h3><p>${esc(page.description)}</p><b>READ THE GUIDE →</b></a>`).join("");
 upsert("library.html", "BMC EXPANSION TWO", `<section class="section"><div class="section-head"><p class="section-tag">NEW FIELD MANUALS</p><h2>Ten systems that make the man easier to run.</h2><p>Clothes, grooming, movement, recovery, conversation and travel—built as repeatable practices, not product lists.</p></div><div class="library-grid">${cards}</div></section>`);
 const sitemapPath = join(root, "sitemap.xml");

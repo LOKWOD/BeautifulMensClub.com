@@ -3,6 +3,7 @@ import { dirname, join } from "node:path";
 
 const root = process.cwd();
 const siteUrl = "https://beautifulmensclub.com";
+const cloudflareAnalytics = `\n\n\n  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ebb9c435ac06430c9e3f3e6e03e7178b"}'></script><!-- End Cloudflare Web Analytics -->`;
 
 const pages = [
   {
@@ -154,7 +155,7 @@ function upsert(path, marker, block) {
 for (const page of pages) {
   const full = join(root, page.slug);
   mkdirSync(dirname(full), { recursive: true });
-  writeFileSync(full, render(page));
+  writeFileSync(full, render(page).replace("</body>", `${cloudflareAnalytics}</body>`));
 }
 
 const libraryBlock = `<section class="section" id="new-guides"><div class="section-head"><p class="section-tag">THE NEW FIELD MANUALS</p><h2>Six guides worth saving.</h2><p>Specific systems for clothes, grooming, strength and presence—written to be used, not admired once and forgotten.</p></div><div class="library-grid">${pages.map((page) => `<a class="library-card" href="${page.slug}" data-guide data-category="${esc(page.category.toLowerCase())}" data-title="${esc(page.title)}" data-keywords="${esc(page.description)}"><span>${esc(page.category)}</span><h3>${esc(page.title)}</h3><p>${esc(page.description)}</p><b>Read guide →</b></a>`).join("")}</div></section>`;

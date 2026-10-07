@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-10-07",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,30 +8,30 @@
   },
   "pages": [
     {
-      "slug": "mens-slipper-buying-guide.html",
-      "title": "Men’s Slipper Buying Guide: Fit, Soles, Linings and Indoor Safety",
+      "slug": "mens-polo-shirt-buying-guide.html",
+      "title": "Men’s Polo Shirt Buying Guide: Fit, Knit, Collar and Care",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose men's slippers by indoor route, heel retention, toe room, sock and orthotic fit, sole construction, upper and lining claims, care, seller and return terms",
+      "searchIntent": "Choose a men's polo shirt by garment measurements, body and sleeve fit, knit construction, fiber label, collar, placket, hem, care and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "cardio-intensity-talk-test-guide.html",
-      "title": "Cardio Intensity Guide: Talk Test, Effort and Recovery",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "medicine-cabinet-inventory-storage-disposal-plan.html",
+      "title": "Medicine Cabinet Inventory, Storage and Disposal Plan",
+      "category": "LIFE",
+      "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Use the talk test, relative effort and recovery notes to choose and progress moderate or vigorous cardio intensity without relying on false precision",
+      "searchIntent": "Create a household medicine inventory, verify labels and storage, prevent child and pet access, audit expiration and use official take-back or FDA disposal instructions",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "roadside-emergency-kit-breakdown-plan.html",
-      "title": "Roadside Emergency Kit and Breakdown Plan: Vehicle, Visibility and Seasonal Checks",
+      "slug": "calendar-invite-etiquette-guide.html",
+      "title": "Calendar Invite Etiquette: Time Zones, Locations, Agendas and Changes",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Build a vehicle-specific roadside emergency kit and breakdown plan with communication, visibility, weather, occupant, recall and seasonal maintenance checks",
+      "searchIntent": "Send useful calendar invitations with a specific title, owner, outcome, agenda, required and optional guests, time zone, location or meeting link, materials and change notes",
       "affiliateLinksExpected": 0
     }
   ]
