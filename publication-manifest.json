@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-10-08",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,30 +8,30 @@
   },
   "pages": [
     {
-      "slug": "mens-polo-shirt-buying-guide.html",
-      "title": "Men’s Polo Shirt Buying Guide: Fit, Knit, Collar and Care",
-      "category": "STYLE",
-      "department": "style.html",
+      "slug": "mens-water-flosser-buying-guide.html",
+      "title": "Men’s Water Flosser Buying Guide: Pressure, Tips, Cleaning and Fit",
+      "category": "GROOMING",
+      "department": "grooming.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's polo shirt by garment measurements, body and sleeve fit, knit construction, fiber label, collar, placket, hem, care and return terms",
+      "searchIntent": "Choose a water flosser or oral irrigator by dental guidance, pressure controls, exact tip compatibility, reservoir and cleaning instructions, counter space, travel fit and seller terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "medicine-cabinet-inventory-storage-disposal-plan.html",
-      "title": "Medicine Cabinet Inventory, Storage and Disposal Plan",
+      "slug": "portable-space-heater-buying-safety-plan.html",
+      "title": "Portable Space Heater Buying Guide and Room Safety Plan",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Create a household medicine inventory, verify labels and storage, prevent child and pet access, audit expiration and use official take-back or FDA disposal instructions",
+      "searchIntent": "Choose and place a portable electric space heater using room need, listing label, electrical load, tip-over and overheat controls, three-foot clearance, supervision and a written pre-use safety record",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "calendar-invite-etiquette-guide.html",
-      "title": "Calendar Invite Etiquette: Time Zones, Locations, Agendas and Changes",
+      "slug": "flight-delay-cancellation-checklist.html",
+      "title": "Flight Delay and Cancellation Checklist: Rebooking, Refunds and Receipts",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Send useful calendar invitations with a specific title, owner, outcome, agenda, required and optional guests, time zone, location or meeting link, materials and change notes",
+      "searchIntent": "Handle a U.S. airline flight delay or cancellation by preserving the itinerary, checking the airline cause and commitments, comparing rebooking with a refund, documenting expenses and escalating through official channels",
       "affiliateLinksExpected": 0
     }
   ]

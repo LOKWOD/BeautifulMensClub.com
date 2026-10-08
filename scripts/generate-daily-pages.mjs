@@ -112,13 +112,14 @@ upsert("index.html", `BMC DAILY ${dailyBatch.date}`, `<section class="section"><
 let library = readFileSync(join(root, "library.html"), "utf8");
 const libraryCount = (library.match(/<a\b[^>]*\bdata-guide\b/g) || []).length;
 const countWords = libraryCount === 49 ? "forty-nine" : String(libraryCount);
+const updatedMonth = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${dailyBatch.date}T00:00:00Z`));
 library = library
   .replace(/\d+ PRACTICAL GUIDES/g, `${libraryCount} PRACTICAL GUIDES`)
   .replace(/Search \d+ practical men's guides/gi, `Search ${libraryCount} practical men's guides`)
   .replace(/Search (?:\d+|[a-z-]+) practical guides/gi, `Search ${libraryCount} practical guides`)
   .replace(/(?:Twenty-seven|Forty-six|Forty-nine|\d+) useful guides/gi, `${countWords[0].toUpperCase()}${countWords.slice(1)} useful guides`)
   .replace(/>\d+ guides</g, `>${libraryCount} guides<`)
-  .replace(/Updated August 2026/g, "Updated September 2026");
+  .replace(/Updated [A-Z][a-z]+ \d{4}/g, `Updated ${updatedMonth}`);
 writeFileSync(join(root, "library.html"), library);
 
 let home = readFileSync(join(root, "index.html"), "utf8");

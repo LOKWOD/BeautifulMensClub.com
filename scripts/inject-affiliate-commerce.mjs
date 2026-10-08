@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  waterFlossers: [
+    ["countertop water flosser adjustable pressure", "Countertop water flossers", "Compare the lowest controllable pressure, reservoir and hose handling, exact included tips, model-specific cleaning instructions, electrical label, seller and return terms."],
+    ["cordless water flosser adjustable pressure", "Cordless water flossers", "Check filled weight, grip, refill access, pressure controls, charge and voltage label, water-resistance limits, exact-model manual and replacement-tip support."],
+    ["water flosser replacement tips compatible model", "Model-specific replacement tips", "Match the complete handle model to the maker’s compatibility chart, then verify the tip identifier, intended use, pack contents, seller and replacement guidance."],
+  ],
   polos: [
     ["mens pique polo shirt", "Men’s piqué polo shirts", "Compare finished garment measurements, exact fiber percentages, knit weight, collar and placket construction, care label, seller and return terms."],
     ["mens cotton jersey polo shirt", "Men’s jersey polo shirts", "Check shoulder, chest, sleeve, hem and length measurements, full fiber disclosure, opacity, recovery, sewn-in care and the exact selected variation."],
@@ -257,6 +262,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-water-flosser-buying-guide.html") return catalog.waterFlossers;
+  if (normalized === "portable-space-heater-buying-safety-plan.html" || normalized === "flight-delay-cancellation-checklist.html") return null;
   if (normalized === "mens-polo-shirt-buying-guide.html") return catalog.polos;
   if (normalized === "medicine-cabinet-inventory-storage-disposal-plan.html" || normalized === "calendar-invite-etiquette-guide.html") return null;
   if (normalized === "mens-slipper-buying-guide.html") return catalog.slippers;
