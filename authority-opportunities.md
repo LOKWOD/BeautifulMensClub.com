@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-09 — Checking-account fee and overdraft review record
+
+- **Association for Financial Counseling & Planning Education (AFCPE) resource team** — https://www.afcpe.org/about/contact/ — Asset match: the source-linked statement audit turns monthly fees, waiver conditions, overdraft settings, alternatives and account-switch handoff into a neutral consumer worksheet without recommending a financial institution. Honest angle: invite a factual review and ask whether the free record could complement AFCPE’s financial-education resources; disclose the independent publisher and never imply AFCPE endorsement. Contact route: AFCPE’s published contact page. No outreach sent.
+- **Consumer Action education and outreach team** — https://www.consumer-action.org/contact/ — Asset match: the account-cost and switching record helps readers translate disclosures into a twelve-month comparison while preserving private account data and directing disputes to the appropriate institution or regulator. Honest angle: offer it as a free implementation aid with prominent primary-source links and invite corrections; do not request a traded link or endorsement. Contact route: Consumer Action’s official contact page. No outreach sent.
+
 ## 2026-10-08 — Portable space-heater room qualification record
 
 - **U.S. Consumer Product Safety Commission consumer-information team** — https://www.cpsc.gov/About-CPSC/Contact-Information — Asset match: the room qualification sheet turns CPSC’s current three-foot clearance, direct-wall connection, awake-supervision, shutdown and recall guidance into a neutral pre-use record with explicit stop signs. Honest angle: offer it as an independent implementation aid, invite factual corrections and never imply CPSC endorsement. Contact route: CPSC’s official consumer-information and contact channels. No outreach sent.

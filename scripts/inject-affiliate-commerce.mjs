@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  undershirts: [
+    ["mens v neck undershirt", "Men’s V-neck undershirts", "Compare neckline depth and width, shoulder and sleeve measurements, body length, exact fiber percentages, care instructions, pack count, seller and return terms."],
+    ["mens crew neck undershirt", "Men’s crew-neck undershirts", "Check that the collar is meant to be visible or fully covered, then verify garment measurements, seam profile, color, fiber label, care and exact package."],
+    ["mens moisture wicking undershirt", "Performance-fabric undershirts", "Verify the exact fiber composition and maker claims, then compare fit, opacity, seams, care, package variation and return restrictions without assuming one fabric suits every climate."],
+  ],
   waterFlossers: [
     ["countertop water flosser adjustable pressure", "Countertop water flossers", "Compare the lowest controllable pressure, reservoir and hose handling, exact included tips, model-specific cleaning instructions, electrical label, seller and return terms."],
     ["cordless water flosser adjustable pressure", "Cordless water flossers", "Check filled weight, grip, refill access, pressure controls, charge and voltage label, water-resistance limits, exact-model manual and replacement-tip support."],
@@ -262,6 +267,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-undershirt-buying-guide.html") return catalog.undershirts;
+  if (normalized === "stationary-exercise-bike-buying-setup-guide.html" || normalized === "checking-account-fee-overdraft-review-checklist.html") return null;
   if (normalized === "mens-water-flosser-buying-guide.html") return catalog.waterFlossers;
   if (normalized === "portable-space-heater-buying-safety-plan.html" || normalized === "flight-delay-cancellation-checklist.html") return null;
   if (normalized === "mens-polo-shirt-buying-guide.html") return catalog.polos;

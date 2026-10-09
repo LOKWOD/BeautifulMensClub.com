@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08",
+  "generatedAt": "2026-10-09",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,30 +8,30 @@
   },
   "pages": [
     {
-      "slug": "mens-water-flosser-buying-guide.html",
-      "title": "Men’s Water Flosser Buying Guide: Pressure, Tips, Cleaning and Fit",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "mens-undershirt-buying-guide.html",
+      "title": "Men’s Undershirt Buying Guide: Neckline, Fit, Fabric and Layering",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a water flosser or oral irrigator by dental guidance, pressure controls, exact tip compatibility, reservoir and cleaning instructions, counter space, travel fit and seller terms",
+      "searchIntent": "Choose a men's undershirt by outer-shirt neckline, sleeve and torso fit, color visibility, fiber label, care instructions, pack quantity, seller terms and replacement plan",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "portable-space-heater-buying-safety-plan.html",
-      "title": "Portable Space Heater Buying Guide and Room Safety Plan",
-      "category": "LIFE",
-      "department": "life.html",
-      "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Choose and place a portable electric space heater using room need, listing label, electrical load, tip-over and overheat controls, three-foot clearance, supervision and a written pre-use safety record",
+      "slug": "stationary-exercise-bike-buying-setup-guide.html",
+      "title": "Stationary Exercise Bike Buying and Setup Guide: Fit, Resistance, Stability and Safety",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose and set up a stationary exercise bike by rider fit, step-through needs, adjustment range, resistance, stability, footprint, controls, subscription, recall status and maintenance",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "flight-delay-cancellation-checklist.html",
-      "title": "Flight Delay and Cancellation Checklist: Rebooking, Refunds and Receipts",
+      "slug": "checking-account-fee-overdraft-review-checklist.html",
+      "title": "Checking Account Fee and Overdraft Review Checklist",
       "category": "LIFE",
       "department": "life.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Handle a U.S. airline flight delay or cancellation by preserving the itinerary, checking the airline cause and commitments, comparing rebooking with a refund, documenting expenses and escalating through official channels",
+      "portfolioLabel": "Authority-expansion",
+      "searchIntent": "Audit a U.S. checking account using statements, fee schedule, monthly-fee waiver, overdraft opt-in status, linked transfer terms, ATM access, alerts, posting rules and account-switch record",
       "affiliateLinksExpected": 0
     }
   ]
