@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  hairStylingProducts: [
+    ["mens matte hair clay", "Matte hair clays", "Compare the desired finish and hold with the exact ingredient declaration, directions, net contents, seller, sealed condition and return restrictions; a category name is not a standardized performance grade."],
+    ["mens hair styling paste cream", "Hair styling pastes and creams", "Match the exact formula to hair length, density, texture and the intended amount of movement, then verify directions, warnings, fragrance, package size, seller and returns."],
+    ["mens water based pomade", "Water-based hair pomades", "Check the maker's stated finish, hold and washout directions on the exact container, then compare ingredient label, net contents, seller and return terms without treating 'water-based' as a complete formula description."],
+  ],
   undershirts: [
     ["mens v neck undershirt", "Men’s V-neck undershirts", "Compare neckline depth and width, shoulder and sleeve measurements, body length, exact fiber percentages, care instructions, pack count, seller and return terms."],
     ["mens crew neck undershirt", "Men’s crew-neck undershirts", "Check that the collar is meant to be visible or fully covered, then verify garment measurements, seam profile, color, fiber label, care and exact package."],
@@ -267,6 +272,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-hair-styling-product-guide.html") return catalog.hairStylingProducts;
+  if (normalized === "auto-insurance-renewal-review-checklist.html" || normalized === "wall-art-hanging-plan.html") return null;
   if (normalized === "mens-undershirt-buying-guide.html") return catalog.undershirts;
   if (normalized === "stationary-exercise-bike-buying-setup-guide.html" || normalized === "checking-account-fee-overdraft-review-checklist.html") return null;
   if (normalized === "mens-water-flosser-buying-guide.html") return catalog.waterFlossers;
@@ -386,7 +393,10 @@ for (const file of htmlFiles(root)) {
   const original = readFileSync(file, "utf8");
   const cleaned = original.replace(new RegExp(`${markerStart}[\\s\\S]*?${markerEnd}\\s*`, "g"), "");
   const products = productsFor(path, cleaned);
-  if (!products) continue;
+  if (!products) {
+    if (cleaned !== original) writeFileSync(file, cleaned);
+    continue;
+  }
   if (!/<\/main>/i.test(cleaned)) throw new Error(`Missing </main> in ${path}`);
   const depth = path.split("/").length - 1;
   const stylesheet = `<link rel="stylesheet" href="${"../".repeat(depth)}affiliate-commerce.css">`;

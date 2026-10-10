@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09",
+  "generatedAt": "2026-10-10",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -8,30 +8,30 @@
   },
   "pages": [
     {
-      "slug": "mens-undershirt-buying-guide.html",
-      "title": "Men’s Undershirt Buying Guide: Neckline, Fit, Fabric and Layering",
-      "category": "STYLE",
-      "department": "style.html",
+      "slug": "mens-hair-styling-product-guide.html",
+      "title": "Men's Hair Styling Product Guide: Clay, Paste, Pomade, Cream or Gel?",
+      "category": "GROOMING",
+      "department": "grooming.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's undershirt by outer-shirt neckline, sleeve and torso fit, color visibility, fiber label, care instructions, pack quantity, seller terms and replacement plan",
+      "searchIntent": "Choose a men's hair styling product by hair length, density, texture, desired finish, hold, application, washout, ingredient label, claims, seller and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "stationary-exercise-bike-buying-setup-guide.html",
-      "title": "Stationary Exercise Bike Buying and Setup Guide: Fit, Resistance, Stability and Safety",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose and set up a stationary exercise bike by rider fit, step-through needs, adjustment range, resistance, stability, footprint, controls, subscription, recall status and maintenance",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "checking-account-fee-overdraft-review-checklist.html",
-      "title": "Checking Account Fee and Overdraft Review Checklist",
+      "slug": "auto-insurance-renewal-review-checklist.html",
+      "title": "Auto Insurance Renewal Review Checklist: Coverage, Cost and a Clean Switch",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Audit a U.S. checking account using statements, fee schedule, monthly-fee waiver, overdraft opt-in status, linked transfer terms, ATM access, alerts, posting rules and account-switch record",
+      "searchIntent": "Review an auto insurance renewal by declarations, drivers, vehicles, use, coverages, limits, deductibles, endorsements, discounts, claims, service, comparison quotes and switch timing",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "wall-art-hanging-plan.html",
+      "title": "Wall Art Hanging Plan: Scale, Layout, Hardware, Light and a Safe Install",
+      "category": "LIFE",
+      "department": "life.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Plan and hang wall art by room purpose, visual scale, paper mockup, frame and hanger measurements, substrate, hardware rating, light, moisture, ladder safety and installation record",
       "affiliateLinksExpected": 0
     }
   ]

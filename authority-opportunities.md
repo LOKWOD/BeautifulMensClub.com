@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-10 — Auto-insurance renewal review record
+
+- **United Policyholders consumer-education team** — https://uphelp.org/about/contact-us/ — Asset match: the source-linked renewal record turns declarations, driver and vehicle facts, coverage rows, deductibles, endorsements, quote comparisons and switch timing into a neutral annual worksheet without recommending an insurer or a coverage amount. Honest angle: invite a factual review and ask whether the free record could complement the nonprofit's Roadmap to Preparedness and insurance-shopping education; disclose the independent publisher and never imply endorsement. Contact route: United Policyholders' published contact page. No outreach sent.
+- **State insurance-department consumer educators** — https://content.naic.org/state-insurance-departments — Asset match: a state regulator can pair current jurisdiction-specific minimums, complaint data and cancellation rules with the checklist's clearly labeled national framework. Honest angle: approach only a relevant state's consumer-education office to invite corrections or localization, not endorsement or a traded link. Contact route: the NAIC's official directory followed by the selected department's published consumer contact. No outreach sent.
+
 ## 2026-10-09 — Checking-account fee and overdraft review record
 
 - **Association for Financial Counseling & Planning Education (AFCPE) resource team** — https://www.afcpe.org/about/contact/ — Asset match: the source-linked statement audit turns monthly fees, waiver conditions, overdraft settings, alternatives and account-switch handoff into a neutral consumer worksheet without recommending a financial institution. Honest angle: invite a factual review and ask whether the free record could complement AFCPE’s financial-education resources; disclose the independent publisher and never imply AFCPE endorsement. Contact route: AFCPE’s published contact page. No outreach sent.
