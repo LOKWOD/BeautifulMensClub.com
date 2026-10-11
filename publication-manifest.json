@@ -1,37 +1,68 @@
 {
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
     "note": "Intentional image-free layouts; no new or changed editorial, affiliate, or product imagery."
   },
+  "searchConsole": {
+    "reportGeneratedAt": "2026-10-07",
+    "window": "2026-09-07 through 2026-10-04",
+    "signal": "10 queryless homepage impressions, zero clicks and average position 3.0",
+    "decision": "Too weak for a Data-led page. No query or non-homepage signal justified reinforcement, so the batch strengthens crawl paths and explores three distinct evergreen intents.",
+    "ignored": "The small homepage-only sample and stale sitemap count were not treated as topic evidence."
+  },
+  "monetization": {
+    "affiliateLinksAdded": 3,
+    "program": "Amazon Associates",
+    "trackingId": "beautifulmensclub-20",
+    "placement": "Three disclosed category searches on the pajamas guide only; no commerce on the supplement or hospitality pages."
+  },
+  "authority": {
+    "action": "Created a source-backed protein-powder label, serving-math and exact-product certification audit and added reciprocal links from established fitness guides.",
+    "cluster": "Fitness nutrition, training and recovery",
+    "opportunity": "NSF Certified for Sport technical-review opportunity logged; no outreach sent."
+  },
+  "diversity": "A sleepwear purchase decision, a supplement evidence audit and a zero-proof hospitality system answer unrelated questions across Style, Fitness and Life.",
+  "surfaces": [
+    "homepage",
+    "Style hub",
+    "Fitness hub",
+    "Life hub",
+    "Library search index",
+    "nine reciprocal related-guide surfaces",
+    "sitemap",
+    "publication manifest",
+    "affiliate catalog",
+    "authority opportunity log"
+  ],
   "pages": [
     {
-      "slug": "mens-hair-styling-product-guide.html",
-      "title": "Men's Hair Styling Product Guide: Clay, Paste, Pomade, Cream or Gel?",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "mens-pajamas-buying-guide.html",
+      "title": "Men’s Pajamas Buying Guide: Fit, Fabric, Temperature and Care",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's hair styling product by hair length, density, texture, desired finish, hold, application, washout, ingredient label, claims, seller and return terms",
+      "searchIntent": "Choose men's pajamas and sleepwear by bedroom temperature, sleep movement, garment measurements, textile label, construction, care, seller and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "auto-insurance-renewal-review-checklist.html",
-      "title": "Auto Insurance Renewal Review Checklist: Coverage, Cost and a Clean Switch",
-      "category": "LIFE",
-      "department": "life.html",
+      "slug": "protein-powder-label-certification-guide.html",
+      "title": "Protein Powder Label Guide: Servings, Ingredients and Certification",
+      "category": "FITNESS",
+      "department": "fitness.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Review an auto insurance renewal by declarations, drivers, vehicles, use, coverages, limits, deductibles, endorsements, discounts, claims, service, comparison quotes and switch timing",
+      "searchIntent": "Audit a protein powder by Supplement Facts, serving math, complete ingredients, allergens, claims, exact-lot third-party certification, recalls, medicines, training need and cost per gram",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "wall-art-hanging-plan.html",
-      "title": "Wall Art Hanging Plan: Scale, Layout, Hardware, Light and a Safe Install",
+      "slug": "zero-proof-hosting-guide.html",
+      "title": "Zero-Proof Hosting Guide: Labels, Guest Choice and a Better Drinks Table",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Plan and hang wall art by room purpose, visual scale, paper mockup, frame and hanger measurements, substrate, hardware rating, light, moisture, ladder safety and installation record",
+      "searchIntent": "Host with non-alcoholic and alcohol-free drinks by guest preference, exact alcohol label, ingredients, allergens, service, glass identification, cold holding, transport and cleanup",
       "affiliateLinksExpected": 0
     }
   ]

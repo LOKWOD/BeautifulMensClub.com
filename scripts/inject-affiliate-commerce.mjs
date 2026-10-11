@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  pajamas: [
+    ["mens cotton pajama set", "Men’s cotton pajama sets", "Compare finished garment measurements, exact fiber percentages, knit or weave, waistband construction, care label, seller and return terms."],
+    ["mens flannel pajama set", "Men’s flannel pajama sets", "Check fabric weight, complete fiber disclosure, garment measurements, button and seam construction, care instructions and whether the warmth fits the actual room and bedding."],
+    ["mens pajama shorts set", "Men’s short pajama sets", "Compare rise, thigh opening, top length, exact textile label, laundering instructions, package contents, seller and hygiene-related return restrictions."],
+  ],
   hairStylingProducts: [
     ["mens matte hair clay", "Matte hair clays", "Compare the desired finish and hold with the exact ingredient declaration, directions, net contents, seller, sealed condition and return restrictions; a category name is not a standardized performance grade."],
     ["mens hair styling paste cream", "Hair styling pastes and creams", "Match the exact formula to hair length, density, texture and the intended amount of movement, then verify directions, warnings, fragrance, package size, seller and returns."],
@@ -272,6 +277,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-pajamas-buying-guide.html") return catalog.pajamas;
+  if (normalized === "protein-powder-label-certification-guide.html" || normalized === "zero-proof-hosting-guide.html") return null;
   if (normalized === "mens-hair-styling-product-guide.html") return catalog.hairStylingProducts;
   if (normalized === "auto-insurance-renewal-review-checklist.html" || normalized === "wall-art-hanging-plan.html") return null;
   if (normalized === "mens-undershirt-buying-guide.html") return catalog.undershirts;
@@ -408,3 +415,4 @@ for (const file of htmlFiles(root)) {
 }
 
 console.log(`Beautiful Men's Club affiliate commerce: ${pages} revenue page(s), ${links} tagged link(s), tag=${tag}`);
+

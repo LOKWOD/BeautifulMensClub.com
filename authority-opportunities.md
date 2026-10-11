@@ -1,5 +1,9 @@
 # Authority opportunities
 
+## 2026-10-11 — Protein-powder label and certification audit
+
+- **NSF Certified for Sport consumer and program team** — https://www.nsfsport.com/contact-us/ — Asset match: the source-linked worksheet shows readers how to match an exact protein-powder brand, product, format and variant to a current certifier directory while keeping certification scope separate from effectiveness, medical suitability and universal safety. Honest angle: invite a technical accuracy review of the verification workflow and ask whether the free independent audit could complement NSF’s consumer education; disclose the publisher and never imply certification or endorsement. Contact route: NSF Certified for Sport’s published contact page. No outreach sent.
+
 ## 2026-10-10 — Auto-insurance renewal review record
 
 - **United Policyholders consumer-education team** — https://uphelp.org/about/contact-us/ — Asset match: the source-linked renewal record turns declarations, driver and vehicle facts, coverage rows, deductibles, endorsements, quote comparisons and switch timing into a neutral annual worksheet without recommending an insurer or a coverage amount. Honest angle: invite a factual review and ask whether the free record could complement the nonprofit's Roadmap to Preparedness and insurance-shopping education; disclose the independent publisher and never imply endorsement. Contact route: United Policyholders' published contact page. No outreach sent.
@@ -125,3 +129,4 @@
 - **U.S. Fire Administration outreach materials** — https://www.usfa.fema.gov/prevention/outreach/ — Asset match: the room-by-room fire escape plan translates USFA guidance into a household worksheet and drill audit. Honest angle: share as an independent implementation example that links readers back to USFA source material. Contact route: USFA website contact and outreach channels. No outreach sent.
 - **American Red Cross Home Fire Campaign** — https://www.redcross.org/sound-the-alarm.html — Asset match: the guide helps households document two routes, alarm audibility, accessibility needs and a meeting place before requesting or completing local fire-safety support. Honest angle: offer the checklist as a free companion reference, without implying endorsement. Contact route: local Red Cross chapter or campaign contact. No outreach sent.
 - **Local fire-department community-risk-reduction teams** — https://www.usfa.fema.gov/prevention/community-risk-reduction/ — Asset match: departments that teach escape planning may find the printable room-by-room audit useful for residents. Honest angle: invite factual corrections or a link only if the department independently finds the resource useful. Contact route: the department’s published nonemergency public-education contact. No outreach sent.
+
