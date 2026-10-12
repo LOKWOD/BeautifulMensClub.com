@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  runningShoes: [
+    ["mens road running shoes", "Men's road running shoes", "Compare both-foot fit, exact size and width options, intended surface, platform geometry, outsole coverage, model version, seller and indoor or permitted trial terms."],
+    ["mens trail running shoes", "Men's trail running shoes", "Match lug pattern, underfoot protection, upper security and drainage to the actual terrain, then verify fit with the planned socks and inserts."],
+    ["mens running shoes wide sizes", "Men's running shoes with width options", "Use the maker's current chart as a starting point, then confirm forefoot width, toe room, instep volume, heel hold, exact model, seller and return conditions."],
+  ],
   pajamas: [
     ["mens cotton pajama set", "Men’s cotton pajama sets", "Compare finished garment measurements, exact fiber percentages, knit or weave, waistband construction, care label, seller and return terms."],
     ["mens flannel pajama set", "Men’s flannel pajama sets", "Check fabric weight, complete fiber disclosure, garment measurements, button and seam construction, care instructions and whether the warmth fits the actual room and bedding."],
@@ -277,6 +282,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-running-shoe-buying-guide.html") return catalog.runningShoes;
+  if (normalized === "home-energy-bill-audit-upgrade-plan.html" || normalized === "job-offer-comparison-checklist.html") return null;
   if (normalized === "mens-pajamas-buying-guide.html") return catalog.pajamas;
   if (normalized === "protein-powder-label-certification-guide.html" || normalized === "zero-proof-hosting-guide.html") return null;
   if (normalized === "mens-hair-styling-product-guide.html") return catalog.hairStylingProducts;
