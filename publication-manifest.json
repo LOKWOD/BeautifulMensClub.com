@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12",
+  "generatedAt": "2026-10-13",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -10,24 +10,24 @@
     "reportGeneratedAt": "2026-10-07",
     "window": "2026-09-07 through 2026-10-04",
     "signal": "10 queryless homepage impressions, zero clicks and average position 3.0",
-    "decision": "Too weak for a Data-led page. No query or non-homepage signal justified reinforcement, so the batch strengthens crawl paths and explores three unrelated evergreen intents.",
+    "decision": "Too weak for a Data-led page. No query or non-homepage signal justified reinforcement, so the batch strengthens crawl paths while opening three unrelated evergreen intents.",
     "ignored": "The small homepage-only sample and the stale 26-URL submitted-sitemap count were not treated as topic evidence."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed category searches on the running-shoe guide only; no commerce on the home-energy or job-offer pages."
+    "placement": "Three disclosed category searches on the tailored-jacket guide only; no commerce on the drinking-water or rental-car pages."
   },
   "authority": {
-    "action": "Created a source-backed home-energy bill, assessment and upgrade-priority record using DOE, ENERGY STAR and FTC guidance, then connected it to established home systems and contractor-comparison guides.",
-    "cluster": "Well-run home systems, household operating costs and evidence-based purchasing",
-    "opportunity": "ENERGY STAR consumer education and local utility efficiency-program review opportunities logged; no outreach sent."
+    "action": "Created a source-backed drinking-water treatment decision and replacement record that begins with the utility report or well test, maps a named concern to an exact certified reduction claim, and preserves installation and cartridge history.",
+    "cluster": "Well-run home systems, drinking-water evidence and accountable household purchasing",
+    "opportunity": "EPA Office of Ground Water and Drinking Water and NSF consumer-education review opportunities logged; no outreach sent."
   },
-  "diversity": "A fitness purchase decision, a household-efficiency audit and a career-compensation comparison answer three unrelated questions across Fitness and Life.",
+  "diversity": "A style-category purchase decision, a household water-evidence worksheet and a travel transaction handoff answer three unrelated questions across Style and Life.",
   "surfaces": [
     "homepage",
-    "Fitness hub",
+    "Style hub",
     "Life hub",
     "Library search index",
     "nine reciprocal related-guide surfaces",
@@ -38,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "mens-running-shoe-buying-guide.html",
-      "title": "Men's Running Shoe Buying Guide: Fit, Surface, Rotation and Returns",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "blazer-sport-coat-suit-jacket-guide.html",
+      "title": "Blazer, Sport Coat or Suit Jacket? Fit, Formality and What to Buy",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose men's running shoes by foot measurements, sock and insert fit, running surface, weekly use, shoe geometry, try-on evidence, return terms and replacement condition",
+      "searchIntent": "Choose among a blazer, sport coat and suit jacket by formality, construction, fabric, trouser compatibility, fit, alterations, care and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-energy-bill-audit-upgrade-plan.html",
-      "title": "Home Energy Bill Audit and Upgrade Plan: Usage, Assessment and Payback",
+      "slug": "home-drinking-water-filter-decision-guide.html",
+      "title": "Home Drinking-Water Filter Guide: Test, Match Claims and Track Replacements",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Audit home electric and fuel bills, normalize use, document the building, obtain an energy assessment, rank upgrades by safety and evidence, compare incentives and verify results",
+      "searchIntent": "Choose and maintain a home drinking-water filter from a utility report or well test, named contaminant, certified reduction claim, installation fit, flow, waste, cartridge cost and replacement record",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "job-offer-comparison-checklist.html",
-      "title": "Job Offer Comparison Checklist: Pay, Benefits, Time and Risk",
+      "slug": "rental-car-pickup-return-checklist.html",
+      "title": "Rental Car Pickup and Return Checklist: Price, Condition, Fuel and Receipts",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Compare a job offer by written role, cash compensation, health and retirement benefits, leave, schedule, commute, remote terms, conditions, risk, questions and decision deadline",
+      "searchIntent": "Document a rental car reservation, driver and coverage decisions, pickup inspection, fuel and toll terms, incident response, return evidence and final receipt",
       "affiliateLinksExpected": 0
     }
   ]

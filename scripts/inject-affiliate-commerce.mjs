@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  tailoredJackets: [
+    ["mens navy blazer", "Men's navy blazers", "Compare shoulder, collar, chest, length and sleeve measurements, exact shell and lining fibers, construction, care label, seller and return terms."],
+    ["mens wool sport coat", "Men's wool and wool-blend sport coats", "Verify the exact fiber percentages, texture, pattern scale, garment measurements, structure, lining, care instructions and current seller."],
+    ["mens unstructured blazer", "Men's unstructured blazers", "Check what structure is actually removed, then compare cloth, lining, pockets, layer room, wrinkle behavior, care and return restrictions."],
+  ],
   runningShoes: [
     ["mens road running shoes", "Men's road running shoes", "Compare both-foot fit, exact size and width options, intended surface, platform geometry, outsole coverage, model version, seller and indoor or permitted trial terms."],
     ["mens trail running shoes", "Men's trail running shoes", "Match lug pattern, underfoot protection, upper security and drainage to the actual terrain, then verify fit with the planned socks and inserts."],
@@ -282,6 +287,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "blazer-sport-coat-suit-jacket-guide.html") return catalog.tailoredJackets;
+  if (normalized === "home-drinking-water-filter-decision-guide.html" || normalized === "rental-car-pickup-return-checklist.html") return null;
   if (normalized === "mens-running-shoe-buying-guide.html") return catalog.runningShoes;
   if (normalized === "home-energy-bill-audit-upgrade-plan.html" || normalized === "job-offer-comparison-checklist.html") return null;
   if (normalized === "mens-pajamas-buying-guide.html") return catalog.pajamas;
