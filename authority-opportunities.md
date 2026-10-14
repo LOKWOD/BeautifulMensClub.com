@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-14 — 2027 Marketplace health-plan comparison record
+
+- **CMS Center for Consumer Information and Insurance Oversight** — https://www.cms.gov/cciio/contact — Asset match: the independent record turns the current federal Marketplace dates, annual premium, cost-sharing scenarios, exact-plan network and formulary checks, standardized plan documents and enrollment confirmation into one auditable comparison without recommending an insurer. Honest angle: invite a technical accuracy review and ask whether the free worksheet usefully complements HealthCare.gov comparison education; disclose the publisher and never imply CMS approval. Contact route: CCIIO’s official contact page. No outreach sent.
+- **State insurance-department consumer educators** — https://content.naic.org/state-insurance-departments — Asset match: state regulators can pair jurisdiction-specific Marketplace deadlines, network-adequacy information, complaint routes and licensed-assistance resources with the guide’s clearly labeled federal baseline. Honest angle: approach only a relevant department to invite corrections or localization, not endorsement or a reciprocal link. Contact route: the NAIC’s official department directory followed by the selected regulator’s published consumer contact. No outreach sent.
+
 ## 2026-10-13 — Drinking-water treatment decision and replacement record
 
 - **EPA Office of Ground Water and Drinking Water consumer-information team** — https://www.epa.gov/ground-water-and-drinking-water/forms/contact-us-about-ground-water-and-drinking-water-0 — Asset match: the independent record turns the current Consumer Confidence Report or well-test result, named concern, treatment technology, exact certified reduction claim, installation and service history into one auditable household decision. Honest angle: invite a technical accuracy review and ask whether the free noncommercial worksheet usefully complements EPA's treatment-system guide; disclose the publisher and never imply agency approval. Contact route: EPA's official Ground Water and Drinking Water contact form. No outreach sent.

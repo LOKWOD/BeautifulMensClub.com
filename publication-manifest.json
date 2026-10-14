@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13",
+  "generatedAt": "2026-10-14",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -7,28 +7,28 @@
     "note": "Intentional image-free layouts; no new or changed editorial, affiliate, or product imagery."
   },
   "searchConsole": {
-    "reportGeneratedAt": "2026-10-07",
-    "window": "2026-09-07 through 2026-10-04",
-    "signal": "10 queryless homepage impressions, zero clicks and average position 3.0",
-    "decision": "Too weak for a Data-led page. No query or non-homepage signal justified reinforcement, so the batch strengthens crawl paths while opening three unrelated evergreen intents.",
-    "ignored": "The small homepage-only sample and the stale 26-URL submitted-sitemap count were not treated as topic evidence."
+    "reportGeneratedAt": "2026-10-14",
+    "window": "2026-09-14 through 2026-10-11",
+    "signal": "Eight homepage impressions, zero clicks, average position 3.125 and no query rows",
+    "decision": "Too little evidence for a Data-led page. The batch instead adds three unrelated evergreen intents and stronger reciprocal crawl paths from established guides.",
+    "ignored": "The homepage-only sample was not treated as a topic signal; the externally reported 26 submitted and zero indexed sitemap URLs were treated as a discovery warning, not proof that the current 144-page sitemap is invalid."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed category searches on the tailored-jacket guide only; no commerce on the drinking-water or rental-car pages."
+    "placement": "Three disclosed category searches on the chef’s-knife guide only; no commerce on the health-plan or adjustable-bench pages."
   },
   "authority": {
-    "action": "Created a source-backed drinking-water treatment decision and replacement record that begins with the utility report or well test, maps a named concern to an exact certified reduction claim, and preserves installation and cartridge history.",
-    "cluster": "Well-run home systems, drinking-water evidence and accountable household purchasing",
-    "opportunity": "EPA Office of Ground Water and Drinking Water and NSF consumer-education review opportunities logged; no outreach sent."
+    "action": "Created a source-backed 2027 Marketplace health-plan comparison record that normalizes annual premium, deductible, cost sharing, out-of-pocket exposure, provider network, drug coverage and plan-document evidence before enrollment.",
+    "cluster": "Well-run money systems, health coverage decisions and documented household risk",
+    "opportunity": "CMS/HealthCare.gov consumer-education and state insurance-department review opportunities logged; no outreach sent."
   },
-  "diversity": "A style-category purchase decision, a household water-evidence worksheet and a travel transaction handoff answer three unrelated questions across Style and Life.",
+  "diversity": "A time-sensitive household coverage worksheet, a home-strength equipment qualification and a cooking-tool purchase decision answer three unrelated questions across Life and Fitness. Search Console did not support a Data-led item, so the portfolio uses one Authority-expansion and two Exploration pages.",
   "surfaces": [
     "homepage",
-    "Style hub",
     "Life hub",
+    "Fitness hub",
     "Library search index",
     "nine reciprocal related-guide surfaces",
     "sitemap",
@@ -38,31 +38,31 @@
   ],
   "pages": [
     {
-      "slug": "blazer-sport-coat-suit-jacket-guide.html",
-      "title": "Blazer, Sport Coat or Suit Jacket? Fit, Formality and What to Buy",
-      "category": "STYLE",
-      "department": "style.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose among a blazer, sport coat and suit jacket by formality, construction, fabric, trouser compatibility, fit, alterations, care and return terms",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "home-drinking-water-filter-decision-guide.html",
-      "title": "Home Drinking-Water Filter Guide: Test, Match Claims and Track Replacements",
+      "slug": "health-insurance-plan-comparison-checklist.html",
+      "title": "2027 Health Insurance Plan Comparison Checklist: Cost, Network and Coverage",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Choose and maintain a home drinking-water filter from a utility report or well test, named contaminant, certified reduction claim, installation fit, flow, waste, cartridge cost and replacement record",
+      "searchIntent": "Compare 2027 Marketplace health insurance plans by annual premium, deductible, copays, coinsurance, out-of-pocket maximum, provider network, drug formulary, plan documents and enrollment deadline",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "rental-car-pickup-return-checklist.html",
-      "title": "Rental Car Pickup and Return Checklist: Price, Condition, Fuel and Receipts",
+      "slug": "adjustable-weight-bench-buying-guide.html",
+      "title": "Adjustable Weight Bench Buying Guide: Fit, Stability and Useful Angles",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose an adjustable weight bench by exercises, usable angles, body fit, room footprint, load limits, adjustment locks, stability, rack compatibility, assembly, recall status and storage",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "chefs-knife-buying-guide.html",
+      "title": "Chef’s Knife Buying Guide: Blade Shape, Hand Fit and Maintenance",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Document a rental car reservation, driver and coverage decisions, pickup inspection, fuel and toll terms, incident response, return evidence and final receipt",
-      "affiliateLinksExpected": 0
+      "searchIntent": "Choose a chef's knife by blade length and profile, handle and pinch-grip fit, balance, steel disclosure, edge geometry, cutting board compatibility, sharpening plan, cleaning, storage and return terms",
+      "affiliateLinksExpected": 3
     }
   ]
 }

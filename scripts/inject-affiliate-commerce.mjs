@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  chefsKnives: [
+    ["8 inch chefs knife", "Eight-inch chef’s knives", "Compare blade profile, exact length and weight, handle and pinch-grip fit, material disclosure, maker sharpening guidance, warranty, seller and return terms."],
+    ["7 inch chefs knife", "Seven-inch chef’s knives", "Consider the shorter format when hand control, board size or counter depth matters; verify knuckle clearance, edge profile, care and the exact selected model."],
+    ["6 inch chefs knife", "Six-inch chef’s knives", "Use the compact category for small stations or users who prefer a shorter blade, then check handle security, board contact, material, maintenance and safe storage."],
+  ],
   tailoredJackets: [
     ["mens navy blazer", "Men's navy blazers", "Compare shoulder, collar, chest, length and sleeve measurements, exact shell and lining fibers, construction, care label, seller and return terms."],
     ["mens wool sport coat", "Men's wool and wool-blend sport coats", "Verify the exact fiber percentages, texture, pattern scale, garment measurements, structure, lining, care instructions and current seller."],
@@ -287,6 +292,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "chefs-knife-buying-guide.html") return catalog.chefsKnives;
+  if (normalized === "health-insurance-plan-comparison-checklist.html" || normalized === "adjustable-weight-bench-buying-guide.html") return null;
   if (normalized === "blazer-sport-coat-suit-jacket-guide.html") return catalog.tailoredJackets;
   if (normalized === "home-drinking-water-filter-decision-guide.html" || normalized === "rental-car-pickup-return-checklist.html") return null;
   if (normalized === "mens-running-shoe-buying-guide.html") return catalog.runningShoes;
