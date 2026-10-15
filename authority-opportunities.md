@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-15 — Men’s hair-change observation and clinician-handoff record
+
+- **American Academy of Dermatology patient-education team** — https://www.aad.org/contact-aad — Asset match: the independent record separates observation from diagnosis and gives readers a consistent timeline, photo protocol, scalp-symptom inventory, product list and clinician questions while directing urgent or unexplained change to qualified care. Honest angle: invite a medical-accuracy review and ask whether the free, commerce-free handoff can complement public hair-loss education; disclose the publisher and never imply Academy review or endorsement. Contact route: the Academy’s official contact page. No outreach sent.
+- **FDA Division of Drug Information** — https://www.fda.gov/drugs/resources-you-drugs/drug-information-consumers — Asset match: the exact-product matrix distinguishes approved oral and topical labels, compounded topical finasteride, cosmetics and supplements and links directly to current FDA and DailyMed material. Honest angle: invite corrections to the regulatory-status explanation as a consumer implementation aid; do not request endorsement or a traded link. Contact route: the Division’s official consumer-information and contact channels. No outreach sent.
+
 ## 2026-10-14 — 2027 Marketplace health-plan comparison record
 
 - **CMS Center for Consumer Information and Insurance Oversight** — https://www.cms.gov/cciio/contact — Asset match: the independent record turns the current federal Marketplace dates, annual premium, cost-sharing scenarios, exact-plan network and formulary checks, standardized plan documents and enrollment confirmation into one auditable comparison without recommending an insurer. Honest angle: invite a technical accuracy review and ask whether the free worksheet usefully complements HealthCare.gov comparison education; disclose the publisher and never imply CMS approval. Contact route: CCIIO’s official contact page. No outreach sent.

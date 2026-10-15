@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-10-15",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -10,59 +10,59 @@
     "reportGeneratedAt": "2026-10-14",
     "window": "2026-09-14 through 2026-10-11",
     "signal": "Eight homepage impressions, zero clicks, average position 3.125 and no query rows",
-    "decision": "Too little evidence for a Data-led page. The batch instead adds three unrelated evergreen intents and stronger reciprocal crawl paths from established guides.",
-    "ignored": "The homepage-only sample was not treated as a topic signal; the externally reported 26 submitted and zero indexed sitemap URLs were treated as a discovery warning, not proof that the current 144-page sitemap is invalid."
+    "decision": "Too little evidence for a Data-led page. The batch instead adds three unrelated evergreen intents and strengthens crawl paths from established Grooming, Style and Life guides.",
+    "ignored": "The homepage-only sample was not treated as a topic signal; the externally reported 26 submitted and zero indexed sitemap URLs were treated as a discovery warning, not proof that the current 147-page publication sitemap is invalid."
   },
   "monetization": {
-    "affiliateLinksAdded": 3,
-    "program": "Amazon Associates",
-    "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed category searches on the chef’s-knife guide only; no commerce on the health-plan or adjustable-bench pages."
+    "affiliateLinksAdded": 0,
+    "program": "No new commercial placement",
+    "trackingId": "beautifulmensclub-20 remains preserved sitewide",
+    "placement": "All three pages remain commerce-free: clinical suitability, tailoring and local rental terms, and charitable verification require exact facts that a generic retail link would not improve."
   },
   "authority": {
-    "action": "Created a source-backed 2027 Marketplace health-plan comparison record that normalizes annual premium, deductible, cost sharing, out-of-pocket exposure, provider network, drug coverage and plan-document evidence before enrollment.",
-    "cluster": "Well-run money systems, health coverage decisions and documented household risk",
-    "opportunity": "CMS/HealthCare.gov consumer-education and state insurance-department review opportunities logged; no outreach sent."
+    "action": "Created a source-backed hair-change record that separates observation from diagnosis and captures timeline, distribution, scalp signs, medication and supplement context, exact product identity, photographs and clinician questions in one reusable handoff.",
+    "cluster": "Men’s grooming decisions, scalp and hair-care evidence, and appropriate professional escalation",
+    "opportunity": "American Academy of Dermatology patient-education and FDA Division of Drug Information review opportunities logged; no outreach sent."
   },
-  "diversity": "A time-sensitive household coverage worksheet, a home-strength equipment qualification and a cooking-tool purchase decision answer three unrelated questions across Life and Fitness. Search Console did not support a Data-led item, so the portfolio uses one Authority-expansion and two Exploration pages.",
+  "diversity": "A health-adjacent grooming record, a formalwear rent-versus-buy decision and a consumer-protection donation checklist answer three unrelated questions across Grooming, Style and Life. Search Console did not support a Data-led item, so the portfolio uses one Authority-expansion and two Exploration pages.",
   "surfaces": [
     "homepage",
+    "Grooming hub",
+    "Style hub",
     "Life hub",
-    "Fitness hub",
     "Library search index",
     "nine reciprocal related-guide surfaces",
     "sitemap",
     "publication manifest",
-    "affiliate catalog",
     "authority opportunity log"
   ],
   "pages": [
     {
-      "slug": "health-insurance-plan-comparison-checklist.html",
-      "title": "2027 Health Insurance Plan Comparison Checklist: Cost, Network and Coverage",
-      "category": "LIFE",
-      "department": "life.html",
+      "slug": "mens-hair-loss-evidence-doctor-visit-guide.html",
+      "title": "Men’s Hair Loss Guide: Record Change and Prepare for Care",
+      "category": "GROOMING",
+      "department": "grooming.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Compare 2027 Marketplace health insurance plans by annual premium, deductible, copays, coinsurance, out-of-pocket maximum, provider network, drug formulary, plan documents and enrollment deadline",
+      "searchIntent": "Document men’s hair loss or shedding, distinguish observations from diagnosis, evaluate product and treatment claims, and prepare useful questions and evidence for a qualified clinician",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "adjustable-weight-bench-buying-guide.html",
-      "title": "Adjustable Weight Bench Buying Guide: Fit, Stability and Useful Angles",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "tuxedo-rental-vs-buying-guide.html",
+      "title": "Rent or Buy a Tuxedo? A Fit, Cost and Timing Guide",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose an adjustable weight bench by exercises, usable angles, body fit, room footprint, load limits, adjustment locks, stability, rack compatibility, assembly, recall status and storage",
+      "searchIntent": "Decide whether to rent or buy a tuxedo by dress code, event frequency, fit, package contents, alteration limits, timing, total cost, care, return terms and ownership burden",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "chefs-knife-buying-guide.html",
-      "title": "Chef’s Knife Buying Guide: Blade Shape, Hand Fit and Maintenance",
+      "slug": "charity-donation-verification-checklist.html",
+      "title": "Charity Donation Verification Checklist: Identity, Impact and Records",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a chef's knife by blade length and profile, handle and pinch-grip fit, balance, steel disclosure, edge geometry, cutting board compatibility, sharpening plan, cleaning, storage and return terms",
-      "affiliateLinksExpected": 3
+      "searchIntent": "Verify a charity before donating by checking legal identity, tax-deductibility, official contact details, fundraiser relationships, program claims, payment route, privacy and receipt records",
+      "affiliateLinksExpected": 0
     }
   ]
 }
