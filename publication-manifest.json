@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15",
+  "generatedAt": "2026-10-16",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
@@ -10,26 +10,25 @@
     "reportGeneratedAt": "2026-10-14",
     "window": "2026-09-14 through 2026-10-11",
     "signal": "Eight homepage impressions, zero clicks, average position 3.125 and no query rows",
-    "decision": "Too little evidence for a Data-led page. The batch instead adds three unrelated evergreen intents and strengthens crawl paths from established Grooming, Style and Life guides.",
-    "ignored": "The homepage-only sample was not treated as a topic signal; the externally reported 26 submitted and zero indexed sitemap URLs were treated as a discovery warning, not proof that the current 147-page publication sitemap is invalid."
+    "decision": "The sample is too small and lacks query or landing-page evidence, so no page is labeled Data-led. The batch uses verified evergreen demand and reinforces crawl paths from established Life, Home and Fitness guides.",
+    "ignored": "Homepage-only impressions and the absence of query rows were not treated as a topical mandate or a reason to create a cosmetic variation of an existing guide."
   },
   "monetization": {
     "affiliateLinksAdded": 0,
     "program": "No new commercial placement",
     "trackingId": "beautifulmensclub-20 remains preserved sitewide",
-    "placement": "All three pages remain commerce-free: clinical suitability, tailoring and local rental terms, and charitable verification require exact facts that a generic retail link would not improve."
+    "placement": "The pages stay commerce-free because room sizing and ozone controls, health-data privacy, and local repair authorization require exact facts that a generic marketplace link would not improve."
   },
   "authority": {
-    "action": "Created a source-backed hair-change record that separates observation from diagnosis and captures timeline, distribution, scalp signs, medication and supplement context, exact product identity, photographs and clinician questions in one reusable handoff.",
-    "cluster": "Men’s grooming decisions, scalp and hair-care evidence, and appropriate professional escalation",
-    "opportunity": "American Academy of Dermatology patient-education and FDA Division of Drug Information review opportunities logged; no outreach sent."
+    "action": "Created a citation-worthy room-air-cleaner decision record that moves from source control and ventilation to room geometry, CADR, particle and gas claims, ozone safeguards, operating cost, placement and post-purchase verification.",
+    "cluster": "Home indoor-air quality, moisture and radon decision systems, with reciprocal links among the air-cleaner, dehumidifier, radon and smoke-alarm guides",
+    "opportunity": "EPA Indoor Environments and ENERGY STAR consumer-education review opportunities logged; no outreach sent."
   },
-  "diversity": "A health-adjacent grooming record, a formalwear rent-versus-buy decision and a consumer-protection donation checklist answer three unrelated questions across Grooming, Style and Life. Search Console did not support a Data-led item, so the portfolio uses one Authority-expansion and two Exploration pages.",
+  "diversity": "The portfolio answers three unrelated questions: a home indoor-air equipment decision, a fitness wearable and privacy decision, and a vehicle-service documentation problem. One Authority-expansion page builds the indoor-air cluster while two Exploration pages open distinct purchase and consumer-protection intents.",
   "surfaces": [
     "homepage",
-    "Grooming hub",
-    "Style hub",
     "Life hub",
+    "Fitness hub",
     "Library search index",
     "nine reciprocal related-guide surfaces",
     "sitemap",
@@ -38,30 +37,30 @@
   ],
   "pages": [
     {
-      "slug": "mens-hair-loss-evidence-doctor-visit-guide.html",
-      "title": "Men’s Hair Loss Guide: Record Change and Prepare for Care",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "home-air-purifier-buying-guide.html",
+      "title": "Home Air Purifier Buying Guide: Room Size, CADR, Filters and Ozone",
+      "category": "LIFE",
+      "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Document men’s hair loss or shedding, distinguish observations from diagnosis, evaluate product and treatment claims, and prepare useful questions and evidence for a qualified clinician",
+      "searchIntent": "Choose a home air purifier by pollutant, room size, clean air delivery rate, filter and gas-removal claims, ozone safeguards, noise, energy, replacement cost and placement",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "tuxedo-rental-vs-buying-guide.html",
-      "title": "Rent or Buy a Tuxedo? A Fit, Cost and Timing Guide",
-      "category": "STYLE",
-      "department": "style.html",
+      "slug": "fitness-tracker-buying-guide.html",
+      "title": "Fitness Tracker Buying Guide: Sensors, Metrics, Fit and Privacy",
+      "category": "FITNESS",
+      "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Decide whether to rent or buy a tuxedo by dress code, event frequency, fit, package contents, alteration limits, timing, total cost, care, return terms and ownership burden",
+      "searchIntent": "Choose a fitness tracker by goal, exact sensors and metrics, fit, battery, phone compatibility, subscription, accessibility, data controls, general-wellness limits and escalation needs",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "charity-donation-verification-checklist.html",
-      "title": "Charity Donation Verification Checklist: Identity, Impact and Records",
+      "slug": "auto-repair-estimate-invoice-checklist.html",
+      "title": "Auto Repair Estimate and Invoice Checklist: Parts, Labor, Warranty and Records",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Verify a charity before donating by checking legal identity, tax-deductibility, official contact details, fundraiser relationships, program claims, payment route, privacy and receipt records",
+      "searchIntent": "Control an auto repair from symptom record and written estimate through diagnostic authorization, parts and labor choices, change approval, itemized invoice, warranty, recall check and dispute record",
       "affiliateLinksExpected": 0
     }
   ]

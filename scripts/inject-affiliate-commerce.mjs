@@ -292,6 +292,7 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "home-air-purifier-buying-guide.html" || normalized === "fitness-tracker-buying-guide.html" || normalized === "auto-repair-estimate-invoice-checklist.html") return null;
   if (normalized === "mens-hair-loss-evidence-doctor-visit-guide.html" || normalized === "tuxedo-rental-vs-buying-guide.html" || normalized === "charity-donation-verification-checklist.html") return null;
   if (normalized === "chefs-knife-buying-guide.html") return catalog.chefsKnives;
   if (normalized === "health-insurance-plan-comparison-checklist.html" || normalized === "adjustable-weight-bench-buying-guide.html") return null;

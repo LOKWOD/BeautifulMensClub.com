@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-16 — Room-air-cleaner sizing and verification record
+
+- **U.S. EPA Indoor Environments Division** — https://www.epa.gov/indoor-air-quality-iaq/forms/contact-us-about-indoor-air-quality — Asset match: the independent decision record translates EPA source-control, ventilation, CADR, particle-versus-gas, ozone and placement guidance into one room-level consumer audit while linking directly to current federal sources. Honest angle: invite a technical accuracy review and ask whether the free, commerce-free implementation aid is useful enough to complement EPA consumer education; disclose the publisher and never imply EPA review or endorsement. Contact route: EPA's official indoor-air-quality contact form. No outreach sent.
+- **ENERGY STAR consumer-products team** — https://www.energystar.gov/about/contact-us — Asset match: the worksheet connects exact-model CADR and room assumptions with usable fan speed, energy, filter cost and post-purchase verification without ranking products or monetizing the category. Honest angle: invite corrections and ask whether the source-linked record accurately helps consumers apply current room-air-cleaner buying guidance; do not request endorsement, placement or a reciprocal link. Contact route: ENERGY STAR's official contact page. No outreach sent.
+
 ## 2026-10-15 — Men’s hair-change observation and clinician-handoff record
 
 - **American Academy of Dermatology patient-education team** — https://www.aad.org/contact-aad — Asset match: the independent record separates observation from diagnosis and gives readers a consistent timeline, photo protocol, scalp-symptom inventory, product list and clinician questions while directing urgent or unexplained change to qualified care. Honest angle: invite a medical-accuracy review and ask whether the free, commerce-free handoff can complement public hair-loss education; disclose the publisher and never imply Academy review or endorsement. Contact route: the Academy’s official contact page. No outreach sent.
