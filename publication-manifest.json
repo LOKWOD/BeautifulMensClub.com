@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-10-17",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts; no new or changed editorial, affiliate, or product imagery."
+    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. Commercial recommendations use accurate category text links only."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-14",
     "window": "2026-09-14 through 2026-10-11",
     "signal": "Eight homepage impressions, zero clicks, average position 3.125 and no query rows",
-    "decision": "The sample is too small and lacks query or landing-page evidence, so no page is labeled Data-led. The batch uses verified evergreen demand and reinforces crawl paths from established Life, Home and Fitness guides.",
-    "ignored": "Homepage-only impressions and the absence of query rows were not treated as a topical mandate or a reason to create a cosmetic variation of an existing guide."
+    "decision": "The queryless sample is too small to support a Data-led page. The batch follows verified evergreen reader needs while strengthening crawl paths through established tailoring, kitchen-safety and job-transition guides.",
+    "ignored": "Homepage-only impressions, one aggregate average position and the absence of query rows were not treated as a topical mandate or sufficient evidence for a keyword variation."
   },
   "monetization": {
-    "affiliateLinksAdded": 0,
-    "program": "No new commercial placement",
-    "trackingId": "beautifulmensclub-20 remains preserved sitewide",
-    "placement": "The pages stay commerce-free because room sizing and ozone controls, health-data privacy, and local repair authorization require exact facts that a generic marketplace link would not improve."
+    "affiliateLinksAdded": 3,
+    "program": "Amazon Associates category search links",
+    "trackingId": "beautifulmensclub-20",
+    "placement": "Three disclosed, sponsored/nofollow text recommendations appear only on the food-thermometer guide: instant-read, leave-in probe and oven-safe dial categories. The suit and rollover pages remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy room-air-cleaner decision record that moves from source control and ventilation to room geometry, CADR, particle and gas claims, ozone safeguards, operating cost, placement and post-purchase verification.",
-    "cluster": "Home indoor-air quality, moisture and radon decision systems, with reciprocal links among the air-cleaner, dehumidifier, radon and smoke-alarm guides",
-    "opportunity": "EPA Indoor Environments and ENERGY STAR consumer-education review opportunities logged; no outreach sent."
+    "action": "Created a citation-worthy retirement-rollover decision record covering four destination choices, eligibility, tax character, direct-rollover controls, fee and investment comparisons, plan-loan complications, confirmation and tax-file closeout.",
+    "cluster": "Job-transition and household-finance systems, with reciprocal links from the job-offer, resignation and emergency-fund guides; food-safety and tailoring clusters also gain reciprocal contextual paths.",
+    "opportunity": "U.S. Department of Labor EBSA and FINRA Investor Education Foundation accuracy-and-education opportunities logged; no outreach sent."
   },
-  "diversity": "The portfolio answers three unrelated questions: a home indoor-air equipment decision, a fitness wearable and privacy decision, and a vehicle-service documentation problem. One Authority-expansion page builds the indoor-air cluster while two Exploration pages open distinct purchase and consumer-protection intents.",
+  "diversity": "The portfolio answers three unrelated questions in two departments: whether a suit is a sensible alteration candidate, which thermometer fits a cooking method, and how to compare and document a retirement rollover. The high-intent thermometer guide is commercial, the rollover record expands financial authority, and the alteration guide explores a distinct service decision; none is driven by the weak Search Console sample.",
   "surfaces": [
     "homepage",
+    "Style hub",
     "Life hub",
-    "Fitness hub",
     "Library search index",
     "nine reciprocal related-guide surfaces",
     "sitemap",
@@ -37,30 +37,30 @@
   ],
   "pages": [
     {
-      "slug": "home-air-purifier-buying-guide.html",
-      "title": "Home Air Purifier Buying Guide: Room Size, CADR, Filters and Ozone",
+      "slug": "mens-suit-alterations-guide.html",
+      "title": "Men’s Suit Alterations Guide: What a Tailor Can and Cannot Fix",
+      "category": "STYLE",
+      "department": "style.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Decide whether a men's suit is worth altering by evaluating shoulders, collar, chest, jacket and trouser balance, seam allowance, pattern matching, care, timing and written scope",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "food-thermometer-buying-calibration-guide.html",
+      "title": "Food Thermometer Buying and Calibration Guide: Probe Type, Accuracy and Safe Use",
+      "category": "LIFE",
+      "department": "life.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose and use a food thermometer by probe type, sensing area, response time, range, calibration, cleaning, placement, safe internal temperature and cooking method",
+      "affiliateLinksExpected": 3
+    },
+    {
+      "slug": "retirement-account-rollover-checklist.html",
+      "title": "Retirement Account Rollover Checklist: Options, Fees, Taxes and Timing",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Choose a home air purifier by pollutant, room size, clean air delivery rate, filter and gas-removal claims, ozone safeguards, noise, energy, replacement cost and placement",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "fitness-tracker-buying-guide.html",
-      "title": "Fitness Tracker Buying Guide: Sensors, Metrics, Fit and Privacy",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a fitness tracker by goal, exact sensors and metrics, fit, battery, phone compatibility, subscription, accessibility, data controls, general-wellness limits and escalation needs",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "auto-repair-estimate-invoice-checklist.html",
-      "title": "Auto Repair Estimate and Invoice Checklist: Parts, Labor, Warranty and Records",
-      "category": "LIFE",
-      "department": "life.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Control an auto repair from symptom record and written estimate through diagnostic authorization, parts and labor choices, change approval, itemized invoice, warranty, recall check and dispute record",
+      "searchIntent": "Compare and document retirement account choices after leaving a job, including old plan, new plan, IRA, distribution, eligibility, fees, investments, direct rollover, withholding, 60-day timing, loans and tax records",
       "affiliateLinksExpected": 0
     }
   ]

@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-17 — Retirement-rollover option, transfer and closeout record
+
+- **U.S. Department of Labor Employee Benefits Security Administration participant-education team** — https://www.askebsa.dol.gov/WebIntake/ — Asset match: the independent record turns plan documents, source-by-source balances, four possible destinations, direct-rollover controls, fee comparison, receipt confirmation and tax-file closeout into a practical job-transition checklist while directing plan-rights questions to EBSA. Honest angle: invite a technical accuracy review and ask whether the free, commerce-free implementation record usefully complements participant education; disclose the publisher and never imply Department review or endorsement. Contact route: Ask EBSA’s official electronic intake. No outreach sent.
+- **FINRA Investor Education Foundation** — https://www.finrafoundation.org/contact-us — Asset match: the checklist makes total fees, arrival investment, professional registration, compensation and conflicts visible without recommending a provider or product. Honest angle: invite corrections and ask whether the source-linked record is useful to financial educators helping workers evaluate a rollover recommendation; do not request endorsement, placement or a reciprocal link. Contact route: the Foundation’s official contact page. No outreach sent.
+
 ## 2026-10-16 — Room-air-cleaner sizing and verification record
 
 - **U.S. EPA Indoor Environments Division** — https://www.epa.gov/indoor-air-quality-iaq/forms/contact-us-about-indoor-air-quality — Asset match: the independent decision record translates EPA source-control, ventilation, CADR, particle-versus-gas, ozone and placement guidance into one room-level consumer audit while linking directly to current federal sources. Honest angle: invite a technical accuracy review and ask whether the free, commerce-free implementation aid is useful enough to complement EPA consumer education; disclose the publisher and never imply EPA review or endorsement. Contact route: EPA's official indoor-air-quality contact form. No outreach sent.

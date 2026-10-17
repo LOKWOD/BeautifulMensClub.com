@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  foodThermometers: [
+    ["instant read digital food thermometer", "Instant-read food thermometers", "Compare the exact sensor location, insertion depth, stated accuracy and response time, calibration method, heat and water limits, battery, manual, seller and return terms."],
+    ["leave in oven probe food thermometer", "Leave-in probe food thermometers", "Verify the exact probe and cable temperature limits, alarm behavior, oven-door routing, cleaning method, replacement support, seller and warranty before ordering."],
+    ["oven safe dial food thermometer", "Oven-safe dial food thermometers", "Match the full sensing area and stem depth to thick foods, then check calibration instructions, readable range, oven limits, construction and current seller terms."],
+  ],
   chefsKnives: [
     ["8 inch chefs knife", "Eight-inch chef’s knives", "Compare blade profile, exact length and weight, handle and pinch-grip fit, material disclosure, maker sharpening guidance, warranty, seller and return terms."],
     ["7 inch chefs knife", "Seven-inch chef’s knives", "Consider the shorter format when hand control, board size or counter depth matters; verify knuckle clearance, edge profile, care and the exact selected model."],
@@ -292,6 +297,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "food-thermometer-buying-calibration-guide.html") return catalog.foodThermometers;
+  if (normalized === "mens-suit-alterations-guide.html" || normalized === "retirement-account-rollover-checklist.html") return null;
   if (normalized === "home-air-purifier-buying-guide.html" || normalized === "fitness-tracker-buying-guide.html" || normalized === "auto-repair-estimate-invoice-checklist.html") return null;
   if (normalized === "mens-hair-loss-evidence-doctor-visit-guide.html" || normalized === "tuxedo-rental-vs-buying-guide.html" || normalized === "charity-donation-verification-checklist.html") return null;
   if (normalized === "chefs-knife-buying-guide.html") return catalog.chefsKnives;
