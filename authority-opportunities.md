@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-18 — Frozen-pipe prevention, shutoff and incident record
+
+- **American Red Cross preparedness education** — https://www.redcross.org/take-a-class/contact-us — Asset match: the independent record converts the Red Cross prevention and controlled-thaw guidance into a room-by-room pipe map, accessible-shutoff record, lost-flow safety gate, no-open-flame rule and post-thaw handoff while linking prominently to the current source. Honest angle: invite a technical accuracy review and ask whether the free, commerce-free implementation aid could complement winter-storm education; disclose the publisher and never imply Red Cross review or endorsement. Contact route: the organization’s official Training Services and preparedness contact. No outreach sent.
+- **State utility consumer-education offices** — https://www.naruc.org/about-naruc/regulatory-commissions/ — Asset match: a state office can pair local utility, billing, winterization, tenant and emergency-contact guidance with the national record’s clearly labeled prevention and escalation framework. Honest angle: approach only a relevant jurisdiction to invite corrections or localization, not endorsement or a reciprocal link. Contact route: NARUC’s official commission directory followed by the selected regulator’s published consumer contact. No outreach sent.
+
 ## 2026-10-17 — Retirement-rollover option, transfer and closeout record
 
 - **U.S. Department of Labor Employee Benefits Security Administration participant-education team** — https://www.askebsa.dol.gov/WebIntake/ — Asset match: the independent record turns plan documents, source-by-source balances, four possible destinations, direct-rollover controls, fee comparison, receipt confirmation and tax-file closeout into a practical job-transition checklist while directing plan-rights questions to EBSA. Honest angle: invite a technical accuracy review and ask whether the free, commerce-free implementation record usefully complements participant education; disclose the publisher and never imply Department review or endorsement. Contact route: Ask EBSA’s official electronic intake. No outreach sent.

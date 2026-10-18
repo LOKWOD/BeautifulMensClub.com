@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  carryOnLuggage: [
+    ["two wheel carry on luggage softside", "Two-wheel carry-on luggage", "Compare the exact overall dimensions including wheels and handles, empty weight, loaded balance, wheel and handle construction, materials, parts support, warranty, seller and return terms."],
+    ["carry on spinner luggage four wheel", "Four-wheel spinner carry-ons", "Verify the complete exterior measurement, caster protection and replacement path, empty weight, handle stops, shell or textile care, exact seller and return window."],
+    ["carry on travel backpack clamshell", "Clamshell carry-on travel backpacks", "Match the overall packed dimensions and empty weight to the route, then check torso and strap fit, structure, access, stowable hardware, materials, warranty and seller."],
+  ],
   foodThermometers: [
     ["instant read digital food thermometer", "Instant-read food thermometers", "Compare the exact sensor location, insertion depth, stated accuracy and response time, calibration method, heat and water limits, battery, manual, seller and return terms."],
     ["leave in oven probe food thermometer", "Leave-in probe food thermometers", "Verify the exact probe and cable temperature limits, alarm behavior, oven-door routing, cleaning method, replacement support, seller and warranty before ordering."],
@@ -297,6 +302,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "carry-on-luggage-buying-guide.html") return catalog.carryOnLuggage;
+  if (normalized === "contact-lens-care-hygiene-guide.html" || normalized === "frozen-pipe-prevention-thawing-guide.html") return null;
   if (normalized === "food-thermometer-buying-calibration-guide.html") return catalog.foodThermometers;
   if (normalized === "mens-suit-alterations-guide.html" || normalized === "retirement-account-rollover-checklist.html") return null;
   if (normalized === "home-air-purifier-buying-guide.html" || normalized === "fitness-tracker-buying-guide.html" || normalized === "auto-repair-estimate-invoice-checklist.html") return null;
