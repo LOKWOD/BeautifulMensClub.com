@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-19 — Identity-theft recovery control record
+
+- **Identity Theft Resource Center victim-services and education team** — https://www.idtheftcenter.org/contact-us/ — Asset match: the independent case file turns scattered recovery advice into an exposure-versus-misuse gate, protected evidence index, institution log, FTC report record, bureau controls, dispute board, tax and benefit checks, and written closure standard while linking prominently to current federal sources. Honest angle: invite a technical-accuracy and usability review and ask whether the free, commerce-free implementation record could complement victim education; disclose the publisher and never imply ITRC review or endorsement. Contact route: the nonprofit's official contact page. No outreach sent.
+- **State and territorial consumer-protection educators** — https://www.usa.gov/state-consumer — Asset match: a jurisdiction can pair its current local identity-theft, police-report, breach-notice and complaint routes with the national worksheet's clearly labeled federal framework. Honest angle: approach only a relevant office to invite corrections or localization, not endorsement, placement or a reciprocal link. Contact route: USA.gov's official state consumer-protection directory followed by the selected agency's published consumer contact. No outreach sent.
+
 ## 2026-10-18 — Frozen-pipe prevention, shutoff and incident record
 
 - **American Red Cross preparedness education** — https://www.redcross.org/take-a-class/contact-us — Asset match: the independent record converts the Red Cross prevention and controlled-thaw guidance into a room-by-room pipe map, accessible-shutoff record, lost-flow safety gate, no-open-flame rule and post-thaw handoff while linking prominently to the current source. Honest angle: invite a technical accuracy review and ask whether the free, commerce-free implementation aid could complement winter-storm education; disclose the publisher and never imply Red Cross review or endorsement. Contact route: the organization’s official Training Services and preparedness contact. No outreach sent.

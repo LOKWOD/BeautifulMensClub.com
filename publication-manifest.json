@@ -1,66 +1,68 @@
 {
-  "generatedAt": "2026-10-18",
+  "generatedAt": "2026-10-19",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. Commercial recommendations use accurate category text links only."
+    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. The dress-trouser guide uses accurate category text links only."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-14",
     "window": "2026-09-14 through 2026-10-11",
     "signal": "Eight homepage impressions, zero clicks, average position 3.125 and no query rows",
-    "decision": "The queryless sample is too small to support a Data-led page. Today's evergreen portfolio strengthens crawl paths through established eye-care, travel and home-emergency clusters while answering three distinct reader needs.",
-    "ignored": "Homepage-only impressions, one aggregate average position and the absence of query rows were deliberately ignored as insufficient evidence for a keyword variation or topical pivot."
+    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore expands three established but distinct clusters and reinforces crawl paths without inventing a search opportunity.",
+    "ignored": "The eight homepage impressions, aggregate average position and lack of query rows were deliberately ignored as insufficient evidence for title chasing, keyword expansion or a topical pivot."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed, sponsored/nofollow text recommendations appear only on the carry-on luggage guide: two-wheel roller, four-wheel spinner and clamshell travel-backpack categories. The contact-lens and frozen-pipe pages remain commerce-free."
+    "placement": "Three disclosed, sponsored/nofollow text recommendations appear only on the dress-trouser guide: wool and wool-blend trousers, washable dress trousers and pleated dress trousers. Identity-theft recovery and treadmill qualification remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy frozen-pipe prevention and response record that maps vulnerable lines, shutoff access, cold-weather controls, lost-flow triage, safe thaw limits, burst response and the plumber/insurer handoff.",
-    "cluster": "Household water-emergency authority, with reciprocal contextual links from the main-shutoff, power-outage and flood-cleanup guides; the eye-care and travel clusters also gain reciprocal paths.",
-    "opportunity": "American Red Cross preparedness education and state utility consumer-education teams logged as qualified accuracy-and-education opportunities; no outreach sent."
+    "action": "Created a citation-worthy identity-theft recovery control record that separates exposure from confirmed misuse and tracks accounts, evidence, official reports, freezes, disputes, tax protection, deadlines and written closure.",
+    "cluster": "Identity and household-finance authority, with reciprocal contextual links from the credit-freeze, digital-account-recovery, checking-account and debt-collection guides; Style fit and Fitness equipment clusters also gain reciprocal paths.",
+    "opportunity": "Identity Theft Resource Center victim-services educators and state consumer-protection educators logged as qualified accuracy-and-implementation opportunities; no outreach sent."
   },
-  "diversity": "The portfolio answers three unrelated questions in two departments: how to handle a prescribed medical device safely, which carry-on architecture fits a specific itinerary, and how to prevent or triage a frozen water line. The luggage guide serves purchase intent, the frozen-pipe record expands household-emergency authority, and the contact-lens system explores a neglected grooming-health handoff; none is driven by the weak Search Console sample.",
+  "diversity": "The portfolio answers three unrelated questions across Life, Style and Fitness: how to control recovery after identity misuse, how to buy and alter dress trousers, and how to qualify a motorized treadmill for a real room. One is a noncommercial authority asset, one serves apparel purchase intent, and one explores high-consequence home-fitness compatibility; none is driven by the weak Search Console sample.",
   "surfaces": [
     "homepage",
-    "Grooming hub",
     "Life hub",
+    "Style hub",
+    "Fitness hub",
     "Library search index",
-    "nine reciprocal related-guide surfaces",
+    "twelve reciprocal related-guide surfaces",
     "sitemap",
     "publication manifest",
+    "affiliate catalog",
     "authority opportunity log"
   ],
   "pages": [
     {
-      "slug": "contact-lens-care-hygiene-guide.html",
-      "title": "Contact Lens Care Without Guesswork: Water, Solution, Cases and Warning Signs",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Build a safe contact-lens care routine for handwashing, water avoidance, cleaning solution, lens cases, sleep, travel, replacement and urgent warning signs",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "carry-on-luggage-buying-guide.html",
-      "title": "Carry-On Luggage Buying Guide: Airline Limits, Wheels, Weight and Repair",
-      "category": "LIFE",
-      "department": "life.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose carry-on luggage by operating-airline dimensions and weight, two-wheel versus spinner or backpack format, external measurements, handle and wheel construction, battery rules, repair and returns",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "frozen-pipe-prevention-thawing-guide.html",
-      "title": "Frozen Pipe Prevention and Thawing Guide: Map, Shut Off and Respond",
+      "slug": "identity-theft-recovery-case-file.html",
+      "title": "Identity Theft Recovery Case File: Contain, Report, Dispute and Close",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Prevent frozen home water pipes, map vulnerable lines and the main shutoff, respond to lost flow, thaw accessible pipe safely, stop a burst and document a plumber and insurance handoff",
+      "searchIntent": "Respond to suspected or confirmed identity theft with an account inventory, evidence log, IdentityTheft.gov report, credit controls, disputes, tax protection, deadlines and written closure",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "mens-dress-trousers-fit-buying-guide.html",
+      "title": "Men’s Dress Trousers Fit and Buying Guide: Rise, Seat, Pleats and Break",
+      "category": "STYLE",
+      "department": "style.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose men's dress trousers by use case, rise, waistband, seat, thigh, pleats, taper, break, fiber label, care, alterations, returns and ownership cost",
+      "affiliateLinksExpected": 3
+    },
+    {
+      "slug": "home-treadmill-buying-setup-guide.html",
+      "title": "Home Treadmill Buying and Setup Guide: Room, Circuit, Belt and Safety",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose and install a home treadmill by training use, user fit, belt and deck, room and delivery path, electrical manual, safety key, recalls, maintenance, service and ownership cost",
       "affiliateLinksExpected": 0
     }
   ]

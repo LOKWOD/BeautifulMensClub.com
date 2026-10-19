@@ -193,6 +193,11 @@ const catalog = {
     ["mens lambswool crewneck sweater", "Men's lambswool sweaters", "Compare fiber labels, texture, layer fit, rib recovery, care demands and the seller's exact-item photographs."],
     ["mens cotton crewneck sweater", "Men's cotton sweaters", "Check the fiber label, garment measurements, knit density, laundering instructions and expected use in your climate."],
   ],
+  dressTrousers: [
+    ["mens wool dress pants trousers", "Men's wool and wool-blend dress trousers", "Compare finished waist, rise, seat, thigh, knee, opening and inseam measurements, then verify exact fiber percentages, lining, care label, seller and return terms."],
+    ["mens washable dress pants", "Washable men's dress trousers", "Confirm what the exact care label permits, then compare upper-block measurements, complete fiber disclosure, finish claims, laundering limits and current return conditions."],
+    ["mens pleated dress pants trousers", "Pleated men's dress trousers", "Check rise, waistband, seat and thigh room so the pleats stay closed at rest, then verify taper, opening, hem allowance, materials, care and seller."],
+  ],
   walkingPads: [
     ["under desk walking pad treadmill", "Under-desk walking pads", "Compare usable belt dimensions, user limit, intended speed range, controls, electrical requirements and the exact model manual."],
     ["folding walking pad treadmill handrail", "Folding walking pads with handrails", "Verify deployed footprint, rail locking, safety key, walking-versus-running modes and manufacturer-approved storage orientation."],
@@ -362,6 +367,8 @@ function productsFor(path, text) {
   if (normalized === "mens-winter-boot-buying-guide.html") return catalog.winterBoots;
   if (normalized === "home-fire-escape-plan.html" || normalized === "good-houseguest-checklist.html") return null;
   if (normalized === "mens-chino-buying-guide.html") return catalog.chinos;
+  if (normalized === "mens-dress-trousers-fit-buying-guide.html") return catalog.dressTrousers;
+  if (normalized === "identity-theft-recovery-case-file.html" || normalized === "home-treadmill-buying-setup-guide.html") return null;
   if (normalized === "resistance-band-buying-safety-guide.html" || normalized === "home-wifi-security-checklist.html") return null;
   if (normalized === "mens-fingernail-care-guide.html") return catalog.nailCare;
   if (normalized === "home-blood-pressure-monitor-guide.html" || normalized === "carbon-monoxide-alarm-plan.html") return null;
