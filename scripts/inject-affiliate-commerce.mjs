@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  loafers: [
+    ["mens leather penny loafers", "Men’s penny loafers", "Compare the exact last, width options, upper and lining materials, outsole, construction, maker care, seller and indoor return terms."],
+    ["mens leather tassel loafers", "Men’s tassel loafers", "Check instep and heel hold, tassel and apron construction, toe shape, full material disclosure, sole, repair path, exact seller and return window."],
+    ["mens leather bit loafers", "Men’s bit loafers", "Match the hardware scale and finish to the wardrobe, then verify both-foot fit, upper and lining, outsole, maker care, seller and return conditions."],
+  ],
   carryOnLuggage: [
     ["two wheel carry on luggage softside", "Two-wheel carry-on luggage", "Compare the exact overall dimensions including wheels and handles, empty weight, loaded balance, wheel and handle construction, materials, parts support, warranty, seller and return terms."],
     ["carry on spinner luggage four wheel", "Four-wheel spinner carry-ons", "Verify the complete exterior measurement, caster protection and replacement path, empty weight, handle stops, shell or textile care, exact seller and return window."],
@@ -368,6 +373,8 @@ function productsFor(path, text) {
   if (normalized === "home-fire-escape-plan.html" || normalized === "good-houseguest-checklist.html") return null;
   if (normalized === "mens-chino-buying-guide.html") return catalog.chinos;
   if (normalized === "mens-dress-trousers-fit-buying-guide.html") return catalog.dressTrousers;
+  if (normalized === "mens-loafer-buying-guide.html") return catalog.loafers;
+  if (normalized === "toothpaste-buying-guide.html" || normalized === "major-appliance-delivery-installation-checklist.html") return null;
   if (normalized === "identity-theft-recovery-case-file.html" || normalized === "home-treadmill-buying-setup-guide.html") return null;
   if (normalized === "resistance-band-buying-safety-guide.html" || normalized === "home-wifi-security-checklist.html") return null;
   if (normalized === "mens-fingernail-care-guide.html") return catalog.nailCare;

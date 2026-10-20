@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-20 — Major-appliance delivery acceptance record
+
+- **EPA Section 608 appliance-disposal educators** — https://www.epa.gov/section608/forms/contact-us-about-stationary-refrigeration-and-air-conditioning — Asset match: the field record carries an exact-model purchase from delivery through refrigerant-aware retirement, with a disposal receipt and direct EPA source links. Honest angle: offer it as an independent consumer implementation aid and invite factual corrections to the disposal section; never imply EPA endorsement. Contact route: the program's official contact form. No outreach sent.
+- **ENERGY STAR consumer-education team** — https://www.energystar.gov/help — Asset match: the checklist records the EnergyGuide and exact appliance model while clearly explaining that standardized operating-cost estimates are comparisons, not promised household bills. Honest angle: ask whether the noncommercial acceptance record accurately complements current appliance-shopping education and is useful enough to cite; do not request endorsement or a traded link. Contact route: the program's official help desk. No outreach sent.
+
 ## 2026-10-19 — Identity-theft recovery control record
 
 - **Identity Theft Resource Center victim-services and education team** — https://www.idtheftcenter.org/contact-us/ — Asset match: the independent case file turns scattered recovery advice into an exposure-versus-misuse gate, protected evidence index, institution log, FTC report record, bureau controls, dispute board, tax and benefit checks, and written closure standard while linking prominently to current federal sources. Honest angle: invite a technical-accuracy and usability review and ask whether the free, commerce-free implementation record could complement victim education; disclose the publisher and never imply ITRC review or endorsement. Contact route: the nonprofit's official contact page. No outreach sent.
