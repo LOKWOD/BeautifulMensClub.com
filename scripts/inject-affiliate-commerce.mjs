@@ -312,6 +312,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "paycheck-withholding-checkup-guide.html" || normalized === "mens-heated-jacket-vest-buying-guide.html") return null;
+  if (normalized === "pull-up-bar-buying-installation-guide.html") return [catalog.fitness[3], catalog.fitness[0], catalog.fitness[2]];
   if (normalized === "carry-on-luggage-buying-guide.html") return catalog.carryOnLuggage;
   if (normalized === "contact-lens-care-hygiene-guide.html" || normalized === "frozen-pipe-prevention-thawing-guide.html") return null;
   if (normalized === "food-thermometer-buying-calibration-guide.html") return catalog.foodThermometers;

@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-21",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. The loafer guide uses accurate category text links only."
+    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. The pull-up bar guide uses accurate category text links only."
   },
   "searchConsole": {
-    "reportGeneratedAt": "2026-10-14",
-    "window": "2026-09-14 through 2026-10-11",
-    "signal": "Eight homepage impressions, zero clicks, average position 3.125 and no query rows",
-    "decision": "The queryless sample is too small to support a Data-led page. Today's portfolio therefore expands three separate practical clusters and strengthens discovery paths without manufacturing a search opportunity.",
-    "ignored": "The eight homepage impressions, aggregate average position and absence of query or landing-page detail were deliberately ignored as insufficient evidence for keyword targeting, title changes or a topical pivot."
+    "reportGeneratedAt": "2026-10-21",
+    "window": "2026-09-21 through 2026-10-18",
+    "signal": "Four homepage impressions, zero clicks, average position 1.5, no query rows and no supported non-homepage cluster",
+    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two distinct explorations while strengthening crawl paths from established guides.",
+    "ignored": "The four homepage impressions, the HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or a topical pivot."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed, sponsored/nofollow text recommendations appear only on the loafer guide: penny, tassel and bit loafer categories. The appliance-delivery and toothpaste guides remain commerce-free."
+    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the pull-up bar guide. The withholding and heated-apparel guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy major-appliance delivery acceptance record covering exact-model identity, route and utility readiness, visible-condition evidence, installer scope, functional checks, refusal criteria, warranty records, recalls and responsible disposal.",
-    "cluster": "Home purchasing and consumer-resolution authority, with reciprocal contextual links from the home-inventory, contractor-estimate, consumer-complaint and home-energy guides; oral-care and footwear clusters also gain reciprocal paths.",
-    "opportunity": "EPA Section 608 appliance-disposal educators and ENERGY STAR consumer-education teams logged as qualified accuracy-and-implementation opportunities; no outreach sent."
+    "action": "Created a citation-worthy paycheck-withholding checkup record that preserves pay-period inputs, W-4 decisions, estimator output, supplemental-pay treatment, implementation checks and tax-season handoff without storing sensitive identifiers.",
+    "cluster": "Work-and-money authority, with reciprocal contextual paths from the job-offer, raise, checking-account and emergency-fund guides; seasonal outerwear and home-strength clusters gain reciprocal links as well.",
+    "opportunity": "Two qualified financial-education accuracy opportunities were logged for the National Association of Enrolled Agents and Consumer Action; no outreach sent."
   },
-  "diversity": "The portfolio answers three unrelated questions across Life, Grooming and Style: how to receive a high-consequence appliance order, how to interpret toothpaste claims, and how to buy a loafer that suits both foot and dress code. One is a noncommercial authority record, one is a commerce-free health-adjacent explainer, and one serves considered purchase intent; none is driven by the weak Search Console sample.",
+  "diversity": "The batch answers three different questions across Life, Style and Fitness: how to review federal withholding, how to judge a battery-heated garment, and how to select and install a pull-up bar. The authority record is noncommercial, the apparel guide separates garment and battery evidence, and the equipment guide alone serves purchase intent; none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
-    "Grooming hub",
     "Style hub",
+    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "major-appliance-delivery-installation-checklist.html",
-      "title": "Major Appliance Delivery and Installation Checklist: Measure, Inspect and Close",
+      "slug": "paycheck-withholding-checkup-guide.html",
+      "title": "Paycheck Withholding Checkup: W-4, IRS Estimator, Bonuses and Records",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Plan and document a major-appliance delivery by exact model, access route, utilities, condition, installer scope, acceptance, warranty, recall and responsible disposal",
+      "searchIntent": "Review federal paycheck withholding after a job, pay or household change using pay stubs, Form W-4, the IRS estimator, supplemental-pay records and an implementation check",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "toothpaste-buying-guide.html",
-      "title": "Toothpaste Buying Guide: Fluoride, Sensitivity, Whitening and Claims",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose toothpaste by fluoride cavity protection, sensitivity active ingredients, whitening limits, ADA Seal evidence, Drug Facts directions and individual oral-care needs",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "mens-loafer-buying-guide.html",
-      "title": "Men’s Loafer Buying Guide: Penny, Tassel, Bit, Fit and Care",
+      "slug": "mens-heated-jacket-vest-buying-guide.html",
+      "title": "Men’s Heated Jacket and Vest Buying Guide: Fit, Battery, Care and Safety",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Buy men's loafers by penny, tassel or bit style, dress code, last and heel fit, leather or alternative material, sole, construction, care and return terms",
+      "searchIntent": "Choose a men's battery-heated jacket or vest by use case, layered fit, heat zones, exact battery and charger compatibility, care instructions, warranty, recall status and return test",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "pull-up-bar-buying-installation-guide.html",
+      "title": "Pull-Up Bar Buying and Installation Guide: Doorway, Wall, Clearance and Safety",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose and set up a pull-up bar by room, mounting structure, doorway geometry, grip, clearance, exact rated load, manufacturer instructions, inspection, exercise plan and return test",
       "affiliateLinksExpected": 3
     }
   ]

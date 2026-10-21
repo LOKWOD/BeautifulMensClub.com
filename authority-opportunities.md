@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-21 — Paycheck-withholding checkup record
+
+- **National Association of Enrolled Agents consumer-education team** — https://www.naea.org/contact/ — Asset match: the dated checkup record turns current IRS estimator, W-4, supplemental-pay and implementation guidance into a neutral pay-period worksheet while clearly routing complex facts to qualified tax help. Honest angle: invite a factual review and ask whether the free record could complement public tax education; disclose the independent publisher and never imply NAEA endorsement. Contact route: NAEA’s published contact page. No outreach sent.
+- **Consumer Action education and outreach team** — https://www.consumer-action.org/contact/ — Asset match: the record helps wage earners gather pay-stub inputs, preserve a change chronology and verify payroll implementation without storing sensitive identifiers or promoting a tax product. Honest angle: offer it as a free, primary-source-linked implementation aid and invite corrections; do not request a traded link or endorsement. Contact route: Consumer Action’s official contact page. No outreach sent.
+
 ## 2026-10-20 — Major-appliance delivery acceptance record
 
 - **EPA Section 608 appliance-disposal educators** — https://www.epa.gov/section608/forms/contact-us-about-stationary-refrigeration-and-air-conditioning — Asset match: the field record carries an exact-model purchase from delivery through refrigerant-aware retirement, with a disposal receipt and direct EPA source links. Honest angle: offer it as an independent consumer implementation aid and invite factual corrections to the disposal section; never imply EPA endorsement. Contact route: the program's official contact form. No outreach sent.
