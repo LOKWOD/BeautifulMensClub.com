@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-10-22 — Home-improvement change-order and payment-control file
+
+- **National Consumer Law Center consumer-education team** — https://www.nclc.org/contact/ — Asset match: the source-linked record turns a signed home-improvement baseline, observed field condition, work-package delta, additions and credits, schedule impact, authorization, invoice match and closeout evidence into one neutral consumer file without giving jurisdiction-specific legal advice. Honest angle: invite a factual and usability review and ask whether the free, commerce-free implementation record could complement contractor-dispute education; disclose the independent publisher and never imply NCLC endorsement. Contact route: NCLC’s official contact page. No outreach sent.
+- **Cornell Cooperative Extension housing educators** — https://cce.cornell.edu/localoffices — Asset match: local educators can pair current state and county contractor, permit, lien and consumer-protection resources with the record’s clearly labeled national framework and change-control worksheet. Honest angle: approach only a relevant local housing educator to invite corrections or localization, not endorsement, placement or a reciprocal link. Contact route: Cornell Cooperative Extension’s official local-office directory followed by the selected office’s published contact. No outreach sent.
+
 ## 2026-10-21 — Paycheck-withholding checkup record
 
 - **National Association of Enrolled Agents consumer-education team** — https://www.naea.org/contact/ — Asset match: the dated checkup record turns current IRS estimator, W-4, supplemental-pay and implementation guidance into a neutral pay-period worksheet while clearly routing complex facts to qualified tax help. Honest angle: invite a factual review and ask whether the free record could complement public tax education; disclose the independent publisher and never imply NAEA endorsement. Contact route: NAEA’s published contact page. No outreach sent.

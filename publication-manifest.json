@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-22",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. The pull-up bar guide uses accurate category text links only."
+    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. The leather-jacket guide uses accurate category text links only."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-21",
@@ -17,19 +17,18 @@
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the pull-up bar guide. The withholding and heated-apparel guides remain commerce-free."
+    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the leather-jacket guide. The home-project and jet-lag guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy paycheck-withholding checkup record that preserves pay-period inputs, W-4 decisions, estimator output, supplemental-pay treatment, implementation checks and tax-season handoff without storing sensitive identifiers.",
-    "cluster": "Work-and-money authority, with reciprocal contextual paths from the job-offer, raise, checking-account and emergency-fund guides; seasonal outerwear and home-strength clusters gain reciprocal links as well.",
-    "opportunity": "Two qualified financial-education accuracy opportunities were logged for the National Association of Enrolled Agents and Consumer Action; no outreach sent."
+    "action": "Created a citation-worthy home-improvement change-order and payment-control file that reconciles the baseline contract, field condition, scope delta, price, credits, schedule, approval, payment and closeout evidence.",
+    "cluster": "Home-project and consumer-protection authority, with reciprocal contextual paths from contractor-estimate, appliance-delivery, complaint-resolution and emergency-document guides; outerwear and travel clusters gain reciprocal links as well.",
+    "opportunity": "Two qualified consumer-education accuracy opportunities were logged for the National Consumer Law Center and Cornell Cooperative Extension housing educators; no outreach sent."
   },
-  "diversity": "The batch answers three different questions across Life, Style and Fitness: how to review federal withholding, how to judge a battery-heated garment, and how to select and install a pull-up bar. The authority record is noncommercial, the apparel guide separates garment and battery evidence, and the equipment guide alone serves purchase intent; none follows the weak Search Console sample.",
+  "diversity": "The batch answers three different questions across Life and Style: how to control a construction change, how to buy and maintain a leather jacket, and how to plan sleep, light and arrival safety across time zones. The authority record is noncommercial, the outerwear guide alone serves purchase intent, and the travel plan is a health-adjacent practical explainer; none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
     "Style hub",
-    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,31 +38,31 @@
   ],
   "pages": [
     {
-      "slug": "paycheck-withholding-checkup-guide.html",
-      "title": "Paycheck Withholding Checkup: W-4, IRS Estimator, Bonuses and Records",
+      "slug": "home-improvement-change-order-payment-control.html",
+      "title": "Home-Improvement Change Order and Payment Control File",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Review federal paycheck withholding after a job, pay or household change using pay stubs, Form W-4, the IRS estimator, supplemental-pay records and an implementation check",
+      "searchIntent": "Document a home-improvement scope change, reconcile its price and schedule effect, authorize it in writing, control payment and close the evidence file",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-heated-jacket-vest-buying-guide.html",
-      "title": "Men’s Heated Jacket and Vest Buying Guide: Fit, Battery, Care and Safety",
+      "slug": "mens-leather-jacket-buying-guide.html",
+      "title": "Men’s Leather Jacket Buying Guide: Fit, Hide, Construction and Care",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's battery-heated jacket or vest by use case, layered fit, heat zones, exact battery and charger compatibility, care instructions, warranty, recall status and return test",
-      "affiliateLinksExpected": 0
+      "searchIntent": "Choose a men's leather jacket by silhouette, real layered fit, complete material disclosure, construction, care, repair path and return-window test",
+      "affiliateLinksExpected": 3
     },
     {
-      "slug": "pull-up-bar-buying-installation-guide.html",
-      "title": "Pull-Up Bar Buying and Installation Guide: Doorway, Wall, Clearance and Safety",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "jet-lag-adjustment-arrival-plan.html",
+      "title": "Jet Lag Adjustment Plan: Sleep, Light, Caffeine and Arrival Safety",
+      "category": "LIFE",
+      "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose and set up a pull-up bar by room, mounting structure, doorway geometry, grip, clearance, exact rated load, manufacturer instructions, inspection, exercise plan and return test",
-      "affiliateLinksExpected": 3
+      "searchIntent": "Build a conservative preflight and arrival plan for jet lag using destination time, sleep opportunity, timed light and darkness, cautious caffeine, medication review and drowsy-driving safeguards",
+      "affiliateLinksExpected": 0
     }
   ]
 }

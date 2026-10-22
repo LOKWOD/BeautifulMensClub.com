@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  leatherJackets: [
+    ["mens leather bomber jacket", "Men’s leather bomber jackets", "Compare the exact shell, lining and trim disclosure, closed layered fit, hardware, care label, repair path, seller and indoor return terms."],
+    ["mens leather cafe racer jacket", "Men’s leather café-racer jackets", "Check shoulder and armhole geometry, zipped seated reach, shell and lining materials, zipper serviceability, maker care, seller and return window."],
+    ["mens leather motorcycle style jacket", "Men’s motorcycle-style leather jackets", "Treat styling as fashion unless protective certification is independently verified; compare materials, fit, hardware, care, exact seller and returns."],
+  ],
   loafers: [
     ["mens leather penny loafers", "Men’s penny loafers", "Compare the exact last, width options, upper and lining materials, outsole, construction, maker care, seller and indoor return terms."],
     ["mens leather tassel loafers", "Men’s tassel loafers", "Check instep and heel hold, tassel and apron construction, toe shape, full material disclosure, sole, repair path, exact seller and return window."],
@@ -312,6 +317,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-leather-jacket-buying-guide.html") return catalog.leatherJackets;
+  if (normalized === "home-improvement-change-order-payment-control.html" || normalized === "jet-lag-adjustment-arrival-plan.html") return null;
   if (normalized === "paycheck-withholding-checkup-guide.html" || normalized === "mens-heated-jacket-vest-buying-guide.html") return null;
   if (normalized === "pull-up-bar-buying-installation-guide.html") return [catalog.fitness[3], catalog.fitness[0], catalog.fitness[2]];
   if (normalized === "carry-on-luggage-buying-guide.html") return catalog.carryOnLuggage;
