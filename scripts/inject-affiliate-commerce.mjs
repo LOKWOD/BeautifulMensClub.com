@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  snowBlowers: [
+    ["single stage snow blower", "Single-stage snow blowers", "Match the exact model to the surface, typical accumulation, clearing area and storage path; verify the current manual, full power configuration, recall status, controls, parts, service and return terms."],
+    ["two stage snow blower", "Two-stage snow blowers", "Compare clearing width only after surface, grade, turning room, weight, drive and auger controls, skid or scraper adjustment, engine or battery system, exact manual, service and recall record."],
+    ["battery snow blower", "Battery snow blowers", "Verify the exact included battery count and capacity, compatible platform, charger, cold-use and storage instructions, clearing assumptions, model identity, recall status, seller and return terms."],
+  ],
   leatherJackets: [
     ["mens leather bomber jacket", "Men’s leather bomber jackets", "Compare the exact shell, lining and trim disclosure, closed layered fit, hardware, care label, repair path, seller and indoor return terms."],
     ["mens leather cafe racer jacket", "Men’s leather café-racer jackets", "Check shoulder and armhole geometry, zipped seated reach, shell and lining materials, zipper serviceability, maker care, seller and return window."],
@@ -317,6 +322,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "snow-blower-buying-safety-guide.html") return catalog.snowBlowers;
+  if (normalized === "strength-training-rpe-reps-in-reserve-log.html" || normalized === "clothing-care-label-guide.html") return null;
   if (normalized === "mens-leather-jacket-buying-guide.html") return catalog.leatherJackets;
   if (normalized === "home-improvement-change-order-payment-control.html" || normalized === "jet-lag-adjustment-arrival-plan.html") return null;
   if (normalized === "paycheck-withholding-checkup-guide.html" || normalized === "mens-heated-jacket-vest-buying-guide.html") return null;

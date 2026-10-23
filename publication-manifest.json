@@ -1,33 +1,34 @@
 {
-  "generatedAt": "2026-10-22",
+  "generatedAt": "2026-10-23",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. The leather-jacket guide uses accurate category text links only."
+    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. The snow-blower guide uses accurate category text links only."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-21",
     "window": "2026-09-21 through 2026-10-18",
     "signal": "Four homepage impressions, zero clicks, average position 1.5, no query rows and no supported non-homepage cluster",
-    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two distinct explorations while strengthening crawl paths from established guides.",
-    "ignored": "The four homepage impressions, the HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or a topical pivot."
+    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two unrelated explorations, with reciprocal links that strengthen established topic clusters.",
+    "ignored": "The four homepage impressions, HTTP homepage variant and aggregate position were deliberately ignored as insufficient evidence for keyword targeting, title changes or an editorial pivot."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the leather-jacket guide. The home-project and jet-lag guides remain commerce-free."
+    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the snow-blower guide. The strength-training and clothing-care guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy home-improvement change-order and payment-control file that reconciles the baseline contract, field condition, scope delta, price, credits, schedule, approval, payment and closeout evidence.",
-    "cluster": "Home-project and consumer-protection authority, with reciprocal contextual paths from contractor-estimate, appliance-delivery, complaint-resolution and emergency-document guides; outerwear and travel clusters gain reciprocal links as well.",
-    "opportunity": "Two qualified consumer-education accuracy opportunities were logged for the National Consumer Law Center and Cornell Cooperative Extension housing educators; no outreach sent."
+    "action": "Created a citation-worthy strength-training RPE and repetitions-in-reserve log that separates planned effort, observed performance, technique limits, readiness, load decisions and stop-session warnings.",
+    "cluster": "Strength-programming authority, with reciprocal paths from warm-up, rest-period, cardio-intensity and recovery guides; seasonal home-safety and garment-care clusters gain reciprocal links as well.",
+    "opportunity": "Two qualified accuracy and consumer-education opportunities were logged for the American College of Sports Medicine and the CPSC Neighborhood Safety Network; no outreach sent."
   },
-  "diversity": "The batch answers three different questions across Life and Style: how to control a construction change, how to buy and maintain a leather jacket, and how to plan sleep, light and arrival safety across time zones. The authority record is noncommercial, the outerwear guide alone serves purchase intent, and the travel plan is a health-adjacent practical explainer; none follows the weak Search Console sample.",
+  "diversity": "The batch answers three different questions across Life, Fitness and Style: which snow blower fits a property and how to operate it safely, how to autoregulate a strength set with RPE/RIR, and how to read a garment's fiber and care labels before cleaning. Only the seasonal equipment guide is commercial; the training log is a noncommercial authority asset and the care decoder is an evergreen household-style reference. None follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
+    "Fitness hub",
     "Style hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
@@ -38,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "home-improvement-change-order-payment-control.html",
-      "title": "Home-Improvement Change Order and Payment Control File",
+      "slug": "snow-blower-buying-safety-guide.html",
+      "title": "Snow Blower Buying Guide: Surface, Stage, Power and Safe Clearing",
       "category": "LIFE",
       "department": "life.html",
-      "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Document a home-improvement scope change, reconcile its price and schedule effect, authorize it in writing, control payment and close the evidence file",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "mens-leather-jacket-buying-guide.html",
-      "title": "Men’s Leather Jacket Buying Guide: Fit, Hide, Construction and Care",
-      "category": "STYLE",
-      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's leather jacket by silhouette, real layered fit, complete material disclosure, construction, care, repair path and return-window test",
+      "searchIntent": "Choose a snow blower by property, surface, storm, power system, controls, storage, service and recall status, then build a safe clearing and shutdown routine",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "jet-lag-adjustment-arrival-plan.html",
-      "title": "Jet Lag Adjustment Plan: Sleep, Light, Caffeine and Arrival Safety",
-      "category": "LIFE",
-      "department": "life.html",
+      "slug": "strength-training-rpe-reps-in-reserve-log.html",
+      "title": "Strength Training RPE and Reps in Reserve: A Practical Autoregulation Log",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Authority-expansion",
+      "searchIntent": "Use RPE and repetitions in reserve to plan, record and conservatively adjust strength-training sets while preserving technique and clear stop-session rules",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "clothing-care-label-guide.html",
+      "title": "Clothing Care Label Guide: Fiber, Wash, Dry, Iron and Dry Clean",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Build a conservative preflight and arrival plan for jet lag using destination time, sleep opportunity, timed light and darkness, cautious caffeine, medication review and drowsy-driving safeguards",
+      "searchIntent": "Read a garment's permanent fiber and care labels, translate the full cleaning sequence, resolve conflicts and create a low-risk first-care record",
       "affiliateLinksExpected": 0
     }
   ]
