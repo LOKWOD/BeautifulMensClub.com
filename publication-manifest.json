@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-24",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts; no new or changed editorial, affiliate or product imagery. The snow-blower guide uses accurate category text links only."
+    "note": "Intentional image-free layouts. The dress-boot guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-21",
     "window": "2026-09-21 through 2026-10-18",
     "signal": "Four homepage impressions, zero clicks, average position 1.5, no query rows and no supported non-homepage cluster",
-    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two unrelated explorations, with reciprocal links that strengthen established topic clusters.",
-    "ignored": "The four homepage impressions, HTTP homepage variant and aggregate position were deliberately ignored as insufficient evidence for keyword targeting, title changes or an editorial pivot."
+    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two distinct explorations, with reciprocal links that deepen established consumer-record, footwear and oral-care clusters.",
+    "ignored": "The four homepage impressions, HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or an editorial pivot."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the snow-blower guide. The strength-training and clothing-care guides remain commerce-free."
+    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the dress-boot guide. The warranty and mouthwash guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy strength-training RPE and repetitions-in-reserve log that separates planned effort, observed performance, technique limits, readiness, load decisions and stop-session warnings.",
-    "cluster": "Strength-programming authority, with reciprocal paths from warm-up, rest-period, cardio-intensity and recovery guides; seasonal home-safety and garment-care clusters gain reciprocal links as well.",
-    "opportunity": "Two qualified accuracy and consumer-education opportunities were logged for the American College of Sports Medicine and the CPSC Neighborhood Safety Network; no outreach sent."
+    "action": "Created a citation-worthy household warranty and product-registration control file that joins exact product identity, purchase evidence, written coverage, service-contract separation, recall status, claim chronology and documented closure.",
+    "cluster": "Consumer purchase and ownership authority, with reciprocal paths from major-appliance delivery, heated outerwear, snow-blower and pull-up-bar guides; dress-footwear and oral-care clusters gain reciprocal links as well.",
+    "opportunity": "One qualified accuracy opportunity was logged for the Federal Trade Commission consumer-education team; no outreach sent."
   },
-  "diversity": "The batch answers three different questions across Life, Fitness and Style: which snow blower fits a property and how to operate it safely, how to autoregulate a strength set with RPE/RIR, and how to read a garment's fiber and care labels before cleaning. Only the seasonal equipment guide is commercial; the training log is a noncommercial authority asset and the care decoder is an evergreen household-style reference. None follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life, Style and Grooming: how to preserve and use warranty evidence after a durable purchase, how to choose a dress boot by use and both-foot fit, and how to select a mouthwash by active ingredient and label. Only the footwear guide is commercial. None follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
-    "Fitness hub",
     "Style hub",
+    "Grooming hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "snow-blower-buying-safety-guide.html",
-      "title": "Snow Blower Buying Guide: Surface, Stage, Power and Safe Clearing",
+      "slug": "household-warranty-product-registration-system.html",
+      "title": "Household Warranty and Product Registration System: Proof, Claims and Recalls",
       "category": "LIFE",
       "department": "life.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a snow blower by property, surface, storm, power system, controls, storage, service and recall status, then build a safe clearing and shutdown routine",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "strength-training-rpe-reps-in-reserve-log.html",
-      "title": "Strength Training RPE and Reps in Reserve: A Practical Autoregulation Log",
-      "category": "FITNESS",
-      "department": "fitness.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Use RPE and repetitions in reserve to plan, record and conservatively adjust strength-training sets while preserving technique and clear stop-session rules",
+      "searchIntent": "Build a household product record that preserves purchase proof, written warranty and service-contract terms, registration, recalls, maintenance, claim chronology and closure",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "clothing-care-label-guide.html",
-      "title": "Clothing Care Label Guide: Fiber, Wash, Dry, Iron and Dry Clean",
+      "slug": "mens-dress-boots-buying-guide.html",
+      "title": "Men’s Dress Boots Buying Guide: Chelsea, Chukka, Lace-Up, Fit and Care",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Read a garment's permanent fiber and care labels, translate the full cleaning sequence, resolve conflicts and create a low-risk first-care record",
+      "searchIntent": "Choose men's dress boots by dress code, Chelsea chukka or lace-up format, last and width, both-foot fit, materials, construction, sole, care, repair and returns",
+      "affiliateLinksExpected": 3
+    },
+    {
+      "slug": "mouthwash-buying-guide.html",
+      "title": "Mouthwash Buying Guide: Fluoride, Antiseptic, Sensitivity and Label Claims",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose mouthwash by cosmetic or therapeutic purpose, active ingredient, Drug Facts uses warnings and directions, ADA evidence, alcohol preference, sensitivity, age and dental guidance",
       "affiliateLinksExpected": 0
     }
   ]

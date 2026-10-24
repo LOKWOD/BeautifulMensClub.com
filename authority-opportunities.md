@@ -1,5 +1,9 @@
 # Authority opportunities
 
+## 2026-10-24 — Household warranty and product-record control file
+
+- **Federal Trade Commission consumer-education team** — https://www.ftc.gov/contact — Asset match: the independent household file turns warranty terms, receipt and serial evidence, service-contract separation, recall checks, claim chronology, shipping costs and written closeout into one maintained record while linking prominently to current FTC warranty guidance. Honest angle: invite a factual and usability review and ask whether the free, commerce-free implementation file could complement consumer warranty education; disclose the publisher and never imply FTC review or endorsement. Contact route: the Commission’s official contact page and consumer-education channels. No outreach sent.
+
 ## 2026-10-23 — Strength-training effort log and seasonal snow-thrower record
 
 - **American College of Sports Medicine public-information team** — https://acsm.org/contact-us/ — Asset match: the commerce-free training log turns resistance-training RPE and repetitions in reserve into a transparent target-versus-actual record with calibration limits, technique gates, conservative adjustment rules and symptom stops while linking to ACSM professional competencies and peer-reviewed evidence. Honest angle: invite a technical-accuracy and usability review and ask whether the free implementation record could complement consumer or professional exercise education; disclose the independent publisher and never imply ACSM review, certification or endorsement. Contact route: ACSM’s official contact page and published public-information email. No outreach sent.

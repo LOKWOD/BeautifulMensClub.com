@@ -23,6 +23,11 @@ const catalog = {
     ["mens leather tassel loafers", "Men’s tassel loafers", "Check instep and heel hold, tassel and apron construction, toe shape, full material disclosure, sole, repair path, exact seller and return window."],
     ["mens leather bit loafers", "Men’s bit loafers", "Match the hardware scale and finish to the wardrobe, then verify both-foot fit, upper and lining, outsole, maker care, seller and return conditions."],
   ],
+  dressBoots: [
+    ["mens leather chelsea dress boots", "Men’s Chelsea dress boots", "Compare the exact last and width options, elastic-gore recovery, heel and shaft opening, upper and lining disclosure, outsole, care, repair path, seller and indoor return terms."],
+    ["mens leather chukka dress boots", "Men’s chukka dress boots", "Check eyelet count, ankle and instep volume, last shape, full material disclosure, sole, construction, maker care, exact seller and return window."],
+    ["mens leather lace up dress boots", "Men’s lace-up dress boots", "Match the toe, shaft and sole to the actual dress code and weather, then verify both-foot fit, last and width, upper and lining, construction, care and returns."],
+  ],
   carryOnLuggage: [
     ["two wheel carry on luggage softside", "Two-wheel carry-on luggage", "Compare the exact overall dimensions including wheels and handles, empty weight, loaded balance, wheel and handle construction, materials, parts support, warranty, seller and return terms."],
     ["carry on spinner luggage four wheel", "Four-wheel spinner carry-ons", "Verify the complete exterior measurement, caster protection and replacement path, empty weight, handle stops, shell or textile care, exact seller and return window."],
@@ -323,6 +328,8 @@ function chooseCatalog(path, text) {
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
   if (normalized === "snow-blower-buying-safety-guide.html") return catalog.snowBlowers;
+  if (normalized === "mens-dress-boots-buying-guide.html") return catalog.dressBoots;
+  if (normalized === "household-warranty-product-registration-system.html" || normalized === "mouthwash-buying-guide.html") return null;
   if (normalized === "strength-training-rpe-reps-in-reserve-log.html" || normalized === "clothing-care-label-guide.html") return null;
   if (normalized === "mens-leather-jacket-buying-guide.html") return catalog.leatherJackets;
   if (normalized === "home-improvement-change-order-payment-control.html" || normalized === "jet-lag-adjustment-arrival-plan.html") return null;
