@@ -148,6 +148,11 @@ const catalog = {
     ["mens lightweight fleece jacket midlayer", "Lightweight fleece midlayers", "Choose enough warmth for the job without crowding the shoulders and sleeves of the outer layer."],
     ["mens waterproof breathable rain shell jacket", "Waterproof rain shells", "Verify the exact model's weather claim, seam construction, hood controls, layer room, care instructions and return terms."],
   ],
+  baseLayers: [
+    ["mens merino wool base layer long sleeve", "Men’s merino-wool base layers", "Compare the exact fiber percentages, fabric or garment weight, next-to-skin fit, seam placement, care label, selected size, seller and return terms."],
+    ["mens synthetic base layer long sleeve", "Men’s synthetic base layers", "Match the exact polyester, nylon and elastane blend to the activity, then check fit, mapped panels, treatment claims, care, drying routine and returns."],
+    ["mens wool blend base layer set", "Men’s wool-blend base-layer sets", "Verify the fiber percentage of both pieces, separate size and fit needs, waistband and cuff comfort, package contents, care instructions and exact seller."],
+  ],
   safetyRazor: [
     ["double edge safety razor men closed comb", "Double-edge safety razors", "Compare head geometry, blade alignment, handle grip, loading instructions, materials and replacement-blade compatibility."],
     ["double edge razor blade sampler pack", "Double-edge blade samplers", "Use a small sampler to compare compatible blades without committing to a bulk pack before you know what suits the razor and your skin."],
@@ -390,6 +395,8 @@ function productsFor(path, text) {
   if (normalized === "mens-socks-buying-guide.html") return catalog.dressSocks;
   if (normalized === "home-radon-test-guide.html" || normalized === "funeral-wake-etiquette-guide.html") return null;
   if (normalized === "mens-fall-layering-guide.html") return catalog.layering;
+  if (normalized === "mens-base-layer-buying-guide.html") return catalog.baseLayers;
+  if (normalized === "used-car-test-drive-purchase-checklist.html" || normalized === "housewarming-party-hosting-plan.html") return null;
   if (normalized === "safety-razor-buying-guide.html") return catalog.safetyRazor;
   if (normalized === "home-emergency-kit-rotation-checklist.html") return null;
   if (normalized === "mens-winter-boot-buying-guide.html") return catalog.winterBoots;

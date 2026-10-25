@@ -1,35 +1,34 @@
 {
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-25",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts. The dress-boot guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
+    "note": "Intentional image-free layouts. The base-layer guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-21",
     "window": "2026-09-21 through 2026-10-18",
     "signal": "Four homepage impressions, zero clicks, average position 1.5, no query rows and no supported non-homepage cluster",
-    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two distinct explorations, with reciprocal links that deepen established consumer-record, footwear and oral-care clusters.",
+    "decision": "The sample is too small and queryless to justify a Data-led page. Today's portfolio therefore uses one authority expansion and two distinct explorations selected from inventory gaps, recent-topic rotation and reader utility.",
     "ignored": "The four homepage impressions, HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or an editorial pivot."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the dress-boot guide. The warranty and mouthwash guides remain commerce-free."
+    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the base-layer guide. The used-car and housewarming guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy household warranty and product-registration control file that joins exact product identity, purchase evidence, written coverage, service-contract separation, recall status, claim chronology and documented closure.",
-    "cluster": "Consumer purchase and ownership authority, with reciprocal paths from major-appliance delivery, heated outerwear, snow-blower and pull-up-bar guides; dress-footwear and oral-care clusters gain reciprocal links as well.",
-    "opportunity": "One qualified accuracy opportunity was logged for the Federal Trade Commission consumer-education team; no outreach sent."
+    "action": "Created a citation-worthy used-car purchase control file that joins seller identity, exact VIN, FTC Buyers Guide, NMVTIS history, NHTSA recall status, independent inspection, test-drive observations, financing, promises and closing evidence.",
+    "cluster": "Vehicle ownership and consumer-record authority, with reciprocal paths from auto-repair, insurance, roadside and complaint guides; cold-weather style and hospitality clusters gain reciprocal links as well.",
+    "opportunity": "One qualified accuracy opportunity was logged for the U.S. Department of Justice NMVTIS Program Office; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life, Style and Grooming: how to preserve and use warranty evidence after a durable purchase, how to choose a dress boot by use and both-foot fit, and how to select a mouthwash by active ingredient and label. Only the footwear guide is commercial. None follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life and Style: how to verify and document a used-car transaction, how to choose next-to-skin clothing by activity and label, and how to host a first gathering in a new home. Only the apparel guide is commercial. None follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
     "Style hub",
-    "Grooming hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "household-warranty-product-registration-system.html",
-      "title": "Household Warranty and Product Registration System: Proof, Claims and Recalls",
+      "slug": "used-car-test-drive-purchase-checklist.html",
+      "title": "Used-Car Test-Drive and Purchase Checklist: VIN, History, Inspection and Deal",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Build a household product record that preserves purchase proof, written warranty and service-contract terms, registration, recalls, maintenance, claim chronology and closure",
+      "searchIntent": "Verify a used car by seller, VIN, FTC Buyers Guide, title history, recalls, independent inspection, test drive, financing, fees, written promises and closing records",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-dress-boots-buying-guide.html",
-      "title": "Men’s Dress Boots Buying Guide: Chelsea, Chukka, Lace-Up, Fit and Care",
+      "slug": "mens-base-layer-buying-guide.html",
+      "title": "Men’s Base Layer Buying Guide: Merino, Synthetic, Fit, Weight and Care",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose men's dress boots by dress code, Chelsea chukka or lace-up format, last and width, both-foot fit, materials, construction, sole, care, repair and returns",
+      "searchIntent": "Choose men's base layers and long underwear by activity, temperature, sweat, fit, fiber label, fabric weight, seams, layering compatibility, care and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mouthwash-buying-guide.html",
-      "title": "Mouthwash Buying Guide: Fluoride, Antiseptic, Sensitivity and Label Claims",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "housewarming-party-hosting-plan.html",
+      "title": "Housewarming Party Hosting Plan: Guest Flow, Food, Neighbors and a Clean Finish",
+      "category": "LIFE",
+      "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose mouthwash by cosmetic or therapeutic purpose, active ingredient, Drug Facts uses warnings and directions, ADA evidence, alcohol preference, sensitivity, age and dental guidance",
+      "searchIntent": "Plan a housewarming party with clear invitations, parking and access, guest flow, food and allergens, tours, gifts, neighbors, timing, cleanup and follow-up",
       "affiliateLinksExpected": 0
     }
   ]

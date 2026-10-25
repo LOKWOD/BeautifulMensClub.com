@@ -1,5 +1,9 @@
 # Authority opportunities
 
+## 2026-10-25 — Used-car verification and purchase control file
+
+- **U.S. Department of Justice NMVTIS Program Office** — https://vehiclehistory.bja.ojp.gov/contact — Asset match: the independent purchase file puts the exact VIN, approved-provider NMVTIS report, report limits, FTC Buyers Guide, NHTSA recall result, independent inspection, financing and signed closing evidence into one auditable consumer record while linking directly to current federal sources. Honest angle: invite a factual and usability review and ask whether the free, commerce-free implementation file could complement NMVTIS consumer education; disclose the publisher and never imply Department review or endorsement. Contact route: the program’s official contact page. No outreach sent.
+
 ## 2026-10-24 — Household warranty and product-record control file
 
 - **Federal Trade Commission consumer-education team** — https://www.ftc.gov/contact — Asset match: the independent household file turns warranty terms, receipt and serial evidence, service-contract separation, recall checks, claim chronology, shipping costs and written closeout into one maintained record while linking prominently to current FTC warranty guidance. Honest angle: invite a factual and usability review and ask whether the free, commerce-free implementation file could complement consumer warranty education; disclose the publisher and never imply FTC review or endorsement. Contact route: the Commission’s official contact page and consumer-education channels. No outreach sent.
