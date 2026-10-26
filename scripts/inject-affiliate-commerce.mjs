@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  beanies: [
+    ["mens wool beanie winter hat", "Men’s wool and wool-blend beanies", "Verify the exact wool or recycled-wool percentage, head measurements, knit and lining construction, coverage, supplied care instructions, seller and return terms."],
+    ["mens rib knit beanie winter hat", "Men’s rib-knit winter hats", "Compare opening range, crown depth, cuff adjustment, complete fiber disclosure, recovery, seam comfort, outerwear compatibility and the exact return window."],
+    ["mens windproof fleece lined beanie", "Lined and wind-resistant beanies", "Match the exact wind or weather claim to the job, then check lining material, bulk, glasses and hood fit, cleaning guidance, recall status and seller terms."],
+  ],
   snowBlowers: [
     ["single stage snow blower", "Single-stage snow blowers", "Match the exact model to the surface, typical accumulation, clearing area and storage path; verify the current manual, full power configuration, recall status, controls, parts, service and return terms."],
     ["two stage snow blower", "Two-stage snow blowers", "Compare clearing width only after surface, grade, turning room, weight, drive and auger controls, skid or scraper adjustment, engine or battery system, exact manual, service and recall record."],
@@ -332,6 +337,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-beanie-winter-hat-buying-guide.html") return catalog.beanies;
+  if (normalized === "gym-membership-contract-cancellation-checklist.html" || normalized === "mens-lip-balm-buying-guide.html") return null;
   if (normalized === "snow-blower-buying-safety-guide.html") return catalog.snowBlowers;
   if (normalized === "mens-dress-boots-buying-guide.html") return catalog.dressBoots;
   if (normalized === "household-warranty-product-registration-system.html" || normalized === "mouthwash-buying-guide.html") return null;
