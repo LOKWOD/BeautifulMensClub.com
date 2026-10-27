@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  bathrobes: [
+    ["mens cotton terry bathrobe", "Men’s cotton-terry bathrobes", "Compare finished garment measurements, exact fiber percentages, loop construction, weight, belt and pocket reinforcement, drying routine, care label, seller and return terms."],
+    ["mens waffle weave bathrobe", "Men’s waffle-weave bathrobes", "Check the exact fiber disclosure, weave density, opacity, finished length and sleeve measurements, shrinkage and care instructions, seller and indoor return window."],
+    ["mens fleece bathrobe", "Men’s fleece and warm house robes", "Match warmth and bulk to the actual room, then verify fiber content, loose-sleeve control, belt construction, care label, exact product, recall status and return terms."],
+  ],
   beanies: [
     ["mens wool beanie winter hat", "Men’s wool and wool-blend beanies", "Verify the exact wool or recycled-wool percentage, head measurements, knit and lining construction, coverage, supplied care instructions, seller and return terms."],
     ["mens rib knit beanie winter hat", "Men’s rib-knit winter hats", "Compare opening range, crown depth, cuff adjustment, complete fiber disclosure, recovery, seam comfort, outerwear compatibility and the exact return window."],
@@ -337,6 +342,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-bathrobe-buying-guide.html") return catalog.bathrobes;
+  if (normalized === "doctor-visit-preparation-follow-up-checklist.html" || normalized === "moving-day-first-night-plan.html") return null;
   if (normalized === "mens-beanie-winter-hat-buying-guide.html") return catalog.beanies;
   if (normalized === "gym-membership-contract-cancellation-checklist.html" || normalized === "mens-lip-balm-buying-guide.html") return null;
   if (normalized === "snow-blower-buying-safety-guide.html") return catalog.snowBlowers;

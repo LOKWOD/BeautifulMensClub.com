@@ -1,35 +1,34 @@
 {
-  "generatedAt": "2026-10-26",
+  "generatedAt": "2026-10-27",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts. The winter-hat guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
+    "note": "Intentional image-free layouts. The bathrobe guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-21",
     "window": "2026-09-21 through 2026-10-18",
     "signal": "Four homepage impressions, zero clicks, average position 1.5, no query rows and no supported non-homepage cluster",
-    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two unrelated evergreen explorations selected from the full inventory and recent-topic rotation.",
+    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two unrelated evergreen explorations chosen from the complete inventory and recent-topic rotation.",
     "ignored": "The four homepage impressions, HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or a repeated topic cluster."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the winter-hat guide. The gym-contract and lip-balm guides remain commerce-free."
+    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the bathrobe guide. The appointment and moving-day guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy gym-membership control file that joins facility fit, total cost, renewal, cancellation, billing authority, state-law checks, proof delivery and post-cancellation monitoring.",
-    "cluster": "Fitness purchasing and consumer-contract authority, with reciprocal paths from home-equipment and training guides; cold-weather style and evidence-led grooming clusters gain reciprocal links as well.",
-    "opportunity": "Two qualified accuracy opportunities were logged for the New York Attorney General consumer-issues team and FTC consumer education; no outreach sent."
+    "action": "Created a citation-worthy doctor-visit preparation and follow-up file that combines the visit question, complete medicine list, symptom timeline, records, decision owner, teach-back and dated follow-up in one portable handoff.",
+    "cluster": "Health-record and well-run-life authority, with reciprocal paths from blood-pressure, medicine-cabinet, health-insurance and hair-change guides; the robe and moving-day pages also strengthen clothing-care and household-transition clusters.",
+    "opportunity": "Two qualified accuracy opportunities were logged for AHRQ patient-engagement educators and FMCSA Protect Your Move; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Fitness, Style and Grooming: how to control a recurring gym contract, how to select a winter hat by conditions and fit, and how to choose lip care by ingredients, SPF and irritation. Only the apparel guide is commercial, and none follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life and Style: how to prepare and close a medical appointment, how to choose a bathrobe by use and construction, and how to control a move's final handoff and first night. Only the apparel guide is commercial, and none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
-    "Fitness hub",
+    "Life hub",
     "Style hub",
-    "Grooming hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "gym-membership-contract-cancellation-checklist.html",
-      "title": "Gym Membership Contract and Cancellation Checklist: Cost, Renewal, Rules and Proof",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "doctor-visit-preparation-follow-up-checklist.html",
+      "title": "Doctor Visit Preparation and Follow-Up Checklist: Medicines, Questions and Next Steps",
+      "category": "LIFE",
+      "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Compare and control a gym membership by facility fit, complete cost, contract term, automatic renewal, cancellation method, billing authorization, state protections and written proof",
+      "searchIntent": "Prepare for a doctor visit with a complete medicine list, symptom timeline, focused questions, records, decision ownership, teach-back and a dated follow-up plan",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-beanie-winter-hat-buying-guide.html",
-      "title": "Men’s Beanie and Winter Hat Buying Guide: Warmth, Fit, Fiber and Care",
+      "slug": "mens-bathrobe-buying-guide.html",
+      "title": "Men’s Bathrobe Buying Guide: Fit, Fabric, Warmth, Absorbency and Care",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's beanie or winter hat by activity, wind and precipitation, coverage, fit, fiber disclosure, knit, lining, helmet compatibility, care, durability and return terms",
+      "searchIntent": "Choose a men's bathrobe by use, room temperature, absorbency, fabric disclosure, length, sleeve and belt fit, pocket construction, care, flammability recall status and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-lip-balm-buying-guide.html",
-      "title": "Men’s Lip Balm Buying Guide: Ingredients, SPF, Irritation and When to Get Help",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "moving-day-first-night-plan.html",
+      "title": "Moving Day and First-Night Plan: Access, Utilities, Safety and a Clean Handoff",
+      "category": "LIFE",
+      "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose lip balm by purpose, ingredient list, ointment or stick format, fragrance and flavor tolerance, SPF and broad-spectrum label, irritation response, hygiene, expiration and professional-care triggers",
+      "searchIntent": "Plan moving day and the first night with verified access, mover and inventory records, utility and alarm checks, essential supplies, room triage, damage evidence and a documented closeout",
       "affiliateLinksExpected": 0
     }
   ]
