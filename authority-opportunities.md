@@ -1,5 +1,9 @@
 # Authority opportunities
 
+## 2026-10-28 — Public-Wi-Fi and travel-device security handoff
+
+- **CISA Secure Our World public-education team** — https://www.cisa.gov/contact-us — Asset match: the independent travel checklist reconciles current HTTPS protection with exact-network verification, software updates, account hardening, employer-policy separation, lost-device response and post-trip session review while linking prominently to CISA and FTC sources. Honest angle: invite a factual and usability review and ask whether the free, commerce-free handoff can complement travel cybersecurity education; disclose the independent publisher, request corrections rather than endorsement or placement, and never imply agency review. Contact route: CISA's official contact page and Secure Our World program. No outreach sent.
+
 ## 2026-10-27 — Doctor-visit handoff and moving-day closeout records
 
 - **AHRQ patient-engagement and health-literacy educators** — https://www.ahrq.gov/contact/index.html — Asset match: the doctor-visit file turns AHRQ’s question-building, complete-medicine-list and patient-engagement guidance into one portable preparation, teach-back, ownership and follow-up record without presenting the worksheet as diagnosis or treatment. Honest angle: invite a factual and usability review and ask whether the free, commerce-free implementation file could complement current patient education; disclose the independent publisher and never imply AHRQ review or endorsement. Contact route: the agency’s official contact page. No outreach sent.

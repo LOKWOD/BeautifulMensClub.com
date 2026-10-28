@@ -1,33 +1,34 @@
 {
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free layouts. The bathrobe guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
+    "note": "Intentional image-free editorial layouts. The kettlebell guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
   },
   "searchConsole": {
-    "reportGeneratedAt": "2026-10-21",
-    "window": "2026-09-21 through 2026-10-18",
-    "signal": "Four homepage impressions, zero clicks, average position 1.5, no query rows and no supported non-homepage cluster",
-    "decision": "The sample is too small and queryless to support a Data-led page. Today's portfolio therefore uses one authority expansion and two unrelated evergreen explorations chosen from the complete inventory and recent-topic rotation.",
-    "ignored": "The four homepage impressions, HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or a repeated topic cluster."
+    "reportGeneratedAt": "2026-10-28",
+    "window": "2026-09-28 through 2026-10-25",
+    "signal": "Five homepage impressions, zero clicks, average position 1.4, no query rows and no supported non-homepage cluster; the submitted sitemap showed 26 discovered URLs and zero indexed URLs in the report snapshot.",
+    "decision": "The queryless homepage sample is too small to support a Data-led page. Today's portfolio therefore strengthens crawl paths and topic clusters with one authority expansion plus two unrelated evergreen explorations.",
+    "ignored": "The five homepage impressions, HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or another variation on an existing topic."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed, sponsored/nofollow category text recommendations appear only on the bathrobe guide. The appointment and moving-day guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow category text links appear only on the kettlebell guide. The travel-security and wedding-band guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy doctor-visit preparation and follow-up file that combines the visit question, complete medicine list, symptom timeline, records, decision owner, teach-back and dated follow-up in one portable handoff.",
-    "cluster": "Health-record and well-run-life authority, with reciprocal paths from blood-pressure, medicine-cabinet, health-insurance and hair-change guides; the robe and moving-day pages also strengthen clothing-care and household-transition clusters.",
-    "opportunity": "Two qualified accuracy opportunities were logged for AHRQ patient-engagement educators and FMCSA Protect Your Move; no outreach sent."
+    "action": "Created a citation-worthy public-Wi-Fi and travel-device handoff that reconciles current HTTPS protections with network verification, account hardening, update, loss-response and recovery controls in one printable record.",
+    "cluster": "Travel and digital-resilience authority, with reciprocal paths from home Wi-Fi security, digital-account recovery, carry-on packing and hotel-arrival guides; the kettlebell and wedding-band pages also strengthen home-training and durable-personal-style clusters.",
+    "opportunity": "One qualified factual-review opportunity was logged for CISA Secure Our World through the agency's official contact route; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life and Style: how to prepare and close a medical appointment, how to choose a bathrobe by use and construction, and how to control a move's final handoff and first night. Only the apparel guide is commercial, and none follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions in Life, Fitness and Style: how to connect and recover while traveling, how to choose one strength tool by fit and space, and how to buy a daily-wear ring by geometry and material. Only the equipment guide is commercial, and none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
+    "Fitness hub",
     "Style hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
@@ -38,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "doctor-visit-preparation-follow-up-checklist.html",
-      "title": "Doctor Visit Preparation and Follow-Up Checklist: Medicines, Questions and Next Steps",
+      "slug": "public-wifi-travel-device-security-checklist.html",
+      "title": "Public Wi-Fi and Travel Device Security Checklist: Connect, Work and Recover",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Prepare for a doctor visit with a complete medicine list, symptom timeline, focused questions, records, decision ownership, teach-back and a dated follow-up plan",
+      "searchIntent": "Use public Wi-Fi and travel devices with verified networks, current HTTPS, updates, account protection, limited sharing, loss response and a documented recovery plan",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-bathrobe-buying-guide.html",
-      "title": "Men’s Bathrobe Buying Guide: Fit, Fabric, Warmth, Absorbency and Care",
-      "category": "STYLE",
-      "department": "style.html",
+      "slug": "kettlebell-buying-safety-guide.html",
+      "title": "Kettlebell Buying Guide: Weight, Handle, Clearance and Safe Setup",
+      "category": "FITNESS",
+      "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's bathrobe by use, room temperature, absorbency, fabric disclosure, length, sleeve and belt fit, pocket construction, care, flammability recall status and return terms",
+      "searchIntent": "Choose a kettlebell by current training ability, intended movements, handle and window fit, body geometry, floor protection, storage, exact weight, recall status and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "moving-day-first-night-plan.html",
-      "title": "Moving Day and First-Night Plan: Access, Utilities, Safety and a Clean Handoff",
-      "category": "LIFE",
-      "department": "life.html",
+      "slug": "mens-wedding-band-buying-guide.html",
+      "title": "Men’s Wedding Band Buying Guide: Fit, Metal, Width, Finish and Care",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Plan moving day and the first night with verified access, mover and inventory records, utility and alarm checks, essential supplies, room triage, damage evidence and a documented closeout",
+      "searchIntent": "Choose a men's wedding band by measured finger fit, width, profile, exact metal composition, finish, work and activity compatibility, resizing limits, care, disclosure and return terms",
       "affiliateLinksExpected": 0
     }
   ]

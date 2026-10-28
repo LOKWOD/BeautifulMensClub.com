@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  kettlebells: [
+    ["cast iron kettlebell fixed weight", "Fixed cast-iron kettlebells", "Match the exact weight and handle window to the planned movements, then verify casting and seam finish, base stability, coating, dimensions, recall status, seller and return terms."],
+    ["competition kettlebell fixed size", "Competition-style kettlebells", "Compare handle diameter and window, body dimensions, exact mass, finish, base, rack comfort and seller terms; a common shape does not guarantee identical geometry or quality."],
+    ["adjustable kettlebell weight plates", "Adjustable kettlebells", "Verify the exact range and increments, locking sequence, exposed hardware, movement and impact limits, included tools, manual, replacement support, recall status and return window."],
+  ],
   bathrobes: [
     ["mens cotton terry bathrobe", "Men’s cotton-terry bathrobes", "Compare finished garment measurements, exact fiber percentages, loop construction, weight, belt and pocket reinforcement, drying routine, care label, seller and return terms."],
     ["mens waffle weave bathrobe", "Men’s waffle-weave bathrobes", "Check the exact fiber disclosure, weave density, opacity, finished length and sleeve measurements, shrinkage and care instructions, seller and indoor return window."],
@@ -342,6 +347,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "kettlebell-buying-safety-guide.html") return catalog.kettlebells;
+  if (normalized === "public-wifi-travel-device-security-checklist.html" || normalized === "mens-wedding-band-buying-guide.html") return null;
   if (normalized === "mens-bathrobe-buying-guide.html") return catalog.bathrobes;
   if (normalized === "doctor-visit-preparation-follow-up-checklist.html" || normalized === "moving-day-first-night-plan.html") return null;
   if (normalized === "mens-beanie-winter-hat-buying-guide.html") return catalog.beanies;
