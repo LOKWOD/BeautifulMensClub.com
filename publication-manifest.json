@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-10-29",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The kettlebell guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
+    "note": "Intentional image-free editorial layouts. The foam-roller guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-28",
     "window": "2026-09-28 through 2026-10-25",
     "signal": "Five homepage impressions, zero clicks, average position 1.4, no query rows and no supported non-homepage cluster; the submitted sitemap showed 26 discovered URLs and zero indexed URLs in the report snapshot.",
-    "decision": "The queryless homepage sample is too small to support a Data-led page. Today's portfolio therefore strengthens crawl paths and topic clusters with one authority expansion plus two unrelated evergreen explorations.",
+    "decision": "The queryless homepage sample is too small to support a Data-led page. Today's portfolio therefore uses one citation-worthy authority expansion and two unrelated evergreen explorations while strengthening hubs, reciprocal links and sitemap discovery.",
     "ignored": "The five homepage impressions, HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or another variation on an existing topic."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow category text links appear only on the kettlebell guide. The travel-security and wedding-band guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow category text links appear only on the foam-roller guide. The lost-wallet and flannel-shirt guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy public-Wi-Fi and travel-device handoff that reconciles current HTTPS protections with network verification, account hardening, update, loss-response and recovery controls in one printable record.",
-    "cluster": "Travel and digital-resilience authority, with reciprocal paths from home Wi-Fi security, digital-account recovery, carry-on packing and hotel-arrival guides; the kettlebell and wedding-band pages also strengthen home-training and durable-personal-style clusters.",
-    "opportunity": "One qualified factual-review opportunity was logged for CISA Secure Our World through the agency's official contact route; no outreach sent."
+    "action": "Created a citation-worthy lost-wallet and identity-recovery control file that separates payment-card containment, identity-risk decisions, government-document replacement, evidence retention and case closure.",
+    "cluster": "Consumer recovery and personal-record authority, with reciprocal paths from wallet selection, credit freezes, identity-theft recovery and digital-account recovery; the other pages strengthen recovery-tool and practical-shirt clusters.",
+    "opportunity": "Two qualified factual-review opportunities were logged for FTC consumer education and the U.S. Department of State passport-information team; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions in Life, Fitness and Style: how to connect and recover while traveling, how to choose one strength tool by fit and space, and how to buy a daily-wear ring by geometry and material. Only the equipment guide is commercial, and none follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions in Life, Fitness and Style: how to recover from a lost wallet, how to choose and use a foam roller conservatively, and how to buy a flannel shirt by fit and label. Only the equipment guide is commercial, and none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
@@ -39,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "public-wifi-travel-device-security-checklist.html",
-      "title": "Public Wi-Fi and Travel Device Security Checklist: Connect, Work and Recover",
+      "slug": "lost-wallet-id-recovery-plan.html",
+      "title": "Lost Wallet and ID Recovery Plan: Cards, Identity, Replacement and Proof",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Use public Wi-Fi and travel devices with verified networks, current HTTPS, updates, account protection, limited sharing, loss response and a documented recovery plan",
+      "searchIntent": "Respond to a lost or stolen wallet by containing payment cards, assessing identity risk, replacing government documents, preserving proof and closing each recovery case",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "kettlebell-buying-safety-guide.html",
-      "title": "Kettlebell Buying Guide: Weight, Handle, Clearance and Safe Setup",
+      "slug": "foam-roller-buying-use-guide.html",
+      "title": "Foam Roller Buying and Use Guide: Density, Size, Pressure and Limits",
       "category": "FITNESS",
       "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a kettlebell by current training ability, intended movements, handle and window fit, body geometry, floor protection, storage, exact weight, recall status and return terms",
+      "searchIntent": "Choose a foam roller by intended body areas, density, diameter, length, texture, room clearance and cleaning, then use it conservatively without treating it as injury care",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-wedding-band-buying-guide.html",
-      "title": "Men’s Wedding Band Buying Guide: Fit, Metal, Width, Finish and Care",
+      "slug": "mens-flannel-shirt-buying-guide.html",
+      "title": "Men’s Flannel Shirt Buying Guide: Fit, Fiber, Weave, Warmth and Care",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's wedding band by measured finger fit, width, profile, exact metal composition, finish, work and activity compatibility, resizing limits, care, disclosure and return terms",
+      "searchIntent": "Choose a men's flannel shirt by intended layer, garment measurements, fiber label, fabric weight, weave, nap, pattern, construction, shrinkage risk and care",
       "affiliateLinksExpected": 0
     }
   ]

@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  foamRollers: [
+    ["smooth foam roller low density exercise", "Smooth lower-density foam rollers", "Compare exact diameter, length, surface material, core, maker firmness description, cleaning method, warranty, recall status and return terms; more pressure is not automatically better."],
+    ["smooth high density foam roller exercise", "Smooth firmer foam rollers", "Choose only when you can control the added pressure, then verify dimensions, seam and core condition, floor interaction, cleaning instructions, seller and return window."],
+    ["compact travel foam roller", "Compact and travel foam rollers", "Check usable length, diameter, packed size, stability, body-area fit, surface, cleaning, storage and the full floor footprint required for a controlled session."],
+  ],
   kettlebells: [
     ["cast iron kettlebell fixed weight", "Fixed cast-iron kettlebells", "Match the exact weight and handle window to the planned movements, then verify casting and seam finish, base stability, coating, dimensions, recall status, seller and return terms."],
     ["competition kettlebell fixed size", "Competition-style kettlebells", "Compare handle diameter and window, body dimensions, exact mass, finish, base, rack comfort and seller terms; a common shape does not guarantee identical geometry or quality."],
@@ -347,6 +352,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "foam-roller-buying-use-guide.html") return catalog.foamRollers;
+  if (normalized === "lost-wallet-id-recovery-plan.html" || normalized === "mens-flannel-shirt-buying-guide.html") return null;
   if (normalized === "kettlebell-buying-safety-guide.html") return catalog.kettlebells;
   if (normalized === "public-wifi-travel-device-security-checklist.html" || normalized === "mens-wedding-band-buying-guide.html") return null;
   if (normalized === "mens-bathrobe-buying-guide.html") return catalog.bathrobes;
