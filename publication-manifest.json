@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-29",
+  "generatedAt": "2026-10-30",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The foam-roller guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
+    "note": "Intentional image-free editorial layouts. The exercise-mat guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-28",
     "window": "2026-09-28 through 2026-10-25",
-    "signal": "Five homepage impressions, zero clicks, average position 1.4, no query rows and no supported non-homepage cluster; the submitted sitemap showed 26 discovered URLs and zero indexed URLs in the report snapshot.",
-    "decision": "The queryless homepage sample is too small to support a Data-led page. Today's portfolio therefore uses one citation-worthy authority expansion and two unrelated evergreen explorations while strengthening hubs, reciprocal links and sitemap discovery.",
+    "signal": "Five homepage impressions, zero clicks, average position 1.4, no query rows and no supported non-homepage cluster; the submitted sitemap snapshot showed 26 URLs and zero indexed URLs.",
+    "decision": "The queryless homepage sample is too small to support a Data-led page. Today's portfolio therefore uses one citation-worthy authority expansion and two unrelated evergreen explorations while reinforcing three hubs, twelve reciprocal paths, the Library and sitemap discovery.",
     "ignored": "The five homepage impressions, HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or another variation on an existing topic."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow category text links appear only on the foam-roller guide. The lost-wallet and flannel-shirt guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow category text links appear only on the exercise-mat guide. The records and comb-and-hairbrush guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy lost-wallet and identity-recovery control file that separates payment-card containment, identity-risk decisions, government-document replacement, evidence retention and case closure.",
-    "cluster": "Consumer recovery and personal-record authority, with reciprocal paths from wallet selection, credit freezes, identity-theft recovery and digital-account recovery; the other pages strengthen recovery-tool and practical-shirt clusters.",
-    "opportunity": "Two qualified factual-review opportunities were logged for FTC consumer education and the U.S. Department of State passport-information team; no outreach sent."
+    "action": "Created a citation-worthy household-record decision matrix and destruction log that separates current-use records, tax support, ownership and warranty proof, vital documents, active disputes and lawful destruction holds.",
+    "cluster": "Household documentation, identity protection and evidence continuity, with reciprocal paths from emergency documents, identity-theft recovery, warranties and consumer disputes; the other pages strengthen floor-training and practical hair-tool clusters.",
+    "opportunity": "Two qualified factual-review opportunities were logged for FTC consumer education and IRS taxpayer education; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions in Life, Fitness and Style: how to recover from a lost wallet, how to choose and use a foam roller conservatively, and how to buy a flannel shirt by fit and label. Only the equipment guide is commercial, and none follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions in Life, Fitness and Grooming: which household records to retain or destroy, which exercise mat fits a particular body/room/routine, and which comb or hairbrush geometry suits a specific styling task. Only the equipment guide is commercial, and none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
     "Fitness hub",
-    "Style hub",
+    "Grooming hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "lost-wallet-id-recovery-plan.html",
-      "title": "Lost Wallet and ID Recovery Plan: Cards, Identity, Replacement and Proof",
+      "slug": "household-records-retention-shredding-system.html",
+      "title": "Household Records Retention and Shredding System: Keep, Review, Destroy and Prove",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Respond to a lost or stolen wallet by containing payment cards, assessing identity risk, replacing government documents, preserving proof and closing each recovery case",
+      "searchIntent": "Decide which household records to keep, review, digitize or destroy by purpose, legal hold, tax period, ownership need, identity risk and verified disposal method",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "foam-roller-buying-use-guide.html",
-      "title": "Foam Roller Buying and Use Guide: Density, Size, Pressure and Limits",
+      "slug": "exercise-mat-buying-guide.html",
+      "title": "Exercise Mat Buying Guide: Size, Grip, Cushion, Floor and Cleaning",
       "category": "FITNESS",
       "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a foam roller by intended body areas, density, diameter, length, texture, room clearance and cleaning, then use it conservatively without treating it as injury care",
+      "searchIntent": "Choose an exercise mat by movement footprint, body dimensions, grip, cushion, floor interaction, storage, material disclosures, cleaning instructions and exact-model recall checks",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-flannel-shirt-buying-guide.html",
-      "title": "Men’s Flannel Shirt Buying Guide: Fit, Fiber, Weave, Warmth and Care",
-      "category": "STYLE",
-      "department": "style.html",
+      "slug": "mens-comb-hairbrush-buying-guide.html",
+      "title": "Men’s Comb and Hairbrush Buying Guide: Hair Type, Teeth, Bristles and Cleaning",
+      "category": "GROOMING",
+      "department": "grooming.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's flannel shirt by intended layer, garment measurements, fiber label, fabric weight, weave, nap, pattern, construction, shrinkage risk and care",
+      "searchIntent": "Choose a men's comb or hairbrush by hair length, curl pattern, density, wet or dry task, tooth spacing, bristle geometry, handle control, heat permissions and cleaning",
       "affiliateLinksExpected": 0
     }
   ]

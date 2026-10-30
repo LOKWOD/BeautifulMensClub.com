@@ -13,6 +13,11 @@ const catalog = {
     ["smooth high density foam roller exercise", "Smooth firmer foam rollers", "Choose only when you can control the added pressure, then verify dimensions, seam and core condition, floor interaction, cleaning instructions, seller and return window."],
     ["compact travel foam roller", "Compact and travel foam rollers", "Check usable length, diameter, packed size, stability, body-area fit, surface, cleaning, storage and the full floor footprint required for a controlled session."],
   ],
+  exerciseMats: [
+    ["wide exercise mat nonslip home workout", "Wide exercise mats", "Compare finished length and width, exact materials, stated footwear and floor permissions, thickness, edge behavior, cleaning, storage, recall status, seller and return terms."],
+    ["folding exercise mat home workout", "Folding exercise mats", "Check panel dimensions, hinge gaps, folded size, cover and foam materials, floor interaction, cleaning instructions, carrying hardware, recall status and return window."],
+    ["yoga mat nonslip exercise", "Yoga and linear exercise mats", "Verify body and movement fit, exact materials, top and bottom texture, thickness, approved cleaning, drying, storage, seller and return conditions."],
+  ],
   kettlebells: [
     ["cast iron kettlebell fixed weight", "Fixed cast-iron kettlebells", "Match the exact weight and handle window to the planned movements, then verify casting and seam finish, base stability, coating, dimensions, recall status, seller and return terms."],
     ["competition kettlebell fixed size", "Competition-style kettlebells", "Compare handle diameter and window, body dimensions, exact mass, finish, base, rack comfort and seller terms; a common shape does not guarantee identical geometry or quality."],
@@ -352,6 +357,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "exercise-mat-buying-guide.html") return catalog.exerciseMats;
+  if (normalized === "household-records-retention-shredding-system.html" || normalized === "mens-comb-hairbrush-buying-guide.html") return null;
   if (normalized === "foam-roller-buying-use-guide.html") return catalog.foamRollers;
   if (normalized === "lost-wallet-id-recovery-plan.html" || normalized === "mens-flannel-shirt-buying-guide.html") return null;
   if (normalized === "kettlebell-buying-safety-guide.html") return catalog.kettlebells;
