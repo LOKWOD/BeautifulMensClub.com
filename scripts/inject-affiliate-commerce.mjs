@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  hikingPants: [
+    ["mens hiking pants quick dry", "Men’s all-purpose hiking pants", "Compare finished waist, rise, thigh, knee, inseam and hem measurements, exact fiber label, weather limits, pocket retention, care, seller and return terms."],
+    ["mens convertible hiking pants", "Men’s convertible hiking pants", "Check the leg-zipper position, side identification, stored-leg bulk, bare-leg exposure, full garment measurements, fiber content, care label and exact return window."],
+    ["mens rain hiking pants", "Men’s hiking rain pants", "Treat rain pants as a separate weather layer: verify the exact waterproof and breathability claim, full-zip or pull-on fit over layers, seam construction, care and current seller."],
+  ],
   foamRollers: [
     ["smooth foam roller low density exercise", "Smooth lower-density foam rollers", "Compare exact diameter, length, surface material, core, maker firmness description, cleaning method, warranty, recall status and return terms; more pressure is not automatically better."],
     ["smooth high density foam roller exercise", "Smooth firmer foam rollers", "Choose only when you can control the added pressure, then verify dimensions, seam and core condition, floor interaction, cleaning instructions, seller and return window."],
@@ -357,6 +362,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-hiking-pants-buying-guide.html") return catalog.hikingPants;
+  if (normalized === "apartment-move-in-inspection-handoff-checklist.html" || normalized === "mens-facial-cleanser-buying-guide.html") return null;
   if (normalized === "exercise-mat-buying-guide.html") return catalog.exerciseMats;
   if (normalized === "household-records-retention-shredding-system.html" || normalized === "mens-comb-hairbrush-buying-guide.html") return null;
   if (normalized === "foam-roller-buying-use-guide.html") return catalog.foamRollers;
@@ -531,4 +538,3 @@ for (const file of htmlFiles(root)) {
 }
 
 console.log(`Beautiful Men's Club affiliate commerce: ${pages} revenue page(s), ${links} tagged link(s), tag=${tag}`);
-

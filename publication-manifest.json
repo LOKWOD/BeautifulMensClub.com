@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-10-30",
+  "generatedAt": "2026-10-31",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The exercise-mat guide uses three accurate category text links; no new or changed editorial, affiliate or product image is required."
+    "note": "Intentional image-free editorial layouts. The hiking-pants guide uses three accurate category text links; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-28",
     "window": "2026-09-28 through 2026-10-25",
     "signal": "Five homepage impressions, zero clicks, average position 1.4, no query rows and no supported non-homepage cluster; the submitted sitemap snapshot showed 26 URLs and zero indexed URLs.",
-    "decision": "The queryless homepage sample is too small to support a Data-led page. Today's portfolio therefore uses one citation-worthy authority expansion and two unrelated evergreen explorations while reinforcing three hubs, twelve reciprocal paths, the Library and sitemap discovery.",
-    "ignored": "The five homepage impressions, HTTP homepage variant and aggregate average position were deliberately ignored as insufficient evidence for keyword targeting, title changes or another variation on an existing topic."
+    "decision": "The homepage-only sample is too small to support a Data-led item. The batch therefore creates one citation-worthy renter handoff asset and two unrelated evergreen explorations while strengthening three department hubs, twelve reciprocal paths, the Library and sitemap discovery.",
+    "ignored": "The five homepage impressions, HTTP homepage variant and aggregate position were deliberately ignored as insufficient evidence for keyword targeting, title changes or another variation of an existing topic."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow category text links appear only on the exercise-mat guide. The records and comb-and-hairbrush guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow category text links appear only on the hiking-pants guide. The apartment and facial-cleanser guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy household-record decision matrix and destruction log that separates current-use records, tax support, ownership and warranty proof, vital documents, active disputes and lawful destruction holds.",
-    "cluster": "Household documentation, identity protection and evidence continuity, with reciprocal paths from emergency documents, identity-theft recovery, warranties and consumer disputes; the other pages strengthen floor-training and practical hair-tool clusters.",
-    "opportunity": "Two qualified factual-review opportunities were logged for FTC consumer education and IRS taxpayer education; no outreach sent."
+    "action": "Created a citation-worthy apartment move-in condition and handoff record that separates preexisting condition, safety and utility checks, lease obligations, landlord notices, remediation ownership and proof preservation.",
+    "cluster": "Rental transitions, moving-day evidence and household safety, with reciprocal paths from the moving-day, home-inventory, emergency-document and smoke-alarm guides; the other pages strengthen trail apparel and evidence-aware skin care.",
+    "opportunity": "Two qualified factual-review opportunities were logged for HUD housing-counselor education and EPA lead and indoor-air education; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions in Life, Fitness and Grooming: which household records to retain or destroy, which exercise mat fits a particular body/room/routine, and which comb or hairbrush geometry suits a specific styling task. Only the equipment guide is commercial, and none follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life, Style and Grooming: how to document a rental handoff, which hiking-pant system fits a route and climate, and which cleanser label and routine fit a skin-care job. Only the apparel guide is commercial, and none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
-    "Fitness hub",
+    "Style hub",
     "Grooming hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
@@ -39,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "household-records-retention-shredding-system.html",
-      "title": "Household Records Retention and Shredding System: Keep, Review, Destroy and Prove",
+      "slug": "apartment-move-in-inspection-handoff-checklist.html",
+      "title": "Apartment Move-In Inspection and Handoff Checklist: Condition, Safety and Proof",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Decide which household records to keep, review, digitize or destroy by purpose, legal hold, tax period, ownership need, identity risk and verified disposal method",
+      "searchIntent": "Document an apartment move-in by lease responsibility, room condition, safety equipment, utilities, keys, defects, written notices, repair ownership and preserved evidence",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "exercise-mat-buying-guide.html",
-      "title": "Exercise Mat Buying Guide: Size, Grip, Cushion, Floor and Cleaning",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "mens-hiking-pants-buying-guide.html",
+      "title": "Men’s Hiking Pants Buying Guide: Fit, Weather, Pockets and Care",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose an exercise mat by movement footprint, body dimensions, grip, cushion, floor interaction, storage, material disclosures, cleaning instructions and exact-model recall checks",
+      "searchIntent": "Choose men's hiking pants by route, weather, movement, rise, thigh and knee geometry, textile label, pocket retention, weather limits, care and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-comb-hairbrush-buying-guide.html",
-      "title": "Men’s Comb and Hairbrush Buying Guide: Hair Type, Teeth, Bristles and Cleaning",
+      "slug": "mens-facial-cleanser-buying-guide.html",
+      "title": "Men’s Facial Cleanser Buying Guide: Label, Routine, Irritation and Cost",
       "category": "GROOMING",
       "department": "grooming.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's comb or hairbrush by hair length, curl pattern, density, wet or dry task, tooth spacing, bristle geometry, handle control, heat permissions and cleaning",
+      "searchIntent": "Choose a men's facial cleanser by exact job, cosmetic or drug label, ingredient declaration, fragrance, directions, tolerance, container hygiene, routine fit and cost per use",
       "affiliateLinksExpected": 0
     }
   ]
