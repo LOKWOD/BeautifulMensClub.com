@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  hoodies: [
+    ["mens pullover hoodie cotton blend", "Men’s pullover hoodies", "Compare finished chest, body and sleeve measurements, exact shell and rib fiber percentages, hood construction, interior finish, pocket reinforcement, care label, seller and return terms."],
+    ["mens full zip hoodie cotton blend", "Men’s full-zip hoodies", "Check layered fit, zipper pin, box, slider and stops, front alignment, hood and chin geometry, full textile disclosure, care, recall status and return window."],
+    ["mens heavyweight hoodie fleece", "Men’s heavyweight and fleece hoodies", "Treat heavyweight as a claim until fabric weight and construction are documented; verify finished measurements, interior finish, drying burden, exact seller and permitted return trial."],
+  ],
   hikingPants: [
     ["mens hiking pants quick dry", "Men’s all-purpose hiking pants", "Compare finished waist, rise, thigh, knee, inseam and hem measurements, exact fiber label, weather limits, pocket retention, care, seller and return terms."],
     ["mens convertible hiking pants", "Men’s convertible hiking pants", "Check the leg-zipper position, side identification, stored-leg bulk, bare-leg exposure, full garment measurements, fiber content, care label and exact return window."],
@@ -362,6 +367,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-hoodie-buying-guide.html") return catalog.hoodies;
+  if (normalized === "missing-package-delivery-claim-file.html" || normalized === "weightlifting-belt-buying-use-guide.html") return null;
   if (normalized === "mens-hiking-pants-buying-guide.html") return catalog.hikingPants;
   if (normalized === "apartment-move-in-inspection-handoff-checklist.html" || normalized === "mens-facial-cleanser-buying-guide.html") return null;
   if (normalized === "exercise-mat-buying-guide.html") return catalog.exerciseMats;

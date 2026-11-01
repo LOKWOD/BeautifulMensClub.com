@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-31",
+  "generatedAt": "2026-11-01",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The hiking-pants guide uses three accurate category text links; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The hoodie guide uses three accurate Amazon category text links; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-28",
     "window": "2026-09-28 through 2026-10-25",
     "signal": "Five homepage impressions, zero clicks, average position 1.4, no query rows and no supported non-homepage cluster; the submitted sitemap snapshot showed 26 URLs and zero indexed URLs.",
-    "decision": "The homepage-only sample is too small to support a Data-led item. The batch therefore creates one citation-worthy renter handoff asset and two unrelated evergreen explorations while strengthening three department hubs, twelve reciprocal paths, the Library and sitemap discovery.",
-    "ignored": "The five homepage impressions, HTTP homepage variant and aggregate position were deliberately ignored as insufficient evidence for keyword targeting, title changes or another variation of an existing topic."
+    "decision": "The homepage-only sample is too small to support a Data-led item. The batch therefore adds one citation-worthy consumer-recovery file and two unrelated evergreen explorations while strengthening three topic clusters, department hubs, reciprocal paths, the Library and sitemap discovery.",
+    "ignored": "The five homepage impressions, HTTP homepage variant and aggregate position were deliberately ignored as insufficient evidence for keyword targeting, title changes or another variation of an existing guide."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow category text links appear only on the hiking-pants guide. The apartment and facial-cleanser guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow category text links appear only on the hoodie guide. The missing-delivery and weightlifting-belt guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy apartment move-in condition and handoff record that separates preexisting condition, safety and utility checks, lease obligations, landlord notices, remediation ownership and proof preservation.",
-    "cluster": "Rental transitions, moving-day evidence and household safety, with reciprocal paths from the moving-day, home-inventory, emergency-document and smoke-alarm guides; the other pages strengthen trail apparel and evidence-aware skin care.",
-    "opportunity": "Two qualified factual-review opportunities were logged for HUD housing-counselor education and EPA lead and indoor-air education; no outreach sent."
+    "action": "Created a citation-worthy missing-package recovery control file that separates seller obligations, carrier search, delivery evidence, payment disputes, fraud reporting and case closure without pretending every scan proves possession or theft.",
+    "cluster": "Consumer recovery and household records, with reciprocal paths from complaint resolution, credit-card recovery, home inventory and account-recovery guides; the other pages strengthen practical layering and evidence-aware strength training.",
+    "opportunity": "Two qualified factual-review opportunities were logged for FTC consumer education and USPS customer-experience education; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life, Style and Grooming: how to document a rental handoff, which hiking-pant system fits a route and climate, and which cleanser label and routine fit a skin-care job. Only the apparel guide is commercial, and none follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life, Style and Fitness: how to resolve a missing delivery, which hoodie construction fits a wardrobe job, and when a weightlifting belt fits a training task. Only the apparel guide is commercial, and none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
     "Style hub",
-    "Grooming hub",
+    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "apartment-move-in-inspection-handoff-checklist.html",
-      "title": "Apartment Move-In Inspection and Handoff Checklist: Condition, Safety and Proof",
+      "slug": "missing-package-delivery-claim-file.html",
+      "title": "Missing Package and Delivery Claim File: Track, Report, Dispute and Close",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Document an apartment move-in by lease responsibility, room condition, safety equipment, utilities, keys, defects, written notices, repair ownership and preserved evidence",
+      "searchIntent": "Resolve a delayed, missing, misdelivered, damaged or falsely marked delivered order by preserving the order record, checking the address and delivery evidence, contacting seller and carrier, protecting payment deadlines and closing the case",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-hiking-pants-buying-guide.html",
-      "title": "Men’s Hiking Pants Buying Guide: Fit, Weather, Pockets and Care",
+      "slug": "mens-hoodie-buying-guide.html",
+      "title": "Men’s Hoodie Buying Guide: Fit, Fabric, Construction and Care",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose men's hiking pants by route, weather, movement, rise, thigh and knee geometry, textile label, pocket retention, weather limits, care and return terms",
+      "searchIntent": "Choose a men's pullover or zip hoodie by finished measurements, intended layer, fiber label, knit and interior, hood geometry, rib recovery, seams, zipper, care burden, recall status and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-facial-cleanser-buying-guide.html",
-      "title": "Men’s Facial Cleanser Buying Guide: Label, Routine, Irritation and Cost",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "weightlifting-belt-buying-use-guide.html",
+      "title": "Weightlifting Belt Buying and Use Guide: Task, Fit, Bracing and Limits",
+      "category": "FITNESS",
+      "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's facial cleanser by exact job, cosmetic or drug label, ingredient declaration, fragrance, directions, tolerance, container hygiene, routine fit and cost per use",
+      "searchIntent": "Decide whether a weightlifting belt fits a specific squat, deadlift or weightlifting task, then compare dimensions, stiffness, closure, body fit, bracing practice, condition, return terms and evidence limits",
       "affiliateLinksExpected": 0
     }
   ]
