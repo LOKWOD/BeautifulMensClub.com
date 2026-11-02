@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-01",
+  "generatedAt": "2026-11-02",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The hoodie guide uses three accurate Amazon category text links; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The suspenders guide uses three accurate Amazon category text links; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-10-28",
     "window": "2026-09-28 through 2026-10-25",
     "signal": "Five homepage impressions, zero clicks, average position 1.4, no query rows and no supported non-homepage cluster; the submitted sitemap snapshot showed 26 URLs and zero indexed URLs.",
-    "decision": "The homepage-only sample is too small to support a Data-led item. The batch therefore adds one citation-worthy consumer-recovery file and two unrelated evergreen explorations while strengthening three topic clusters, department hubs, reciprocal paths, the Library and sitemap discovery.",
-    "ignored": "The five homepage impressions, HTTP homepage variant and aggregate position were deliberately ignored as insufficient evidence for keyword targeting, title changes or another variation of an existing guide."
+    "decision": "The homepage-only sample is too small for a Data-led item. The batch therefore creates one seasonal but reusable authority asset and two unrelated purchase-intent explorations while strengthening three established topic clusters, department hubs, reciprocal paths, the Library and sitemap discovery.",
+    "ignored": "The five homepage impressions, HTTP homepage variant, aggregate position and stale 26-submitted/zero-indexed sitemap snapshot were deliberately ignored as insufficient evidence for keyword targeting or title changes; the discovery snapshot instead supports stronger crawl paths."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow category text links appear only on the hoodie guide. The missing-delivery and weightlifting-belt guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow category text links appear only on the suspenders guide. The Thanksgiving and weighted-vest guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy missing-package recovery control file that separates seller obligations, carrier search, delivery evidence, payment disputes, fraud reporting and case closure without pretending every scan proves possession or theft.",
-    "cluster": "Consumer recovery and household records, with reciprocal paths from complaint resolution, credit-card recovery, home inventory and account-recovery guides; the other pages strengthen practical layering and evidence-aware strength training.",
-    "opportunity": "Two qualified factual-review opportunities were logged for FTC consumer education and USPS customer-experience education; no outreach sent."
+    "action": "Created a citation-worthy Thanksgiving run-of-show and food-safety control file that separates menu ownership, thawing, cold storage, cross-contamination, thermometer verification, hot and cold holding, guest constraints and leftover closure.",
+    "cluster": "Hospitality and kitchen operations, with reciprocal paths from dinner timing, food-thermometer, refrigerator/freezer and zero-proof hosting guides; the other pages strengthen evidence-aware fitness equipment and formalwear compatibility.",
+    "opportunity": "Two qualified factual-review opportunities were logged for USDA FSIS consumer education and CDC food-safety communications; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life, Style and Fitness: how to resolve a missing delivery, which hoodie construction fits a wardrobe job, and when a weightlifting belt fits a training task. Only the apparel guide is commercial, and none follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life, Fitness and Style: how to run a safe Thanksgiving meal, whether a weighted vest fits a defined training job, and which suspender construction works with a specific pair of trousers. Only the style guide is commercial, and none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
-    "Style hub",
     "Fitness hub",
+    "Style hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,31 +39,31 @@
   ],
   "pages": [
     {
-      "slug": "missing-package-delivery-claim-file.html",
-      "title": "Missing Package and Delivery Claim File: Track, Report, Dispute and Close",
+      "slug": "thanksgiving-dinner-hosting-food-safety-plan.html",
+      "title": "Thanksgiving Dinner Hosting and Food-Safety Plan: Timeline, Temperature and Handoff",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Resolve a delayed, missing, misdelivered, damaged or falsely marked delivered order by preserving the order record, checking the address and delivery evidence, contacting seller and carrier, protecting payment deadlines and closing the case",
+      "searchIntent": "Plan a Thanksgiving meal by guest constraints, refrigerator and oven capacity, turkey thawing, cross-contamination controls, thermometer verification, hot and cold holding, service timing, leftovers and assigned handoffs",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-hoodie-buying-guide.html",
-      "title": "Men’s Hoodie Buying Guide: Fit, Fabric, Construction and Care",
-      "category": "STYLE",
-      "department": "style.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's pullover or zip hoodie by finished measurements, intended layer, fiber label, knit and interior, hood geometry, rib recovery, seams, zipper, care burden, recall status and return terms",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "weightlifting-belt-buying-use-guide.html",
-      "title": "Weightlifting Belt Buying and Use Guide: Task, Fit, Bracing and Limits",
+      "slug": "weighted-vest-buying-use-guide.html",
+      "title": "Weighted Vest Buying and Use Guide: Load, Fit, Task and Progression",
       "category": "FITNESS",
       "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Decide whether a weightlifting belt fits a specific squat, deadlift or weightlifting task, then compare dimensions, stiffness, closure, body fit, bracing practice, condition, return terms and evidence limits",
+      "searchIntent": "Decide whether a weighted vest fits a walking, stair, calisthenics or resistance-training task, then compare load system, increments, fit, movement, closure, heat, care, progression, evidence and stop conditions",
       "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "mens-suspenders-buying-guide.html",
+      "title": "Men’s Suspenders Buying Guide: Attachment, Fit, Width and Trouser Compatibility",
+      "category": "STYLE",
+      "department": "style.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose men's suspenders by trouser rise, button or clip attachment, X or Y back, strap width and material, adjuster range, leather tabs, jacket use, movement, care and return terms",
+      "affiliateLinksExpected": 3
     }
   ]
 }

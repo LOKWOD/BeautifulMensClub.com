@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  suspenders: [
+    ["mens button suspenders dress trousers", "Button-end dress suspenders", "Verify the actual front-to-back adjustment range, tab material, buttonhole size, strap width, back construction and compatibility with the exact trouser-button layout."],
+    ["mens clip on suspenders", "Clip-on men’s suspenders", "Compare jaw count, edge finish, spring security, strap range and waistband compatibility; clips can mark or damage delicate fabrics, so confirm seller and return terms."],
+    ["mens wide work suspenders heavy duty", "Wide and workwear suspenders", "Match strap width, load, attachment, adjusters and movement to the actual work trousers and task; verify materials, hardware, care, exact seller and return window."],
+  ],
   hoodies: [
     ["mens pullover hoodie cotton blend", "Men’s pullover hoodies", "Compare finished chest, body and sleeve measurements, exact shell and rib fiber percentages, hood construction, interior finish, pocket reinforcement, care label, seller and return terms."],
     ["mens full zip hoodie cotton blend", "Men’s full-zip hoodies", "Check layered fit, zipper pin, box, slider and stops, front alignment, hood and chin geometry, full textile disclosure, care, recall status and return window."],
@@ -367,6 +372,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-suspenders-buying-guide.html") return catalog.suspenders;
+  if (normalized === "thanksgiving-dinner-hosting-food-safety-plan.html" || normalized === "weighted-vest-buying-use-guide.html") return null;
   if (normalized === "mens-hoodie-buying-guide.html") return catalog.hoodies;
   if (normalized === "missing-package-delivery-claim-file.html" || normalized === "weightlifting-belt-buying-use-guide.html") return null;
   if (normalized === "mens-hiking-pants-buying-guide.html") return catalog.hikingPants;
