@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-11-03 — Post-crash safety and insurance-claim control file
+
+- **National Association of Insurance Commissioners consumer-education team** — https://content.naic.org/contact — Asset match: the post-crash control file turns NAIC scene-safety, information-exchange, insurer-notice, adjuster and recordkeeping guidance into one neutral chronology, evidence and closure record while preserving policy and state-law differences. Honest angle: invite factual corrections and ask whether the free independent worksheet accurately complements NAIC consumer materials; never imply endorsement or request a reciprocal link. Contact route: NAIC's published contact page and consumer-information channels. No outreach sent.
+- **State insurance-department consumer-services teams** — https://content.naic.org/state-insurance-departments — Asset match: regulators can pair their jurisdiction-specific reporting, claim and complaint rules with the guide's non-jurisdictional evidence file. Honest angle: approach only a relevant department, disclose the page's general-information limits and ask for accuracy review or citation only if the department independently finds it useful. Contact route: NAIC's official state-department directory and the selected regulator's published consumer-assistance channel. No outreach sent.
+
 ## 2026-10-28 — Public-Wi-Fi and travel-device security handoff
 
 - **CISA Secure Our World public-education team** — https://www.cisa.gov/contact-us — Asset match: the independent travel checklist reconciles current HTTPS protection with exact-network verification, software updates, account hardening, employer-policy separation, lost-device response and post-trip session review while linking prominently to CISA and FTC sources. Honest angle: invite a factual and usability review and ask whether the free, commerce-free handoff can complement travel cybersecurity education; disclose the independent publisher, request corrections rather than endorsement or placement, and never imply agency review. Contact route: CISA's official contact page and Secure Our World program. No outreach sent.

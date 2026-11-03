@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  medicineBalls: [
+    ["medicine ball rubber weighted exercise", "Traditional medicine balls", "Match the exact weight, diameter, shell, rebound, grip and maker-authorized movements to the planned drill; verify floor, wall, cleaning, recall and return requirements."],
+    ["slam ball no bounce exercise", "Low-rebound slam balls", "Confirm the exact model permits repeated slams on the intended floor, then check weight, diameter, shell, seam or valve condition, rebound behavior, warranty and return terms."],
+    ["soft wall ball exercise", "Soft-shell wall balls", "Compare diameter, weight, panel and seam construction, fill stability, target and wall permissions, catching control, cleaning, seller and return window."],
+  ],
   suspenders: [
     ["mens button suspenders dress trousers", "Button-end dress suspenders", "Verify the actual front-to-back adjustment range, tab material, buttonhole size, strap width, back construction and compatibility with the exact trouser-button layout."],
     ["mens clip on suspenders", "Clip-on men’s suspenders", "Compare jaw count, edge finish, spring security, strap range and waistband compatibility; clips can mark or damage delicate fabrics, so confirm seller and return terms."],
@@ -372,6 +377,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "medicine-ball-buying-use-guide.html") return catalog.medicineBalls;
+  if (normalized === "car-crash-documentation-insurance-claim-file.html" || normalized === "coffee-grinder-buying-guide.html") return null;
   if (normalized === "mens-suspenders-buying-guide.html") return catalog.suspenders;
   if (normalized === "thanksgiving-dinner-hosting-food-safety-plan.html" || normalized === "weighted-vest-buying-use-guide.html") return null;
   if (normalized === "mens-hoodie-buying-guide.html") return catalog.hoodies;
