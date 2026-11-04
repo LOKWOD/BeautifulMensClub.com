@@ -1,33 +1,34 @@
 {
-  "generatedAt": "2026-11-03",
+  "generatedAt": "2026-11-04",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The medicine-ball guide uses three accurate Amazon category text links; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The garment-bag guide uses three accurate Amazon category text links; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
-    "reportGeneratedAt": "2026-10-28",
-    "window": "2026-09-28 through 2026-10-25",
-    "signal": "Five homepage impressions, zero clicks, average position 1.4, no query rows and no supported non-homepage cluster; the submitted sitemap snapshot showed 26 URLs and zero indexed URLs.",
-    "decision": "The homepage-only sample is too small for a Data-led item. The batch therefore creates one authority asset and two unrelated purchase-intent explorations while strengthening consumer recovery, fitness equipment and practical taste clusters plus their crawl paths.",
-    "ignored": "The five homepage impressions, HTTP homepage variant, aggregate position and stale 26-submitted/zero-indexed sitemap snapshot were deliberately ignored as insufficient evidence for keyword targeting or title changes; the discovery snapshot instead supports stronger hubs, reciprocal links, Library coverage and sitemap paths."
+    "reportGeneratedAt": "2026-11-04",
+    "window": "2026-10-05 through 2026-11-01",
+    "signal": "Six HTTPS-homepage impressions, one HTTP-homepage impression, zero clicks, average position 1.3, no query rows and no supported non-homepage cluster; the submitted sitemap snapshot remains stale at 26 submitted and zero indexed URLs.",
+    "decision": "The homepage-only sample is too small for a Data-led item. The batch therefore creates one authority asset and two unrelated explorations while strengthening money, tailored-clothing travel and accessible conditioning clusters plus their crawl paths.",
+    "ignored": "The homepage-only impressions, aggregate position and stale sitemap snapshot were deliberately ignored as insufficient evidence for keyword targeting, title changes or a new query-family page; they informed stronger hubs, reciprocal links, Library coverage and sitemap discovery only."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow category text links appear only on the medicine-ball guide. The crash-file and coffee-grinder guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow category text links appear only on the garment-bag guide. The wage-error and jump-rope guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy post-crash safety, evidence, notification, estimate, payment and closure control file that separates emergency action from claim administration and preserves jurisdiction-specific reporting boundaries.",
-    "cluster": "Consumer recovery and vehicle ownership, with reciprocal paths from auto-insurance review, roadside planning, repair-estimate control and rental-car handoff; the other pages strengthen evidence-aware fitness equipment and coffee workflow.",
-    "opportunity": "Two qualified factual-review opportunities were logged for NAIC consumer education and state insurance-department outreach; no outreach sent."
+    "action": "Created a citation-worthy wage-error evidence file that reconciles scheduled and recorded time, pay basis, additions, deductions, deposits, year-to-date figures, written corrections and distinct federal, state, tax and benefits escalation lanes.",
+    "cluster": "Money and work administration, with reciprocal paths from paycheck withholding, checking-account review, job-offer comparison and raise preparation; the other pages strengthen tailored-clothing travel and controlled conditioning equipment.",
+    "opportunity": "Two qualified factual-review opportunities were logged for the U.S. Department of Labor Wage and Hour Division and state labor-department worker-education teams; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life and Fitness: what to preserve after a car crash, which medicine-ball format fits a specific training task, and which coffee-grinder design fits an existing brewer. Only the fitness guide is commercial, and none follows the weak Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life, Style and Fitness: how to prove and route a paycheck discrepancy, how to transport tailored clothing, and how to buy and use a jump rope safely. Only the garment-bag guide is commercial, and none follows the weak Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
+    "Style hub",
     "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
@@ -38,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "car-crash-documentation-insurance-claim-file.html",
-      "title": "Car Crash Documentation and Insurance Claim File: Safety, Evidence and Follow-Up",
+      "slug": "pay-stub-wage-error-documentation-checklist.html",
+      "title": "Pay Stub and Wage Error Documentation Checklist: Hours, Rates, Deductions and Escalation",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Build a safe, jurisdiction-aware car-crash record covering emergency action, information exchange, scene documentation, police reporting, insurer notice, estimates, expenses, repair, injury follow-up and case closure",
+      "searchIntent": "Document and route a paycheck discrepancy by reconciling pay period, time records, rate, overtime, earnings, deductions, taxes, deposit, year-to-date totals, employer response and federal, state, tax or benefits escalation",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "medicine-ball-buying-use-guide.html",
-      "title": "Medicine Ball Buying and Use Guide: Weight, Diameter, Bounce, Space and Progression",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "mens-garment-bag-buying-guide.html",
+      "title": "Men’s Garment Bag Buying Guide: Suit Fit, Fold, Carry and Care",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a medicine ball, slam ball or wall ball by movement, weight, diameter, rebound, grip, target, floor, space, construction, return test, progression and stop conditions",
+      "searchIntent": "Choose a garment bag for suits, jackets, shirts and formalwear by usable hanging length, shoulder width, gusset, hanger retention, fold, carry mode, airline limits, materials, closure, pockets, cleaning, storage and return testing",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "coffee-grinder-buying-guide.html",
-      "title": "Coffee Grinder Buying Guide: Burrs, Range, Retention, Noise and Care",
-      "category": "LIFE",
-      "department": "life.html",
+      "slug": "jump-rope-buying-use-guide.html",
+      "title": "Jump Rope Buying and Use Guide: Length, Cable, Handles, Surface and Progression",
+      "category": "FITNESS",
+      "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a coffee grinder by brewer, dose, burr format, adjustment range, repeatability, retention, static, noise, speed, cleaning, parts, counter fit and total ownership cost",
+      "searchIntent": "Choose and use a jump rope by body dimensions, adjustable range, rope or cable construction, handle and bearing design, floor surface, overhead and side clearance, footwear, skill, intensity, progression, maintenance, recalls and return testing",
       "affiliateLinksExpected": 0
     }
   ]

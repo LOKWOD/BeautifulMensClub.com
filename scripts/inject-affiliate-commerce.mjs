@@ -78,6 +78,11 @@ const catalog = {
     ["carry on spinner luggage four wheel", "Four-wheel spinner carry-ons", "Verify the complete exterior measurement, caster protection and replacement path, empty weight, handle stops, shell or textile care, exact seller and return window."],
     ["carry on travel backpack clamshell", "Clamshell carry-on travel backpacks", "Match the overall packed dimensions and empty weight to the route, then check torso and strap fit, structure, access, stowable hardware, materials, warranty and seller."],
   ],
+  garmentBags: [
+    ["mens suit garment bag travel", "Suit and tailored-jacket garment bags", "Compare usable interior hanging length, shoulder and hanger width, full-length gusset, fold geometry, closures, materials, packed exterior, seller and return terms."],
+    ["foldable garment bag carry on", "Foldable travel garment bags", "Measure the fully packed exterior and confirm the current airline rule; then check hanger retention, fold pressure, strap anchors, zipper path, empty weight and gate-check plan."],
+    ["garment duffel bag suit travel", "Garment-duffel travel bags", "Verify the actual tailoring load, central cargo volume, shoe separation, carry balance, packed dimensions, cleaning method, hardware support and return-window rehearsal."],
+  ],
   foodThermometers: [
     ["instant read digital food thermometer", "Instant-read food thermometers", "Compare the exact sensor location, insertion depth, stated accuracy and response time, calibration method, heat and water limits, battery, manual, seller and return terms."],
     ["leave in oven probe food thermometer", "Leave-in probe food thermometers", "Verify the exact probe and cable temperature limits, alarm behavior, oven-door routing, cleaning method, replacement support, seller and warranty before ordering."],
@@ -377,6 +382,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-garment-bag-buying-guide.html") return catalog.garmentBags;
+  if (normalized === "pay-stub-wage-error-documentation-checklist.html" || normalized === "jump-rope-buying-use-guide.html") return null;
   if (normalized === "medicine-ball-buying-use-guide.html") return catalog.medicineBalls;
   if (normalized === "car-crash-documentation-insurance-claim-file.html" || normalized === "coffee-grinder-buying-guide.html") return null;
   if (normalized === "mens-suspenders-buying-guide.html") return catalog.suspenders;

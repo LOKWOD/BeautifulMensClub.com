@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-11-04 — Pay-stub and wage-error evidence file
+
+- **U.S. Department of Labor Wage and Hour Division worker-education team** — https://www.dol.gov/agencies/whd/contact — Asset match: the wage-error checklist converts federal recordkeeping fields and complaint-preparation guidance into a neutral pay-period evidence, correction and routing record while clearly separating questions outside the FLSA. Honest angle: invite factual corrections and ask whether the free independent worksheet accurately complements existing worker education; never imply DOL endorsement or request a reciprocal link. Contact route: WHD's official contact and public-information channels. No outreach sent.
+- **State labor-department worker-education teams** — https://www.dol.gov/agencies/whd/state/contacts — Asset match: the guide preserves state-specific pay-stub, deduction, promised-wage, break and final-pay rules and directs readers to the proper jurisdiction rather than presenting one national rule. Honest angle: offer the source-linked checklist for factual review by a relevant state program and invite corrections; do not request case assistance, endorsement or a traded link. Contact route: each department's published worker-information contact. No outreach sent.
+
 ## 2026-11-03 — Post-crash safety and insurance-claim control file
 
 - **National Association of Insurance Commissioners consumer-education team** — https://content.naic.org/contact — Asset match: the post-crash control file turns NAIC scene-safety, information-exchange, insurer-notice, adjuster and recordkeeping guidance into one neutral chronology, evidence and closure record while preserving policy and state-law differences. Honest angle: invite factual corrections and ask whether the free independent worksheet accurately complements NAIC consumer materials; never imply endorsement or request a reciprocal link. Contact route: NAIC's published contact page and consumer-information channels. No outreach sent.
