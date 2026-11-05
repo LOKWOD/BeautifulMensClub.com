@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-11-05 — Beneficiary-designation verification register
+
+- **U.S. Department of Labor Employee Benefits Security Administration participant-education team** — https://www.askebsa.dol.gov/WebIntake/ — Asset match: the beneficiary review turns plan-document, spouse-protection, primary/contingent, acceptance-proof and life-event guidance into a neutral account-by-account control file while clearly routing QDRO, marital-right and plan-specific questions to qualified help. Honest angle: invite factual corrections and ask whether the free independent worksheet accurately complements EBSA participant education; never imply Department endorsement or request a reciprocal link. Contact route: Ask EBSA's official electronic intake. No outreach sent.
+- **National Association of Insurance Commissioners consumer-education team** — https://content.naic.org/contact — Asset match: the guide operationalizes NAIC beneficiary guidance for primary and contingent choices, life events, minors, trusts, insurer identity and preserved policy records without recommending a carrier or presenting the worksheet as estate advice. Honest angle: invite a factual and usability review and ask whether the independent, commerce-free asset can complement life-insurance consumer education; never imply NAIC endorsement or request a traded link. Contact route: NAIC's published contact page and consumer-information channels. No outreach sent.
+
 ## 2026-11-04 — Pay-stub and wage-error evidence file
 
 - **U.S. Department of Labor Wage and Hour Division worker-education team** — https://www.dol.gov/agencies/whd/contact — Asset match: the wage-error checklist converts federal recordkeeping fields and complaint-preparation guidance into a neutral pay-period evidence, correction and routing record while clearly separating questions outside the FLSA. Honest angle: invite factual corrections and ask whether the free independent worksheet accurately complements existing worker education; never imply DOL endorsement or request a reciprocal link. Contact route: WHD's official contact and public-information channels. No outreach sent.

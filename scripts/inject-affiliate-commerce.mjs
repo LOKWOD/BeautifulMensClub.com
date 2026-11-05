@@ -38,6 +38,11 @@ const catalog = {
     ["folding exercise mat home workout", "Folding exercise mats", "Check panel dimensions, hinge gaps, folded size, cover and foam materials, floor interaction, cleaning instructions, carrying hardware, recall status and return window."],
     ["yoga mat nonslip exercise", "Yoga and linear exercise mats", "Verify body and movement fit, exact materials, top and bottom texture, thickness, approved cleaning, drying, storage, seller and return conditions."],
   ],
+  exerciseBalls: [
+    ["exercise stability ball with pump", "General exercise and stability balls", "Compare the exact nominal and maximum diameter, maker sizing and inflation method, permitted activities, load conditions, shell and plug, pump, recall status, manual, seller and return terms."],
+    ["exercise ball anti burst with pump", "Exercise balls with documented slow-deflation claims", "Read what the exact maker means by anti-burst or slow deflation, then verify load and activity conditions, inflation limits, shell inspection, recall status, warranty and return window."],
+    ["small exercise ball pilates", "Small exercise and Pilates balls", "Match the exact diameter and pressure range to the planned supported movement, then check material, plug, pump, cleaning, storage, model identity, instructions and seller terms."],
+  ],
   kettlebells: [
     ["cast iron kettlebell fixed weight", "Fixed cast-iron kettlebells", "Match the exact weight and handle window to the planned movements, then verify casting and seam finish, base stability, coating, dimensions, recall status, seller and return terms."],
     ["competition kettlebell fixed size", "Competition-style kettlebells", "Compare handle diameter and window, body dimensions, exact mass, finish, base, rack comfort and seller terms; a common shape does not guarantee identical geometry or quality."],
@@ -382,6 +387,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "exercise-ball-buying-use-guide.html") return catalog.exerciseBalls;
+  if (normalized === "beneficiary-designation-review-checklist.html" || normalized === "mens-shampoo-buying-guide.html") return null;
   if (normalized === "mens-garment-bag-buying-guide.html") return catalog.garmentBags;
   if (normalized === "pay-stub-wage-error-documentation-checklist.html" || normalized === "jump-rope-buying-use-guide.html") return null;
   if (normalized === "medicine-ball-buying-use-guide.html") return catalog.medicineBalls;
