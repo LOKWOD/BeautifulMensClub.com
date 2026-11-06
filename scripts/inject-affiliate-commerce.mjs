@@ -8,6 +8,16 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  weekenderBags: [
+    ["mens weekender duffel bag travel", "Men’s weekender and duffel bags", "Compare the fully loaded exterior, empty weight, opening, handle and shoulder-strap geometry, exact shell and lining materials, hardware, cleaning, seller and return terms."],
+    ["mens canvas weekender bag travel", "Canvas and textile weekenders", "Verify exact fiber and coating disclosures, loaded dimensions, base and corner reinforcement, zipper and strap anchors, care instructions, weather limits, seller and return window."],
+    ["mens leather weekender bag travel", "Leather and leather-trim weekenders", "Compare the exact shell and trim materials, empty weight, loaded carry comfort, finish and weather limits, hardware, maker care, repair path, seller and indoor return conditions."],
+  ],
+  homeToolKits: [
+    ["home hand tool kit basic", "Basic household hand-tool kits", "Compare named full-size tools and exact sizes rather than piece count, then verify handle and mechanism condition, manuals, recall status, storage, warranty, seller and return terms."],
+    ["home screwdriver pliers wrench set", "Build-your-own hand-tool sets", "Choose only the drivers, pliers and wrenches that match recurring permitted tasks and existing fasteners; verify fit, construction, replacement support, exact seller and return window."],
+    ["home tool box organizer empty", "Tool boxes and organizers", "Size storage to the owned tools, then check weight control, blade and bit separation, latch and handle construction, dry secure placement, seller and return terms."],
+  ],
   medicineBalls: [
     ["medicine ball rubber weighted exercise", "Traditional medicine balls", "Match the exact weight, diameter, shell, rebound, grip and maker-authorized movements to the planned drill; verify floor, wall, cleaning, recall and return requirements."],
     ["slam ball no bounce exercise", "Low-rebound slam balls", "Confirm the exact model permits repeated slams on the intended floor, then check weight, diameter, shell, seam or valve condition, rebound behavior, warranty and return terms."],
@@ -387,6 +397,9 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "credit-card-billing-error-dispute-file.html") return null;
+  if (normalized === "mens-weekender-bag-buying-guide.html") return catalog.weekenderBags;
+  if (normalized === "home-tool-kit-buying-setup-guide.html") return catalog.homeToolKits;
   if (normalized === "exercise-ball-buying-use-guide.html") return catalog.exerciseBalls;
   if (normalized === "beneficiary-designation-review-checklist.html" || normalized === "mens-shampoo-buying-guide.html") return null;
   if (normalized === "mens-garment-bag-buying-guide.html") return catalog.garmentBags;
