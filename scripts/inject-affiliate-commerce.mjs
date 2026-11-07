@@ -8,6 +8,16 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  cufflinks: [
+    ["mens cufflinks french cuff dress shirt", "Cufflinks for French and convertible cuffs", "Compare usable post length, closure width, face dimensions, weight and the exact shirt buttonholes before judging finish or design."],
+    ["mens fixed back cufflinks", "Fixed-back and stud-style cufflinks", "Check that the fixed back passes the actual buttonholes, spans the cuff stack and remains comfortable under the jacket sleeve; verify materials, seller and returns."],
+    ["mens chain link cufflinks", "Chain-link and double-sided cufflinks", "Compare both faces, chain length, closed-cuff movement, solder or link condition, exact metal disclosure, storage, seller and return terms."],
+  ],
+  eyebrowTools: [
+    ["mens eyebrow trimmer guard", "Guarded eyebrow trimmers", "Confirm the exact model is intended for eyebrows, then compare guard lengths, head visibility, hand control, cleaning instructions, power system, recalls and return terms."],
+    ["eyebrow scissors rounded tip spoolie", "Eyebrow scissors and spoolie sets", "Choose controllable rounded-tip scissors with aligned blades and a clean brush; inspect every edge and skip kits padded with unfamiliar sharp tools."],
+    ["slant tip eyebrow tweezers case", "Slant-tip eyebrow tweezers", "Compare aligned tips, edge finish, grip and protective storage; use only on isolated visible hairs and keep the tool away from the eye itself."],
+  ],
   weekenderBags: [
     ["mens weekender duffel bag travel", "Men’s weekender and duffel bags", "Compare the fully loaded exterior, empty weight, opening, handle and shoulder-strap geometry, exact shell and lining materials, hardware, cleaning, seller and return terms."],
     ["mens canvas weekender bag travel", "Canvas and textile weekenders", "Verify exact fiber and coating disclosures, loaded dimensions, base and corner reinforcement, zipper and strap anchors, care instructions, weather limits, seller and return window."],
@@ -397,6 +407,9 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "passport-renewal-travel-document-file.html") return null;
+  if (normalized === "mens-cufflinks-buying-guide.html") return catalog.cufflinks;
+  if (normalized === "mens-eyebrow-grooming-trimmer-guide.html") return catalog.eyebrowTools;
   if (normalized === "credit-card-billing-error-dispute-file.html") return null;
   if (normalized === "mens-weekender-bag-buying-guide.html") return catalog.weekenderBags;
   if (normalized === "home-tool-kit-buying-setup-guide.html") return catalog.homeToolKits;

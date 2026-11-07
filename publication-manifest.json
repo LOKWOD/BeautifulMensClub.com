@@ -1,34 +1,35 @@
 {
-  "generatedAt": "2026-11-06",
+  "generatedAt": "2026-11-07",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The weekender-bag and home-tool-kit guides use accurate Amazon category text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The cufflinks and eyebrow guides use exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-04",
     "window": "2026-10-05 through 2026-11-01",
-    "signal": "Six HTTPS-homepage impressions, one HTTP-homepage impression, zero clicks, average position 1.3, no query rows and no supported non-homepage cluster; the sitemap snapshot reports 26 submitted and zero indexed URLs.",
-    "decision": "The homepage-only sample is too small for a Data-led item. The batch therefore adds one authority asset and two unrelated explorations while reinforcing discovery through the homepage, Life and Style hubs, reciprocal links, Library search and sitemap.",
-    "ignored": "The handful of homepage impressions, HTTP variant, aggregate position and stale sitemap snapshot were deliberately ignored as insufficient evidence for keyword targeting, title changes or a new query-family page; they informed crawl-path reinforcement only."
+    "signal": "Six HTTPS-homepage impressions, one HTTP-homepage impression, zero clicks, average position 1.3, no query rows and no supported non-homepage cluster; the sitemap snapshot still reports 26 submitted and zero indexed URLs.",
+    "decision": "The homepage-only sample is too small for a Data-led item. The batch therefore adds one authority asset and two unrelated purchase-intent explorations while reinforcing discovery through three department hubs, the homepage, reciprocal links, Library search and the current sitemap.",
+    "ignored": "The seven homepage impressions, HTTP variant, aggregate position and stale sitemap snapshot were deliberately ignored as insufficient evidence for keyword targeting, title changes or a new query-family page; they informed crawl-path reinforcement only."
   },
   "monetization": {
     "affiliateLinksAdded": 6,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow category text links appear on each of the weekender-bag and home-tool-kit guides. The credit-card billing-dispute guide remains commerce-free."
+    "placement": "Three disclosed sponsored/nofollow category text links appear on each of the cufflinks and eyebrow-tool guides. The passport-renewal guide remains commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy credit-card billing-dispute control file with a statement-date deadline calculator, issue classification, evidence index, merchant-and-issuer chronology, written-notice proof, investigation ledger and closure audit grounded in current CFPB regulation and FTC guidance.",
-    "cluster": "Consumer documentation and household financial administration, with reciprocal paths from missing-package, consumer-complaint, identity-theft and records-retention guides; the other pages open distinct short-trip packing and basic home-maintenance clusters.",
-    "opportunity": "Two qualified factual-review opportunities were logged for the CFPB and FTC consumer-education teams; no outreach sent."
+    "action": "Created a citation-worthy U.S. passport renewal control file with route eligibility, destination-validity check, name and identity evidence, photo gate, fee and submission record, status chronology, urgent-travel escalation and receipt audit grounded in current Department of State guidance.",
+    "cluster": "Travel administration and identity-document resilience, with reciprocal paths from lost-wallet, flight-disruption, public-Wi-Fi and household-record guides; the other pages open distinct formal-accessory and precision-grooming paths.",
+    "opportunity": "Two qualified factual-review opportunities were logged for the Department of State Bureau of Consular Affairs and the American Society of Travel Advisors; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life and Style: how to preserve a credit-card billing-error claim, how to choose one bag for a short trip, and how to build a task-based household tool kit. The authority page is noncommercial; the two buying guides solve distinct travel and home-maintenance problems, and none follows the unsupported Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life, Style and Grooming: how to route a passport renewal, how to choose cufflinks that work with an actual shirt, and how to groom eyebrows with controlled tools and eye-area stop rules. The authority asset is noncommercial; the two buying guides address different products and use cases, and none follows the unsupported Search Console sample.",
   "surfaces": [
     "homepage",
     "Life hub",
     "Style hub",
+    "Grooming hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -38,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "credit-card-billing-error-dispute-file.html",
-      "title": "Credit-Card Billing Error and Dispute File: Deadline, Evidence and Closure",
+      "slug": "passport-renewal-travel-document-file.html",
+      "title": "U.S. Passport Renewal and Travel Document File: Route, Timing, Proof and Handoff",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Document and route a U.S. credit-card billing error by statement date, error type, merchant contact, written issuer notice, delivery proof, investigation chronology, payment control, decision and closure",
+      "searchIntent": "Route and document a U.S. adult passport renewal by online, mail or in-person eligibility, destination validity, travel date, name evidence, photo, fees, submission proof, status, urgent travel and final receipt",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-weekender-bag-buying-guide.html",
-      "title": "Men's Weekender Bag Buying Guide: Capacity, Carry, Packing and Travel Fit",
+      "slug": "mens-cufflinks-buying-guide.html",
+      "title": "Men's Cufflinks Buying Guide: Cuff Compatibility, Closure, Metal and Scale",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's weekender or duffel bag by trip length, packing list, measured capacity, full exterior dimensions, carry mode, access, structure, materials, hardware, airline limits, cleaning and return test",
+      "searchIntent": "Choose men's cufflinks by French or convertible cuff compatibility, buttonhole and fabric geometry, closure, post length, face scale, weight, metal or plating disclosure, dress code, shirt and jacket fit, care and return test",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "home-tool-kit-buying-setup-guide.html",
-      "title": "Home Tool Kit Buying and Setup Guide: Tasks, Fit, Safety and Storage",
-      "category": "LIFE",
-      "department": "life.html",
+      "slug": "mens-eyebrow-grooming-trimmer-guide.html",
+      "title": "Men's Eyebrow Grooming and Trimmer Guide: Shape, Tools, Lighting and Safety",
+      "category": "GROOMING",
+      "department": "grooming.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Build a compact household hand-tool kit by recurring task, fastener and fixture inventory, tool fit, hand comfort, electrical boundaries, inspection, exact-model recalls, secure storage, replacement and return testing",
+      "searchIntent": "Groom men's eyebrows by preserving natural shape, choosing spoolie scissors tweezers or guarded trimmer by task, controlling lighting and hand support, cleaning tools, avoiding eye-area dyes and injury, maintaining results and using professional or medical stop rules",
       "affiliateLinksExpected": 3
     }
   ]

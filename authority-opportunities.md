@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-11-07 — U.S. passport renewal and travel-document control file
+
+- **U.S. Department of State Bureau of Consular Affairs, Passport Services** — https://travel.state.gov/content/travel/en/contact-us/passports.html — Asset match: the independent control file translates official online, mail and in-person routing, validity checks, photo requirements, date-specific processing guidance, submission proof and receipt verification into one maintained travel-document record. Honest angle: invite factual corrections and a consumer-usability review; never imply Department endorsement or request a reciprocal link. Contact route: Passport Services' official contact page. No outreach sent.
+- **American Society of Travel Advisors consumer-education team** — https://www.asta.org/about-us/contact-us — Asset match: the guide helps travelers verify passport validity, renewal route and delivery margin before committing to nonrefundable travel while linking readers to current government requirements. Honest angle: offer the free, commerce-free planning file for independent review or sharing only if it genuinely serves travelers; never request a traded link or imply association review. Contact route: ASTA's published contact page. No outreach sent.
+
 ## 2026-11-05 — Beneficiary-designation verification register
 
 - **U.S. Department of Labor Employee Benefits Security Administration participant-education team** — https://www.askebsa.dol.gov/WebIntake/ — Asset match: the beneficiary review turns plan-document, spouse-protection, primary/contingent, acceptance-proof and life-event guidance into a neutral account-by-account control file while clearly routing QDRO, marital-right and plan-specific questions to qualified help. Honest angle: invite factual corrections and ask whether the free independent worksheet accurately complements EBSA participant education; never imply Department endorsement or request a reciprocal link. Contact route: Ask EBSA's official electronic intake. No outreach sent.
