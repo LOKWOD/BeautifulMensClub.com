@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  clothingHangers: [
+    ["mens suit hangers wide shoulder trouser bar", "Wide-shoulder suit hangers", "Compare measured shoulder span, end contour, trouser-bar surface, hook construction, closet clearance, exact materials, seller and return terms against one actual suit."],
+    ["mens shirt hangers slim nonslip", "Low-profile shirt hangers", "Check usable width, neck shape, edge finish, coating or grip transfer, rail spacing and the controlled one-garment return-window test before buying a bulk set."],
+    ["pants hangers padded clips wood", "Trouser bars and padded-clip hangers", "Match bar width or clip span and pressure to the exact waistband or fold; inspect pads, springs, edges, hook alignment, seller and return conditions."],
+  ],
   cufflinks: [
     ["mens cufflinks french cuff dress shirt", "Cufflinks for French and convertible cuffs", "Compare usable post length, closure width, face dimensions, weight and the exact shirt buttonholes before judging finish or design."],
     ["mens fixed back cufflinks", "Fixed-back and stud-style cufflinks", "Check that the fixed back passes the actual buttonholes, spans the cuff stack and remains comfortable under the jacket sleeve; verify materials, seller and returns."],
@@ -407,6 +412,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "household-food-recall-response-file.html" || normalized === "return-to-strength-training-after-break.html") return null;
+  if (normalized === "mens-clothing-hanger-buying-guide.html") return catalog.clothingHangers;
   if (normalized === "passport-renewal-travel-document-file.html") return null;
   if (normalized === "mens-cufflinks-buying-guide.html") return catalog.cufflinks;
   if (normalized === "mens-eyebrow-grooming-trimmer-guide.html") return catalog.eyebrowTools;

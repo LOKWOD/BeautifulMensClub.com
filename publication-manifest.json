@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-07",
+  "generatedAt": "2026-11-08",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The cufflinks and eyebrow guides use exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The hanger guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-04",
     "window": "2026-10-05 through 2026-11-01",
-    "signal": "Six HTTPS-homepage impressions, one HTTP-homepage impression, zero clicks, average position 1.3, no query rows and no supported non-homepage cluster; the sitemap snapshot still reports 26 submitted and zero indexed URLs.",
-    "decision": "The homepage-only sample is too small for a Data-led item. The batch therefore adds one authority asset and two unrelated purchase-intent explorations while reinforcing discovery through three department hubs, the homepage, reciprocal links, Library search and the current sitemap.",
-    "ignored": "The seven homepage impressions, HTTP variant, aggregate position and stale sitemap snapshot were deliberately ignored as insufficient evidence for keyword targeting, title changes or a new query-family page; they informed crawl-path reinforcement only."
+    "signal": "BeautifulMensClub.com recorded six HTTPS-homepage impressions and one HTTP-homepage impression, zero clicks, average position 1.3, no query rows and no supported non-homepage cluster; the submitted sitemap snapshot still reports 26 submitted and zero indexed URLs.",
+    "decision": "The sample cannot support a Data-led page. It was used as a discovery and cannibalization guard, while the batch adds one authority asset and two unrelated explorations across Life, Style and Fitness, with strong hub, Library, reciprocal and sitemap paths.",
+    "ignored": "The seven homepage impressions, HTTP variant, aggregate position and old 26-URL sitemap snapshot were deliberately ignored as too small or stale for keyword targeting, title rewrites or a query-family expansion."
   },
   "monetization": {
-    "affiliateLinksAdded": 6,
+    "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow category text links appear on each of the cufflinks and eyebrow-tool guides. The passport-renewal guide remains commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the clothing-hanger buying guide. The food-recall and return-to-training guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy U.S. passport renewal control file with route eligibility, destination-validity check, name and identity evidence, photo gate, fee and submission record, status chronology, urgent-travel escalation and receipt audit grounded in current Department of State guidance.",
-    "cluster": "Travel administration and identity-document resilience, with reciprocal paths from lost-wallet, flight-disruption, public-Wi-Fi and household-record guides; the other pages open distinct formal-accessory and precision-grooming paths.",
-    "opportunity": "Two qualified factual-review opportunities were logged for the Department of State Bureau of Consular Affairs and the American Society of Travel Advisors; no outreach sent."
+    "action": "Created a citation-worthy household food-recall response file that separates FDA and USDA jurisdiction, matches exact product identifiers, records isolation and disposal or return, preserves illness and purchase evidence, controls downstream sharing and closes the case against current official instructions.",
+    "cluster": "Household food safety and evidence systems, with reciprocal paths from refrigerator/freezer safety, food-thermometer calibration, Thanksgiving hosting and home emergency documentation; separate Style and Fitness pages preserve portfolio breadth.",
+    "opportunity": "Three qualified factual-review opportunities were logged for FDA food-safety education, USDA FSIS consumer education and a relevant Cooperative Extension food-safety program; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life, Style and Grooming: how to route a passport renewal, how to choose cufflinks that work with an actual shirt, and how to groom eyebrows with controlled tools and eye-area stop rules. The authority asset is noncommercial; the two buying guides address different products and use cases, and none follows the unsupported Search Console sample.",
+  "diversity": "The batch answers three unrelated questions across Life, Style and Fitness: what to do with a recalled food, which hanger fits a specific garment, and how to resume lifting after a break. Only the hanger page is commercial; the recall file is a public-health authority asset, and the fitness page is a conservative programming worksheet rather than a product pitch or a duplicate of the existing warm-up, soreness or RPE guides.",
   "surfaces": [
     "homepage",
     "Life hub",
     "Style hub",
-    "Grooming hub",
+    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,31 +39,31 @@
   ],
   "pages": [
     {
-      "slug": "passport-renewal-travel-document-file.html",
-      "title": "U.S. Passport Renewal and Travel Document File: Route, Timing, Proof and Handoff",
+      "slug": "household-food-recall-response-file.html",
+      "title": "Household Food-Recall Response File: Match, Isolate, Act and Close",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Route and document a U.S. adult passport renewal by online, mail or in-person eligibility, destination validity, travel date, name evidence, photo, fees, submission proof, status, urgent travel and final receipt",
+      "searchIntent": "Respond to a household food recall by finding the controlling FDA or USDA notice, matching brand product size UPC lot date establishment and distribution, isolating the item, following exact return disposal and cleaning instructions, documenting illness or purchase evidence, checking downstream sharing and closing the case",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-cufflinks-buying-guide.html",
-      "title": "Men's Cufflinks Buying Guide: Cuff Compatibility, Closure, Metal and Scale",
+      "slug": "mens-clothing-hanger-buying-guide.html",
+      "title": "Men's Clothing Hanger Buying Guide: Shoulder Fit, Support, Grip and Storage",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose men's cufflinks by French or convertible cuff compatibility, buttonhole and fabric geometry, closure, post length, face scale, weight, metal or plating disclosure, dress code, shirt and jacket fit, care and return test",
+      "searchIntent": "Choose men's clothing hangers by garment construction and condition, shoulder width and contour, jacket support, trouser bar or clips, shirt profile, knit and heavy-garment flat-storage boundaries, surface finish, closet clearance, load, care and return test",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-eyebrow-grooming-trimmer-guide.html",
-      "title": "Men's Eyebrow Grooming and Trimmer Guide: Shape, Tools, Lighting and Safety",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "return-to-strength-training-after-break.html",
+      "title": "Return to Strength Training After a Break: Re-Entry Load, Volume and Stop Rules",
+      "category": "FITNESS",
+      "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Groom men's eyebrows by preserving natural shape, choosing spoolie scissors tweezers or guarded trimmer by task, controlling lighting and hand support, cleaning tools, avoiding eye-area dyes and injury, maintaining results and using professional or medical stop rules",
-      "affiliateLinksExpected": 3
+      "searchIntent": "Resume resistance training after a layoff by screening why training stopped, defining a current baseline, rebuilding movement and weekly exposure, reducing load volume effort and novelty, logging delayed response, progressing one variable at a time and using medical or coaching stop rules",
+      "affiliateLinksExpected": 0
     }
   ]
 }
