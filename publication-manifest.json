@@ -1,35 +1,34 @@
 {
-  "generatedAt": "2026-11-08",
+  "generatedAt": "2026-11-09",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The hanger guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The humidifier guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-04",
     "window": "2026-10-05 through 2026-11-01",
-    "signal": "BeautifulMensClub.com recorded six HTTPS-homepage impressions and one HTTP-homepage impression, zero clicks, average position 1.3, no query rows and no supported non-homepage cluster; the submitted sitemap snapshot still reports 26 submitted and zero indexed URLs.",
-    "decision": "The sample cannot support a Data-led page. It was used as a discovery and cannibalization guard, while the batch adds one authority asset and two unrelated explorations across Life, Style and Fitness, with strong hub, Library, reciprocal and sitemap paths.",
-    "ignored": "The seven homepage impressions, HTTP variant, aggregate position and old 26-URL sitemap snapshot were deliberately ignored as too small or stale for keyword targeting, title rewrites or a query-family expansion."
+    "signal": "BeautifulMensClub.com recorded six HTTPS-homepage impressions and one HTTP-homepage impression, zero clicks, average position 1.3, no query rows and no supported non-homepage cluster; the submitted sitemap reports no errors or warnings but the performance sample is limited to the homepage.",
+    "decision": "The sample cannot support a Data-led page. It was used as a discovery and cannibalization guard, while the batch expands three unrelated reader problems across Life and Grooming and adds strong hub, Library, reciprocal and sitemap paths.",
+    "ignored": "The seven homepage impressions, HTTP variant and aggregate position were deliberately ignored as too small and non-specific for keyword targeting, title rewrites or a query-family expansion."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the clothing-hanger buying guide. The food-recall and return-to-training guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the humidifier buying guide. The credit-report and body-wash guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy household food-recall response file that separates FDA and USDA jurisdiction, matches exact product identifiers, records isolation and disposal or return, preserves illness and purchase evidence, controls downstream sharing and closes the case against current official instructions.",
-    "cluster": "Household food safety and evidence systems, with reciprocal paths from refrigerator/freezer safety, food-thermometer calibration, Thanksgiving hosting and home emergency documentation; separate Style and Fitness pages preserve portfolio breadth.",
-    "opportunity": "Three qualified factual-review opportunities were logged for FDA food-safety education, USDA FSIS consumer education and a relevant Cooperative Extension food-safety program; no outreach sent."
+    "action": "Created a citation-worthy annual credit-report review and error-dispute file with a three-bureau reconciliation table, evidence index, dispute tracker, response log and closeout rules tied to current CFPB, FTC and AnnualCreditReport.com guidance.",
+    "cluster": "Credit-report accuracy and identity-protection systems, with reciprocal paths from credit freezing, identity-theft recovery, billing-error disputes and debt-collection documentation; the humidifier and body-wash guides expand separate home and grooming authority areas.",
+    "opportunity": "Three qualified factual-review opportunities were logged for the CFPB credit-report education team, FTC consumer education and Consumer Action; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life, Style and Fitness: what to do with a recalled food, which hanger fits a specific garment, and how to resume lifting after a break. Only the hanger page is commercial; the recall file is a public-health authority asset, and the fitness page is a conservative programming worksheet rather than a product pitch or a duplicate of the existing warm-up, soreness or RPE guides.",
+  "diversity": "The batch answers three unrelated questions: how to reconcile and dispute credit-report errors, how to select and maintain a humidifier without creating a moisture or contamination problem, and how to choose a body wash by cleansing job and tolerance rather than masculinity marketing. Only the humidifier page is commercial; the credit file is an authority asset, and the grooming guide separates ordinary cosmetics from drug claims.",
   "surfaces": [
     "homepage",
     "Life hub",
-    "Style hub",
-    "Fitness hub",
+    "Grooming hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "household-food-recall-response-file.html",
-      "title": "Household Food-Recall Response File: Match, Isolate, Act and Close",
+      "slug": "annual-credit-report-review-dispute-file.html",
+      "title": "Annual Credit Report Review and Error Dispute File: Compare, Document and Follow Through",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Respond to a household food recall by finding the controlling FDA or USDA notice, matching brand product size UPC lot date establishment and distribution, isolating the item, following exact return disposal and cleaning instructions, documenting illness or purchase evidence, checking downstream sharing and closing the case",
+      "searchIntent": "Get all three free credit reports from the federally authorized source, compare identity account balance payment collection inquiry and public-record fields, distinguish a reporting error from identity theft or a creditor disagreement, preserve evidence, dispute with the reporting company and furnisher, track responses and close the file",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-clothing-hanger-buying-guide.html",
-      "title": "Men's Clothing Hanger Buying Guide: Shoulder Fit, Support, Grip and Storage",
-      "category": "STYLE",
-      "department": "style.html",
+      "slug": "home-humidifier-buying-cleaning-guide.html",
+      "title": "Home Humidifier Buying Guide: Humidity, Output, Cleaning and Water",
+      "category": "LIFE",
+      "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose men's clothing hangers by garment construction and condition, shoulder width and contour, jacket support, trouser bar or clips, shirt profile, knit and heavy-garment flat-storage boundaries, surface finish, closet clearance, load, care and return test",
+      "searchIntent": "Choose a portable home humidifier by measured room humidity, room size, humidistat and output, ultrasonic evaporative impeller or steam technology, water mineral content, daily emptying and cleaning access, electrical and burn safety, condensation stop rules, filter cost, exact-model recall check and return-window acceptance test",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "return-to-strength-training-after-break.html",
-      "title": "Return to Strength Training After a Break: Re-Entry Load, Volume and Stop Rules",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "mens-body-wash-buying-guide.html",
+      "title": "Men's Body Wash Buying Guide: Cleanser Type, Fragrance, Skin Feel and Use",
+      "category": "GROOMING",
+      "department": "grooming.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Resume resistance training after a layoff by screening why training stopped, defining a current baseline, rebuilding movement and weekly exposure, reducing load volume effort and novelty, logging delayed response, progressing one variable at a time and using medical or coaching stop rules",
+      "searchIntent": "Choose a men's body wash or cleansing bar by ordinary cleansing job, cosmetic versus drug labeling, full ingredient declaration, fragrance and known-allergen history, dry or irritation-prone skin, lather and rinse behavior, package hygiene, shower routine, stop rules, manufacturer contact and controlled one-product trial",
       "affiliateLinksExpected": 0
     }
   ]

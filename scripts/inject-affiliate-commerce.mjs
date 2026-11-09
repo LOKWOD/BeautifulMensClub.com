@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  humidifiers: [
+    ["home evaporative humidifier humidistat", "Evaporative room humidifiers", "Compare documented room and output assumptions, humidistat behavior, tank handling, wick part number and cost, cleaning access, noise, recall status, exact seller and return terms."],
+    ["home ultrasonic humidifier humidistat", "Ultrasonic room humidifiers", "Verify output and control range, tank and base cleaning access, low-mineral-water plan, white-dust response, electrical label, recall status and return-window test."],
+    ["digital hygrometer indoor humidity meter", "Separate room hygrometers", "Use a separate meter to check the occupied zone rather than trusting a sensor in the moist outlet stream; compare range, resolution, placement, battery and return terms without treating it as a medical instrument."],
+  ],
   clothingHangers: [
     ["mens suit hangers wide shoulder trouser bar", "Wide-shoulder suit hangers", "Compare measured shoulder span, end contour, trouser-bar surface, hook construction, closet clearance, exact materials, seller and return terms against one actual suit."],
     ["mens shirt hangers slim nonslip", "Low-profile shirt hangers", "Check usable width, neck shape, edge finish, coating or grip transfer, rail spacing and the controlled one-garment return-window test before buying a bulk set."],
@@ -412,6 +417,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "annual-credit-report-review-dispute-file.html" || normalized === "mens-body-wash-buying-guide.html") return null;
+  if (normalized === "home-humidifier-buying-cleaning-guide.html") return catalog.humidifiers;
   if (normalized === "household-food-recall-response-file.html" || normalized === "return-to-strength-training-after-break.html") return null;
   if (normalized === "mens-clothing-hanger-buying-guide.html") return catalog.clothingHangers;
   if (normalized === "passport-renewal-travel-document-file.html") return null;
