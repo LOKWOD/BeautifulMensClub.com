@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  shoeTrees: [
+    ["mens cedar shoe trees adjustable pair", "Adjustable cedar shoe trees", "Match the exact model-specific size chart to one shoe, then compare toe and heel geometry, spring travel, surface finish, seller, warranty and return terms."],
+    ["mens full toe shoe trees dress shoes", "Full-toe shoe trees", "Compare the toe block with the actual last, width and vamp volume; reject any model that distorts the upper, presses the welt or requires force to remove."],
+    ["mens travel shoe trees lightweight", "Lightweight travel shoe trees", "Check exact size range, packed weight, contact surfaces, mechanism, shoe compatibility and return-window fit before treating low weight as the only criterion."],
+  ],
   humidifiers: [
     ["home evaporative humidifier humidistat", "Evaporative room humidifiers", "Compare documented room and output assumptions, humidistat behavior, tank handling, wick part number and cost, cleaning access, noise, recall status, exact seller and return terms."],
     ["home ultrasonic humidifier humidistat", "Ultrasonic room humidifiers", "Verify output and control range, tank and base cleaning access, low-mineral-water plan, white-dust response, electrical label, recall status and return-window test."],
@@ -417,6 +422,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "medical-bill-eob-review-appeal-file.html" || normalized === "dip-station-buying-setup-guide.html") return null;
+  if (normalized === "mens-shoe-tree-buying-guide.html") return catalog.shoeTrees;
   if (normalized === "annual-credit-report-review-dispute-file.html" || normalized === "mens-body-wash-buying-guide.html") return null;
   if (normalized === "home-humidifier-buying-cleaning-guide.html") return catalog.humidifiers;
   if (normalized === "household-food-recall-response-file.html" || normalized === "return-to-strength-training-after-break.html") return null;

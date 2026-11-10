@@ -1,34 +1,35 @@
 {
-  "generatedAt": "2026-11-09",
+  "generatedAt": "2026-11-10",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The humidifier guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The shoe-tree guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-04",
     "window": "2026-10-05 through 2026-11-01",
-    "signal": "BeautifulMensClub.com recorded six HTTPS-homepage impressions and one HTTP-homepage impression, zero clicks, average position 1.3, no query rows and no supported non-homepage cluster; the submitted sitemap reports no errors or warnings but the performance sample is limited to the homepage.",
-    "decision": "The sample cannot support a Data-led page. It was used as a discovery and cannibalization guard, while the batch expands three unrelated reader problems across Life and Grooming and adds strong hub, Library, reciprocal and sitemap paths.",
-    "ignored": "The seven homepage impressions, HTTP variant and aggregate position were deliberately ignored as too small and non-specific for keyword targeting, title rewrites or a query-family expansion."
+    "signal": "BeautifulMensClub.com recorded six HTTPS-homepage impressions and one HTTP-homepage impression, zero clicks, average position 1.3 and no query rows. The sitemap snapshot showed 26 submitted and zero indexed URLs with no error or warning, but it was last downloaded on August 31 and does not describe the current 225-page publication.",
+    "decision": "No query or non-homepage page had enough evidence for a Data-led article. The report was used as a discovery and cannibalization guard, so the batch strengthens three unrelated clusters with hub, Library, reciprocal and sitemap links instead of repeating a speculative keyword family.",
+    "ignored": "The seven homepage impressions, HTTP variant, aggregate position and old 26/0 sitemap snapshot were deliberately ignored as too small, non-specific or stale for topic targeting and title rewrites."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the humidifier buying guide. The credit-report and body-wash guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the shoe-tree buying guide. The medical-bill and dip-station guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-worthy annual credit-report review and error-dispute file with a three-bureau reconciliation table, evidence index, dispute tracker, response log and closeout rules tied to current CFPB, FTC and AnnualCreditReport.com guidance.",
-    "cluster": "Credit-report accuracy and identity-protection systems, with reciprocal paths from credit freezing, identity-theft recovery, billing-error disputes and debt-collection documentation; the humidifier and body-wash guides expand separate home and grooming authority areas.",
-    "opportunity": "Three qualified factual-review opportunities were logged for the CFPB credit-report education team, FTC consumer education and Consumer Action; no outreach sent."
+    "action": "Created a citation-ready medical-bill and EOB reconciliation file with a charge ledger, payment ledger, mismatch screen, denial-route record, appeal evidence index, conversation log and closeout audit tied to current CMS and HealthCare.gov guidance.",
+    "cluster": "Health-insurance administration and consumer case-file systems, with reciprocal contextual paths from the established plan-comparison, doctor-visit follow-up, consumer-complaint and emergency-fund guides; the shoe-tree and dip-station pages expand separate style-care and equipment-safety clusters.",
+    "opportunity": "Three qualified factual-review opportunities were logged for CMS medical-bill education, a state Consumer Assistance Program and Patient Advocate Foundation; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions: how to reconcile and dispute credit-report errors, how to select and maintain a humidifier without creating a moisture or contamination problem, and how to choose a body wash by cleansing job and tolerance rather than masculinity marketing. Only the humidifier page is commercial; the credit file is an authority asset, and the grooming guide separates ordinary cosmetics from drug claims.",
+  "diversity": "The batch answers three unrelated questions across Life, Style and Fitness: how to match an EOB, provider bill, payments and denial notices; how to choose a shoe tree that fits a specific shoe without excessive tension; and how to select and stabilize a dip station around the user, room and documented limits. The shoe-tree page serves purchase intent, the bill file is an authority asset, and the dip-station guide explores a distinct equipment setup problem.",
   "surfaces": [
     "homepage",
     "Life hub",
-    "Grooming hub",
+    "Style hub",
+    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -38,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "annual-credit-report-review-dispute-file.html",
-      "title": "Annual Credit Report Review and Error Dispute File: Compare, Document and Follow Through",
+      "slug": "medical-bill-eob-review-appeal-file.html",
+      "title": "Medical Bill and EOB Review File: Match, Appeal and Close Out",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Get all three free credit reports from the federally authorized source, compare identity account balance payment collection inquiry and public-record fields, distinguish a reporting error from identity theft or a creditor disagreement, preserve evidence, dispute with the reporting company and furnisher, track responses and close the file",
+      "searchIntent": "Compare an explanation of benefits with provider bills and payments, identify a coding payment network or denial mismatch, request an itemized bill, preserve claim evidence, follow the plan-specific appeal route and close the file only when every balance and notice agrees",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "home-humidifier-buying-cleaning-guide.html",
-      "title": "Home Humidifier Buying Guide: Humidity, Output, Cleaning and Water",
-      "category": "LIFE",
-      "department": "life.html",
+      "slug": "mens-shoe-tree-buying-guide.html",
+      "title": "Men's Shoe Tree Buying Guide: Size, Shape, Tension and Care",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a portable home humidifier by measured room humidity, room size, humidistat and output, ultrasonic evaporative impeller or steam technology, water mineral content, daily emptying and cleaning access, electrical and burn safety, condensation stop rules, filter cost, exact-model recall check and return-window acceptance test",
+      "searchIntent": "Choose a shoe tree for men's dress shoes loafers or boots by exact shoe size width toe shape heel geometry spring range material ventilation travel needs return policy and a controlled fit test without overstretching the upper",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "mens-body-wash-buying-guide.html",
-      "title": "Men's Body Wash Buying Guide: Cleanser Type, Fragrance, Skin Feel and Use",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "dip-station-buying-setup-guide.html",
+      "title": "Dip Station Buying and Setup Guide: Fit, Stability, Clearance and Control",
+      "category": "FITNESS",
+      "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's body wash or cleansing bar by ordinary cleansing job, cosmetic versus drug labeling, full ingredient declaration, fragrance and known-allergen history, dry or irritation-prone skin, lather and rinse behavior, package hygiene, shower routine, stop rules, manufacturer contact and controlled one-product trial",
+      "searchIntent": "Choose a freestanding parallel dip station or dip bars by handle spacing height grip diameter user clearance footprint structure floor interaction documented load conditions assembly inspection recall status return test and controlled readiness without assuming a load rating guarantees stability",
       "affiliateLinksExpected": 0
     }
   ]
