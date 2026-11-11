@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  tieBars: [
+    ["mens tie bar tie clip", "Classic tie bars and tie clips", "Compare exact usable length, slide or spring construction, jaw clearance, inside edge finish, weight, base metal, plating, seller and return terms against one actual tie and shirt."],
+    ["short tie bar narrow tie", "Short tie bars for narrow ties", "Measure the tie at the intended height and choose a bar that remains visibly shorter; verify total face length, mechanism, finish, seller and a careful fabric return test."],
+    ["mens sterling silver tie bar", "Tie bars with specific metal claims", "Verify the exact metal or plating disclosure and quality mark, responsible maker, mechanism, dimensions, care, seller and return terms rather than buying from a color word or photograph."],
+  ],
   shoeTrees: [
     ["mens cedar shoe trees adjustable pair", "Adjustable cedar shoe trees", "Match the exact model-specific size chart to one shoe, then compare toe and heel geometry, spring travel, surface finish, seller, warranty and return terms."],
     ["mens full toe shoe trees dress shoes", "Full-toe shoe trees", "Compare the toe block with the actual last, width and vamp volume; reject any model that distorts the upper, presses the welt or requires force to remove."],
@@ -422,6 +427,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mortgage-loan-estimate-closing-disclosure-review-file.html" || normalized === "mens-shaving-brush-buying-care-guide.html") return null;
+  if (normalized === "mens-tie-bar-buying-guide.html") return catalog.tieBars;
   if (normalized === "medical-bill-eob-review-appeal-file.html" || normalized === "dip-station-buying-setup-guide.html") return null;
   if (normalized === "mens-shoe-tree-buying-guide.html") return catalog.shoeTrees;
   if (normalized === "annual-credit-report-review-dispute-file.html" || normalized === "mens-body-wash-buying-guide.html") return null;

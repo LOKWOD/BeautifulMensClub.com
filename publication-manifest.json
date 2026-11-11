@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-11",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The shoe-tree guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The tie-bar guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-04",
     "window": "2026-10-05 through 2026-11-01",
-    "signal": "BeautifulMensClub.com recorded six HTTPS-homepage impressions and one HTTP-homepage impression, zero clicks, average position 1.3 and no query rows. The sitemap snapshot showed 26 submitted and zero indexed URLs with no error or warning, but it was last downloaded on August 31 and does not describe the current 225-page publication.",
-    "decision": "No query or non-homepage page had enough evidence for a Data-led article. The report was used as a discovery and cannibalization guard, so the batch strengthens three unrelated clusters with hub, Library, reciprocal and sitemap links instead of repeating a speculative keyword family.",
-    "ignored": "The seven homepage impressions, HTTP variant, aggregate position and old 26/0 sitemap snapshot were deliberately ignored as too small, non-specific or stale for topic targeting and title rewrites."
+    "signal": "BeautifulMensClub.com recorded six HTTPS-homepage impressions and one HTTP-homepage impression, zero clicks, average position 1.3 and no query rows. The sitemap snapshot showed 26 submitted and zero indexed URLs with no error or warning, but it was last downloaded on August 31 and does not describe the current 228-page publication.",
+    "decision": "No query or non-homepage page had enough evidence for a Data-led article. The report was used only as a discovery and cannibalization guard; the batch adds three unrelated intents and reinforces hubs, Library, reciprocal links and sitemap discovery.",
+    "ignored": "The seven homepage impressions, HTTP variant, aggregate position and old 26/0 sitemap snapshot were deliberately ignored as too small, non-specific or stale for topic targeting or title rewrites."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the shoe-tree buying guide. The medical-bill and dip-station guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the tie-bar buying guide. The mortgage-disclosure and shaving-brush guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-ready medical-bill and EOB reconciliation file with a charge ledger, payment ledger, mismatch screen, denial-route record, appeal evidence index, conversation log and closeout audit tied to current CMS and HealthCare.gov guidance.",
-    "cluster": "Health-insurance administration and consumer case-file systems, with reciprocal contextual paths from the established plan-comparison, doctor-visit follow-up, consumer-complaint and emergency-fund guides; the shoe-tree and dip-station pages expand separate style-care and equipment-safety clusters.",
-    "opportunity": "Three qualified factual-review opportunities were logged for CMS medical-bill education, a state Consumer Assistance Program and Patient Advocate Foundation; no outreach sent."
+    "action": "Created a citation-ready mortgage disclosure reconciliation file with a term lock sheet, Loan Estimate comparison, Closing Disclosure variance ledger, cash-to-close proof, wire-verification gate, closing-document index and post-closing handoff tied to current CFPB guidance.",
+    "cluster": "Home finance, consumer documentation and major-purchase control, with reciprocal paths from the emergency-document, checking-account, contractor-estimate and emergency-fund guides; the tie-bar and shaving-brush pages expand separate tailored-accessory and traditional-shaving clusters.",
+    "opportunity": "Three qualified factual-review opportunities were logged for CFPB Owning a Home, HUD-approved housing counseling and the National Foundation for Credit Counseling; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life, Style and Fitness: how to match an EOB, provider bill, payments and denial notices; how to choose a shoe tree that fits a specific shoe without excessive tension; and how to select and stabilize a dip station around the user, room and documented limits. The shoe-tree page serves purchase intent, the bill file is an authority asset, and the dip-station guide explores a distinct equipment setup problem.",
+  "diversity": "The batch answers three unrelated questions across Life, Style and Grooming: how to reconcile a Loan Estimate with a Closing Disclosure before signing, how to select and place a tie bar without damaging or overwhelming the tie, and how to choose and maintain a shaving brush by knot, handle, lather medium and drying routine. The tie-bar page serves purchase intent, the mortgage file is the authority asset, and the shaving-brush guide explores a distinct grooming tool.",
   "surfaces": [
     "homepage",
     "Life hub",
     "Style hub",
-    "Fitness hub",
+    "Grooming hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "medical-bill-eob-review-appeal-file.html",
-      "title": "Medical Bill and EOB Review File: Match, Appeal and Close Out",
+      "slug": "mortgage-loan-estimate-closing-disclosure-review-file.html",
+      "title": "Mortgage Disclosure Review File: Loan Estimate, Closing Costs and Cash to Close",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Compare an explanation of benefits with provider bills and payments, identify a coding payment network or denial mismatch, request an itemized bill, preserve claim evidence, follow the plan-specific appeal route and close the file only when every balance and notice agrees",
+      "searchIntent": "Compare a U.S. mortgage Loan Estimate with the final Closing Disclosure by loan terms payment closing-cost categories tolerance questions credits prepaid items escrow cash to close wire instructions document versions and unresolved discrepancies before signing",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "mens-shoe-tree-buying-guide.html",
-      "title": "Men's Shoe Tree Buying Guide: Size, Shape, Tension and Care",
+      "slug": "mens-tie-bar-buying-guide.html",
+      "title": "Men's Tie Bar Buying Guide: Width, Placement, Grip and Finish",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a shoe tree for men's dress shoes loafers or boots by exact shoe size width toe shape heel geometry spring range material ventilation travel needs return policy and a controlled fit test without overstretching the upper",
+      "searchIntent": "Choose a men's tie bar or tie clip by tie width proportion shirt placket connection spring or slide construction jaw clearance edge finish weight metal disclosure dress code placement jacket interaction care and return test",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "dip-station-buying-setup-guide.html",
-      "title": "Dip Station Buying and Setup Guide: Fit, Stability, Clearance and Control",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "mens-shaving-brush-buying-care-guide.html",
+      "title": "Men's Shaving Brush Buying and Care Guide: Knot, Handle, Lather and Drying",
+      "category": "GROOMING",
+      "department": "grooming.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a freestanding parallel dip station or dip bars by handle spacing height grip diameter user clearance footprint structure floor interaction documented load conditions assembly inspection recall status return test and controlled readiness without assuming a load rating guarantees stability",
+      "searchIntent": "Choose and maintain a men's shaving brush by synthetic or animal fiber knot diameter loft density backbone tip feel handle grip lather product bowl or face use drying stand storage shedding replacement and skin stop rules",
       "affiliateLinksExpected": 0
     }
   ]
