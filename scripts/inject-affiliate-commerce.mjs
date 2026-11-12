@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  pocketSquares: [
+    ["white linen pocket square men", "White linen pocket squares", "Verify exact dimensions, fiber content, fabric weight, edge construction, care, seller and return terms against the actual jacket pocket and intended straight or peak fold."],
+    ["mens silk pocket square", "Silk pocket squares", "Compare exact fiber disclosure, size, weave, opacity, edge, color, care and return terms; use the actual jacket to test soft volume, slipping and folded bulk."],
+    ["mens cotton pocket square", "Cotton pocket squares", "Check exact dimensions, fabric weight, weave, print scale, edge construction, care, seller and return terms before assuming cotton will hold the intended fold."],
+  ],
   tieBars: [
     ["mens tie bar tie clip", "Classic tie bars and tie clips", "Compare exact usable length, slide or spring construction, jaw clearance, inside edge finish, weight, base metal, plating, seller and return terms against one actual tie and shirt."],
     ["short tie bar narrow tie", "Short tie bars for narrow ties", "Measure the tie at the intended height and choose a bar that remains visibly shorter; verify total face length, mechanism, finish, seller and a careful fabric return test."],
@@ -427,6 +432,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "home-electrical-panel-circuit-directory-shutoff-file.html" || normalized === "sandbag-training-bag-buying-setup-guide.html") return null;
+  if (normalized === "mens-pocket-square-buying-folding-guide.html") return catalog.pocketSquares;
   if (normalized === "mortgage-loan-estimate-closing-disclosure-review-file.html" || normalized === "mens-shaving-brush-buying-care-guide.html") return null;
   if (normalized === "mens-tie-bar-buying-guide.html") return catalog.tieBars;
   if (normalized === "medical-bill-eob-review-appeal-file.html" || normalized === "dip-station-buying-setup-guide.html") return null;
