@@ -223,6 +223,11 @@ const catalog = {
     ["cordless hair clippers mens haircut kit", "Cordless hair-clipper kits", "Verify runtime, charge behavior, included guard sizes, charger label, blade maintenance, battery-service route and the exact model manual."],
     ["corded hair clippers mens haircut", "Corded hair clippers", "Compare blade and guard compatibility, cord length and strain relief, grip, lubrication instructions, replacement support and return terms."],
   ],
+  beardTrimmers: [
+    ["mens beard trimmer adjustable guards", "Beard trimmers with measured guard systems", "Compare the exact guard ladder, minimum and maximum cutting length, blade width, authorized facial zones, cleaning and oiling instructions, replacement support, warranty, seller and hygiene-return terms."],
+    ["cordless beard trimmer replacement blade", "Cordless beard trimmers with supported replacement parts", "Verify runtime and charge behavior in the exact manual, then confirm the maker's blade, guard and charger identifiers, battery-service route, wet-use limits and current replacement availability."],
+    ["corded beard trimmer adjustable guards", "Corded beard trimmers", "Compare the measured guard range, blade and sightline, cord length and strain relief, maker maintenance instructions, exact electrical label, replacement parts and controlled return-window test."],
+  ],
   watches: [
     ["mens quartz watch", "Men's quartz watches", "Compare case width, lug-to-lug length, thickness, strap range, exact movement instructions, warranty and seller terms."],
     ["mens solar watch", "Men's solar-powered watches", "Verify the exact charging guidance, case dimensions, water-resistance instructions, service support and authorized seller."],
@@ -432,6 +437,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "strength-training-program-progression-record.html" || normalized === "cheese-board-hosting-food-safety-plan.html") return null;
+  if (normalized === "mens-beard-trimmer-buying-guide.html") return catalog.beardTrimmers;
   if (normalized === "home-electrical-panel-circuit-directory-shutoff-file.html" || normalized === "sandbag-training-bag-buying-setup-guide.html") return null;
   if (normalized === "mens-pocket-square-buying-folding-guide.html") return catalog.pocketSquares;
   if (normalized === "mortgage-loan-estimate-closing-disclosure-review-file.html" || normalized === "mens-shaving-brush-buying-care-guide.html") return null;
