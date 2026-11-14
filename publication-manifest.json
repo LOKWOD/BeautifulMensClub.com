@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The beard-trimmer guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The grooming-mirror guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-11",
     "window": "2026-10-12 through 2026-11-08",
     "signal": "BeautifulMensClub.com recorded 108 impressions, zero clicks, 0% CTR and average position 39.45. The only query near the target band was two impressions for official jet-lag guidance at average position 8; the strongest relevant page test was two impressions for the contractor-estimate guide at position 8.5. The sitemap snapshot showed 212 submitted and zero indexed URLs with no errors or warnings.",
-    "decision": "No query or page had enough repeatable evidence for a Data-led article. The report informed discovery work instead: the batch adds three non-overlapping intents, places each on its department hub and Library, adds twelve reciprocal contextual links, refreshes homepage discovery and regenerates the sitemap and manifest.",
+    "decision": "No query or page had enough repeatable evidence for a Data-led article. The report informed discovery work instead: three non-overlapping intents are placed on three department hubs and the Library, supported by twelve reciprocal contextual links, homepage discovery, a regenerated sitemap and the publication manifest.",
     "ignored": "The two jet-lag-query impressions, two contractor-guide impressions, one charity-page impression at position 11 and six homepage impressions were deliberately ignored as too small or non-specific for topic selection, title rewriting or cluster expansion."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the beard-trimmer buying guide. The strength-progression record and cheese-board hosting plan remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the grooming-mirror buying guide. The subscription audit and garment-measurement field guide remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-ready resistance-training program and progression record that separates goal, weekly exposure, per-exercise prescription, completed work, progression evidence, recovery response and professional-care stop rules, tied to the 2026 ACSM position stand and current federal activity guidance.",
-    "cluster": "Resistance-training programming and self-monitoring, with reciprocal paths from the established RPE/RIR, rest-period, warm-up and return-after-a-break guides; the beard-trimmer and cheese-board pages expand separate grooming-tool and hospitality clusters.",
-    "opportunity": "Three qualified factual-review opportunities were logged for the American College of Sports Medicine, HHS Move Your Way and the Partnership for Food Safety Education; no outreach sent."
+    "action": "Created a citation-ready recurring-subscription audit and cancellation file that separates the service contract from the payment authorization, preserves the controlling terms and renewal notice, records cancellation proof, flags the vacated 2024 federal Click-to-Cancel amendment, and routes post-cancellation charges to the correct issuer or bank process.",
+    "cluster": "Household cash-flow and consumer-resolution authority, with reciprocal paths from the established two-account bill system, gym-membership contract, credit-card billing-error and household-records guides; the grooming-mirror and garment-measurement pages expand separate grooming-tool and clothing-fit clusters.",
+    "opportunity": "Three qualified factual-review opportunities were logged for the FTC consumer-education team, CFPB consumer-education team and Consumer Action; no outreach sent."
   },
-  "diversity": "The batch answers three unrelated questions across Grooming, Fitness and Life: how to choose a beard trimmer that can reproduce a specific length and edge routine, how to turn a strength goal into a conservative evidence-based progression record, and how to host a cheese board with accurate labels, portions and food-safety controls. The beard-trimmer page serves purchase intent, the progression record is the authority asset, and the cheese-board plan explores a distinct hospitality problem. No page is Data-led because the current analytics sample is too weak.",
+  "diversity": "The batch answers three unrelated questions across Grooming, Life and Style: how to choose a grooming mirror for a specific view and room, how to inventory and cancel recurring subscriptions with proof, and how to compare clothing across inconsistent size charts using garments that already fit. The mirror page serves purchase intent, the subscription file is the authority asset, and the measurement guide explores a reusable style skill. No page is Data-led because the current analytics sample is too weak.",
   "surfaces": [
     "homepage",
     "Grooming hub",
-    "Fitness hub",
     "Life hub",
+    "Style hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +39,30 @@
   ],
   "pages": [
     {
-      "slug": "mens-beard-trimmer-buying-guide.html",
-      "title": "Men's Beard Trimmer Buying Guide: Lengths, Blades, Power and Care",
+      "slug": "mens-lighted-grooming-mirror-buying-guide.html",
+      "title": "Men's Lighted Grooming Mirror Buying Guide: View, Light, Mount and Power",
       "category": "GROOMING",
       "department": "grooming.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's beard trimmer by actual facial-hair task minimum and maximum cutting length guard increments blade geometry edge visibility corded or cordless power wet or dry limits cleaning oil replacement parts travel fit warranty recalls and return-window test",
+      "searchIntent": "Choose a men's lighted grooming mirror by shaving beard eyebrow skin or hair task true-size and magnified view diameter working distance lighting controls tabletop wall or travel mount power exact manual safety cleaning support and return test",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "strength-training-program-progression-record.html",
-      "title": "Strength Training Program and Progression Record: Goal, Dose, Response and Review",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "recurring-subscription-audit-cancellation-file.html",
+      "title": "Recurring Subscription Audit and Cancellation File: Find, Decide, Cancel and Prove",
+      "category": "LIFE",
+      "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Build and review a resistance training program for a healthy adult by goal weekly exposure exercise selection sets repetitions load range of motion rest effort completed work recovery response progression evidence deload or maintenance decisions and professional-care stop rules",
+      "searchIntent": "Audit recurring subscriptions memberships free trials and auto renewals by statements receipts app stores contract terms renewal dates price changes household use cancellation method proof payment authorization post cancellation monitoring dispute route and closeout",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "cheese-board-hosting-food-safety-plan.html",
-      "title": "Cheese Board Hosting and Food-Safety Plan: Portions, Labels, Timing and Handoff",
-      "category": "LIFE",
-      "department": "life.html",
+      "slug": "mens-garment-measurement-size-comparison-guide.html",
+      "title": "Men's Garment Measurement and Size Comparison Guide: Shirts, Jackets and Trousers",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Plan and serve a cheese board by guest count meal role cheese style portion range accompaniments ingredient and allergen labels cross-contact limits cold holding service clock small-platter replenishment leftovers and host handoff",
+      "searchIntent": "Measure men's shirts jackets knitwear and trousers at home compare finished garment measurements with seller size charts separate body from garment measurements record fit ease method tolerances materials care alterations and return terms",
       "affiliateLinksExpected": 0
     }
   ]
