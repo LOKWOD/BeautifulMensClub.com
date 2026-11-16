@@ -283,6 +283,11 @@ const catalog = {
     ["mens athletic fit chino pants", "Men's athletic-fit chinos", "Verify where the extra room is placed, then compare the actual taper, rise, stretch content, care directions and finished measurements."],
     ["mens tapered chino pants", "Men's tapered chinos", "Check the upper-block measurements before judging the taper, and match the hem opening to the shoes and dress level you intend to wear."],
   ],
+  casualShorts: [
+    ["mens chino shorts 7 inch inseam", "Men's 7-inch chino shorts", "Compare the exact rise, finished waist, seat, thigh, opening and measured inseam, then verify fiber content, pocket retention, care, seller and return terms."],
+    ["mens casual shorts 9 inch inseam", "Men's 9-inch casual shorts", "Check where the documented inseam lands on your body, then compare rise, thigh room, hem opening, materials, care burden and the current return window."],
+    ["mens drawstring shorts casual", "Men's drawstring casual shorts", "Verify whether the waist is elastic, drawcord-adjusted or both, and compare finished measurements, cord security, pocket design, exact fabric, care and seller details."],
+  ],
   nailCare: [
     ["stainless steel fingernail clipper sharp curved", "Fingernail clippers", "Compare jaw size, edge alignment, lever grip, protective storage, cleaning directions, exact seller and return terms."],
     ["washable glass nail file fingernails case", "Washable fingernail files", "Check usable size, surface condition, edge finish, cleaning instructions and whether the protective case actually fits."],
@@ -442,6 +447,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "repair-or-replace-major-appliance-decision-file.html" || normalized === "home-entryway-reset-system.html") return null;
+  if (normalized === "mens-casual-shorts-buying-guide.html") return catalog.casualShorts;
   if (normalized === "recurring-subscription-audit-cancellation-file.html" || normalized === "mens-garment-measurement-size-comparison-guide.html") return null;
   if (normalized === "mens-lighted-grooming-mirror-buying-guide.html") return catalog.groomingMirrors;
   if (normalized === "strength-training-program-progression-record.html" || normalized === "cheese-board-hosting-food-safety-plan.html") return null;

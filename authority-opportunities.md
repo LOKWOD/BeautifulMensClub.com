@@ -1,5 +1,9 @@
 # Authority opportunities
 
+## 2026-11-16 — Major-appliance repair-or-replace decision file
+
+Today's authority action strengthened the site in place: the new commerce-free decision matrix reconciles exact-model recall checks, diagnosis quality, repair scope and warranty, remaining service value, EnergyGuide evidence, full installed replacement cost, fit and installation constraints, and written closeout. No qualified outreach opportunity was logged from the current research, and no outreach was sent.
+
 ## 2026-11-13 — Resistance-training program and progression record
 
 - **American College of Sports Medicine public-information team** — https://acsm.org/contact-us/ — Asset match: the commerce-free record translates the 2026 resistance-training position stand into a transparent block brief, weekly exposure map, planned-versus-completed exercise rows, recovery log and one-variable progression decision without turning group-level findings into a personal prescription. Honest angle: invite a technical-accuracy and usability review and ask whether the independent record could complement ACSM's public education; disclose the publisher and never imply review, certification or endorsement. Contact route: ACSM's official contact page. No outreach sent.
