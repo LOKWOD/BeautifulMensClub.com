@@ -1,5 +1,10 @@
 # Authority opportunities
 
+## 2026-11-17 — Personal net-worth statement and annual review
+
+- **SEC Office of Investor Education and Advocacy / Investor.gov** — https://www.investor.gov/contact-us — Asset match: the commerce-free worksheet turns Investor.gov's assets-minus-liabilities framework into a dated register with ownership, evidence, valuation method, liquidity, uncertainty, reconciliation and an annual comparison bridge while keeping cash flow separate. Honest angle: invite a factual and usability review and ask whether the free independent worksheet can complement basic financial-inventory education; disclose the publisher and never imply SEC review or endorsement. Contact route: Investor.gov's official contact page. No outreach sent.
+- **Consumer Financial Protection Bureau financial-education team** — https://www.consumerfinance.gov/about-us/contact-us/ — Asset match: the worksheet explicitly prevents a net-worth total from replacing the CFPB's broader financial-well-being framework and connects the balance sheet to separate cash-flow, emergency-access and goal records. Honest angle: invite factual corrections and a consumer-usability review only; do not request endorsement, placement or a reciprocal link. Contact route: the Bureau's official contact page. No outreach sent.
+
 ## 2026-11-16 — Major-appliance repair-or-replace decision file
 
 Today's authority action strengthened the site in place: the new commerce-free decision matrix reconciles exact-model recall checks, diagnosis quality, repair scope and warranty, remaining service value, EnergyGuide evidence, full installed replacement cost, fit and installation constraints, and written closeout. No qualified outreach opportunity was logged from the current research, and no outreach was sent.
