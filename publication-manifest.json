@@ -1,35 +1,34 @@
 {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-18",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The T-shirt guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The document-scanner guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-11",
     "window": "2026-10-12 through 2026-11-08",
-    "signal": "BeautifulMensClub.com recorded 108 impressions, zero clicks, 0% CTR and average position 39.45. The sitemap snapshot showed 212 submitted and zero indexed URLs with no errors or warnings. No non-branded page or query showed a repeatable combination of volume and positions 4–20.",
-    "decision": "No new page is labeled Data-led because the sample cannot support one. The report instead informed discovery work: three unrelated intents are placed on the homepage, three department hubs and the Library, supported by twelve reciprocal contextual links, a regenerated sitemap and the publication manifest.",
-    "ignored": "Two impressions for the jet-lag query at average position 8, two impressions for the contractor-estimate page at 8.5, one charity-page impression at 11 and six homepage impressions at 5.5 were deliberately ignored as too small, mixed or non-specific for a topic pivot or title rewrite."
+    "signal": "BeautifulMensClub.com recorded 108 impressions, zero clicks, 0% CTR and average position 39.45. The sitemap snapshot showed 212 submitted and zero indexed URLs with no errors or warnings. No non-branded query or page had a repeatable combination of volume and positions 4–20.",
+    "decision": "No new page is labeled Data-led because the sample is too small. The report instead informed crawl and authority work: three unrelated intents are connected from the homepage, Library and two department hubs, with reciprocal contextual links and a regenerated sitemap rather than three variations on a weak query.",
+    "ignored": "Two impressions for a jet-lag query at average position 8, two impressions for the contractor-estimate page at 8.5, one charity-page impression at 11 and six homepage impressions at 5.5 were deliberately ignored as too small, mixed or non-specific for a topic pivot or title rewrite."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the T-shirt guide. The moisturizer and net-worth field manuals remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the document-scanner guide. The exercise-substitution and dinner-seating field manuals remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-ready personal net-worth statement and annual review worksheet that fixes the owner, scope, valuation date, evidence, valuation method, liquidity and uncertainty for each line while separating the balance sheet from cash flow and broader financial well-being.",
-    "cluster": "Personal-finance operating authority, with reciprocal paths from established bill-account, beneficiary, retirement-rollover and household-record guides; the T-shirt and moisturizer pages expand separate garment-fit and evidence-led grooming clusters.",
-    "opportunity": "Logged two qualified, primary-source-aligned review opportunities for the net-worth worksheet. No outreach was sent."
+    "action": "Created a citation-ready strength-exercise substitution record that separates the training job from the exercise name, documents the reason for change, preserves the relevant pattern and constraint, resets the dose, records two trial exposures and defines review or professional-care gates. The document-scanner guide adds a source-linked acquisition, retention, backup and disposal matrix, while the dinner plan connects access, hearing-friendly conversation, allergen communication and service timing without presenting etiquette as law.",
+    "cluster": "Strength-program operating authority is strengthened with reciprocal paths from the program, RPE, return-to-training and warm-up records. The scanner guide joins the household-records, emergency-file and account-recovery cluster; the dinner plan joins the hosting, guest-room and food-safety cluster.",
+    "opportunity": "Logged two narrowly qualified factual-review opportunities for the scanner workflow with ENERGY STAR and the TWAIN Working Group. No outreach was sent."
   },
-  "diversity": "The batch answers three unrelated questions across Style, Grooming and Life: how to choose an outerwear T-shirt by fit and fabric facts; how to select and trial a face moisturizer; and how to build a dated, auditable personal net-worth statement. The T-shirt guide serves high purchase intent, the moisturizer guide expands evidence-led grooming authority, and the net-worth worksheet explores a practical annual money system. No page is Data-led because the current analytics sample is too weak.",
+  "diversity": "The batch answers three unrelated questions across Life and Fitness: how to choose a document scanner for a defined paper-to-record workflow; how to replace a strength exercise while preserving intent and recalibrating dose; and how to seat and serve a dinner around access, conversation, allergen communication and timing. The scanner guide serves high purchase intent, the substitution record expands evidence-led training authority, and the dinner plan explores a practical hospitality problem. No page is Data-led because the current analytics sample is too weak.",
   "surfaces": [
     "homepage",
-    "Style hub",
-    "Grooming hub",
     "Life hub",
+    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -39,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "mens-t-shirt-buying-guide.html",
-      "title": "Men's T-Shirt Buying Guide: Fit, Fabric, Weight, Collar and Care",
-      "category": "STYLE",
-      "department": "style.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a men's outerwear T-shirt by use finished garment measurements fiber knit fabric weight collar opacity construction care trial and exact return terms rather than generic fit labels",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "mens-face-moisturizer-buying-guide.html",
-      "title": "Men's Face Moisturizer Buying Guide: Texture, Ingredients, Routine and SPF",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Choose a men's facial moisturizer by cosmetic or sunscreen job skin feel vehicle ingredient list fragrance claims packaging routine tolerance trial and clinician stop rules without invented medical promises",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "personal-net-worth-statement-annual-review.html",
-      "title": "Personal Net Worth Statement: Assets, Debts, Valuation Dates and Annual Review",
+      "slug": "home-document-scanner-buying-workflow-guide.html",
+      "title": "Home Document Scanner Buying Guide: Feeder, Duplex, OCR, Privacy and Workflow",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Create a dated personal net worth statement by defining household scope documenting assets liabilities ownership valuation evidence liquidity uncertainty double counting annual review and secure record retention",
+      "searchIntent": "Choose a home document scanner by backlog paper sizes fragile originals feeder flatbed duplex compatibility local or cloud workflow OCR file format naming quality checks privacy retention backup maintenance support and return-window acceptance test",
+      "affiliateLinksExpected": 3
+    },
+    {
+      "slug": "strength-exercise-substitution-record.html",
+      "title": "Strength Exercise Substitution Record: Pattern, Constraint, Dose and Response",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Authority-expansion",
+      "searchIntent": "Replace a strength exercise when equipment access comfort skill schedule or program fit changes by recording the original training job constraint candidate pattern range of motion stability dose trial response and professional-care stop rules",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "dinner-party-seating-service-plan.html",
+      "title": "Dinner Party Seating and Service Plan: Access, Conversation, Allergens and Timing",
+      "category": "LIFE",
+      "department": "life.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Plan dinner party seating and service by guest access hearing and conversation needs dietary and allergen communication table dimensions chair clearance host positions serving path dish timing leftovers and a calm arrival handoff",
       "affiliateLinksExpected": 0
     }
   ]

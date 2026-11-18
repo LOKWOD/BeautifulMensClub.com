@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  documentScanners: [
+    ["duplex document scanner automatic feeder", "Duplex document scanners with automatic feeders", "Compare the exact paper-size and weight range, feeder capacity, duplex path, supported operating systems, local or cloud workflow, roller maintenance, warranty, seller and return-window acceptance test."],
+    ["flatbed document scanner photo records", "Flatbed document scanners", "Match the bed dimensions, optical and output settings, supported originals, current drivers, included software, privacy path, maintenance, exact seller and return terms to the fragile, bound or photo material you actually own."],
+    ["portable document scanner usb", "Portable document scanners", "Verify the complete paper path, power and data connection, supported devices, duplex behavior, included case or guides, driver support, local export, seller and controlled return test before treating portability as the only requirement."],
+  ],
   pocketSquares: [
     ["white linen pocket square men", "White linen pocket squares", "Verify exact dimensions, fiber content, fabric weight, edge construction, care, seller and return terms against the actual jacket pocket and intended straight or peak fold."],
     ["mens silk pocket square", "Silk pocket squares", "Compare exact fiber disclosure, size, weave, opacity, edge, color, care and return terms; use the actual jacket to test soft volume, slipping and folded bulk."],
@@ -452,6 +457,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "home-document-scanner-buying-workflow-guide.html") return catalog.documentScanners;
+  if (normalized === "strength-exercise-substitution-record.html" || normalized === "dinner-party-seating-service-plan.html") return null;
   if (normalized === "mens-face-moisturizer-buying-guide.html" || normalized === "personal-net-worth-statement-annual-review.html") return null;
   if (normalized === "mens-t-shirt-buying-guide.html") return catalog.tShirts;
   if (normalized === "repair-or-replace-major-appliance-decision-file.html" || normalized === "home-entryway-reset-system.html") return null;
