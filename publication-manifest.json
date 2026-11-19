@@ -1,67 +1,67 @@
 {
-  "generatedAt": "2026-11-18",
+  "generatedAt": "2026-11-19",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The document-scanner guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The interdental-cleaner guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
-    "reportGeneratedAt": "2026-11-11",
-    "window": "2026-10-12 through 2026-11-08",
-    "signal": "BeautifulMensClub.com recorded 108 impressions, zero clicks, 0% CTR and average position 39.45. The sitemap snapshot showed 212 submitted and zero indexed URLs with no errors or warnings. No non-branded query or page had a repeatable combination of volume and positions 4–20.",
-    "decision": "No new page is labeled Data-led because the sample is too small. The report instead informed crawl and authority work: three unrelated intents are connected from the homepage, Library and two department hubs, with reciprocal contextual links and a regenerated sitemap rather than three variations on a weak query.",
-    "ignored": "Two impressions for a jet-lag query at average position 8, two impressions for the contractor-estimate page at 8.5, one charity-page impression at 11 and six homepage impressions at 5.5 were deliberately ignored as too small, mixed or non-specific for a topic pivot or title rewrite."
+    "reportGeneratedAt": "2026-11-18",
+    "window": "2026-10-19 through 2026-11-15",
+    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The sitemap snapshot showed 212 submitted and zero indexed URLs with no errors or warnings. The only positions 4–20 attached to non-homepage queries were based on one to three impressions.",
+    "decision": "No page is labeled Data-led because no query or page had enough repeatable evidence. The discovery signal instead shaped the architecture: three unrelated intents are exposed from the homepage, Library and three department hubs, backed by twelve reciprocal contextual links and a regenerated sitemap.",
+    "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, and one public-Wi-Fi impression at position 19 were deliberately ignored as too small and unrelated to justify another variation or title rewrite."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the document-scanner guide. The exercise-substitution and dinner-seating field manuals remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the interdental-cleaner guide. The suit-fabric and appliance-service field manuals remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-ready strength-exercise substitution record that separates the training job from the exercise name, documents the reason for change, preserves the relevant pattern and constraint, resets the dose, records two trial exposures and defines review or professional-care gates. The document-scanner guide adds a source-linked acquisition, retention, backup and disposal matrix, while the dinner plan connects access, hearing-friendly conversation, allergen communication and service timing without presenting etiquette as law.",
-    "cluster": "Strength-program operating authority is strengthened with reciprocal paths from the program, RPE, return-to-training and warm-up records. The scanner guide joins the household-records, emergency-file and account-recovery cluster; the dinner plan joins the hosting, guest-room and food-safety cluster.",
-    "opportunity": "Logged two narrowly qualified factual-review opportunities for the scanner workflow with ENERGY STAR and the TWAIN Working Group. No outreach was sent."
+    "action": "Created a citation-ready interdental-cleaner fit matrix that separates access, contact shape, dexterity, dental work, technique and professional-care boundaries instead of ranking products. The suit guide adds a claim-verification worksheet for fiber, weave, weight, construction, lining and care; the appliance guide adds a reusable symptom-to-closeout service record.",
+    "cluster": "Oral-care authority is strengthened with reciprocal paths from the toothbrush, toothpaste, mouthwash and water-flosser guides. Suit-buying authority now connects fabric, fit, alterations and care. Household service authority connects warranty records, repair-or-replace decisions, delivery records and change-order control.",
+    "opportunity": "No outreach opportunity was logged: the authority work is the on-site reference asset and reciprocal topic-cluster reinforcement. No outreach was sent."
   },
-  "diversity": "The batch answers three unrelated questions across Life and Fitness: how to choose a document scanner for a defined paper-to-record workflow; how to replace a strength exercise while preserving intent and recalibrating dose; and how to seat and serve a dinner around access, conversation, allergen communication and timing. The scanner guide serves high purchase intent, the substitution record expands evidence-led training authority, and the dinner plan explores a practical hospitality problem. No page is Data-led because the current analytics sample is too weak.",
+  "diversity": "The batch answers three unrelated questions across Grooming, Style and Life: which between-teeth cleaning tool fits a person’s access and dexterity; how to read suit cloth without turning fiber or ‘Super’ numbers into a quality ranking; and how to prepare, supervise and close an appliance service visit. The oral-care guide serves natural purchase intent, the suit guide expands adjacent wardrobe authority, and the service record explores a fresh household operating problem. Analytics informed crawl architecture, not the topics, because the query samples were too weak.",
   "surfaces": [
     "homepage",
+    "Grooming hub",
+    "Style hub",
     "Life hub",
-    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
     "publication manifest",
-    "affiliate catalog",
-    "authority opportunity log"
+    "affiliate catalog"
   ],
   "pages": [
     {
-      "slug": "home-document-scanner-buying-workflow-guide.html",
-      "title": "Home Document Scanner Buying Guide: Feeder, Duplex, OCR, Privacy and Workflow",
-      "category": "LIFE",
-      "department": "life.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a home document scanner by backlog paper sizes fragile originals feeder flatbed duplex compatibility local or cloud workflow OCR file format naming quality checks privacy retention backup maintenance support and return-window acceptance test",
+      "slug": "dental-floss-interdental-cleaner-buying-guide.html",
+      "title": "Dental Floss and Interdental Cleaner Buying Guide: String, Picks, Brushes and Fit",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "portfolioLabel": "Authority-expansion",
+      "searchIntent": "Choose dental floss or an interdental cleaner by tooth contact spacing dexterity dental work string tape pick holder threader interdental brush water flosser technique ADA Seal tolerance routine and dentist guidance",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "strength-exercise-substitution-record.html",
-      "title": "Strength Exercise Substitution Record: Pattern, Constraint, Dose and Response",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Replace a strength exercise when equipment access comfort skill schedule or program fit changes by recording the original training job constraint candidate pattern range of motion stability dose trial response and professional-care stop rules",
+      "slug": "mens-suit-fabric-buying-guide.html",
+      "title": "Men's Suit Fabric Buying Guide: Fiber, Weave, Weight, Lining and Season",
+      "category": "STYLE",
+      "department": "style.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose men's suit fabric by use climate fiber content wool blend weave twill hopsack flannel weight Super number color pattern lining construction care label tailor swatch and return terms",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "dinner-party-seating-service-plan.html",
-      "title": "Dinner Party Seating and Service Plan: Access, Conversation, Allergens and Timing",
+      "slug": "home-appliance-service-visit-checklist.html",
+      "title": "Home Appliance Service Visit Checklist: Symptom, Scope, Access and Closeout",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Plan dinner party seating and service by guest access hearing and conversation needs dietary and allergen communication table dimensions chair clearance host positions serving path dish timing leftovers and a calm arrival handoff",
+      "searchIntent": "Prepare for a home appliance repair service visit by recording exact model symptom error code warranty recall authorization access utilities safety estimate parts labor change order payment invoice test and closeout",
       "affiliateLinksExpected": 0
     }
   ]

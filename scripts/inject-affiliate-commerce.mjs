@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  dentalFloss: [
+    ["dental floss waxed string ADA accepted", "String dental floss and tape", "Compare the exact strand, coating, package length, directions, seller and any ADA Seal claim; choose the format that passes contacts with control and does not repeatedly shred."],
+    ["dental floss picks holders ADA accepted", "Floss holders and pre-threaded picks", "Use a holder when finger control is the constraint, then compare handle reach, strand tension, package count, directions, seller and the ability to contact both sides of each space gently."],
+    ["interdental brushes assorted sizes", "Interdental brushes", "Choose a size only for spaces a dental professional identifies; verify wire, handle, size system, directions, replacement supply and seller, and never force a brush into a tight contact."],
+  ],
   documentScanners: [
     ["duplex document scanner automatic feeder", "Duplex document scanners with automatic feeders", "Compare the exact paper-size and weight range, feeder capacity, duplex path, supported operating systems, local or cloud workflow, roller maintenance, warranty, seller and return-window acceptance test."],
     ["flatbed document scanner photo records", "Flatbed document scanners", "Match the bed dimensions, optical and output settings, supported originals, current drivers, included software, privacy path, maintenance, exact seller and return terms to the fragile, bound or photo material you actually own."],
@@ -457,6 +462,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "dental-floss-interdental-cleaner-buying-guide.html") return catalog.dentalFloss;
+  if (normalized === "mens-suit-fabric-buying-guide.html" || normalized === "home-appliance-service-visit-checklist.html") return null;
   if (normalized === "home-document-scanner-buying-workflow-guide.html") return catalog.documentScanners;
   if (normalized === "strength-exercise-substitution-record.html" || normalized === "dinner-party-seating-service-plan.html") return null;
   if (normalized === "mens-face-moisturizer-buying-guide.html" || normalized === "personal-net-worth-statement-annual-review.html") return null;
