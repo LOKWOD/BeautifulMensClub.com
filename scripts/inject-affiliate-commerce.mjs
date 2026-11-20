@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  sunglasses: [
+    ["mens sunglasses UV400 polarized", "UV-labeled men's sunglasses", "Verify the exact pair says UV400 or 100% UV protection, then compare coverage, bridge and temple fit, tint, polarization, screen compatibility, seller, warranty and return terms."],
+    ["mens sunglasses non polarized UV400", "Non-polarized UV-labeled sunglasses", "Choose this category when polarization would interfere with required displays; still verify the exact UV label, visible-light job, frame fit, optical comfort, seller and return window."],
+    ["mens prescription sunglasses frames", "Prescription-ready sunglass frames", "Confirm the exact frame supports the prescribed lens design, wrap, measurements and finished weight with the dispenser, then compare adjustment, remake, warranty and return routes."],
+  ],
   dentalFloss: [
     ["dental floss waxed string ADA accepted", "String dental floss and tape", "Compare the exact strand, coating, package length, directions, seller and any ADA Seal claim; choose the format that passes contacts with control and does not repeatedly shred."],
     ["dental floss picks holders ADA accepted", "Floss holders and pre-threaded picks", "Use a holder when finger control is the constraint, then compare handle reach, strand tension, package count, directions, seller and the ability to contact both sides of each space gently."],
@@ -462,6 +467,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-sunglasses-buying-guide.html") return catalog.sunglasses;
+  if (normalized === "cold-weather-walking-plan.html" || normalized === "household-key-access-control-system.html") return null;
   if (normalized === "dental-floss-interdental-cleaner-buying-guide.html") return catalog.dentalFloss;
   if (normalized === "mens-suit-fabric-buying-guide.html" || normalized === "home-appliance-service-visit-checklist.html") return null;
   if (normalized === "home-document-scanner-buying-workflow-guide.html") return catalog.documentScanners;
