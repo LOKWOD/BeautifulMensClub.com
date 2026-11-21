@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-21",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The sunglasses guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The clothing-repair guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-18",
     "window": "2026-10-19 through 2026-11-15",
-    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The sitemap snapshot showed 212 submitted and zero indexed URLs without reported errors or warnings; the few non-homepage queries in positions 4–20 each had only one to three impressions.",
-    "decision": "No new page is labeled Data-led because the query and page samples were not repeatable enough. The serious discovery snapshot instead drove crawl reinforcement: all three unrelated pages are exposed from the homepage, Library and three department hubs, supported by twelve reciprocal contextual links and the regenerated sitemap.",
-    "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, one public-Wi-Fi impression at position 19 and four capsule-wardrobe impressions at position 9 were deliberately ignored as too small or too unrelated to justify another variation or a title rewrite."
+    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The sitemap snapshot showed 212 submitted and zero indexed URLs without reported errors or warnings; the few non-homepage queries in positions 4–20 each had only one to four impressions.",
+    "decision": "No page is labeled Data-led because no query or page sample was repeatable enough. The discovery snapshot instead drove architecture: three unrelated evergreen gaps are exposed from the homepage, Library and three department hubs, reinforced by twelve reciprocal contextual links and the regenerated sitemap.",
+    "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, one public-Wi-Fi impression at position 19 and four capsule-wardrobe impressions at position 9 were deliberately ignored as too small or too unrelated to justify a query variation, exact-match title or rewrite."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the sunglasses guide. The cold-weather walking and household access field manuals remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the clothing-repair-kit guide. The shaving-irritation and dinner-party dietary handoff manuals remain commerce-free."
   },
   "authority": {
-    "action": "Created two citation-ready operating assets: a cold-weather walking go, modify or move-indoors matrix that combines forecast, footing, visibility, clothing and stop signs; and a household access register that maps each door, credential, holder, permission and recovery action without publishing the secrets themselves.",
-    "cluster": "Eye-protection authority now connects ordinary eyewear, sunscreen, outdoor planning and event dressing. Walking safety connects winter boots, day-hike planning, walking equipment and intensity control. Household security now links the entryway, Wi-Fi, account recovery and move-in handoff into one physical-and-digital access cluster.",
-    "opportunity": "No outreach opportunity was logged: the highest-value action was the on-site reference assets and reciprocal topic-cluster reinforcement. No outreach was sent."
+    "action": "Created a citation-ready dinner-party dietary and allergen handoff asset that separates guest statements, ingredient evidence, cross-contact limits, kitchen ownership, service labels and emergency boundaries. It uses the FDA’s current nine-allergen framework and federal clean-separate-cook-chill guidance without promising an allergen-free meal.",
+    "cluster": "Shaving authority now connects beard systems, razor selection, facial cleansing and electric-shaver tradeoffs. Clothing care now connects label reading, hangers, steamers and alterations to a repair-first decision path. Hospitality now links menu timing, seating and service, cheese boards, food thermometers and recall response through one guest-safety handoff.",
+    "opportunity": "No outreach opportunity was logged: the highest-value action was the on-site reference asset, transparent sourcing and reciprocal topic-cluster reinforcement. No outreach was sent."
   },
-  "diversity": "The batch answers three unrelated questions across Style, Fitness and Life: how to buy sunglasses without confusing darkness with UV protection; when and how to modify an outdoor walk for cold, ice and low light; and how to account for every household key, fob and code. The sunglasses guide serves natural purchase intent, the walking plan expands practical fitness authority with a primary-source safety matrix, and the access register explores a fresh well-run-home problem. Analytics shaped crawl architecture rather than topics because its query samples were too weak.",
+  "diversity": "The batch answers three unrelated questions across Grooming, Style and Life: how to reduce shaving irritation and razor bumps without self-diagnosis; which repair tools fit the actual garment and repair; and how to host around dietary needs and food allergies without making a promise the kitchen cannot keep. The repair-kit guide serves natural purchase intent, the shaving guide expands an established grooming cluster, and the guest handoff explores a practical hospitality risk. Analytics shaped crawl architecture rather than topics because its samples were too weak.",
   "surfaces": [
     "homepage",
+    "Grooming hub",
     "Style hub",
-    "Fitness hub",
     "Life hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
@@ -38,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "mens-sunglasses-buying-guide.html",
-      "title": "Men's Sunglasses Buying Guide: UV Label, Lens, Polarization, Fit and Returns",
-      "category": "STYLE",
-      "department": "style.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose men's sunglasses by verified UV400 or 100 percent UV protection label lens tint polarization prescription frame coverage bridge temple fit optical quality screen compatibility impact claim warranty and return test",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "cold-weather-walking-plan.html",
-      "title": "Cold-Weather Walking Plan: Forecast, Layers, Footing, Visibility and Stop Rules",
-      "category": "FITNESS",
-      "department": "fitness.html",
+      "slug": "mens-shaving-irritation-razor-bump-plan.html",
+      "title": "Men's Shaving Irritation and Razor-Bump Plan: Prep, Technique, Products and Stop Rules",
+      "category": "GROOMING",
+      "department": "grooming.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Plan outdoor cold weather winter walking exercise using forecast wind chill route ice footing traction layers visibility intensity companion communication turnaround stop signs frostbite hypothermia and indoor alternative",
+      "searchIntent": "Reduce men's shaving irritation razor burn razor bumps and ingrown hairs by mapping hair growth softening hair using lubrication shaving with the grain controlling closeness pressure passes blade or electric razor cleaning aftercare product label trial record and dermatologist stop rules",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "household-key-access-control-system.html",
-      "title": "Household Key and Access-Control System: Keys, Fobs, Codes and Recovery",
+      "slug": "mens-clothing-repair-kit-buying-guide.html",
+      "title": "Men's Clothing Repair Kit Buying Guide: Needles, Thread, Fasteners, Patches and Storage",
+      "category": "STYLE",
+      "department": "style.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Buy and build a men's clothing repair sewing kit by actual garments and repairs hand needles thread colors weights buttons snaps seam ripper fabric scissors pins clips marking ruler thimble patches care label compatibility safety storage tailor boundary and return test",
+      "affiliateLinksExpected": 3
+    },
+    {
+      "slug": "dinner-party-dietary-allergen-handoff-plan.html",
+      "title": "Dinner-Party Dietary and Allergen Handoff Plan: Ask, Verify, Separate and Serve",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Create a household home key access control inventory for doors locks keys spares fobs remotes garage codes smart locks landlords guests contractors lost credentials recovery rekey revocation and emergency handoff",
+      "searchIntent": "Plan a dinner party for guest dietary restrictions food allergies celiac needs preferences religious choices and medical boundaries using invitation questions ingredient label ledger allergen cross contact kitchen separation cleaning menu ownership dish labels service handoff leftovers emergency plan and honest host communication",
       "affiliateLinksExpected": 0
     }
   ]

@@ -283,6 +283,11 @@ const catalog = {
     ["double edge razor blade sampler pack", "Double-edge blade samplers", "Use a small sampler to compare compatible blades without committing to a bulk pack before you know what suits the razor and your skin."],
     ["sensitive skin shaving cream fragrance free", "Shaving creams for a lubricated shave", "Choose a formula your skin tolerates and use enough water and lubrication to reduce needless scraping and repeated passes."],
   ],
+  clothingRepair: [
+    ["hand sewing kit clothing repair needles thread", "Hand-sewing clothing-repair kits", "Compare identified needle sizes and points, disclosed thread fiber and length, usable colors, sharp-tool storage, replacement supply, seller and return terms against the garments and repairs you actually own."],
+    ["fabric scissors thread snips seam ripper set", "Fabric-cutting and seam-opening tools", "Choose dedicated fabric scissors, controllable thread snips and a capped seam ripper by blade finish, hand fit, storage and scrap-cloth performance; keep them away from paper, children and loose luggage."],
+    ["clothing repair buttons thread patches kit", "Buttons, thread and garment-repair supplies", "Match every button, thread or patch to the exact garment fiber, construction, dimensions, stretch, care label and permitted heat; use a tailor or manufacturer repair route when structure or technical fabric raises the stakes."],
+  ],
   winterBoots: [
     ["mens waterproof leather winter boots", "Men's waterproof leather winter boots", "Verify exact-model fit, membrane or seam construction, insulation placement, outsole claims, care directions, seller and return terms."],
     ["mens insulated snow boots", "Men's insulated snow boots", "Compare sock-and-footbed fit, shaft height, liner design, weight, drying instructions and the limits of any temperature claim."],
@@ -467,6 +472,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-clothing-repair-kit-buying-guide.html") return catalog.clothingRepair;
+  if (normalized === "mens-shaving-irritation-razor-bump-plan.html" || normalized === "dinner-party-dietary-allergen-handoff-plan.html") return null;
   if (normalized === "mens-sunglasses-buying-guide.html") return catalog.sunglasses;
   if (normalized === "cold-weather-walking-plan.html" || normalized === "household-key-access-control-system.html") return null;
   if (normalized === "dental-floss-interdental-cleaner-buying-guide.html") return catalog.dentalFloss;
