@@ -288,6 +288,11 @@ const catalog = {
     ["fabric scissors thread snips seam ripper set", "Fabric-cutting and seam-opening tools", "Choose dedicated fabric scissors, controllable thread snips and a capped seam ripper by blade finish, hand fit, storage and scrap-cloth performance; keep them away from paper, children and loose luggage."],
     ["clothing repair buttons thread patches kit", "Buttons, thread and garment-repair supplies", "Match every button, thread or patch to the exact garment fiber, construction, dimensions, stretch, care label and permitted heat; use a tailor or manufacturer repair route when structure or technical fabric raises the stakes."],
   ],
+  laundryDetergent: [
+    ["HE liquid laundry detergent fragrance free", "HE liquid laundry detergents", "Verify the exact HE mark, current dose chart, fragrance claim, ingredient disclosure, package control, washer-manual compatibility, seller and return terms; measure for the real load rather than filling the cap by habit."],
+    ["HE powder laundry detergent fragrance free", "HE powder laundry detergents", "Compare the exact HE and temperature directions, dose measure, fragrance and ingredient disclosure, storage against humidity, package security, seller and return terms before assuming powder fits the machine and routine."],
+    ["EPA Safer Choice laundry detergent fragrance free", "Safer Choice laundry detergents", "Confirm the exact product in EPA's current Safer Choice directory and check whether the separate fragrance-free designation applies; certification does not replace the garment label, washer manual or controlled wash test."],
+  ],
   winterBoots: [
     ["mens waterproof leather winter boots", "Men's waterproof leather winter boots", "Verify exact-model fit, membrane or seam construction, insulation placement, outsole claims, care directions, seller and return terms."],
     ["mens insulated snow boots", "Men's insulated snow boots", "Compare sock-and-footbed fit, shaft height, liner design, weight, drying instructions and the limits of any temperature claim."],
@@ -472,6 +477,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mens-laundry-detergent-buying-dosing-guide.html") return catalog.laundryDetergent;
+  if (normalized === "gift-receipt-return-refund-file.html" || normalized === "home-gym-equipment-inspection-maintenance-log.html") return null;
   if (normalized === "mens-clothing-repair-kit-buying-guide.html") return catalog.clothingRepair;
   if (normalized === "mens-shaving-irritation-razor-bump-plan.html" || normalized === "dinner-party-dietary-allergen-handoff-plan.html") return null;
   if (normalized === "mens-sunglasses-buying-guide.html") return catalog.sunglasses;

@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-21",
+  "generatedAt": "2026-11-22",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The clothing-repair guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The laundry-detergent guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-18",
     "window": "2026-10-19 through 2026-11-15",
-    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The sitemap snapshot showed 212 submitted and zero indexed URLs without reported errors or warnings; the few non-homepage queries in positions 4–20 each had only one to four impressions.",
-    "decision": "No page is labeled Data-led because no query or page sample was repeatable enough. The discovery snapshot instead drove architecture: three unrelated evergreen gaps are exposed from the homepage, Library and three department hubs, reinforced by twelve reciprocal contextual links and the regenerated sitemap.",
-    "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, one public-Wi-Fi impression at position 19 and four capsule-wardrobe impressions at position 9 were deliberately ignored as too small or too unrelated to justify a query variation, exact-match title or rewrite."
+    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The sitemap snapshot showed 212 submitted and zero indexed URLs without errors or warnings; every non-homepage query in positions 4–20 had only one to four impressions.",
+    "decision": "No page is labeled Data-led because no query or page sample was repeatable enough. The zero-indexed sitemap snapshot instead drove architecture: three distinct evergreen pages are exposed from the homepage, Library and three department hubs, then reinforced with twelve reciprocal contextual links and a regenerated sitemap.",
+    "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, one public-Wi-Fi impression at position 19 and four capsule-wardrobe impressions at position 9 were deliberately ignored as too small or too unrelated to justify another page in those query families."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the clothing-repair-kit guide. The shaving-irritation and dinner-party dietary handoff manuals remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the laundry-detergent guide. The return-file and home-gym inspection manuals remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-ready dinner-party dietary and allergen handoff asset that separates guest statements, ingredient evidence, cross-contact limits, kitchen ownership, service labels and emergency boundaries. It uses the FDA’s current nine-allergen framework and federal clean-separate-cook-chill guidance without promising an allergen-free meal.",
-    "cluster": "Shaving authority now connects beard systems, razor selection, facial cleansing and electric-shaver tradeoffs. Clothing care now connects label reading, hangers, steamers and alterations to a repair-first decision path. Hospitality now links menu timing, seating and service, cheese boards, food thermometers and recall response through one guest-safety handoff.",
-    "opportunity": "No outreach opportunity was logged: the highest-value action was the on-site reference asset, transparent sourcing and reciprocal topic-cluster reinforcement. No outreach was sent."
+    "action": "Created a citation-ready home-gym equipment identity, recall, inspection and stop-use log that separates exact-model evidence from visual checks, functional checks, maintenance and repair authority. It links CPSC recall and incident-reporting routes to an equipment-by-equipment control record instead of offering a generic safety list.",
+    "cluster": "Clothing care now connects care labels, garment repair, steamers and laundry chemistry through a label-first wash decision. Consumer administration now connects online-shopping records, billing disputes, missing packages and complaint escalation through one return case file. Fitness equipment now connects treadmill, adjustable-dumbbell, pull-up-bar and exercise-mat guidance to a repeatable inspection and recall routine.",
+    "opportunity": "No outreach opportunity was logged: the highest-value action was the on-site inspection asset, primary-source routes and reciprocal topic-cluster reinforcement. No outreach was sent."
   },
-  "diversity": "The batch answers three unrelated questions across Grooming, Style and Life: how to reduce shaving irritation and razor bumps without self-diagnosis; which repair tools fit the actual garment and repair; and how to host around dietary needs and food allergies without making a promise the kitchen cannot keep. The repair-kit guide serves natural purchase intent, the shaving guide expands an established grooming cluster, and the guest handoff explores a practical hospitality risk. Analytics shaped crawl architecture rather than topics because its samples were too weak.",
+  "diversity": "The batch answers three unrelated questions across Style, Life and Fitness: which laundry detergent format and dose fit a garment and machine; how to preserve the evidence and deadlines for a gift return or refund; and how to identify, inspect and retire home-gym equipment. The detergent guide serves natural purchase intent, the inspection log expands an established equipment cluster, and the return file explores a timely but evergreen consumer-administration problem. Analytics shaped crawl architecture rather than topics because its samples were too weak.",
   "surfaces": [
     "homepage",
-    "Grooming hub",
     "Style hub",
     "Life hub",
+    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -38,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "mens-shaving-irritation-razor-bump-plan.html",
-      "title": "Men's Shaving Irritation and Razor-Bump Plan: Prep, Technique, Products and Stop Rules",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Reduce men's shaving irritation razor burn razor bumps and ingrown hairs by mapping hair growth softening hair using lubrication shaving with the grain controlling closeness pressure passes blade or electric razor cleaning aftercare product label trial record and dermatologist stop rules",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "mens-clothing-repair-kit-buying-guide.html",
-      "title": "Men's Clothing Repair Kit Buying Guide: Needles, Thread, Fasteners, Patches and Storage",
+      "slug": "mens-laundry-detergent-buying-dosing-guide.html",
+      "title": "Men's Laundry Detergent Buying and Dosing Guide: Formula, Fabric, Washer and Rinse",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Buy and build a men's clothing repair sewing kit by actual garments and repairs hand needles thread colors weights buttons snaps seam ripper fabric scissors pins clips marking ruler thimble patches care label compatibility safety storage tailor boundary and return test",
+      "searchIntent": "Choose and dose laundry detergent for men's clothing by garment care label washer manual HE compatibility load size soil water hardness detergent format fragrance ingredient disclosure measuring device rinse result residue storage child safety product identity and controlled wash test",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "dinner-party-dietary-allergen-handoff-plan.html",
-      "title": "Dinner-Party Dietary and Allergen Handoff Plan: Ask, Verify, Separate and Serve",
+      "slug": "gift-receipt-return-refund-file.html",
+      "title": "Gift Receipt, Return and Refund File: Policy, Deadline, Condition and Proof",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Plan a dinner party for guest dietary restrictions food allergies celiac needs preferences religious choices and medical boundaries using invitation questions ingredient label ledger allergen cross contact kitchen separation cleaning menu ownership dish labels service handoff leftovers emergency plan and honest host communication",
+      "searchIntent": "Manage a holiday or birthday gift return exchange or refund by preserving receipt gift receipt order number seller return policy deadline item condition packaging serial number shipment proof refund method gift card value escalation and credit card dispute boundary",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "home-gym-equipment-inspection-maintenance-log.html",
+      "title": "Home-Gym Equipment Inspection and Maintenance Log: Identity, Recall, Wear and Stop Rules",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Authority-expansion",
+      "searchIntent": "Create a home gym equipment inspection maintenance and recall log for treadmill rack bench dumbbells kettlebells bands cable machine pull-up bar bike rower flooring electrical cords fasteners anchors wear parts exact model serial manual service interval stop use rule repair authority and incident report",
       "affiliateLinksExpected": 0
     }
   ]
