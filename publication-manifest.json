@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-22",
+  "generatedAt": "2026-11-23",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The laundry-detergent guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The swim-trunks guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-18",
     "window": "2026-10-19 through 2026-11-15",
-    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The sitemap snapshot showed 212 submitted and zero indexed URLs without errors or warnings; every non-homepage query in positions 4–20 had only one to four impressions.",
-    "decision": "No page is labeled Data-led because no query or page sample was repeatable enough. The zero-indexed sitemap snapshot instead drove architecture: three distinct evergreen pages are exposed from the homepage, Library and three department hubs, then reinforced with twelve reciprocal contextual links and a regenerated sitemap.",
-    "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, one public-Wi-Fi impression at position 19 and four capsule-wardrobe impressions at position 9 were deliberately ignored as too small or too unrelated to justify another page in those query families."
+    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The sitemap snapshot reported 212 submitted and zero indexed URLs without errors or warnings, while the current repository inventory already contained 260 canonical sitemap URLs.",
+    "decision": "No page is labeled Data-led because the query and page samples were not repeatable enough. The discovery discrepancy instead drove architecture: all three distinct evergreen pages are linked from the homepage, Library and their department hubs, supported by twelve reciprocal contextual links, and emitted into a regenerated 263-URL sitemap.",
+    "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, one public-Wi-Fi impression at position 19 and four capsule-wardrobe impressions at position 9 were deliberately ignored as too small, already served or unrelated to today’s portfolio."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the laundry-detergent guide. The return-file and home-gym inspection manuals remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the swim-trunks guide: shorter trunks, mid-length trunks and fixed-waist board shorts. The trainer and lighting manuals remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-ready home-gym equipment identity, recall, inspection and stop-use log that separates exact-model evidence from visual checks, functional checks, maintenance and repair authority. It links CPSC recall and incident-reporting routes to an equipment-by-equipment control record instead of offering a generic safety list.",
-    "cluster": "Clothing care now connects care labels, garment repair, steamers and laundry chemistry through a label-first wash decision. Consumer administration now connects online-shopping records, billing disputes, missing packages and complaint escalation through one return case file. Fitness equipment now connects treadmill, adjustable-dumbbell, pull-up-bar and exercise-mat guidance to a repeatable inspection and recall routine.",
-    "opportunity": "No outreach opportunity was logged: the highest-value action was the on-site inspection asset, primary-source routes and reciprocal topic-cluster reinforcement. No outreach was sent."
+    "action": "Created a citation-ready personal-trainer consultation, credential, scope, paid-trial and contract record. It separates accreditation from an individual credential, coaching from medical care, observed session quality from marketing, and the program plan from payment and cancellation terms.",
+    "cluster": "The Fitness service cluster now connects gym-contract review, program progression, exercise substitution and return-to-training guidance to a verified professional-selection handoff. Style connects swimwear fit and care to shorts, sunscreen, sunglasses and travel packing. Life connects lighting labels and room tasks to energy review, wall-art placement, tool planning and electrical-cord safety.",
+    "opportunity": "No outreach opportunity was logged: the highest-value action was the on-site trainer-selection asset, its primary-source verification routes and reciprocal cluster reinforcement. No outreach was sent."
   },
-  "diversity": "The batch answers three unrelated questions across Style, Life and Fitness: which laundry detergent format and dose fit a garment and machine; how to preserve the evidence and deadlines for a gift return or refund; and how to identify, inspect and retire home-gym equipment. The detergent guide serves natural purchase intent, the inspection log expands an established equipment cluster, and the return file explores a timely but evergreen consumer-administration problem. Analytics shaped crawl architecture rather than topics because its samples were too weak.",
+  "diversity": "The batch answers three unrelated questions across Style, Fitness and Life: which swim-trunk construction fits a specific body and water job; how to verify and contract with a personal trainer without confusing certification with medical authority; and how to specify brightness, color, glare, fixture compatibility and controls for a room. Swim trunks serve natural purchase intent, the trainer file expands professional-service authority, and the lighting worksheet explores a fresh home-and-taste problem. Analytics shaped crawl architecture rather than topics because its samples were too weak.",
   "surfaces": [
     "homepage",
     "Style hub",
-    "Life hub",
     "Fitness hub",
+    "Life hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -38,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "mens-laundry-detergent-buying-dosing-guide.html",
-      "title": "Men's Laundry Detergent Buying and Dosing Guide: Formula, Fabric, Washer and Rinse",
+      "slug": "mens-swim-trunks-buying-guide.html",
+      "title": "Men's Swim Trunks Buying Guide: Fit, Inseam, Liner, Pockets and Care",
       "category": "STYLE",
       "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose and dose laundry detergent for men's clothing by garment care label washer manual HE compatibility load size soil water hardness detergent format fragrance ingredient disclosure measuring device rinse result residue storage child safety product identity and controlled wash test",
+      "searchIntent": "Choose men's swim trunks or board shorts by pool beach lap swim boating hot tub use finished waist rise outseam inseam leg opening elastic or fixed waistband drawcord liner pocket drainage fabric stretch care label seller and return terms",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "gift-receipt-return-refund-file.html",
-      "title": "Gift Receipt, Return and Refund File: Policy, Deadline, Condition and Proof",
-      "category": "LIFE",
-      "department": "life.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Manage a holiday or birthday gift return exchange or refund by preserving receipt gift receipt order number seller return policy deadline item condition packaging serial number shipment proof refund method gift card value escalation and credit card dispute boundary",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "home-gym-equipment-inspection-maintenance-log.html",
-      "title": "Home-Gym Equipment Inspection and Maintenance Log: Identity, Recall, Wear and Stop Rules",
+      "slug": "personal-trainer-consultation-contract-checklist.html",
+      "title": "Personal Trainer Consultation and Contract Checklist: Credential, Scope, Trial and Terms",
       "category": "FITNESS",
       "department": "fitness.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Create a home gym equipment inspection maintenance and recall log for treadmill rack bench dumbbells kettlebells bands cable machine pull-up bar bike rower flooring electrical cords fasteners anchors wear parts exact model serial manual service interval stop use rule repair authority and incident report",
+      "searchIntent": "Choose and hire a personal trainer by verifying identity credential accreditation current status education experience CPR first aid liability insurance scope of practice preactivity screening goal program trial session communication privacy package price cancellation expiration refund and handoff to clinician",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "home-lighting-specification-buying-guide.html",
+      "title": "Home Lighting Specification and Buying Guide: Lumens, Color, Glare and Controls",
+      "category": "LIFE",
+      "department": "life.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Plan and buy home lighting by room task lumens light distribution color temperature CCT CRI color fidelity glare fixture socket base dimensions enclosed fixture wet damp rating dimmer compatibility controls wattage energy cost lamp life return terms and acceptance test",
       "affiliateLinksExpected": 0
     }
   ]

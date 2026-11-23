@@ -368,6 +368,11 @@ const catalog = {
     ["mens washable dress pants", "Washable men's dress trousers", "Confirm what the exact care label permits, then compare upper-block measurements, complete fiber disclosure, finish claims, laundering limits and current return conditions."],
     ["mens pleated dress pants trousers", "Pleated men's dress trousers", "Check rise, waistband, seat and thigh room so the pleats stay closed at rest, then verify taper, opening, hem allowance, materials, care and seller."],
   ],
+  swimTrunks: [
+    ["mens swim trunks 5 inch inseam liner", "Shorter men’s swim trunks", "Compare the exact finished waist, rise, outseam, leg opening, liner construction, pocket retention, full fiber disclosure, care label, seller and return terms; an advertised inseam alone does not establish fit."],
+    ["mens swim trunks 7 inch inseam liner", "Mid-length men’s swim trunks", "Check seated and swimming range, waistband security, drawcord routing, liner comfort, drainage, pocket closure, exact materials, care instructions and the permitted return-window fit test."],
+    ["mens board shorts fixed waist drawcord", "Board shorts and fixed-waist swim shorts", "Match the closed waistband and rise to the actual body, then verify closure security, stretch, seam placement, pocket behavior, full textile label, care and current seller terms."],
+  ],
   walkingPads: [
     ["under desk walking pad treadmill", "Under-desk walking pads", "Compare usable belt dimensions, user limit, intended speed range, controls, electrical requirements and the exact model manual."],
     ["folding walking pad treadmill handrail", "Folding walking pads with handrails", "Verify deployed footprint, rail locking, safety key, walking-versus-running modes and manufacturer-approved storage orientation."],
@@ -477,6 +482,7 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "personal-trainer-consultation-contract-checklist.html" || normalized === "home-lighting-specification-buying-guide.html") return null;
   if (normalized === "mens-laundry-detergent-buying-dosing-guide.html") return catalog.laundryDetergent;
   if (normalized === "gift-receipt-return-refund-file.html" || normalized === "home-gym-equipment-inspection-maintenance-log.html") return null;
   if (normalized === "mens-clothing-repair-kit-buying-guide.html") return catalog.clothingRepair;
@@ -604,6 +610,7 @@ function productsFor(path, text) {
   if (normalized === "home-fire-escape-plan.html" || normalized === "good-houseguest-checklist.html") return null;
   if (normalized === "mens-chino-buying-guide.html") return catalog.chinos;
   if (normalized === "mens-dress-trousers-fit-buying-guide.html") return catalog.dressTrousers;
+  if (normalized === "mens-swim-trunks-buying-guide.html") return catalog.swimTrunks;
   if (normalized === "mens-loafer-buying-guide.html") return catalog.loafers;
   if (normalized === "toothpaste-buying-guide.html" || normalized === "major-appliance-delivery-installation-checklist.html") return null;
   if (normalized === "identity-theft-recovery-case-file.html" || normalized === "home-treadmill-buying-setup-guide.html") return null;
