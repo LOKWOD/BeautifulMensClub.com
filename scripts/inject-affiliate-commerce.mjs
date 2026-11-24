@@ -373,6 +373,11 @@ const catalog = {
     ["mens swim trunks 7 inch inseam liner", "Mid-length men’s swim trunks", "Check seated and swimming range, waistband security, drawcord routing, liner comfort, drainage, pocket closure, exact materials, care instructions and the permitted return-window fit test."],
     ["mens board shorts fixed waist drawcord", "Board shorts and fixed-waist swim shorts", "Match the closed waistband and rise to the actual body, then verify closure security, stretch, seam placement, pocket behavior, full textile label, care and current seller terms."],
   ],
+  squatRacks: [
+    ["home gym power rack squat rack", "Full power racks", "Compare the exact assembled height, width and depth, internal lifting space, anchoring requirement, compatible safeties, upright and hole system, bar and bench clearance, freight, manual, warranty, seller and return terms."],
+    ["home gym half rack squat stand", "Half racks and squat stands", "Match the exact base and stabilizer footprint, spotter-arm compatibility, pull-up and storage configuration, anchoring instructions, operating envelope, parts support, seller and controlled acceptance test to the real room and lifts."],
+    ["squat rack safety straps spotter arms", "Rack safety systems", "Buy safeties only after the exact rack maker documents series, upright, hole, depth and load compatibility; then compare usable catch length, adjustment, inspection, replacement support, seller and return terms."],
+  ],
   walkingPads: [
     ["under desk walking pad treadmill", "Under-desk walking pads", "Compare usable belt dimensions, user limit, intended speed range, controls, electrical requirements and the exact model manual."],
     ["folding walking pad treadmill handrail", "Folding walking pads with handrails", "Verify deployed footprint, rail locking, safety key, walking-versus-running modes and manufacturer-approved storage orientation."],
@@ -482,6 +487,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "home-squat-rack-buying-setup-guide.html") return catalog.squatRacks;
+  if (normalized === "mens-otc-acne-routine-guide.html" || normalized === "travel-insurance-comparison-claim-file.html") return null;
   if (normalized === "personal-trainer-consultation-contract-checklist.html" || normalized === "home-lighting-specification-buying-guide.html") return null;
   if (normalized === "mens-laundry-detergent-buying-dosing-guide.html") return catalog.laundryDetergent;
   if (normalized === "gift-receipt-return-refund-file.html" || normalized === "home-gym-equipment-inspection-maintenance-log.html") return null;
