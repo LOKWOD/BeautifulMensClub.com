@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-24",
+  "generatedAt": "2026-11-25",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The squat-rack guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The home-safe guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
     "reportGeneratedAt": "2026-11-18",
     "window": "2026-10-19 through 2026-11-15",
-    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The submitted-sitemap snapshot reported 212 URLs while the pre-publication repository inventory contained 263 canonical sitemap URLs, a material discovery gap even though the report listed no sitemap error or warning.",
-    "decision": "No page is labeled Data-led because no query or page cluster had repeatable, decision-grade volume. The site-level discovery signal instead drove architecture: three unrelated evergreen pages are linked from the homepage, Library and three department hubs, reinforced by twelve reciprocal contextual links and emitted into a regenerated 266-URL sitemap.",
+    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The submitted-sitemap snapshot reported 212 URLs while the pre-publication repository inventory contained 266 canonical sitemap URLs, a material discovery gap even though the report listed no sitemap error or warning.",
+    "decision": "No page is labeled Data-led because no query or page cluster had repeatable, decision-grade volume. The site-level discovery signal instead drove architecture: three unrelated evergreen pages are linked from the homepage, Library and three department hubs, reinforced by twelve reciprocal contextual links and emitted into a regenerated 269-URL sitemap.",
     "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, one public-Wi-Fi impression at position 19 and four capsule-wardrobe impressions at position 9 were deliberately ignored as too small, already served or unrelated."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the squat-rack guide: full power racks, half racks and squat stands, and rack safety systems. The acne and travel-insurance manuals remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the home-safe guide: fire-resistant document safes, burglary-resistant home safes and anchored compact safes. Every listing still requires exact certification, dimensions, installation and seller verification. The tongue-cleaner and suspension-trainer guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-ready travel-insurance comparison and claim file that separates supplier refunds, card benefits, trip cancellation, interruption, delay, medical, evacuation and baggage coverage; captures exclusions and deadlines before purchase; and gives the traveler a clean evidence ledger if a claim occurs.",
-    "cluster": "Fitness now connects rack selection to bench compatibility, equipment inspection, warm-up and belt-use guidance. Grooming connects OTC acne labels and tolerance to cleanser, moisturizer, sunscreen and shaving-irritation guidance. Life connects travel insurance to flight disruption, passports, rental cars and the emergency-document system.",
-    "opportunity": "No outreach opportunity was logged: the highest-value action was the on-site travel-insurance decision asset, its official-source routes and reciprocal cluster reinforcement. No outreach was sent."
+    "action": "Created a citation-ready home-safe specification matrix that separates fire endurance, burglary resistance, water exposure, anchoring, media temperature limits and emergency access, with direct routes to UL certification information, FEMA document-protection guidance and the exact-product record.",
+    "cluster": "Life now connects safe specification to the emergency-document, home-inventory, records-retention and access-control systems. Grooming connects tongue care to brushing, interdental cleaning, mouthrinse and professional oral care. Fitness connects suspension equipment to resistance bands, structural anchoring, home-gym inspection and warm-up guidance.",
+    "opportunity": "No outreach opportunity was logged: the highest-value authority action was the on-site safe-specification asset, its primary-source routes and reciprocal topic-cluster reinforcement. No outreach was sent."
   },
-  "diversity": "The batch answers three different questions across Fitness, Grooming and Life: which rack architecture fits a specific room and lifting system; how to choose and trial one OTC acne active without turning a general guide into a diagnosis; and how to compare travel insurance against an itinerary and document a claim. The rack guide serves natural purchase intent, the acne guide expands a health-adjacent grooming cluster, and the travel file addresses a fresh money-and-travel problem. Analytics shaped crawl architecture rather than topics because its samples were too weak.",
+  "diversity": "The batch answers three different questions across Life, Grooming and Fitness: which safe specification matches particular contents and threats; whether and how to add a tongue cleaner to ordinary oral hygiene; and how to choose and anchor a suspension trainer without treating body weight or a closed door as proof of safety. The safe guide serves high purchase intent, the tongue guide explores an underserved grooming decision with explicit evidence limits, and the suspension guide expands practical home-fitness authority. Analytics shaped crawl architecture rather than topics because its samples were too weak.",
   "surfaces": [
     "homepage",
-    "Fitness hub",
-    "Grooming hub",
     "Life hub",
+    "Grooming hub",
+    "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
     "sitemap",
@@ -38,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "home-squat-rack-buying-setup-guide.html",
-      "title": "Home Squat Rack Buying and Setup Guide: Space, Safeties, Anchoring and Fit",
-      "category": "FITNESS",
-      "department": "fitness.html",
-      "portfolioLabel": "Exploration",
-      "searchIntent": "Choose a home squat stand half rack or power rack by training plan room dimensions ceiling bar path floor load anchoring stabilizer safeties bench fit upright hole pattern attachment compatibility delivery assembly inspection maintenance recall and return terms",
-      "affiliateLinksExpected": 3
-    },
-    {
-      "slug": "mens-otc-acne-routine-guide.html",
-      "title": "Men's OTC Acne Routine Guide: Labels, Ingredients, Tolerance and Stop Rules",
-      "category": "GROOMING",
-      "department": "grooming.html",
-      "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Build a simple men's over the counter acne routine by identifying acne pattern skin tolerance cleanser moisturizer sunscreen Drug Facts active ingredient benzoyl peroxide salicylic acid adapalene directions warnings controlled trial irritation record and dermatologist stop rules",
-      "affiliateLinksExpected": 0
-    },
-    {
-      "slug": "travel-insurance-comparison-claim-file.html",
-      "title": "Travel Insurance Comparison and Claim File: Coverage, Exclusions, Deadlines and Proof",
+      "slug": "home-safe-buying-installation-guide.html",
+      "title": "Home Safe Buying and Installation Guide: Fire Class, Burglary Rating, Anchoring and Access",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Compare and use travel insurance by itinerary prepaid nonrefundable trip cost supplier refund credit card benefit trip cancellation interruption delay medical evacuation baggage rental car exclusions preexisting condition waiver deadlines assistance claim notice evidence appeal and state insurance regulator",
+      "searchIntent": "Choose and install a home safe by contents paper media medication jewelry records fire class duration burglary certification water exposure internal dimensions weight floor capacity anchoring lock backup access inventory insurance and maintenance",
+      "affiliateLinksExpected": 3
+    },
+    {
+      "slug": "tongue-cleaner-buying-use-guide.html",
+      "title": "Tongue Cleaner Buying and Use Guide: Shape, Pressure, Hygiene and Stop Rules",
+      "category": "GROOMING",
+      "department": "grooming.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose and use a tongue cleaner or scraper by material width profile handle control cleaning storage gag reflex oral hygiene bad breath evidence limits bleeding pain lesions taste changes and dentist stop rules",
+      "affiliateLinksExpected": 0
+    },
+    {
+      "slug": "suspension-trainer-buying-anchor-guide.html",
+      "title": "Suspension Trainer Buying and Anchor Guide: Straps, Hardware, Space and Inspection",
+      "category": "FITNESS",
+      "department": "fitness.html",
+      "portfolioLabel": "Exploration",
+      "searchIntent": "Choose and install a suspension trainer by exercise plan strap adjustment handle foot cradle hardware door anchor structural mount beam post clearance floor grip body angle inspection recall replacement parts warranty and return test",
       "affiliateLinksExpected": 0
     }
   ]

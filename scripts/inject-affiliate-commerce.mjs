@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  homeSafes: [
+    ["UL listed fire resistant document safe", "Fire-resistant document safes", "Verify the exact model's current certification mark, paper-content class, tested duration, usable interior, water claim, weight, anchor instructions, seller and return terms; a marketplace title is not a rating."],
+    ["UL burglary resistant home safe", "Burglary-resistant home safes", "Confirm the whole container's exact burglary certification rather than a lock-only claim, then compare usable volume, weight, anchor method, service route, insurance requirements, seller and delivery terms."],
+    ["compact home safe bolt down", "Compact safes with documented anchoring", "Read the exact manual before ordering and verify factory anchor points, permitted substrate and hardware, door swing, total installed weight, qualified-installation needs, lock recovery, seller and return costs."],
+  ],
   sunglasses: [
     ["mens sunglasses UV400 polarized", "UV-labeled men's sunglasses", "Verify the exact pair says UV400 or 100% UV protection, then compare coverage, bridge and temple fit, tint, polarization, screen compatibility, seller, warranty and return terms."],
     ["mens sunglasses non polarized UV400", "Non-polarized UV-labeled sunglasses", "Choose this category when polarization would interfere with required displays; still verify the exact UV label, visible-light job, frame fit, optical comfort, seller and return window."],
@@ -487,6 +492,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "home-safe-buying-installation-guide.html") return catalog.homeSafes;
+  if (normalized === "tongue-cleaner-buying-use-guide.html" || normalized === "suspension-trainer-buying-anchor-guide.html") return null;
   if (normalized === "home-squat-rack-buying-setup-guide.html") return catalog.squatRacks;
   if (normalized === "mens-otc-acne-routine-guide.html" || normalized === "travel-insurance-comparison-claim-file.html") return null;
   if (normalized === "personal-trainer-consultation-contract-checklist.html" || normalized === "home-lighting-specification-buying-guide.html") return null;
