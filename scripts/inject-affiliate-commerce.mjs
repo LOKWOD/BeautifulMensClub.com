@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  cuttingBoards: [
+    ["plastic cutting board nonporous dishwasher safe", "Nonporous cutting boards", "Verify the exact material, usable dimensions, heat and dishwasher limits, stability, food-contact directions, groove inspection, seller and return terms; a plastic category label is not a care instruction."],
+    ["hardwood cutting board reversible", "Hardwood cutting boards", "Confirm the exact wood construction, usable area, weight, hand-wash and drying instructions, maker-approved conditioning, seam condition, seller and return terms before ordering."],
+    ["large cutting board nonslip", "Stable large-format cutting boards", "Measure the counter, sink, dishwasher and storage route first, then verify flat usable area, weight, feet or permitted nonslip method, juice control, cleaning, seller and return window."],
+  ],
   homeSafes: [
     ["UL listed fire resistant document safe", "Fire-resistant document safes", "Verify the exact model's current certification mark, paper-content class, tested duration, usable interior, water claim, weight, anchor instructions, seller and return terms; a marketplace title is not a rating."],
     ["UL burglary resistant home safe", "Burglary-resistant home safes", "Confirm the whole container's exact burglary certification rather than a lock-only claim, then compare usable volume, weight, anchor method, service route, insurance requirements, seller and delivery terms."],
@@ -492,6 +497,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "cutting-board-buying-food-safety-guide.html") return catalog.cuttingBoards;
+  if (normalized === "clothing-stain-removal-field-guide.html" || normalized === "gym-bag-packing-hygiene-system.html") return null;
   if (normalized === "home-safe-buying-installation-guide.html") return catalog.homeSafes;
   if (normalized === "tongue-cleaner-buying-use-guide.html" || normalized === "suspension-trainer-buying-anchor-guide.html") return null;
   if (normalized === "home-squat-rack-buying-setup-guide.html") return catalog.squatRacks;

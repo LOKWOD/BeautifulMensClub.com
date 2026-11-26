@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-11-25",
+  "generatedAt": "2026-11-26",
   "site": "https://beautifulmensclub.com",
   "imageQa": {
     "editorialImages": 0,
     "affiliateProductImages": 0,
-    "note": "Intentional image-free editorial layouts. The home-safe guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
+    "note": "Intentional image-free editorial layouts. The cutting-board guide uses exact-category Amazon text links only; no editorial, affiliate or product image is added or changed."
   },
   "searchConsole": {
-    "reportGeneratedAt": "2026-11-18",
-    "window": "2026-10-19 through 2026-11-15",
-    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.22. The submitted-sitemap snapshot reported 212 URLs while the pre-publication repository inventory contained 266 canonical sitemap URLs, a material discovery gap even though the report listed no sitemap error or warning.",
-    "decision": "No page is labeled Data-led because no query or page cluster had repeatable, decision-grade volume. The site-level discovery signal instead drove architecture: three unrelated evergreen pages are linked from the homepage, Library and three department hubs, reinforced by twelve reciprocal contextual links and emitted into a regenerated 269-URL sitemap.",
+    "reportGeneratedAt": "2026-11-25",
+    "window": "2026-10-26 through 2026-11-22",
+    "signal": "BeautifulMensClub.com recorded 412 impressions, zero clicks, 0% CTR and average position 28.24. The submitted-sitemap snapshot still reported 212 URLs while the pre-publication repository sitemap contained 269 canonical URLs, a material discovery gap with no reported sitemap warning or error.",
+    "decision": "No page is labeled Data-led because no query or page cluster had repeatable, decision-grade volume. The discovery gap instead shaped the work: three unrelated evergreen pages are exposed from the homepage, Library and three department hubs, reinforced by twelve reciprocal contextual links and added to a regenerated 272-URL sitemap.",
     "ignored": "One impression for ‘beard system’ at position 4, three combined impressions for two CDC jet-lag queries at positions 7–8, one public-Wi-Fi impression at position 19 and four capsule-wardrobe impressions at position 9 were deliberately ignored as too small, already served or unrelated."
   },
   "monetization": {
     "affiliateLinksAdded": 3,
     "program": "Amazon Associates category search links",
     "trackingId": "beautifulmensclub-20",
-    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the home-safe guide: fire-resistant document safes, burglary-resistant home safes and anchored compact safes. Every listing still requires exact certification, dimensions, installation and seller verification. The tongue-cleaner and suspension-trainer guides remain commerce-free."
+    "placement": "Three disclosed sponsored/nofollow exact-category text links appear only on the cutting-board guide: nonporous boards, hardwood boards and stable large-format boards. Readers are told to verify the exact material, dimensions, care instructions, seller and return terms. The stain-removal and gym-bag guides remain commerce-free."
   },
   "authority": {
-    "action": "Created a citation-ready home-safe specification matrix that separates fire endurance, burglary resistance, water exposure, anchoring, media temperature limits and emergency access, with direct routes to UL certification information, FEMA document-protection guidance and the exact-product record.",
-    "cluster": "Life now connects safe specification to the emergency-document, home-inventory, records-retention and access-control systems. Grooming connects tongue care to brushing, interdental cleaning, mouthrinse and professional oral care. Fitness connects suspension equipment to resistance bands, structural anchoring, home-gym inspection and warm-up guidance.",
-    "opportunity": "No outreach opportunity was logged: the highest-value authority action was the on-site safe-specification asset, its primary-source routes and reciprocal topic-cluster reinforcement. No outreach was sent."
+    "action": "Created a citation-ready cutting-board decision matrix that separates food job, material disclosure, usable area, stability, cleaning route, cross-contamination control, wear inspection and replacement, with direct USDA and FDA source routes.",
+    "cluster": "Life now connects the cutting-board matrix to chef’s knives, food thermometers, allergen handoffs and the kitchen closing system. Style connects stain triage to care labels, detergent dosing, garment repair and steam care. Fitness connects gym-bag hygiene to hydration, equipment inspection, running-shoe care and laundry control.",
+    "opportunity": "No outreach opportunity was logged: the highest-value authority action was the on-site cutting-board specification asset, its primary-source digest and reciprocal topic-cluster reinforcement. No outreach was sent."
   },
-  "diversity": "The batch answers three different questions across Life, Grooming and Fitness: which safe specification matches particular contents and threats; whether and how to add a tongue cleaner to ordinary oral hygiene; and how to choose and anchor a suspension trainer without treating body weight or a closed door as proof of safety. The safe guide serves high purchase intent, the tongue guide explores an underserved grooming decision with explicit evidence limits, and the suspension guide expands practical home-fitness authority. Analytics shaped crawl architecture rather than topics because its samples were too weak.",
+  "diversity": "The batch answers three different questions across Life, Style and Fitness: which cutting-board system fits a kitchen and can be maintained safely; how to triage a garment stain without damaging the fabric; and how to pack, empty and clean a gym bag so used gear does not contaminate the next session. The cutting-board guide serves high purchase intent, the stain field guide expands wardrobe-care authority, and the gym-bag system explores an underserved operational problem. Analytics shaped discovery architecture rather than topics because its query samples were too weak.",
   "surfaces": [
     "homepage",
     "Life hub",
-    "Grooming hub",
+    "Style hub",
     "Fitness hub",
     "Library search index",
     "twelve reciprocal related-guide surfaces",
@@ -38,30 +38,30 @@
   ],
   "pages": [
     {
-      "slug": "home-safe-buying-installation-guide.html",
-      "title": "Home Safe Buying and Installation Guide: Fire Class, Burglary Rating, Anchoring and Access",
+      "slug": "cutting-board-buying-food-safety-guide.html",
+      "title": "Cutting Board Buying and Food-Safety Guide: Material, Size, Separation and Replacement",
       "category": "LIFE",
       "department": "life.html",
       "portfolioLabel": "Authority-expansion",
-      "searchIntent": "Choose and install a home safe by contents paper media medication jewelry records fire class duration burglary certification water exposure internal dimensions weight floor capacity anchoring lock backup access inventory insurance and maintenance",
+      "searchIntent": "Choose a cutting board by food job raw meat produce bread service material disclosure usable dimensions stability knife interaction dishwasher or hand washing sanitation drying storage wear grooves replacement seller return test and cross contamination control",
       "affiliateLinksExpected": 3
     },
     {
-      "slug": "tongue-cleaner-buying-use-guide.html",
-      "title": "Tongue Cleaner Buying and Use Guide: Shape, Pressure, Hygiene and Stop Rules",
-      "category": "GROOMING",
-      "department": "grooming.html",
+      "slug": "clothing-stain-removal-field-guide.html",
+      "title": "Clothing Stain Removal Field Guide: Fabric, Stain Type, Pretreatment and Stop Rules",
+      "category": "STYLE",
+      "department": "style.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose and use a tongue cleaner or scraper by material width profile handle control cleaning storage gag reflex oral hygiene bad breath evidence limits bleeding pain lesions taste changes and dentist stop rules",
+      "searchIntent": "Remove stains from men's clothing by garment identity fiber content care label colorfastness stain source wet or dry handling blotting pretreatment product label wash temperature inspection drying repeat attempt professional cleaner damage stop rules and treatment record",
       "affiliateLinksExpected": 0
     },
     {
-      "slug": "suspension-trainer-buying-anchor-guide.html",
-      "title": "Suspension Trainer Buying and Anchor Guide: Straps, Hardware, Space and Inspection",
+      "slug": "gym-bag-packing-hygiene-system.html",
+      "title": "Gym Bag Packing and Hygiene System: Clean, Dry, Dirty and Ready Zones",
       "category": "FITNESS",
       "department": "fitness.html",
       "portfolioLabel": "Exploration",
-      "searchIntent": "Choose and install a suspension trainer by exercise plan strap adjustment handle foot cradle hardware door anchor structural mount beam post clearance floor grip body angle inspection recall replacement parts warranty and return test",
+      "searchIntent": "Pack and maintain a gym bag by session plan clean dry dirty and ready zones shoes clothing towel toiletries water bottle wound care valuables medication equipment inspection post workout shower laundry drying restock bag cleaning shared surface hygiene and same day unpacking",
       "affiliateLinksExpected": 0
     }
   ]
