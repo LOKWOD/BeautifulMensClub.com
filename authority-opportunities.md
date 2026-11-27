@@ -1,5 +1,9 @@
 # Authority opportunities
 
+## 2026-11-27 — Exercise heart-rate measurement and interpretation record
+
+- **American Heart Association public-information team** — https://www.heart.org/en/about-us/contact-us — Asset match: the commerce-free field record separates resting, exercise and recovery context; frames age-predicted ranges as estimates; and cross-checks pulse with talk test, perceived effort, symptoms and explicit stop rules while linking directly to AHA, CDC, HHS and FDA sources. Honest angle: invite factual corrections and a usability review only; disclose the independent publisher and never imply AHA review, medical approval or endorsement. Contact route: AHA’s official contact page. No outreach sent.
+
 ## 2026-11-18 — Home document-scanning workflow and strength-substitution record
 
 - **ENERGY STAR imaging-equipment consumer-education team** — https://www.energystar.gov/about/contact-us — Asset match: the document-scanner guide connects a measured paper backlog and acceptance packet to current scanner energy criteria, sleep and shutoff behavior, exact-model verification and a complete local-or-cloud workflow without ranking brands or presenting certification as proof of image quality, privacy or durability. Honest angle: invite factual corrections and ask whether the free independent workflow accurately complements current imaging-equipment buying guidance; disclose the clearly separated category affiliate links and never imply EPA or ENERGY STAR review or endorsement. Contact route: ENERGY STAR's official contact page. No outreach sent.

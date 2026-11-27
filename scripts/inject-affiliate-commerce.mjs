@@ -8,6 +8,11 @@ const markerEnd = "<!-- END BMC AFFILIATE COMMERCE -->";
 const skipDirectories = new Set([".git", "node_modules", ".wrangler"]);
 
 const catalog = {
+  mattresses: [
+    ["innerspring mattress adult", "Innerspring mattresses", "Verify the exact finished dimensions, layer and coil construction, permanent label, foundation compatibility, trial, delivery, old-item removal, seller and written return terms; a construction category is not a comfort or durability rating."],
+    ["foam mattress adult", "Foam mattresses", "Compare the exact layer and material disclosures, finished height, base and ventilation requirements, opening and expansion instructions, trial, warranty, delivery, seller and return route; skip unsupported health claims."],
+    ["hybrid mattress adult", "Hybrid mattresses", "Confirm what the exact maker means by hybrid, then verify dimensions, layers, edge and foundation requirements, permanent label, trial, warranty, delivery, seller and full exit cost before ordering."],
+  ],
   cuttingBoards: [
     ["plastic cutting board nonporous dishwasher safe", "Nonporous cutting boards", "Verify the exact material, usable dimensions, heat and dishwasher limits, stability, food-contact directions, groove inspection, seller and return terms; a plastic category label is not a care instruction."],
     ["hardwood cutting board reversible", "Hardwood cutting boards", "Confirm the exact wood construction, usable area, weight, hand-wash and drying instructions, maker-approved conditioning, seam condition, seller and return terms before ordering."],
@@ -497,6 +502,8 @@ function chooseCatalog(path, text) {
 
 function productsFor(path, text) {
   const normalized = path.replaceAll("\\", "/").toLowerCase();
+  if (normalized === "mattress-buying-delivery-return-guide.html") return catalog.mattresses;
+  if (normalized === "exercise-heart-rate-measurement-interpretation-guide.html" || normalized === "museum-gallery-visit-etiquette-guide.html") return null;
   if (normalized === "cutting-board-buying-food-safety-guide.html") return catalog.cuttingBoards;
   if (normalized === "clothing-stain-removal-field-guide.html" || normalized === "gym-bag-packing-hygiene-system.html") return null;
   if (normalized === "home-safe-buying-installation-guide.html") return catalog.homeSafes;
